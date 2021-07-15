@@ -1,0 +1,47 @@
+doctype html
+html(lang="pt-BR")
+  head
+    meta(charset="utf-8")
+    link(rel="stylesheet",href="https://fonts.googleapis.com/icon?family=Material+Icons")
+    meta(name="viewport",content="width=device-width, initial-scale=1.0")
+    //- link(rel="stylesheet",href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css")
+    link(rel="stylesheet",href="css/materialize.css")
+
+    style
+      :sass
+        $logo-color: #006064
+        body
+          color: #323232
+        main
+          min-height: 70vh
+        a.brand-logo
+          font-size: 1.8rem;
+        h1, h2, h3, h4, h5, h6
+          color: $logo-color
+        .card-title
+          color: $logo-color
+
+  body
+    block menu
+      include menu.pug
+
+    block header
+      header
+
+    main.container
+      block main
+        p Conteúdo da página
+
+    block footer
+      include footer
+
+    block scripts
+      script(src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js")
+      script.
+        document.addEventListener('DOMContentLoaded', function() {
+        var options = {};
+        var elems = document.querySelectorAll('.sidenav');
+        var instances = M.Sidenav.init(elems, options);
+        });
+
+

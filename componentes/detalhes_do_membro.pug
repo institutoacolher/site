@@ -1,0 +1,20 @@
+if slug
+  each membro in membros
+    if membro.slug == slug
+      - var avatar = membro.avatar
+      unless membro.avatar
+        if membro.masculino
+          - avatar = "img/membro-masculino.jpg"
+        else
+          - avatar = "img/membro-feminino.jpg"
+      .row
+        .col.s12.l6.offset-l3
+          img.responsive-img(src=avatar)
+      h1= membro.nome
+      .member-title= membro.titulo
+      p= membro.descricao
+      h4 Áreas de atuação
+      ul
+        each area in membro.areas
+          li= area
+

@@ -1,0 +1,29 @@
+-
+  var menus = [
+    { "grupo": "Grupo" },
+    { "url":"index.html", "titulo":"Home" },
+    { "url":"assessoria-especializada.html", "titulo":"Assessoria Especializada" },
+    { "url":"cursos.html", "titulo":"Cursos" },
+    { "url":"grupoterapia.html", "titulo":"Grupoterapia" },
+    { "url":"instituicao.html", "titulo":"Instituição" },
+    { "url":"membros.html", "titulo":"Membros" },
+    { "url":"grupo-vivencial-para-formadores.html", "titulo":"Grupo vivencial para formadores" },
+  ];
+
+nav.cyan.darken-3(role="navigation")
+  .nav-wrapper
+    a.brand-logo(href="#") Instituto Acolher
+
+    ul.right.hide-on-med-and-down
+      each menu in menus
+        li
+          a(href=menu.url)= menu.titulo
+
+    ul#nav-mobile.sidenav
+      each menu in menus
+        li
+          a(href=menu.url)= menu.titulo
+
+    a.sidenav-trigger(href="#",data-target="nav-mobile")
+      i.material-icons menu
+
