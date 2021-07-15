@@ -1,6 +1,6 @@
-# Site Instituto Integrar
+# Site Instituto Acolher
 
-## Dependências
+## Dependências para desenvolvimento do site
 
 ```bash
 npm install --save pug-cli
