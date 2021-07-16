@@ -1,5 +1,9 @@
 # Site Instituto Acolher
 
+## Preview
+
+Este site pode ser pré-visualizado em https://institutoacolher.github.io/site/
+
 ## Dependências para desenvolvimento do site
 
 ```bash
