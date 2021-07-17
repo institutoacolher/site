@@ -8,8 +8,6 @@ psicológica e espiritual a religiosos, sacerdotes e leigos engajados na Igreja.
 Uma prática que começou no ano 2000 e foi se enriquecendo por meio de
 intercâmbios com instituições internacionais semelhantes.
 
-![Igreja XYZ](img/igreja.jpg)
-
 Hoje temos uma série de programas voltados para o acompanhamento psicológico
 e psicoespiritual do clero e da vida consagrada no Brasil. No nosso trabalho
 contamos com o auxílio de psiquiatras e médicos.
@@ -20,10 +18,15 @@ parâmetros de excelência do Instituto.
 
 ![Folder de eventos](http://institutoacolher.org.br/wp-content/uploads/2021/05/Cartaz_site-e1620397246522.jpg)
 
-Nossos serviços incluem: \* Psicoterapia Individual \* Integração
-Psicoespiritual \* Psicodiagnóstico \* Psicoterapia Grupal \* Avaliação de
-Vocacionados \* Cursos e Assessorias \* Supervisão e Grupos de Estudo para
-Psicólogos \* Grupos de Reflexão para Formadores
+Nossos serviços incluem: 
+* Psicoterapia Individual 
+* Integração Psicoespiritual 
+* Psicodiagnóstico 
+* Psicoterapia Grupal 
+* Avaliação de Vocacionados
+* Cursos e Assessorias
+* Supervisão e Grupos de Estudo para Psicólogos
+* Grupos de Reflexão para Formadores
 
 As pessoas que chegam ao ITA encontram:
 
