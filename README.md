@@ -1,12 +1,23 @@
 # Site Instituto Acolher
 
-## Preview
+Para lançar o preview local e habilitar o modo de atualização automática use:
 
-Este site pode ser pré-visualizado em https://institutoacolher.github.io/site/
+```bash
+make
+```
+
+## Preview local
+
+Basta abrir a pasta `docs`.
+
+## Preview remoto
+
+Este site pode ser visualizado em https://institutoacolher.github.io/site/
 
 ## Dependências para desenvolvimento do site
 
 ```bash
+npm install --save sass
 npm install --save pug-cli
 npm install --save jstransformer-markdown-it
 npm install --save jstransformer-sass

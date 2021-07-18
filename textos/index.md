@@ -1,6 +1,3 @@
-Novo parágrafo de teste.
-
-
 O Instituto Acolher - ITA é a realização do sonho e do esforço de um grupo de
 psicólogos, psicanalistas e religiosos, que há 20 anos dedicam-se a assistência
 psicológica e espiritual a religiosos, sacerdotes e leigos engajados na Igreja.
@@ -16,13 +13,13 @@ Com zelo e seriedade, o ITA busca constantemente aprimorar os seus serviços.
 A atualização continuada dos profissionais do nosso corpo clínico é um dos
 parâmetros de excelência do Instituto.
 
-![Folder de eventos](http://institutoacolher.org.br/wp-content/uploads/2021/05/Cartaz_site-e1620397246522.jpg)
+<img src='http://institutoacolher.org.br/wp-content/uploads/2021/05/Cartaz_site-e1620397246522.jpg' class='responsive-img'>
 
-Nossos serviços incluem: 
-* Psicoterapia Individual 
-* Integração Psicoespiritual 
-* Psicodiagnóstico 
-* Psicoterapia Grupal 
+Nossos serviços incluem:
+* Psicoterapia Individual
+* Integração Psicoespiritual
+* Psicodiagnóstico
+* Psicoterapia Grupal
 * Avaliação de Vocacionados
 * Cursos e Assessorias
 * Supervisão e Grupos de Estudo para Psicólogos
@@ -33,7 +30,7 @@ As pessoas que chegam ao ITA encontram:
 ### Acolhida
 
 Nessa sessão de escuta clínica é realizado encaminhamento para acompanhamento
-mais adequado a cada situação      
+mais adequado a cada situação.
 
 ### Atendimento psicoespiritual individual
 
@@ -42,18 +39,18 @@ integração psicoespiritual inclui psicoterapia em diferentes abordagens
 e acompanhamento com integrador psicoespiritual. O programa integrado ajuda na
 avaliação da realização vocacional e na revisão de itinerário espiritual.
 
-###  Psicoterapia de Grupo 
+### Psicoterapia de Grupo
 
 É uma opção bastante significativa para pessoas que vivem em comunidades e/ou
 trabalham com grupos. A experiência de grupoterapia amplia a compreensão dos
 fenômenos da intersubjetividade.
 
-### Psicodiagnóstico  
+### Psicodiagnóstico
 
 É uma avaliação mais apurada, indicada conforme necessidades apresentadas ou
 demanda espontânea.
 
-Profissionais da área de psicologia encontram: 
+Profissionais da área de psicologia encontram:
 
 ### Grupo de estudos
 
@@ -75,11 +72,13 @@ diaconato permanente e comunidades de vida.
 ### Grupo de reflexão para formadores 
 
 Auxiliamos os formadores com objetivo de refletir as tensões e angustias
-oriundas do oficio.  
+oriundas do oficio.
+
+<img src='img/igreja.jpg' class='responsive-img'>
 
 ### Cursos e assessorias
 
- Oferecemos cursos, assessorias e orientações nos encontros organizados nas ou
+Oferecemos cursos, assessorias e orientações nos encontros organizados nas ou
 pelas instituições religiosas.
 
 Associados - Colaboradores do Instituto Acolher
