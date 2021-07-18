@@ -1,0 +1,82 @@
+-
+  var servicos = [
+    {
+      "url":"acolhida.html",
+      "imagem":"img/acolhida-01.jpg",
+      "titulo": "Acolhida",
+      "descricao": "Nessa sessão de escuta clínica é realizado encaminhamento para acompanhamento mais adequado a cada situação."
+    },
+    {
+      "url":"psicoterapia-individual.html",
+      "titulo": "Psicoterapia Individual",
+      "descricao": "Inserir descrição aqui!"
+    },
+    {
+      "url":"psicodiagnostico.html",
+      "titulo": "Psicodiagnóstico",
+      "descricao": "Inserir descrição aqui!"
+    },
+    {
+      "url":"psicoterapia-grupal.html",
+      "titulo": "Psicoterapia Grupal",
+      "descricao": "Inserir descrição aqui!"
+    },
+    {
+      "url":"avaliacao-de-vocacionados.html",
+      "titulo": "Avaliação de Vocacionados",
+      "descricao": "Inserir descrição aqui!"
+    },
+    {
+      "url":"cursos-e-assessorias.html",
+      "titulo": "Cursos e Assessorias",
+      "descricao": "Inserir descrição aqui!"
+    },
+    {
+      "url":"supervisao-e-grupos-de-estudo-para-psicologos.html",
+      "titulo": "Supervisão e Grupos de Estudo para Psicólogos",
+      "descricao": "Inserir descrição aqui!"
+    },
+    {
+      "url":"grupos-de-reflexao-para-formadores.html",
+      "titulo": "Grupos de Reflexão para Formadores",
+      "descricao": "Inserir descrição aqui!"
+    }
+  ];
+
+h2 Opção 1
+//- Os serviços serão exibidos como cartões
+.row
+  each servico in servicos
+    .col.s12.m6.xl4
+      .card.small.light-grey.darken-1.wow.animate__animated.animate__bounceInUp
+        .card-image.waves-effect.waves-block.waves-light
+          if servico.imagem
+            img.activator(src=servico.imagem)
+          else
+            img.activator(src='img/servico-generico.jpg')
+        .card-content.black-text
+          span.activator.card-title.grey-text.text-darken-4= servico.titulo
+            i.material-icons.right more_vert
+          a(href=servico.url) Acessar
+        .card-reveal
+          span.card-title.grey-text.text-darken-4= servico.titulo
+            i.material-icons.right close
+          p.servico-descricao= servico.descricao
+          a(href=servico.url) Acessar
+
+h2 Opção 2
+//- Os serviços serão exibidos como cartões
+.row
+  each servico in servicos
+    .col.s12.m6.xl4
+      .card.medium.light-grey.darken-1.wow.animate__animated.animate__bounceInUp
+        .card-image.waves-effect.waves-block.waves-light
+          if servico.imagem
+            img.activator(src=servico.imagem)
+          else
+            img.activator(src='img/servico-generico.jpg')
+          span.card-title.white-text.text-darken-4= servico.titulo
+        .card-content.black-text
+          p.servico-descricao= servico.descricao
+        .card-action
+          a(href=servico.url) Acessar

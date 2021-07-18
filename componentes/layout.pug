@@ -6,6 +6,7 @@ html(lang="pt-BR")
     meta(name="viewport",content="width=device-width, initial-scale=1.0")
     //- link(rel="stylesheet",href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css")
     link(rel="stylesheet",href="css/materialize.css")
+    link(rel="stylesheet",href="css/animate.min.css")
     link(rel="stylesheet",href="css/style.css")
 
     style
@@ -38,11 +39,13 @@ html(lang="pt-BR")
 
     block scripts
       script(src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js")
+      script(src="js/wow.min.js")
       script.
         document.addEventListener('DOMContentLoaded', function() {
         var options = {};
         var elems = document.querySelectorAll('.sidenav');
         var instances = M.Sidenav.init(elems, options);
+        new WOW().init();
         });
 
 
