@@ -1,17 +1,18 @@
 //- Lista de membros com avatar, nome e título
 include membros
 each membro in membros
-  - var avatar = membro.avatar
-  unless membro.avatar
-    if membro.masculino
-      - avatar = "img/membro-masculino.jpg"
-    else
-      - avatar = "img/membro-feminino.jpg"
-  .row
-    .col.s2.l1
-      a(href=membro.slug + ".html")
-        img.responsive-img.circle(src=avatar)
-    .col.s10.l11
-      .member-name
-        a(href=membro.slug + ".html")= membro.nome
-      .grey-text= membro.titulo
+  if membro.grupo == grupo
+    - var avatar = membro.avatar
+    unless membro.avatar
+      if membro.masculino
+        - avatar = "img/membro-masculino.jpg"
+      else
+        - avatar = "img/membro-feminino.jpg"
+    .row
+      .col.s2.l1
+        a(href=membro.slug + ".html")
+          img.responsive-img.circle(src=avatar)
+      .col.s10.l11
+        .member-name
+          a(href=membro.slug + ".html")= membro.nome
+        .grey-text= membro.titulo

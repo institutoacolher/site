@@ -26,6 +26,10 @@ css:
 	sass scss/style.scss docs/css/style.css
 	cp node_modules/animate.css/animate.min.css docs/css/
 	cp node_modules/@fortawesome/fontawesome-free/css/fontawesome.min.css docs/css/
+	cp node_modules/@fortawesome/fontawesome-free/svgs/brands/facebook-f.svg img/facebook.svg
+	cp node_modules/@fortawesome/fontawesome-free/svgs/brands/instagram.svg  img/instagram.svg
+	cp node_modules/@fortawesome/fontawesome-free/svgs/brands/youtube.svg    img/youtube.svg
+
 
 js:
 	cp node_modules/wowjs/dist/wow.min.js       docs/js/

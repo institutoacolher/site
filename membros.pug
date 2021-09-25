@@ -2,6 +2,19 @@ extends componentes/layout.pug
 
 block main
   h1 Membros do ITA
+
+  h2 Atendimento psicoespiritual
+  - var grupo = "psicoespiritual"
   include componentes/lista_de_membros
+
+  h2 Atendimento psicoterapêutico
+  - var grupo = "psicoterapêutico"
+  include componentes/lista_de_membros
+
+  h2 Atendimento psicanalítico
+  - var grupo = "psicanalítico"
+  include componentes/lista_de_membros
+
+  h2 Cards
   include componentes/cards_de_membros
 

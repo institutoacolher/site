@@ -1,4 +1,6 @@
-# Associados - Colaboradores do Instituto Acolher
+# Associados
+
+## Colaboradores do Instituto Acolher
 
 Estamos abertos para trabalhar juntos com as pessoas interessadas, que
 apresentam aptidão para compor os nossos projetos.

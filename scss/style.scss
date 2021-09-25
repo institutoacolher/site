@@ -14,11 +14,15 @@ $logo-color: #006064;
 
 // iPhone 6, 7, 8
 @media (min-width:375px) {
-  nav .brand-logo { font-size: 1.6rem; }
+  nav .brand-logo { font-size: 1.3rem; }
 }
 
 @media (min-width:480px) {
   nav .brand-logo { font-size: 2.1rem; }
+}
+
+img.brand-logo {
+  height: 56px;
 }
 
 // Deixar o rodapé mais distante caso a página tenha pouco conteúdo
@@ -76,10 +80,12 @@ p {
   display: inline-block;
 }
 
+// https://stackoverflow.com/questions/22252472/how-to-change-the-color-of-an-svg-element
 .rede-social-icon {
   height: 32px;
   width: 32px;
   margin-right: 12px;
+  filter: invert(100%);
 }
 
 .rede-social-nome {

@@ -9,9 +9,25 @@
     { "url":"membros.html",                         "titulo":"Membros" }
   ];
 
+//-  <nav>
+//-     <div class="nav-wrapper">
+//-       <a href="#!" class="brand-logo"><i class="material-icons">cloud</i>Logo</a>
+//-       <ul class="right hide-on-med-and-down">
+//-         <li><a href="sass.html"><i class="material-icons">search</i></a></li>
+//-         <li><a href="badges.html"><i class="material-icons">view_module</i></a></li>
+//-         <li><a href="collapsible.html"><i class="material-icons">refresh</i></a></li>
+//-         <li><a href="mobile.html"><i class="material-icons">more_vert</i></a></li>
+//-       </ul>
+//-     </div>
+//-   </nav>
+
 nav.cyan.darken-3.grad-nav(role="navigation")
   .container.nav-wrapper
-    a.brand-logo(href="#") Instituto Acolher
+    .brand-logo
+      a(href="#")
+        img.brand-logo(src="img/ita-logo-mono-2.svg")
+        //- img.brand-logo.hide-on-small(src="img/ita-logo-min-mono_1024x1024.svg")
+        //- | Instituto Acolher
 
     //- Menus para desktop
     ul.right.hide-on-med-and-down
