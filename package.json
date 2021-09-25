@@ -1,5 +1,6 @@
 {
   "dependencies": {
+    "@fortawesome/fontawesome-free": "^5.15.4",
     "animate.css": "^4.1.1",
     "jstransformer-markdown-it": "^2.1.0",
     "jstransformer-sass": "^0.0.1",

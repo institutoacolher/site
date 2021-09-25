@@ -1,0 +1,14 @@
+-
+  var links = [
+    { "nome": "Conselho Federal de Psicologia",     "url":"https://site.cfp.org.br/" },
+    { "nome": "Conselho Regional de Psicologia SP", "url":"https://www.crpsp.org/" },
+    { "nome": "Vatican News",                       "url":"https://www.vaticannews.va/pt.html" },
+    { "nome": "Liturgia Diária",                    "url":"https://liturgiadiaria.cnbb.org.br/" },
+    { "nome": "CNBB",                               "url":"https://www.cnbb.org.br/" }
+  ];
+
+h3 Links úteis
+ul
+  each link in links
+    li
+      a.white-text(href=link.url)= link.nome

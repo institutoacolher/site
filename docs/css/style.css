@@ -63,4 +63,18 @@ p {
   margin-bottom: 2rem;
 }
 
+.rede-social {
+  display: inline-block;
+}
+
+.rede-social-icon {
+  height: 32px;
+  width: 32px;
+  margin-right: 12px;
+}
+
+.rede-social-nome {
+  color: white;
+}
+
 /*# sourceMappingURL=style.css.map */

@@ -25,6 +25,7 @@ css:
 	sass node_modules/materialize-css/sass/materialize.scss docs/css/materialize.css
 	sass scss/style.scss docs/css/style.css
 	cp node_modules/animate.css/animate.min.css docs/css/
+	cp node_modules/@fortawesome/fontawesome-free/css/fontawesome.min.css docs/css/
 
 js:
 	cp node_modules/wowjs/dist/wow.min.js       docs/js/

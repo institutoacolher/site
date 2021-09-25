@@ -1,12 +1,15 @@
 footer.page-footer.grad-nav
   .container
     .row
-        .col.l9.s12
+        .col.l4.s12
           include:markdown-it(html) ../textos/rodape.md
-        .col.l3.s12
+          include redes_sociais
+        .col.l4.s12
+          include links_uteis
+        .col.l4.s12
           include:markdown-it(html) ../textos/rodape-contato.md
 
   .footer-copyright
     .container
       | © 2021 Instituto Acolher
-      a.grey-text.text-lighten-4.right(href="#!") Outros links
+      a.grey-text.text-lighten-4.right(href="https://institutoacolher.org.br") Topo

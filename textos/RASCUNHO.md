@@ -1,5 +1,3 @@
-# Instituição
-
 ## Nossos Objetivos
 
 O objetivo principal do ITA é o de prestar assistência psicológica
