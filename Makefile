@@ -17,7 +17,7 @@ html:
 deps:
 	npm install
 	mkdir -p docs/img
-	cp img/* docs/img/
+	cp -r img/* docs/img/
 	mkdir -p docs/css
 	cp _variables.scss node_modules/materialize-css/sass/components/_variables.scss
 
@@ -25,6 +25,10 @@ css:
 	sass node_modules/materialize-css/sass/materialize.scss docs/css/materialize.css
 	sass scss/style.scss docs/css/style.css
 	cp node_modules/animate.css/animate.min.css docs/css/
+	cp node_modules/fontawesome-4.7/css/font-awesome.min.css docs/css/fontawesome.min.css
+	cp -r node_modules/fontawesome-4.7/fonts docs/
+
+fa5:
 	cp node_modules/@fortawesome/fontawesome-free/css/fontawesome.min.css docs/css/
 	cp node_modules/@fortawesome/fontawesome-free/svgs/brands/facebook-f.svg img/facebook.svg
 	cp node_modules/@fortawesome/fontawesome-free/svgs/brands/instagram.svg  img/instagram.svg

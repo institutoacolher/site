@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link rel="stylesheet" href="css/fontawesome.min.css">
+    <link rel="stylesheet" href="css/materialize.css">
+    <link rel="stylesheet" href="css/animate.min.css">
+    <link rel="stylesheet" href="css/style.css">
+  </head>
+  <body>
+    <nav class="cyan darken-3 grad-nav" role="navigation">
+      <div class="container nav-wrapper">
+        <div class="brand-logo"><a href="#"><img class="brand-logo" src="img/ita-logo-mono-2.svg"></a></div>
+        <ul class="right hide-on-med-and-down">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="servicos.html">Serviços</a></li>
+          <li><a href="cursos-e-assessorias.html">Cursos</a></li>
+          <li><a href="artigos.html">Artigos</a></li>
+          <li><a href="associados.html">Associados</a></li>
+          <li><a href="instituicao.html">Instituição</a></li>
+          <li><a href="membros.html">Membros</a></li>
+        </ul>
+        <ul class="sidenav" id="nav-mobile">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="servicos.html">Serviços</a></li>
+          <li><a href="cursos-e-assessorias.html">Cursos</a></li>
+          <li><a href="artigos.html">Artigos</a></li>
+          <li><a href="associados.html">Associados</a></li>
+          <li><a href="instituicao.html">Instituição</a></li>
+          <li><a href="membros.html">Membros</a></li>
+        </ul><a class="sidenav-trigger" href="#" data-target="nav-mobile"><i class="material-icons">menu</i></a>
+      </div>
+    </nav>
+    <header></header>
+    <main class="container">
+      <h1>Maruzânia Soares Dias</h1>
+      <div class="row">
+        <div class="col s12 l6 offset-l4"><img class="z-depth-5 responsive-img membro-imagem" src="img/membro-feminino.jpg"></div>
+        <div class="col s12">
+          <div class="card">
+            <div class="card-content"><span class="card-title membro-titulo">Psicanalista / Psicóloga Clinica</span>
+              <div class="text-flow membro-descricao">Mestre em Ciências da Religião PUC-SP; graduada em Psicologia pela PUC-SP; membro da IF-EPFCL – Fórum SP (Internacional dos Fóruns – Escola de Psicanálise dos Fóruns do Campo Lacaniano – Fórum São Paulo)</div>
+            </div>
+          </div>
+        </div>
+        <div class="col s12">
+          <div class="card">
+            <div class="card-content"><span class="card-title">Áreas de atuação</span>
+              <ul>
+                <li>atendimento clínico</li>
+                <li>assessorias a grupos e instituições</li>
+                <li>conferências</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+    <footer class="page-footer grad-nav">
+      <div class="container">
+        <div class="row">
+          <div class="col l4 s12"><h3>Instituto Acolher</h3>
+<p>Integrar para transcender.</p>
+
+            <h3 class="white-text">Redes sociais</h3>
+            <div class="redes-sociais">
+              <div class="rede-social"><a href="xxx"><img class="rede-social-icon" src="img/facebook.svg" alt="Facebook"></a></div>
+              <div class="rede-social"><a href="xxx"><img class="rede-social-icon" src="img/instagram.svg" alt="Instagram"></a></div>
+              <div class="rede-social"><a href="xxx"><img class="rede-social-icon" src="img/youtube.svg" alt="Youtube"></a></div>
+            </div>
+          </div>
+          <div class="col l4 s12">
+            <h3>Links úteis</h3>
+            <ul>
+              <li><a class="white-text" href="https://site.cfp.org.br/">Conselho Federal de Psicologia</a></li>
+              <li><a class="white-text" href="https://www.crpsp.org/">Conselho Regional de Psicologia SP</a></li>
+              <li><a class="white-text" href="https://www.vaticannews.va/pt.html">Vatican News</a></li>
+              <li><a class="white-text" href="https://liturgiadiaria.cnbb.org.br/">Liturgia Diária</a></li>
+              <li><a class="white-text" href="https://www.cnbb.org.br/">CNBB</a></li>
+            </ul>
+          </div>
+          <div class="col l4 s12"><i class="fa fa-map-maker"></i><span>Rua Prof. José Cucé, 125, 04055-070 - Saúde - São Paulo/SP</span>
+            <!--= include:markdown-it(html) ../textos/rodape-contato.md--><a class="white-text" href="localizacao.html">Ver no mapa</a>
+          </div>
+        </div>
+      </div>
+      <div class="footer-copyright">
+        <div class="container">© 2021 Instituto Acolher<a class="grey-text text-lighten-4 right" href="https://institutoacolher.org.br">Topo</a></div>
+      </div>
+    </footer>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <script src="js/wow.min.js"></script>
+    <script>
+      document.addEventListener('DOMContentLoaded', function() {
+      var options = {};
+      var elems = document.querySelectorAll('.sidenav');
+      var instances = M.Sidenav.init(elems, options);
+      new WOW().init();
+      });
+    </script>
+  </body>
+</html>
