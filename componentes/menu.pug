@@ -1,24 +1,27 @@
+//- Menus exibidos em todas as telas
 -
   var menus = [
     { "grupo": "Grupo" },
-    { "url":"index.html", "titulo":"Home" },
-    { "url":"assessoria-especializada.html", "titulo":"Assessoria Especializada" },
-    { "url":"cursos.html", "titulo":"Cursos" },
-    { "url":"grupoterapia.html", "titulo":"Grupoterapia" },
-    { "url":"instituicao.html", "titulo":"Instituição" },
-    { "url":"membros.html", "titulo":"Membros" },
+    { "url":"index.html",                           "titulo":"Home" },
+    { "url":"assessoria-especializada.html",        "titulo":"Assessoria Especializada" },
+    { "url":"cursos.html",                          "titulo":"Cursos" },
+    { "url":"grupoterapia.html",                    "titulo":"Grupoterapia" },
+    { "url":"instituicao.html",                     "titulo":"Instituição" },
+    { "url":"membros.html",                         "titulo":"Membros" },
     { "url":"grupo-vivencial-para-formadores.html", "titulo":"Grupo vivencial para formadores" },
   ];
 
-nav.cyan.darken-3(role="navigation")
-  .nav-wrapper
+nav.cyan.darken-3.grad-nav(role="navigation")
+  .container.nav-wrapper
     a.brand-logo(href="#") Instituto Acolher
 
+    //- Menus para desktop
     ul.right.hide-on-med-and-down
       each menu in menus
         li
           a(href=menu.url)= menu.titulo
 
+    //- Menus para celular e tablet
     ul#nav-mobile.sidenav
       each menu in menus
         li
