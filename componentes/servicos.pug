@@ -44,15 +44,15 @@
       "descricao": "Inserir descrição aqui!"
     },
     {
-      "url":"grupos-de-reflexao-para-formadores.html",
-      "imagem":"img/grupo-de-reflexao-para-formadores-01.jpg",
-      "titulo": "Grupos de Reflexão para Formadores",
+      "url":"grupo-vivencial-para-formadores.html",
+      "imagem":"img/grupo-vivencial-para-formadores-01.jpg",
+      "titulo": "Grupo Vivencial para Formadores",
       "descricao": "Inserir descrição aqui!"
     }
   ];
 
 h2 Serviços
-p Serviços oferecidos pelo Instituto Acolher.
+p Conheça alguns dos serviços oferecidos pelo Instituto Acolher.
 
 .row
   each servico in servicos
@@ -75,20 +75,20 @@ p Serviços oferecidos pelo Instituto Acolher.
         .card-action
           a.btn(href=servico.url) Acessar
 
-h2 Serviços
-p Serviços oferecidos pelo Instituto Acolher.
-
-.row
-  each servico in servicos
-    .col.s12.m6.xl4
-      .card.medium.light-grey.darken-1.wow.animate__animated.animate__bounceInUp
-        .card-image.waves-effect.waves-block.waves-light
-          if servico.imagem
-            img.activator(src=servico.imagem)
-          else
-            img.activator(src='img/servico-generico.jpg')
-          span.card-title.white-text.text-darken-4= servico.titulo
-        .card-content.black-text
-          p.servico-descricao= servico.descricao
-        .card-action
-          a(href=servico.url) Acessar
+//- h2 Serviços
+//- p Serviços oferecidos pelo Instituto Acolher.
+//-
+//- .row
+//-   each servico in servicos
+//-     .col.s12.m6.xl4
+//-       .card.medium.light-grey.darken-1.wow.animate__animated.animate__bounceInUp
+//-         .card-image.waves-effect.waves-block.waves-light
+//-           if servico.imagem
+//-             img.activator(src=servico.imagem)
+//-           else
+//-             img.activator(src='img/servico-generico.jpg')
+//-           span.card-title.white-text.text-darken-4= servico.titulo
+//-         .card-content.black-text
+//-           p.servico-descricao= servico.descricao
+//-         .card-action
+//-           a(href=servico.url) Acessar

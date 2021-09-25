@@ -1,10 +1,18 @@
 # Nota 1: A pasta final com os arquivos HTML foi alterada para docs para
 # atender os requisitos do github pages.
 
-.PHONY: all deps update css js preview check docs
+.PHONY: all deps update css js preview check docs html watch_pug watch_css
 
-all: preview update deps css js
-	pug --watch *.pug --obj componentes/membros.js --out docs/ --pretty
+all: update deps css js html
+
+watch_pug:
+	pug --watch *.pug --out docs/ --pretty
+
+watch_css:
+	sass --watch scss/style.scss docs/css/style.css
+
+html:
+	pug *.pug --out docs/ --pretty
 
 deps:
 	npm install

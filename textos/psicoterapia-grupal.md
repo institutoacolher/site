@@ -1,4 +1,8 @@
-# Grupoterapia
+# Psicoterapia Grupal
+
+É uma opção bastante significativa para pessoas que vivem em comunidades e/ou
+trabalham com grupos. A experiência de grupoterapia amplia a compreensão dos
+fenômenos da intersubjetividade.
 
 A proposta de psicoterapia de grupo do Instituto Acolher justifica-se pelo fato
 de seu público alvo constituir-se de pessoas  que vivem em grupos (comunidades)
@@ -17,4 +21,5 @@ Público alvo: Religiosas/os, clero, formação inicial e leigos interessados
 
 Período: de fevereiro a meados de dezembro, com férias em janeiro. Sessão
 semanal de 90 minutos.
+
 

@@ -1,0 +1,25 @@
+//- Exibe um cartão para cada um dos membros
+//- junto com suas informações principais
+include membros
+.row
+  each membro in membros
+    .col.s12.m6.l4.xl3
+      .card
+        .card-image
+          - var avatar = membro.avatar
+          unless membro.avatar
+            if membro.masculino
+              - avatar = "img/membro-masculino.jpg"
+            else
+              - avatar = "img/membro-feminino.jpg"
+          img.responsive-img(src=avatar)
+        .card-content
+          .card-title= membro.nome
+          .grey-text= membro.signo
+          p.grey-text= membro.descricao
+          h4 Áreas de atuação
+          ul
+            each area in membro.areas
+              li.grey-text= area
+        .card-action
+          a(href=membro.slug + ".html") Detalhes
