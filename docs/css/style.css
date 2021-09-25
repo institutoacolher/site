@@ -17,4 +17,9 @@ main {
   min-height: 70vh;
 }
 
+.servico-titulo {
+  max-width: 90%;
+  background-color: #f00;
+}
+
 /*# sourceMappingURL=style.css.map */
