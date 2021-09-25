@@ -3,7 +3,7 @@
 
 .PHONY: all deps update css js preview check docs html watch_pug watch_css
 
-all: update deps css js html
+all: update deps css js html favicon
 
 watch_pug:
 	pug --watch *.pug --out docs/ --pretty
@@ -13,6 +13,12 @@ watch_css:
 
 html:
 	pug *.pug --out docs/ --pretty
+
+favicon:
+	inkscape -w 16 -h 16 -o 16.png img/ita-logo-min_1024x1024.svg
+	inkscape -w 32 -h 32 -o 32.png img/ita-logo-min_1024x1024.svg
+	inkscape -w 48 -h 48 -o 48.png img/ita-logo-min_1024x1024.svg
+	convert 16.png 32.png 48.png docs/favicon.ico
 
 deps:
 	npm install
@@ -25,8 +31,9 @@ css:
 	sass node_modules/materialize-css/sass/materialize.scss docs/css/materialize.css
 	sass scss/style.scss docs/css/style.css
 	cp node_modules/animate.css/animate.min.css docs/css/
-	cp node_modules/fontawesome-4.7/css/font-awesome.min.css docs/css/fontawesome.min.css
-	cp -r node_modules/fontawesome-4.7/fonts docs/
+	sed -i "s/\(fa-font-path: *\"\).*\(\".*\)/\1fonts\2/" node_modules/fontawesome-4.7/scss/_variables.scss
+	sass node_modules/fontawesome-4.7/scss/font-awesome.scss docs/css/fontawesome.min.css
+	cp -r node_modules/fontawesome-4.7/fonts docs/css/
 
 fa5:
 	cp node_modules/@fortawesome/fontawesome-free/css/fontawesome.min.css docs/css/
