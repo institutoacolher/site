@@ -57,8 +57,8 @@ p A descrição fica atrás da imagem
 
 .row
   each servico in servicos
-    .col.s12.m6.xl4
-      .card.small.light-grey.darken-1.wow.animate__animated.animate__bounceInUp
+    .col.s12.m6.xl6
+      .card.medium.light-grey.darken-1.wow.animate__animated.animate__bounceInUp
         .card-image.waves-effect.waves-block.waves-light
           if servico.imagem
             img.activator(src=servico.imagem)
@@ -67,11 +67,13 @@ p A descrição fica atrás da imagem
         .card-content.black-text
           span.activator.card-title.grey-text.text-darken-4= servico.titulo
             i.material-icons.right more_vert
-          a(href=servico.url) Acessar
+          //- a(href=servico.url) Acessar
         .card-reveal
           span.card-title.grey-text.text-darken-4= servico.titulo
             i.material-icons.right close
           p.servico-descricao= servico.descricao
+          a.btn(href=servico.url) Acessar
+        .card-action
           a(href=servico.url) Acessar
 
 h2 Opção 2
