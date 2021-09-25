@@ -27,7 +27,7 @@ main {
 }
 
 .grad-nav {
-  background: linear-gradient(90deg, $logo-color 0%, rgba(0,204,204,1) 35%, $logo-color 100%)
+  background: linear-gradient(90deg, $logo-color 0%, rgba(0,184,184,1) 35%, $logo-color 100%)
 }
 
 body {
@@ -37,6 +37,14 @@ body {
 // Headers da cor do logo
 h1, h2, h3, h4, h5, h6, .card-title {
   color: $logo-color;
+}
+
+.page-footer h1,
+.page-footer h2,
+.page-footer h3,
+.page-footer h4
+{
+  color: white !important;
 }
 
 p {

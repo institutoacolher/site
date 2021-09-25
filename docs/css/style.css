@@ -1,3 +1,8 @@
+:root {
+  --cor-do-texto: #323232;
+  --cor-do-logo: $logo-color;
+}
+
 @media (min-width: 320px) {
   nav .brand-logo {
     font-size: 1.4rem;
@@ -5,7 +10,7 @@
 }
 @media (min-width: 375px) {
   nav .brand-logo {
-    font-size: 1.8rem;
+    font-size: 1.6rem;
   }
 }
 @media (min-width: 480px) {
@@ -15,6 +20,29 @@
 }
 main {
   min-height: 70vh;
+}
+
+.grad-nav {
+  background: linear-gradient(90deg, #006064 0%, #00b8b8 35%, #006064 100%);
+}
+
+body {
+  color: var(--cor-do-texto);
+}
+
+h1, h2, h3, h4, h5, h6, .card-title {
+  color: #006064;
+}
+
+.page-footer h1,
+.page-footer h2,
+.page-footer h3,
+.page-footer h4 {
+  color: white !important;
+}
+
+p {
+  font-size: 1.2rem;
 }
 
 .servico-titulo {
