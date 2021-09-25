@@ -9,14 +9,21 @@ if slug
           - avatar = "img/membro-masculino.jpg"
         else
           - avatar = "img/membro-feminino.jpg"
-      .row
-        .col.s12.l6.offset-l3
-          img.responsive-img(src=avatar)
       h1= membro.nome
-      .member-title= membro.titulo
-      p= membro.descricao
-      h4 Áreas de atuação
-      ul
-        each area in membro.areas
-          li= area
+      .row
+        .col.s12.l6.offset-l4
+          img.z-depth-5.responsive-img.membro-imagem(src=avatar)
+        .col.s12
+          .card
+            .card-content
+              span.card-title.membro-titulo= membro.titulo
+              .text-flow.membro-descricao= membro.descricao
+        .col.s12
+          .card
+            .card-content
+              span.card-title.
+                Áreas de atuação
+              ul
+                each area in membro.areas
+                  li= area
 

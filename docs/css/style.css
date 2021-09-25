@@ -50,4 +50,17 @@ p {
   background-color: #f00;
 }
 
+.membro-descricao {
+  font-size: 1.2rem;
+}
+
+.membro-titulo {
+  color: orange;
+  font-size: 1.5rem;
+}
+
+.membro-imagem {
+  margin-bottom: 2rem;
+}
+
 /*# sourceMappingURL=style.css.map */
