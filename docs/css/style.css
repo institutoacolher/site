@@ -63,12 +63,24 @@ p {
 }
 
 .membro-titulo {
-  color: orange;
   font-size: 1.5rem;
 }
 
 .membro-imagem {
   margin-bottom: 2rem;
+}
+
+.collection-item .membro-nome {
+  font-size: 1.2rem;
+  color: #006064;
+}
+
+.collection-item .membro-titulo {
+  font-size: 1rem;
+}
+
+.collection .collection-item.avatar {
+  min-height: 50px !important;
 }
 
 .rede-social {
@@ -100,6 +112,10 @@ p {
 
 .sidenav .fa-menu-icon {
   margin: 0 !important;
+}
+
+.row.member {
+  padding: 10px;
 }
 
 /*# sourceMappingURL=style.css.map */
