@@ -3,55 +3,62 @@ include membros
 
 .row.curso
   each curso in cursos
-    .col.s12.l8.offset-l2
-      .card
-        .card-image
-          img.responsive-img(src=imgPath+curso.banner)
-        .card-content
-          span.card-title.curso-titulo= curso.titulo
-          .curso-subtitulo= curso.subtitulo
-          p.grey-text.curso-descricao= "Descrição: " + curso.descricao
-          if curso.online
-            p.red.white-text.center-align= "Curso ONLINE através da plataforma " + curso.plataforma
-          else
-            p.grey.lighten-2.grey-text.center-align Curso presencial
-          ul.collection
-            - var num_modulo = 0
-            if curso.modulos
-              each modulo in curso.modulos
-                - num_modulo = num_modulo + 1
-                li.collection-item.curso
-                  p
-                    strong= "Módulo " + num_modulo
-                  p.modulo-titulo
-                    i.fa.fa-book
-                    span= modulo.titulo
-                  ul
-                    li.modulo-data
-                      i.fa.fa-calendar
-                      span= modulo.data + " ás " + modulo.horario
-                    each membro in membros
-                      if membro.slug == modulo.assessor_slug
-                        li.modulo-assessor
-                          i.fa.fa-graduation-cap
-                          a(href=membro.slug+".html")= membro.nome
-                        li.grey-text.membro-crp
-                          i.fa.fa-id-card-o
-                          span= "CRP: " + membro.CRP
+    if curso.visivel
+      .col.s12.l8.offset-l2
+        .card
+          .card-image
+            img.responsive-img(src=imgPath+curso.banner)
+          .card-content
+            span.card-title.curso-titulo= curso.titulo
+            .curso-subtitulo= curso.subtitulo
+            p.grey-text.curso-descricao= "Descrição: " + curso.descricao
+            if curso.online
+              p.red.white-text.center-align= "Curso ONLINE através da plataforma " + curso.plataforma
             else
-              //- Caso o curso não tenha módulos usar o assessor_slug do curso
-              li.collection-item
-                p
-                  strong Módulo único
-                p
-                  i.fa.fa-calendar
-                  span= curso.data + " ás " + curso.horario
-                each membro in membros
-                  if membro.slug == curso.assessor_slug
-                    p.modulo-assessor
-                      i.fa.fa-graduation-cap
-                      a(href=membro.slug+".html")= membro.nome
-                      span.grey-text.membro-crp
-                        |  CRP: 
-                        = membro.CRP
+              p.grey.lighten-2.grey-text.center-align Curso presencial
+            ul.collection
+              - var num_modulo = 0
+              if curso.modulos
+                each modulo in curso.modulos
+                  - num_modulo = num_modulo + 1
+                  li.collection-item.curso
+                    p
+                      strong= "Módulo " + num_modulo
+                    p.modulo-titulo
+                      i.fa.fa-book
+                      span= modulo.titulo
+                    ul
+                      li.modulo-data
+                        i.fa.fa-calendar
+                        span= modulo.data + " ás " + modulo.horario
+                      li.modulo-duracao
+                        i.fa.fa-clock-o
+                        span= "Duração: " + modulo.duracao
+                      each membro in membros
+                        if membro.slug == modulo.assessor_slug
+                          li.modulo-assessor
+                            i.fa.fa-graduation-cap
+                            a(href=membro.slug+".html")= membro.nome
+                          li.grey-text.membro-crp
+                            i.fa.fa-id-card-o
+                            span= "CRP: " + membro.CRP
+              else
+                //- Caso o curso não tenha módulos usar o assessor_slug do curso
+                li.collection-item
+                  p
+                    strong Módulo único
+                  p
+                    i.fa.fa-calendar
+                    span= curso.data + " ás " + curso.horario
+                  p
+                    i.fa.fa-clock-o
+                    span= "Duração: " + curso.duracao
+                  each membro in membros
+                    if membro.slug == curso.assessor_slug
+                      p.modulo-assessor
+                        i.fa.fa-graduation-cap
+                        a(href=membro.slug+".html")= membro.nome
+                        span.grey-text.membro-crp
+                          |  CRP: 
+                          = membro.CRP
 
