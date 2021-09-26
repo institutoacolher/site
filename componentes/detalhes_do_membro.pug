@@ -23,9 +23,11 @@ if slug
             .card-content
               span.card-title.
                 Áreas de atuação
-              ul
+              ul.membro-areas-de-atuacao
                 each area in membro.areas
-                  li= area
+                  li
+                    i.fa.fa-check
+                    span= area
       .divider
       br
       .center-align

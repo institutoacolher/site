@@ -1,3 +1,4 @@
+include vars
 -
   var logradouro       = "Rua Prof. José Cucé, 125, 04055-070"
   var bairro           = "Saúde - São Paulo/SP"
@@ -7,14 +8,14 @@
   var whatsappMensagem = "Ol%C3%A1%2C%20vamos%20conversar"
   var email            = "acolher@uol.com.br"
   var horarioAtendimento = "Das 10h às 16h"
-  var diasAtendimento  = "Se segunda à sexta-feira"
+  var diasAtendimento  = "De segunda à sexta-feira"
 
-h3 Contato
+h3= contato
 
 ul.contato
   li
     i.fa.fa-street-view
-    a.white-text(href="localizacao.html") Ver no mapa
+    a.white-text(href="localizacao.html")= verNoMapa
   li
     i.fa.fa-map
     span.logradouro= logradouro

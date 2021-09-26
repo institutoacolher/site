@@ -14,3 +14,5 @@ ul.collection
         p.membro-nome
           a(href=membro.slug + ".html")= membro.nome
         p.orange-text.membro-titulo= membro.titulo
+        if membro.CRP
+          p.grey-text.membro-crp= "CRP: " + membro.CRP

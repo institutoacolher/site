@@ -1,20 +1,32 @@
+include vars
 //- Menus exibidos em todas as telas
 -
   var menus = [
-    { "fa":"home",           "url":"index.html",                           "titulo":"Home" },
-    { "fa":"diamond",        "url":"servicos.html",                        "titulo":"Serviços" },
-    { "fa":"graduation-cap", "url":"cursos-e-assessorias.html",            "titulo":"Cursos" },
-    { "fa":"file-text-o",    "url":"artigos.html",                         "titulo":"Artigos" },
-    { "fa":"users",          "url":"associados.html",                      "titulo":"Associados" },
-    { "fa":"university",     "url":"instituicao.html",                     "titulo":"Instituição" },
-    { "fa":"address-book-o", "url":"membros.html",                         "titulo":"Membros" }
-  ];
+      { "fa":"home",           "url":"index.html",                           "titulo":"Home" },
+      { "fa":"diamond",        "url":"servicos.html",                        "titulo":"Serviços" },
+      { "fa":"graduation-cap", "url":"cursos-e-assessorias.html",            "titulo":"Cursos" },
+      { "fa":"file-text-o",    "url":"artigos.html",                         "titulo":"Artigos" },
+      { "fa":"users",          "url":"associados.html",                      "titulo":"Associados" },
+      { "fa":"university",     "url":"instituicao.html",                     "titulo":"Instituição" },
+      { "fa":"address-book-o", "url":"membros.html",                         "titulo":"Membros" }
+    ];
+if lang == "es"
+  -
+    var menus = [
+        { "fa":"home",           "url":"index.html",                           "titulo":"Home" },
+        { "fa":"diamond",        "url":"servicos.html",                        "titulo":"Servicios" },
+        { "fa":"graduation-cap", "url":"cursos-e-assessorias.html",            "titulo":"Cursos" },
+        { "fa":"file-text-o",    "url":"artigos.html",                         "titulo":"Artículos" },
+        { "fa":"users",          "url":"associados.html",                      "titulo":"Asociados" },
+        { "fa":"university",     "url":"instituicao.html",                     "titulo":"Institución" },
+        { "fa":"address-book-o", "url":"membros.html",                         "titulo":"Miembros" }
+      ];
 
 nav.cyan.darken-3.grad-nav(role="navigation")
   .container.nav-wrapper
     .brand-logo
       a(href="#")
-        img.brand-logo(src="img/ita-logo-mono-2.svg")
+        img.brand-logo(src=imgPath+"ita-logo-mono-2.svg")
 
     //- Menus para desktop
     ul.right.hide-on-med-and-down

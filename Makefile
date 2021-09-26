@@ -7,12 +7,14 @@ all: update deps css js html favicon
 
 watch_pug:
 	pug --watch *.pug --out docs/ --pretty
+	pug --watch es/*.pug --out docs/es/ --pretty
 
 watch_css:
 	sass --watch scss/style.scss docs/css/style.css
 
 html:
-	pug *.pug --out docs/ --pretty
+	pug *.pug    --out docs/   --pretty
+	pug es/*.pug --out docs/es --pretty
 
 favicon:
 	inkscape -w 16 -h 16 -o 16.png img/ita-logo-min_1024x1024.svg

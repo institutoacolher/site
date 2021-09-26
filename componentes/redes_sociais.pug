@@ -1,8 +1,10 @@
+include vars
+
 -
   var redes = [
-    { "icon": "img/facebook.svg",  "url":"xxx", "nome":"Facebook" },
-    { "icon": "img/instagram.svg", "url":"xxx", "nome":"Instagram" },
-    { "icon": "img/youtube.svg",   "url":"xxx", "nome":"Youtube" }
+    { "icon": "facebook.svg",  "url":"xxx", "nome":"Facebook" },
+    { "icon": "instagram.svg", "url":"xxx", "nome":"Instagram" },
+    { "icon": "youtube.svg",   "url":"xxx", "nome":"Youtube" }
   ];
 
 //- h3.white-text Redes sociais
@@ -11,6 +13,6 @@
   each rede in redes
     .rede-social
       a(href=rede.url)
-        img.rede-social-icon(src=rede.icon,alt=rede.nome)
+        img.rede-social-icon(src=imgPath+rede.icon,alt=rede.nome)
 
 

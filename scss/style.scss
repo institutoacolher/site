@@ -82,8 +82,13 @@ p {
 }
 
 .collection-item .membro-titulo {
-  font-size: 1rem;
+  font-size: 1.0rem;
 }
+
+.collection-item .membro-crp {
+  font-size: 0.9rem;
+}
+
 
 .collection .collection-item.avatar {
   min-height: 50px !important;
@@ -108,7 +113,9 @@ p {
   color: white;
 }
 
-.contato li i {
+.contato li i,
+.links-uteis li i,
+.membro-areas-de-atuacao li i {
   margin-right: 12px;
 }
 
