@@ -25,6 +25,8 @@ img.brand-logo {
 main {
   min-height: 70vh;
   padding-bottom: 32px;
+  background-color: #fff;
+  padding: 24px;
 }
 
 .grad-nav {
@@ -33,6 +35,7 @@ main {
 
 body {
   color: var(--cor-do-texto);
+  background-color: #efefef;
 }
 
 h1, h2, h3, h4, h5, h6, .card-title {

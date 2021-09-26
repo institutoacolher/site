@@ -29,6 +29,8 @@ img.brand-logo {
 main {
   min-height: 70vh;
   padding-bottom: 32px;
+  background-color: #fff;
+  padding: 24px;
 }
 
 .grad-nav {
@@ -37,6 +39,7 @@ main {
 
 body {
   color: var(--cor-do-texto);
+  background-color: #efefef;
 }
 
 // Headers da cor do logo
