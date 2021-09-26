@@ -1,5 +1,6 @@
 //- Precisa ter um slug definido um nível acima para usar este componente
 include vars
+include utils
 include membros
 if slug
   each membro in membros
@@ -32,7 +33,5 @@ if slug
       .divider
       br
       .center-align
-        a.btn(href="membros.html")
-          i.material-icons.left chevron_left
-          | Voltar
+        +botaoVoltarMembros
 

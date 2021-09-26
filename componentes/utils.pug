@@ -1,0 +1,27 @@
+mixin botaoVoltar(url)
+ if lang == "pt-BR"
+   - var texto = "Voltar"
+ else if lang == "es"
+   - var texto = "Regresar"
+ a.btn(href=url)
+   i.material-icons.left chevron_left
+   = texto
+
+
+mixin botaoAcessar(url)
+ if lang == "pt-BR"
+   - var texto = "Acessar"
+ else if lang == "es"
+   - var texto = "Acceder"
+ a.btn(href=url)
+   i.material-icons.right chevron_right
+   = texto
+
+mixin botaoVoltarServicos
+  +botaoVoltar("servicos.html")
+
+mixin botaoVoltarMembros
+  +botaoVoltar("membros.html")
+
+mixin botaoVoltarArtigos
+  +botaoVoltar("artigos.html")

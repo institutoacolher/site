@@ -1,4 +1,5 @@
 include vars
+include utils
 doctype html
 html(lang=lang)
   head
@@ -30,7 +31,7 @@ html(lang=lang)
 
     block scripts
       script(src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js")
-      script(src="js/wow.min.js")
+      script(src=jsPath+"wow.min.js")
       script.
         document.addEventListener('DOMContentLoaded', function() {
         var options = {};

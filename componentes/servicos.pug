@@ -1,54 +1,71 @@
 //- Serviços prestados pelo ITA
 include vars
+include utils
 -
   var servicos = [
     {
       "url":"acolhida.html",
       "imagem":"acolhida-01.jpg",
       "titulo": "Acolhida",
-      "descricao": "Nessa sessão de escuta clínica é realizado encaminhamento para acompanhamento mais adequado a cada situação."
+      "titulo_es": "Acolhida",
+      "descricao": "Nessa sessão de escuta clínica é realizado encaminhamento para acompanhamento mais adequado a cada situação.",
+      "descricao_es": "Nessa sessão de escuta clínica é realizado encaminhamento para acompanhamento mais adequado a cada situação."
     },
     {
       "url":"psicoterapia-individual.html",
       "imagem":"psicoterapia-individual-01.jpg",
       "titulo": "Psicoterapia Individual",
-      "descricao": "Inserir descrição aqui!"
+      "titulo_es": "Psicoterapia Individual",
+      "descricao": "Inserir descrição aqui!",
+      "descricao_es": "Inserir descrição aqui!"
     },
     {
       "url":"psicodiagnostico.html",
       "imagem":"psicodiagnostico-01.jpg",
       "titulo": "Psicodiagnóstico",
-      "descricao": "Inserir descrição aqui!"
+      "titulo_es": "Psicodiagnóstico",
+      "descricao": "Inserir descrição aqui!",
+      "descricao_es": "Inserir descrição aqui!"
     },
     {
       "url":"psicoterapia-grupal.html",
       "imagem":"psicoterapia-grupal-01.jpg",
       "titulo": "Psicoterapia Grupal",
-      "descricao": "Inserir descrição aqui!"
+      "titulo_es": "Psicoterapia Grupal",
+      "descricao": "Inserir descrição aqui!",
+      "descricao_es": "Inserir descrição aqui!"
     },
     {
       "url":"avaliacao-de-vocacionados.html",
       "imagem":"avaliacao-de-vocacionados-01.jpg",
       "titulo": "Avaliação de Vocacionados",
-      "descricao": "Inserir descrição aqui!"
+      "titulo_es": "Avaliação de Vocacionados",
+      "descricao": "Inserir descrição aqui!",
+      "descricao_es": "Inserir descrição aqui!"
     },
     {
       "url":"cursos-e-assessorias.html",
       "imagem":"cursos-e-acessorias-02.jpg",
       "titulo": "Cursos e Assessorias",
-      "descricao": "Inserir descrição aqui!"
+      "titulo_es": "Cursos e Assessorias",
+      "descricao": "Inserir descrição aqui!",
+      "descricao_es": "Inserir descrição aqui!"
     },
     {
       "url":"supervisao-e-grupos-de-estudo-para-psicologos.html",
       "imagem":"supervisao-01.jpg",
       "titulo": "Supervisão e Grupos de Estudo para Psicólogos",
-      "descricao": "Inserir descrição aqui!"
+      "titulo_es": "Supervisão e Grupos de Estudo para Psicólogos",
+      "descricao": "Inserir descrição aqui!",
+      "descricao_es": "Inserir descrição aqui!"
     },
     {
       "url":"grupo-vivencial-para-formadores.html",
       "imagem":"grupo-vivencial-para-formadores-01.jpg",
       "titulo": "Grupo Vivencial para Formadores",
-      "descricao": "Inserir descrição aqui!"
+      "titulo_es": "Grupo Vivencial para Formadores",
+      "descricao": "Inserir descrição aqui!",
+      "descricao_es": "Inserir descrição aqui!"
     }
   ];
 
@@ -56,6 +73,12 @@ include:markdown-it(html) ../textos/servicos.md
 
 .row
   each servico in servicos
+    if lang == "pt-BR"
+      - var titulo = servico.titulo
+      - var descricao = servico.descricao
+    else if lang == "es"
+      - var titulo = servico.titulo_es
+      - var descricao = servico.descricao_es
     .col.s12.m6.xl6
       .card.light-grey.darken-1.wow.animate__animated.animate__bounceInUp
         .card-image.waves-effect.waves-block.waves-light
@@ -64,14 +87,13 @@ include:markdown-it(html) ../textos/servicos.md
           else
             img.activator(src=imgPath+'servico-generico.jpg')
         .card-content.black-text
-          span.activator.card-title.grey-text.text-darken-4= servico.titulo
+          span.activator.card-title.grey-text.text-darken-4= titulo
             i.material-icons.right more_vert
-          //- a(href=servico.url) Acessar
         .card-reveal
-          span.card-title.grey-text.text-darken-4= servico.titulo
+          span.card-title.grey-text.text-darken-4= titulo
             i.material-icons.right close
-          p.servico-descricao= servico.descricao
-          a.btn(href=servico.url) Acessar
+          p.servico-descricao= descricao
+          +botaoAcessar(servico.url)
         .card-action
-          a.btn(href=servico.url) Acessar
+          +botaoAcessar(servico.url)
 
