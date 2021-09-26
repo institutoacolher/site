@@ -70,6 +70,25 @@ p {
   margin-bottom: 2rem;
 }
 
+li.curso {
+  padding: 6px !important;
+}
+
+.curso-titulo {
+  font-weight: 300;
+}
+
+.curso-subtitulo {
+  color: #006064;
+  margin-top: -6px;
+  margin-bottom: 12px;
+}
+
+.curso-descricao {
+  font-size: 1rem;
+  margin-bottom: 24px !important;
+}
+
 .collection-item .membro-nome {
   font-size: 1.2rem;
   color: #006064;
@@ -102,6 +121,7 @@ p {
   color: white;
 }
 
+.curso li i,
 .contato li i,
 .links-uteis li i,
 .membro-areas-de-atuacao li i {
