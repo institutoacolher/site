@@ -1,3 +1,4 @@
+include vars
 include membros
 ul.collection
   each membro in membros
@@ -5,12 +6,12 @@ ul.collection
       - var avatar = membro.avatar
       unless membro.avatar
         if membro.masculino
-          - avatar = "img/membro-masculino.jpg"
+          - avatar = "membro-masculino.jpg"
         else
-          - avatar = "img/membro-feminino.jpg"
+          - avatar = "membro-feminino.jpg"
       li.collection-item.avatar
         a(href=membro.slug + ".html")
-          img.circle(src=avatar,alt=membro.nome)
+          img.circle(src=imgPath+avatar,alt=membro.nome)
         p.membro-nome
           a(href=membro.slug + ".html")= membro.nome
         p.orange-text.membro-titulo= membro.titulo

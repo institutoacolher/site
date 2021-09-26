@@ -1,0 +1,21 @@
+extends componentes/layout.pug
+
+block main
+  h1 Miembros do ITA
+
+  h2 Atención psicoespiritual
+  - var grupo = "psicoespiritual"
+  include componentes/lista_de_membros
+
+  h2 Atención psicoterapéutica
+  - var grupo = "psicoterapêutico"
+  include componentes/lista_de_membros
+
+  h2 Atención psicoanalítica
+  - var grupo = "psicanalítico"
+  include componentes/lista_de_membros
+
+  //- h2 Cards
+  //- include componentes/cards_de_membros
+
+

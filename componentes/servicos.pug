@@ -1,51 +1,52 @@
 //- Serviços prestados pelo ITA
+include vars
 -
   var servicos = [
     {
       "url":"acolhida.html",
-      "imagem":"img/acolhida-01.jpg",
+      "imagem":"acolhida-01.jpg",
       "titulo": "Acolhida",
       "descricao": "Nessa sessão de escuta clínica é realizado encaminhamento para acompanhamento mais adequado a cada situação."
     },
     {
       "url":"psicoterapia-individual.html",
-      "imagem":"img/psicoterapia-individual-01.jpg",
+      "imagem":"psicoterapia-individual-01.jpg",
       "titulo": "Psicoterapia Individual",
       "descricao": "Inserir descrição aqui!"
     },
     {
       "url":"psicodiagnostico.html",
-      "imagem":"img/psicodiagnostico-01.jpg",
+      "imagem":"psicodiagnostico-01.jpg",
       "titulo": "Psicodiagnóstico",
       "descricao": "Inserir descrição aqui!"
     },
     {
       "url":"psicoterapia-grupal.html",
-      "imagem":"img/psicoterapia-grupal-01.jpg",
+      "imagem":"psicoterapia-grupal-01.jpg",
       "titulo": "Psicoterapia Grupal",
       "descricao": "Inserir descrição aqui!"
     },
     {
       "url":"avaliacao-de-vocacionados.html",
-      "imagem":"img/avaliacao-de-vocacionados-01.jpg",
+      "imagem":"avaliacao-de-vocacionados-01.jpg",
       "titulo": "Avaliação de Vocacionados",
       "descricao": "Inserir descrição aqui!"
     },
     {
       "url":"cursos-e-assessorias.html",
-      "imagem":"img/cursos-e-acessorias-02.jpg",
+      "imagem":"cursos-e-acessorias-02.jpg",
       "titulo": "Cursos e Assessorias",
       "descricao": "Inserir descrição aqui!"
     },
     {
       "url":"supervisao-e-grupos-de-estudo-para-psicologos.html",
-      "imagem":"img/supervisao-01.jpg",
+      "imagem":"supervisao-01.jpg",
       "titulo": "Supervisão e Grupos de Estudo para Psicólogos",
       "descricao": "Inserir descrição aqui!"
     },
     {
       "url":"grupo-vivencial-para-formadores.html",
-      "imagem":"img/grupo-vivencial-para-formadores-01.jpg",
+      "imagem":"grupo-vivencial-para-formadores-01.jpg",
       "titulo": "Grupo Vivencial para Formadores",
       "descricao": "Inserir descrição aqui!"
     }
@@ -59,9 +60,9 @@ include:markdown-it(html) ../textos/servicos.md
       .card.light-grey.darken-1.wow.animate__animated.animate__bounceInUp
         .card-image.waves-effect.waves-block.waves-light
           if servico.imagem
-            img.activator(src=servico.imagem)
+            img.activator(src=imgPath+servico.imagem)
           else
-            img.activator(src='img/servico-generico.jpg')
+            img.activator(src=imgPath+'servico-generico.jpg')
         .card-content.black-text
           span.activator.card-title.grey-text.text-darken-4= servico.titulo
             i.material-icons.right more_vert
@@ -74,20 +75,3 @@ include:markdown-it(html) ../textos/servicos.md
         .card-action
           a.btn(href=servico.url) Acessar
 
-//- h2 Serviços
-//- p Serviços oferecidos pelo Instituto Acolher.
-//-
-//- .row
-//-   each servico in servicos
-//-     .col.s12.m6.xl4
-//-       .card.medium.light-grey.darken-1.wow.animate__animated.animate__bounceInUp
-//-         .card-image.waves-effect.waves-block.waves-light
-//-           if servico.imagem
-//-             img.activator(src=servico.imagem)
-//-           else
-//-             img.activator(src='img/servico-generico.jpg')
-//-           span.card-title.white-text.text-darken-4= servico.titulo
-//-         .card-content.black-text
-//-           p.servico-descricao= servico.descricao
-//-         .card-action
-//-           a(href=servico.url) Acessar

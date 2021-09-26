@@ -1,4 +1,5 @@
 //- Precisa ter um slug definido um nível acima para usar este componente
+include vars
 include membros
 if slug
   each membro in membros
@@ -6,13 +7,13 @@ if slug
       - var avatar = membro.avatar
       unless membro.avatar
         if membro.masculino
-          - avatar = "img/membro-masculino.jpg"
+          - avatar = "membro-masculino.jpg"
         else
-          - avatar = "img/membro-feminino.jpg"
+          - avatar = "membro-feminino.jpg"
       h1= membro.nome
       .row
         .col.s12.l6.offset-l4
-          img.z-depth-5.responsive-img.membro-imagem(src=avatar)
+          img.z-depth-5.responsive-img.membro-imagem(src=imgPath+avatar)
         .col.s12
           .card
             .card-content

@@ -33,16 +33,32 @@ nav.cyan.darken-3.grad-nav(role="navigation")
       each menu in menus
         li
           a(href=menu.url)= menu.titulo
+      if lang == "pt-BR"
+        li
+          a(href="es/")
+            img.lang-icon(src=imgPath+"flag_es.svg")
+      else if lang == "es"
+        li
+          a(href="../")
+            img.lang-icon(src=imgPath+"flag_br.svg")
 
     //- Menus para celular e tablet
     ul#nav-mobile.sidenav
       li.mobile-profile
-        img.responsive-img(src="img/ita-logo_1024x1024.svg")
+        img.responsive-img(src=imgPath+"ita-logo_1024x1024.svg")
       each menu in menus
         li
           a(href=menu.url)
             i.fa-menu-icon(class="fa fa-lg fa-"+menu.fa)
             span= menu.titulo
+      if lang == "pt-BR"
+        li
+          a(href="es/")
+            img.lang-icon(src=imgPath+"flag_es.svg")
+      else if lang == "es"
+        li
+          a(href="../")
+            img.lang-icon(src=imgPath+"flag_br.svg")
 
     a.sidenav-trigger(href="#",data-target="nav-mobile")
       i.material-icons menu
