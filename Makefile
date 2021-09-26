@@ -3,6 +3,16 @@
 
 .PHONY: all deps update css js preview check docs html watch_pug watch_css
 
+SERVICOS= \
+acolhida.pug \
+avaliacao-de-vocacionados.pug \
+cursos-e-assessorias.pug \
+grupo-vivencial-para-formadores.pug \
+psicodiagnostico.pug \
+psicoterapia-grupal.pug \
+psicoterapia-individual.pug \
+supervisao-e-grupos-de-estudo-para-psicologos.pug
+
 all: update deps css js html favicon
 
 watch_pug:
@@ -11,6 +21,12 @@ watch_pug:
 
 watch_css:
 	sass --watch scss/style.scss docs/css/style.css
+
+diff_es:
+	for i in *.pug; do diff $$i es/$$i || vi $$i es/$$i; done
+
+editar_servicos:
+	vim $(SERVICOS)
 
 html:
 	pug *.pug    --out docs/   --pretty

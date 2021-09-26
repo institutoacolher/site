@@ -25,3 +25,8 @@ mixin botaoVoltarMembros
 
 mixin botaoVoltarArtigos
   +botaoVoltar("artigos.html")
+
+mixin bannerServico(filename)
+  .row
+    .col.grey.darken-4.s12.center-align
+      img.responsive-img.z-depth-3(src=imgPath+filename)
