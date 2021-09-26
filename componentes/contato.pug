@@ -6,10 +6,15 @@
   var whatsappNumber   = "5511945227267"
   var whatsappMensagem = "Ol%C3%A1%2C%20vamos%20conversar"
   var email            = "acolher@uol.com.br"
+  var horarioAtendimento = "Das 10h às 16h"
+  var diasAtendimento  = "Se segunda à sexta-feira"
 
 h3 Contato
 
 ul.contato
+  li
+    i.fa.fa-street-view
+    a.white-text(href="localizacao.html") Ver no mapa
   li
     i.fa.fa-map
     span.logradouro= logradouro
@@ -17,7 +22,7 @@ ul.contato
     span.bairro= bairro
   li
     i.fa.fa-phone
-    span= fone
+    a.white-text(href="tel:"+fone)= fone
   li
     i.fa.fa-whatsapp
     span
@@ -27,8 +32,11 @@ ul.contato
     span
       a.white-text(href="mailto:" + email)= email
   li
-    i.fa.fa-street-view
-    a.white-text(href="localizacao.html") Ver no mapa
+    i.fa.fa-clock-o
+    span= horarioAtendimento
+  li
+    i.fa.fa-calendar
+    span= diasAtendimento
 
 
 //- * Whatsapp: (11)94522-7267
