@@ -1,5 +1,3 @@
 ### Instituto Acolher
 
-Integrar para transcender.
-
-
+Integrar para transcender

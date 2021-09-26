@@ -24,10 +24,11 @@ img.brand-logo {
 
 main {
   min-height: 70vh;
+  padding-bottom: 32px;
 }
 
 .grad-nav {
-  background: linear-gradient(90deg, #006064 0%, #00b8b8 35%, #006064 100%);
+  background: linear-gradient(90deg, #006064 0%, #005050 35%, #006064 100%);
 }
 
 body {
@@ -80,6 +81,14 @@ p {
 
 .rede-social-nome {
   color: white;
+}
+
+.contato li i {
+  margin-right: 12px;
+}
+
+.contato .bairro {
+  margin-left: 28px;
 }
 
 /*# sourceMappingURL=style.css.map */

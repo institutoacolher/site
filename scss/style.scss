@@ -28,10 +28,11 @@ img.brand-logo {
 // Deixar o rodapé mais distante caso a página tenha pouco conteúdo
 main {
   min-height: 70vh;
+  padding-bottom: 32px;
 }
 
 .grad-nav {
-  background: linear-gradient(90deg, $logo-color 0%, rgba(0,184,184,1) 35%, $logo-color 100%)
+  background: linear-gradient(90deg, $logo-color 0%, rgba(0,80,80,1) 35%, $logo-color 100%)
 }
 
 body {
@@ -92,3 +93,10 @@ p {
   color: white;
 }
 
+.contato li i {
+  margin-right: 12px;
+}
+
+.contato .bairro {
+  margin-left: 28px;
+}

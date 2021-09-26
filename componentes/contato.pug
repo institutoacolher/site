@@ -1,23 +1,35 @@
 -
-  var logradouro = "Rua Prof. José Cucé, 125, 04055-070"
-  var bairro = "Saúde - São Paulo/SP"
-  var fone = "(11)4371-0935"
+  var logradouro       = "Rua Prof. José Cucé, 125, 04055-070"
+  var bairro           = "Saúde - São Paulo/SP"
+  var fone             = "(11) 4371-0935"
+  var whatsapp         = "(11) 9 4522-7267"
+  var whatsappNumber   = "5511945227267"
+  var whatsappMensagem = "Ol%C3%A1%2C%20vamos%20conversar"
+  var email            = "acolher@uol.com.br"
+
+h3 Contato
 
 ul.contato
   li
     i.fa.fa-map
     span.logradouro= logradouro
-    .bairro= bairro
+    br
+    span.bairro= bairro
   li
     i.fa.fa-phone
     span= fone
+  li
+    i.fa.fa-whatsapp
+    span
+      a.white-text(href="https://api.whatsapp.com/send?phone=" + whatsappNumber + "&text=" + whatsappMensagem)= whatsapp
+  li
+    i.fa.fa-at
+    span
+      a.white-text(href="mailto:" + email)= email
+  li
+    i.fa.fa-street-view
+    a.white-text(href="localizacao.html") Ver no mapa
 
-  
 
-a.white-text(href="localizacao.html") Ver no mapa
-
-
-//- * <i class="fa fa-map-marker" aria-hidden="true"></i> Rua Prof. José Cucé, 125, 04055-070 - Saúde - São Paulo/SP
-//- * Tel: 
 //- * Whatsapp: (11)94522-7267
 //- * acolher@uol.com.br
