@@ -94,4 +94,12 @@ p {
   margin-left: 28px;
 }
 
+.mobile-profile {
+  padding: 0 60px;
+}
+
+.sidenav .fa-menu-icon {
+  margin: 0 !important;
+}
+
 /*# sourceMappingURL=style.css.map */

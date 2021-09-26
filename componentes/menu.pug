@@ -1,34 +1,20 @@
 //- Menus exibidos em todas as telas
 -
   var menus = [
-    { "url":"index.html",                           "titulo":"Home" },
-    { "url":"servicos.html",                        "titulo":"Serviços" },
-    { "url":"cursos-e-assessorias.html",            "titulo":"Cursos" },
-    { "url":"artigos.html",                         "titulo":"Artigos" },
-    { "url":"associados.html",                      "titulo":"Associados" },
-    { "url":"instituicao.html",                     "titulo":"Instituição" },
-    { "url":"membros.html",                         "titulo":"Membros" }
+    { "fa":"home",           "url":"index.html",                           "titulo":"Home" },
+    { "fa":"diamond",        "url":"servicos.html",                        "titulo":"Serviços" },
+    { "fa":"graduation-cap", "url":"cursos-e-assessorias.html",            "titulo":"Cursos" },
+    { "fa":"file-text-o",    "url":"artigos.html",                         "titulo":"Artigos" },
+    { "fa":"users",          "url":"associados.html",                      "titulo":"Associados" },
+    { "fa":"university",     "url":"instituicao.html",                     "titulo":"Instituição" },
+    { "fa":"address-book-o", "url":"membros.html",                         "titulo":"Membros" }
   ];
-
-//-  <nav>
-//-     <div class="nav-wrapper">
-//-       <a href="#!" class="brand-logo"><i class="material-icons">cloud</i>Logo</a>
-//-       <ul class="right hide-on-med-and-down">
-//-         <li><a href="sass.html"><i class="material-icons">search</i></a></li>
-//-         <li><a href="badges.html"><i class="material-icons">view_module</i></a></li>
-//-         <li><a href="collapsible.html"><i class="material-icons">refresh</i></a></li>
-//-         <li><a href="mobile.html"><i class="material-icons">more_vert</i></a></li>
-//-       </ul>
-//-     </div>
-//-   </nav>
 
 nav.cyan.darken-3.grad-nav(role="navigation")
   .container.nav-wrapper
     .brand-logo
       a(href="#")
         img.brand-logo(src="img/ita-logo-mono-2.svg")
-        //- img.brand-logo.hide-on-small(src="img/ita-logo-min-mono_1024x1024.svg")
-        //- | Instituto Acolher
 
     //- Menus para desktop
     ul.right.hide-on-med-and-down
@@ -38,9 +24,13 @@ nav.cyan.darken-3.grad-nav(role="navigation")
 
     //- Menus para celular e tablet
     ul#nav-mobile.sidenav
+      li.mobile-profile
+        img.responsive-img(src="img/ita-logo_1024x1024.svg")
       each menu in menus
         li
-          a(href=menu.url)= menu.titulo
+          a(href=menu.url)
+            i.fa-menu-icon(class="fa fa-lg fa-"+menu.fa)
+            span= menu.titulo
 
     a.sidenav-trigger(href="#",data-target="nav-mobile")
       i.material-icons menu
