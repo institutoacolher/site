@@ -1,24 +1,24 @@
-# Associados
+# Asociados
 
-## Colaboradores do Instituto Acolher
+## Empleados del Instituto Acolher
 
-Estamos abertos para trabalhar juntos com as pessoas interessadas, que
-apresentam aptidão para compor os nossos projetos.
+Estamos abiertos a trabajar junto con personas interesadas que
+tener afinidad con nuestros proyectos.
 
-Procuramos profissionais na área da psicologia, saúde mental e espiritualidade,
-que também dedicam-se ao atendimento aos sacerdotes e pessoas consagradas para
-criar uma rede de cooperação e troca de experiências.
+Buscamos profesionales en el campo de la psicología, la salud mental y la espiritualidad,
+que también se dedican al servicio de sacerdotes y consagrados para
+crear una red de cooperación e intercambio de experiencias.
 
-Os nossos Associados, pagando uma taxa anual, têm direto aos descontos nas
-atividades do ITA ao longo do ano e podem contar com nosso auxílio na execução
-do seu ofício profissional.
+Nuestros Asociados, pagando una tarifa anual, tienen derecho a descuentos en
+ITA actividades durante todo el año y puede contar con nuestra asistencia en la ejecución.
+de su oficio profesional.
 
-Como recebemos muitos pedidos de ajuda de diferentes regiões do Brasil, a nossa
-base de dados dos Associados vai servir como referência para eventuais
-indicações de serviços profissionais.
+Como recibimos muchas solicitudes de ayuda de diferentes regiones de Brasil, nuestro
+La base de datos de membresía servirá como referencia para cualquier
+referencias de servicios profesionales.
 
-Seja um Associado: basta preencher ficha cadastral de inscrição e efetuar
-pagamento de uma taxa anual.
+## ¡¡¡Conviértete en nuestro Asociado!!!
 
-Para mais informações, entre em contato com Instituto Acolher pelos nossos
-canais de comunicação.
+Para más información, contacte con Instituto Acolher a través de nuestros canales de comunicación.
+
+[Ver nuestros servicios](servicos.html)

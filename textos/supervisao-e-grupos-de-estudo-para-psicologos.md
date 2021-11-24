@@ -1,6 +1,6 @@
-# Supervisão e Grupos de Estudo para Psicólogos
+# Grupos de Estudo
 
-Para aperfeiçoar ou atualizar conhecimentos referentes ao acompanhamento
-psicológico na formação seminarística e da psicoterapia dos religiosos.
+Oferecemos auxilio no aperfeiçoamento e atualização dos conhecimentos
+referentes ao acompanhamento psicológico na formação seminarística e da
+psicoterapia dos religiosos.
 
-Orientação especializada para o aprimoramento do exercício profissional.

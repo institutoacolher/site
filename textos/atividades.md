@@ -1,14 +1,13 @@
-# Cursos e Assessorias
+# Atividades
 
-Atendendo a demandas provenientes de vários setores da Igreja, o ITA tem
-organizado inúmeros cursos rápidos sobre temas referentes à psicologia da Vida
-Religiosa e Sacerdotal. Têm como público-alvo os superiores/as
-e coordenadores/as de comunidades religiosas; os Formadores/as à Vida
-Religiosa e ao Serviço Presbiteral; bem como, aos formandos/as e demais
-interessados. Os temas variam em função das sugestões e urgências. Os cursos
-são ministrados preferencialmente em finais de semana, ocupando um ou dois
-dias.
+Definir!
 
-Oferecemos cursos, assessorias e orientações nos encontros organizados nas ou
-pelas instituições religiosas.
-
+* (Agenda atual )
+* Cursos
+* Bate papos
+* Grupos de discussão
+* Encontros
+* 
+* Atividades anteriores 
+* (anos anteriores – 2018, 2019, 2020)
+* Atividades internas

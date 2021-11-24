@@ -1,8 +1,11 @@
 # Psicoterapia Grupal
 
 É uma opção bastante significativa para pessoas que vivem em comunidades e/ou
-trabalham com grupos. A experiência de grupoterapia amplia a compreensão dos
-fenômenos da intersubjetividade.
+trabalham com grupos (pastorais, paroquiais, educacionais e outros).
+A experiência de grupoterapia amplia a compreensão dos fenômenos da
+intersubjetividade dentro e fora do espaço terapêutico. O objetivo é que
+o investimento na compreensão dos aspectos tanto internos, como interpessoais
+e transsubjetivos promovam melhoria nos vínculos comunitários.
 
 A proposta de psicoterapia de grupo do Instituto Acolher justifica-se pelo fato
 de seu público alvo constituir-se de pessoas  que vivem em grupos (comunidades)

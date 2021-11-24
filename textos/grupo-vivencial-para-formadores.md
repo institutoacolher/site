@@ -1,4 +1,6 @@
-# Grupo vivencial para formadores
+# Grupo de reflexão para formadores
+
+Auxiliamos os formadores com objetivo de refletir as tensões e angústias oriundas do ofício.
 
 São encontros semanais e/ou quinzenais que reúnem até 10 formadores/as
 interessados em discutir em primeira pessoa a experiência que vivem como

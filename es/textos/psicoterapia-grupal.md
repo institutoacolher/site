@@ -1,25 +1,9 @@
-# Psicoterapia Grupal
+# Psicoterapia de Grupo
 
-É uma opção bastante significativa para pessoas que vivem em comunidades e/ou
-trabalham com grupos. A experiência de grupoterapia amplia a compreensão dos
-fenômenos da intersubjetividade.
-
-A proposta de psicoterapia de grupo do Instituto Acolher justifica-se pelo fato
-de seu público alvo constituir-se de pessoas  que vivem em grupos (comunidades)
-e/ou trabalhem com grupos (pastorais, paroquiais, educacionais e outros).
-Partimos da premissa que a experiência de grupoterapia amplie a compreensão dos
-fenômenos da intersubjetividade dentro e fora do espaço terapêutico. O objetivo
-é que o investimento na compreensão dos aspectos tanto internos, como
-interpessoais e transsubjetivos promovam melhoria nos vínculos comunitários.
-
-Grupo aberto: Isso significa que a pessoa pode entrar, quando estiver
-disponível (após passar por duas ou três sessões individuais) e permanecer pelo
-tempo que necessitar.
-
-Público alvo: Religiosas/os, clero, formação inicial e leigos interessados
-(possibilidade de grupo específico para cada categoria)
-
-Período: de fevereiro a meados de dezembro, com férias em janeiro. Sessão
-semanal de 90 minutos.
-
+Es una opción muy significativa para las personas que viven en comunidades
+y / o trabajan con grupos (pastoral, parroquial, educativo y otros). La
+experiencia de la terapia de grupo amplía la comprensión de los fenómenos de
+intersubjetividad dentro y fuera del espacio terapéutico. El objetivo es que la
+inversión en la comprensión de los aspectos internos, interpersonales
+y trans-subjetivos promueva la mejora de los vínculos comunitarios.
 

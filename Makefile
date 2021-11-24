@@ -7,6 +7,7 @@ SERVICOS= \
 acolhida.pug \
 avaliacao-de-vocacionados.pug \
 atividades.pug \
+cursos-e-assessorias.pug \
 grupo-vivencial-para-formadores.pug \
 psicodiagnostico.pug \
 psicoterapia-grupal.pug \
