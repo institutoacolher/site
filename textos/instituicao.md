@@ -1,17 +1,32 @@
-# Instituição
+# Instituto Acolher - ITA
 
-O Instituto Acolher – ITA, fundado no ano 2000, nasceu do
-sonho e do esforço conjunto de um grupo de psicólogos/as
-e religiosos/as de São Paulo. Está estruturado com a finalidade de
-atender sacerdotes, religiosos/as, formandos, leigos engajados em
-atividades de Igreja e outros interessados, inclusive dioceses,
-congregações e casas religiosas, que necessitem de acompanhamento
-psicoterapêutico e/ou espiritual, individual e/ou em grupo. Os
-serviços incluem psicoterapia, assessorias, aconselhamento,
-supervisão e treinamento nas mesmas áreas. O ITA desenvolve
-pesquisas e estudos sistemáticos nas áreas de sua atuação e divulga
-esses conhecimentos através de simpósios, cursos e publicações.
-O ITA tem se caracterizado pelo aprimoramento da qualificação de
-seus membros, tendo em vista a formação permanente e a excelência
-profissional.
+O Instituto Acolher - ITA é a realização do sonho e do esforço de um grupo de
+psicólogos, psicanalistas e religiosos, que há 21 anos dedicam-se a assistência
+psicológica e espiritual a religiosos, sacerdotes e leigos engajados na Igreja.
+
+Uma prática que começou no ano 2000 e foi se enriquecendo por meio de
+intercâmbios com instituições internacionais semelhantes.
+
+Hoje temos uma série de programas voltados para o acompanhamento psicológico
+e psicoespiritual do clero e da vida consagrada no Brasil. No nosso trabalho
+contamos com o auxílio de psiquiatras e médicos.
+
+Com zelo e seriedade, buscamos constantemente aprimorar os seus serviços.
+A atualização continuada dos profissionais do nosso corpo clínico é um dos
+parâmetros de excelência do Instituto.
+
+O objetivo principal do ITA abrange, além da psicoterapia e aconselhamento,
+outras atividades, tais como prestação de assessorias e formação. Além disto,
+nos propomos a organizar e supervisionar atividades destinadas à formação de
+seus próprios membros e de outros profissionais interessados em seu
+aprimoramento técnico-profissional e teórico. 
+
+Pretendemos contribuir para o desenvolvimento de estudos e pesquisas nas áreas
+de sua atuação, almejando criar no Brasil um espaço qualificado para
+o aprofundamento das questões psicológicas pertinentes ao público-alvo do
+Instituto.
+
+O Instituto Acolher – ITA é autônomo, mas guarda relações com a Igreja Católica
+e seus organismos, (dentro do que estabelecem) obedecendo os códigos de ética
+que presidem as atividades do psicólogo e do religioso no seio da sociedade. 
 
