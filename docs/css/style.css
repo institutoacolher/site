@@ -75,26 +75,26 @@ p {
   margin-bottom: 2rem;
 }
 
-li.curso {
+li.atividade {
   padding: 6px !important;
 }
 
-.curso li,
-.curso p {
+.atividade li,
+.atividade p {
   font-size: 1rem;
 }
 
-.curso-titulo {
+.atividade-titulo {
   font-weight: 300;
 }
 
-.curso-subtitulo {
+.atividade-subtitulo {
   color: #006064;
   margin-top: -6px;
   margin-bottom: 12px;
 }
 
-.curso-descricao {
+.atividade-descricao {
   font-size: 1rem;
   margin-bottom: 24px !important;
 }
@@ -116,6 +116,11 @@ li.curso {
   min-height: 50px !important;
 }
 
+.collection-item p i,
+.modulo-assessor i {
+  margin-right: 12px;
+}
+
 .rede-social {
   display: inline-block;
 }
@@ -131,7 +136,7 @@ li.curso {
   color: white;
 }
 
-.curso li i,
+.atividade li i,
 .contato li i,
 .links-uteis li i,
 .membro-areas-de-atuacao li i {

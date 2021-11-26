@@ -83,26 +83,26 @@ p {
   margin-bottom: 2rem;
 }
 
-li.curso {
+li.atividade {
   padding: 6px !important;
 }
 
-.curso li,
-.curso p {
+.atividade li,
+.atividade p {
   font-size: 1.0rem;
 }
 
-.curso-titulo {
+.atividade-titulo {
   font-weight: 300;
 }
 
-.curso-subtitulo {
+.atividade-subtitulo {
   color: $logo-color;
   margin-top: -6px;
   margin-bottom: 12px;
 }
 
-.curso-descricao {
+.atividade-descricao {
   font-size: 1.0rem;
   margin-bottom: 24px !important;
 }
@@ -120,9 +120,13 @@ li.curso {
   font-size: 0.9rem;
 }
 
-
 .collection .collection-item.avatar {
   min-height: 50px !important;
+}
+
+.collection-item p i,
+.modulo-assessor i {
+  margin-right: 12px;
 }
 
 .redes-sociais {
@@ -144,7 +148,7 @@ li.curso {
   color: white;
 }
 
-.curso li i,
+.atividade li i,
 .contato li i,
 .links-uteis li i,
 .membro-areas-de-atuacao li i {
