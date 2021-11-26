@@ -71,13 +71,15 @@ each ano in [ 2021, 2020, 2019 ]
                             if membro.slug == assessor_slug
                               li.modulo-assessor
                                 i.fa.fa-graduation-cap
-                                a(href=membro.slug+".html")= membro.nome
+                                a(href=membro.slug+".html",title="Membro do ITA")= membro.nome
                               li.grey-text.membro-crp
                                 i.fa.fa-id-card-o
                                 span= "CRP: " + membro.CRP
                         if atividade.convidados
                           each convidado in atividade.convidados
-                            p.modulo-assesor= convidado
+                            p.modulo-assesor
+                              i.fa.fa-comment
+                              span(title="Convidado")= convidado
                 else
                   //- Caso o atividade não tenha módulos usar o assessor_slug do atividade
                   li.collection-item
@@ -102,7 +104,7 @@ each ano in [ 2021, 2020, 2019 ]
                         if membro.slug == assessor_slug
                           p.modulo-assessor
                             i.fa.fa-graduation-cap
-                            a(href=membro.slug+".html")= membro.nome
+                            a(href=membro.slug+".html",title="Membro do ITA")= membro.nome
                             span.grey-text.membro-crp
                               |  CRP: 
                               = membro.CRP
@@ -110,4 +112,4 @@ each ano in [ 2021, 2020, 2019 ]
                       each convidado in atividade.convidados
                         p.modulo-assesor
                           i.fa.fa-comment
-                          span= convidado
+                          span(title="Convidado")= convidado

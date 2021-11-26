@@ -143,6 +143,11 @@ li.atividade {
   margin-right: 12px;
 }
 
+.atividade-objetivo {
+  padding-top: 12px;
+  padding-bottom: 12px;
+}
+
 .contato .bairro {
   margin-left: 28px;
 }
