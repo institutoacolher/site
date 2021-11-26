@@ -12,7 +12,7 @@ include vars
 .redes-sociais
   each rede in redes
     .rede-social
-      a(href=rede.url)
+      a(href=rede.url,target="blank")
         img.rede-social-icon(src=imgPath+rede.icon,alt=rede.nome)
 
 
