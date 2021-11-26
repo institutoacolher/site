@@ -1,0 +1,19 @@
+include vars
+include membros
+ul.collection
+  each membro in membros
+    if ! membro.ativo
+      - var avatar = membro.avatar
+      unless membro.avatar
+        if membro.masculino
+          - avatar = "membro-masculino.jpg"
+        else
+          - avatar = "membro-feminino.jpg"
+      li.collection-item.avatar
+        a(href=membro.slug + ".html")
+          img.circle(src=imgPath+avatar,alt=membro.nome)
+        p.membro-nome
+          a(href=membro.slug + ".html")= membro.nome
+        p.orange-text.membro-titulo= membro.titulo
+        if membro.CRP
+          p.grey-text.membro-crp= "CRP: " + membro.CRP
