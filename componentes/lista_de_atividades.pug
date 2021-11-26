@@ -37,7 +37,9 @@ each ano in [ 2021, 2020, 2019 ]
                 else
                   p.grey.lighten-2.grey-text.center-align Batepapo presencial
 
-              p.grey-text.atividade-objetivo= "Objetivo: " + atividade.objetivo
+              p.grey-text.atividade-objetivo
+                b Objetivo: 
+                span= atividade.objetivo
 
               if atividade.inscritos
                 p.grey-text.atividade-inscritos= "Total de inscritos: " + atividade.inscritos
@@ -51,34 +53,36 @@ each ano in [ 2021, 2020, 2019 ]
                       p
                         strong= "Módulo " + num_modulo
                       p.modulo-titulo
-                        i.fa.fa-book
+                        i.grey-text.fa.fa-book
                         span= modulo.titulo
                       ul
-                        li.modulo-data
-                          i.fa.fa-calendar
-                          if modulo.horario
-                            span= modulo.data + " ás " + modulo.horario
-                          else
-                            span= modulo.data
+                        li
+                          p.modulo-data
+                            i.grey-text.fa.fa-calendar
+                            if modulo.horario
+                              span= modulo.data + " ás " + modulo.horario
+                            else
+                              span= modulo.data
 
                         if modulo.duracao
-                          li.modulo-duracao
-                            i.fa.fa-clock-o
-                            span= "Duração: " + modulo.duracao
+                          li
+                            p.modulo-duracao
+                              i.grey-text.fa.fa-clock-o
+                              span= "Duração: " + modulo.duracao
 
                         each membro in membros
                           each assessor_slug in modulo.assessor_slugs
                             if membro.slug == assessor_slug
                               li.modulo-assessor
-                                i.fa.fa-graduation-cap
+                                i.grey-text.fa.fa-graduation-cap
                                 a(href=membro.slug+".html",title="Membro do ITA")= membro.nome
                               li.grey-text.membro-crp
-                                i.fa.fa-id-card-o
+                                i.grey-text.fa.fa-id-card-o
                                 span= "CRP: " + membro.CRP
                         if atividade.convidados
                           each convidado in atividade.convidados
                             p.modulo-assesor
-                              i.fa.fa-comment
+                              i.grey-text.fa.fa-comment-o
                               span(title="Convidado")= convidado
                 else
                   //- Caso o atividade não tenha módulos usar o assessor_slug do atividade
@@ -87,23 +91,24 @@ each ano in [ 2021, 2020, 2019 ]
                     //-  strong Módulo único
 
                     if atividade.horario
-                      p
-                        i.fa.fa-calendar
+                      p.modulo-data
+                        i.grey-text.fa.fa-calendar
                         span= atividade.data + " ás " + atividade.horario
                     else
-                      p
-                        i.fa.fa-calendar
-                          span= atividade.data
+                      p.modulo-data
+                        i.grey-text.fa.fa-calendar
+                        span= atividade.data
+
                     if atividade.duracao
-                      p
-                        i.fa.fa-clock-o
+                      p.modulo-duracao
+                        i.grey-text.fa.fa-clock-o
                         span= "Duração: " + atividade.duracao
 
                     each membro in membros
                       each assessor_slug in atividade.assessor_slugs
                         if membro.slug == assessor_slug
                           p.modulo-assessor
-                            i.fa.fa-graduation-cap
+                            i.grey-text.fa.fa-graduation-cap
                             a(href=membro.slug+".html",title="Membro do ITA")= membro.nome
                             span.grey-text.membro-crp
                               |  CRP: 
@@ -111,5 +116,5 @@ each ano in [ 2021, 2020, 2019 ]
                     if atividade.convidados
                       each convidado in atividade.convidados
                         p.modulo-assesor
-                          i.fa.fa-comment
+                          i.grey-text.fa.fa-comment-o
                           span(title="Convidado")= convidado
