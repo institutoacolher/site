@@ -4,7 +4,7 @@ include membros
 each ano in [ 2021, 2020, 2019 ]
   h2= "Atividades em " + ano
   .row.atividade
-    each atividade in atividades
+    each atividade in atividades.sort(function(a, b){ return (a.dataiso < b.dataiso) ? 1 : -1; })
       if atividade.visivel && atividade.ano == ano
         .col.s12.l8.offset-l2
           .card
@@ -19,6 +19,18 @@ each ano in [ 2021, 2020, 2019 ]
                     - img = "batepapo-online.jpg"
                   else
                     - img = "batepapo.jpg"
+
+                if atividade.tipo == "curso"
+                  if atividade.online
+                    - img = "curso-online.jpg"
+                  else
+                    - img = "curso.jpg"
+
+                if atividade.tipo == "grupo-de-discussao"
+                  if atividade.online
+                    - img = "grupo-de-discussao-online.jpg"
+                  else
+                    - img = "grupo-de-discussao.jpg"
 
                 img.responsive-img(src=imgPath+img)
             .card-content
@@ -52,9 +64,10 @@ each ano in [ 2021, 2020, 2019 ]
                     li.collection-item.atividade
                       p
                         strong= "Módulo " + num_modulo
-                      p.modulo-titulo
-                        i.grey-text.fa.fa-book
-                        span= modulo.titulo
+                      if modulo.titulo
+                        p.modulo-titulo
+                          i.grey-text.fa.fa-book
+                          span= modulo.titulo
                       ul
                         li
                           p.modulo-data
@@ -76,11 +89,12 @@ each ano in [ 2021, 2020, 2019 ]
                               li.modulo-assessor
                                 i.grey-text.fa.fa-graduation-cap
                                 a(href=membro.slug+".html",title="Membro do ITA")= membro.nome
-                              li.grey-text.membro-crp
-                                i.grey-text.fa.fa-id-card-o
-                                span= "CRP: " + membro.CRP
-                        if atividade.convidados
-                          each convidado in atividade.convidados
+                              if membro.CRP
+                                li.grey-text.membro-crp
+                                  i.grey-text.fa.fa-id-card-o
+                                  span= "CRP: " + membro.CRP
+                        if modulo.convidados
+                          each convidado in modulo.convidados
                             p.modulo-assesor
                               i.grey-text.fa.fa-comment-o
                               span(title="Convidado")= convidado
@@ -90,14 +104,12 @@ each ano in [ 2021, 2020, 2019 ]
                     //- p
                     //-  strong Módulo único
 
-                    if atividade.horario
-                      p.modulo-data
-                        i.grey-text.fa.fa-calendar
-                        span= atividade.data + " ás " + atividade.horario
-                    else
-                      p.modulo-data
-                        i.grey-text.fa.fa-calendar
-                        span= atividade.data
+                    p.modulo-data
+                      i.grey-text.fa.fa-calendar
+                        if atividade.horario
+                          span= atividade.data + " ás " + atividade.horario
+                        else
+                          span= atividade.data
 
                     if atividade.duracao
                       p.modulo-duracao
@@ -110,9 +122,10 @@ each ano in [ 2021, 2020, 2019 ]
                           p.modulo-assessor
                             i.grey-text.fa.fa-graduation-cap
                             a(href=membro.slug+".html",title="Membro do ITA")= membro.nome
-                            span.grey-text.membro-crp
-                              |  CRP: 
-                              = membro.CRP
+                            if membro.CRP
+                              span.grey-text.membro-crp
+                                |  CRP: 
+                                = membro.CRP
                     if atividade.convidados
                       each convidado in atividade.convidados
                         p.modulo-assesor
