@@ -106,10 +106,10 @@ each ano in [ 2021, 2020, 2019 ]
 
                     p.modulo-data
                       i.grey-text.fa.fa-calendar
-                        if atividade.horario
-                          span= atividade.data + " ás " + atividade.horario
-                        else
-                          span= atividade.data
+                      if atividade.horario
+                        span= atividade.data + " ás " + atividade.horario
+                      else
+                        span= atividade.data
 
                     if atividade.duracao
                       p.modulo-duracao
