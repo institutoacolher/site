@@ -81,6 +81,14 @@ p {
 
 .membro-imagem {
   margin-bottom: 2rem;
+
+  -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+  filter: grayscale(100%);
+}
+
+.membro-imagem:hover {
+  -webkit-filter: none;
+  filter: none;
 }
 
 li.atividade {
