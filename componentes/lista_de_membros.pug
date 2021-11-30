@@ -2,6 +2,7 @@ include vars
 include membros
 
 ul.collection
+  //- Em ordem alfabética
   each membro in membros.sort(function(a, b){ return (a.slug > b.slug) ? 1 : -1; })
     if membro.ativo
       if membro.grupo == grupo

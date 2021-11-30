@@ -26,7 +26,7 @@ nav.cyan.darken-3.grad-nav(role="navigation")
   .container.nav-wrapper
     .brand-logo
       a(href="#")
-        img.brand-logo(src=imgPath+"ita-logo-mono-2.svg")
+        img.brand-logo(src=imgPath+"ita-logo-mono-2.svg",alt="Logo do ITA")
 
     //- Menus para desktop
     ul.right.hide-on-med-and-down
@@ -36,11 +36,11 @@ nav.cyan.darken-3.grad-nav(role="navigation")
       if lang == "pt-BR"
         li
           a(href="es/")
-            img.lang-icon(src=imgPath+"flag_es.svg")
+            img.lang-icon(src=imgPath+"flag_es.svg",alt="Cambiar a español")
       else if lang == "es"
         li
           a(href="../")
-            img.lang-icon(src=imgPath+"flag_br.svg")
+            img.lang-icon(src=imgPath+"flag_br.svg",alt="Alterar para português")
 
     //- Menus para celular e tablet
     ul#nav-mobile.sidenav
