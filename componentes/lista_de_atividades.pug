@@ -1,7 +1,7 @@
 include atividades
 include membros
 
-each ano in [ 2021, 2020, 2019 ]
+each ano in [ 2022, 2021, 2020, 2019 ]
   h2= "Atividades em " + ano
   .row.atividade
     each atividade in atividades.sort(function(a, b){ return (a.dataiso < b.dataiso) ? 1 : -1; })

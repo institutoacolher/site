@@ -2,5 +2,7 @@ extends componentes/layout.pug
 
 block main
   include:markdown-it(html) textos/atividades.md
-  include componentes/lista_de_atividades
+  include:markdown-it(html) textos/atividades-2022.md
+  include:markdown-it(html) textos/atividades-2021.md
+  //- include componentes/lista_de_atividades
 

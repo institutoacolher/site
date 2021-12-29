@@ -1,0 +1,24 @@
+extends componentes/layout.pug
+block main
+  h1 Recordações de 2011
+  p 2011-05-13_DSC03331.jpg
+  img.materialboxed(width=300,src='img/fotos/2011-05-13_DSC03331.jpg') 
+  p 2011-06-17_Imagem_Maria_Mourao_037.jpg
+  img.materialboxed(width=300,src='img/fotos/2011-06-17_Imagem_Maria_Mourao_037.jpg') 
+  p 2011-06-17_Imagem_Maria_Mourao_039.jpg
+  img.materialboxed(width=300,src='img/fotos/2011-06-17_Imagem_Maria_Mourao_039.jpg') 
+  p 2011-06-17_Imagem_Maria_Mourao_045.jpg
+  img.materialboxed(width=300,src='img/fotos/2011-06-17_Imagem_Maria_Mourao_045.jpg') 
+  p 2011-06-17_Imagem_Maria_Mourao_046.jpg
+  img.materialboxed(width=300,src='img/fotos/2011-06-17_Imagem_Maria_Mourao_046.jpg') 
+  p 2011-06-17_Imagem_Maria_Mourao_047.jpg
+  img.materialboxed(width=300,src='img/fotos/2011-06-17_Imagem_Maria_Mourao_047.jpg') 
+  p 2011-10-15_foto_1.jpg
+  img.materialboxed(width=300,src='img/fotos/2011-10-15_foto_1.jpg') 
+  script.
+    document.addEventListener('DOMContentLoaded', function() {
+      var elems = document.querySelectorAll('.materialboxed');
+      var options = {
+      };
+      var instances = M.Materialbox.init(elems, options);
+    });

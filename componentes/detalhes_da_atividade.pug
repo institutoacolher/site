@@ -1,0 +1,135 @@
+include membros
+
+if atividade.visivel
+  .col.s12.l8.offset-l2
+    .card
+      .card-image
+        if atividade.banner
+          img.responsive-img(src=imgPath+atividade.banner)
+        else
+          //- Imagens padrão
+          - var img = "xxx.jpg"
+          if atividade.tipo == "batepapo"
+            if atividade.online
+              - img = "batepapo-online.jpg"
+            else
+              - img = "batepapo.jpg"
+
+          if atividade.tipo == "curso"
+            if atividade.online
+              - img = "curso-online.jpg"
+            else
+              - img = "curso.jpg"
+
+          if atividade.tipo == "grupo-de-discussao"
+            if atividade.online
+              - img = "grupo-de-discussao-online.jpg"
+            else
+              - img = "grupo-de-discussao.jpg"
+
+          if atividade.tipo == "grupo-de-estudo"
+            if atividade.online
+              - img = "grupo-de-estudo-online.jpg"
+            else
+              - img = "grupo-de-estudo.jpg"
+
+          img.responsive-img(src=imgPath+img)
+      .card-content
+        span.card-title.atividade-titulo= atividade.titulo
+        .atividade-subtitulo= atividade.subtitulo
+
+        //- faixa online
+        if atividade.tipo == "curso"
+          if atividade.online
+            p.red.white-text.center-align= "Curso ONLINE através da plataforma " + atividade.plataforma
+          else
+            p.grey.lighten-2.grey-text.center-align Curso presencial
+        if atividade.tipo == "batepapo"
+          if atividade.online
+            p.red.white-text.center-align= "Batepapo ONLINE através da plataforma " + atividade.plataforma
+          else
+            p.grey.lighten-2.grey-text.center-align Batepapo presencial
+
+        p.grey-text.atividade-objetivo
+          b Objetivo: 
+          span= atividade.objetivo
+
+        if atividade.inscritos
+          p.grey-text.atividade-inscritos= "Total de inscritos: " + atividade.inscritos
+
+        ul.collection
+          - var num_modulo = 0
+          if atividade.modulos
+            each modulo in atividade.modulos
+              - num_modulo = num_modulo + 1
+              li.collection-item.atividade
+                p
+                  strong= "Módulo " + num_modulo
+                if modulo.titulo
+                  p.modulo-titulo
+                    i.grey-text.fa.fa-book
+                    span= modulo.titulo
+                ul
+                  li
+                    p.modulo-data
+                      i.grey-text.fa.fa-calendar
+                      if modulo.horario
+                        span= modulo.data + " ás " + modulo.horario
+                      else
+                        span= modulo.data
+
+                  if modulo.duracao
+                    li
+                      p.modulo-duracao
+                        i.grey-text.fa.fa-clock-o
+                        span= "Duração: " + modulo.duracao
+
+                  each membro in membros
+                    each assessor_slug in modulo.assessor_slugs
+                      if membro.slug == assessor_slug
+                        li.modulo-assessor
+                          i.grey-text.fa.fa-graduation-cap
+                          a(href=membro.slug+".html",title="Membro do ITA")= membro.nome
+                        if membro.CRP
+                          li.grey-text.membro-crp
+                            i.grey-text.fa.fa-id-card-o
+                            span= "CRP: " + membro.CRP
+                  if modulo.convidados
+                    each convidado in modulo.convidados
+                      p.modulo-assesor
+                        i.grey-text.fa.fa-comment-o
+                        span(title="Convidado")= convidado
+          else
+            //- Caso o atividade não tenha módulos usar o assessor_slug do atividade
+            li.collection-item
+              //- p
+              //-  strong Módulo único
+
+              p.modulo-data
+                i.grey-text.fa.fa-calendar
+                if atividade.horario
+                  span= atividade.data + " ás " + atividade.horario
+                else
+                  span= atividade.data
+
+              if atividade.duracao
+                p.modulo-duracao
+                  i.grey-text.fa.fa-clock-o
+                  span= "Duração: " + atividade.duracao
+
+              each membro in membros
+                each assessor_slug in atividade.assessor_slugs
+                  if membro.slug == assessor_slug
+                    p.modulo-assessor
+                      i.grey-text.fa.fa-graduation-cap
+                      a(href=membro.slug+".html",title="Membro do ITA")= membro.nome
+                      if membro.CRP
+                        span.grey-text.membro-crp
+                          |  CRP: 
+                          = membro.CRP
+              if atividade.convidados
+                each convidado in atividade.convidados
+                  p.modulo-assesor
+                    i.grey-text.fa.fa-comment-o
+                    span(title="Convidado")= convidado
+

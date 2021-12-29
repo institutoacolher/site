@@ -1,0 +1,12 @@
+extends componentes/layout.pug
+block main
+  h1 Recordações de 2010
+  p 2010-01-15_ITA_em_C_do_Jordao_11.jpg
+  img.materialboxed(width=300,src='img/fotos/2010-01-15_ITA_em_C_do_Jordao_11.jpg') 
+  script.
+    document.addEventListener('DOMContentLoaded', function() {
+      var elems = document.querySelectorAll('.materialboxed');
+      var options = {
+      };
+      var instances = M.Materialbox.init(elems, options);
+    });

@@ -1,0 +1,34 @@
+extends componentes/layout.pug
+block main
+  h1 Recordações de 2017
+  p 2017-02-04_20170204_124650.jpg
+  img.materialboxed(width=300,src='img/fotos/2017-02-04_20170204_124650.jpg') 
+  p 2017-02-04_20170204_124657.jpg
+  img.materialboxed(width=300,src='img/fotos/2017-02-04_20170204_124657.jpg') 
+  p 2017-04-22_IMG-20161210-WA0040.jpg
+  img.materialboxed(width=300,src='img/fotos/2017-04-22_IMG-20161210-WA0040.jpg') 
+  p 2017-04-22_IMG-20161210-WA0044.jpg
+  img.materialboxed(width=300,src='img/fotos/2017-04-22_IMG-20161210-WA0044.jpg') 
+  p 2017-04-22_IMG-20170205-WA0030.jpg
+  img.materialboxed(width=300,src='img/fotos/2017-04-22_IMG-20170205-WA0030.jpg') 
+  p 2017-04-22_IMG-20170205-WA0038.jpg
+  img.materialboxed(width=300,src='img/fotos/2017-04-22_IMG-20170205-WA0038.jpg') 
+  p 2017-04-22_IMG-20170205-WA0040.jpg
+  img.materialboxed(width=300,src='img/fotos/2017-04-22_IMG-20170205-WA0040.jpg') 
+  p 2017-04-22_IMG-20170205-WA0041.jpg
+  img.materialboxed(width=300,src='img/fotos/2017-04-22_IMG-20170205-WA0041.jpg') 
+  p 2017-04-22_IMG-20170205-WA0042.jpg
+  img.materialboxed(width=300,src='img/fotos/2017-04-22_IMG-20170205-WA0042.jpg') 
+  p 2017-04-22_IMG-20170205-WA0045.jpg
+  img.materialboxed(width=300,src='img/fotos/2017-04-22_IMG-20170205-WA0045.jpg') 
+  p 2017-04-22_IMG-20170205-WA0046.jpg
+  img.materialboxed(width=300,src='img/fotos/2017-04-22_IMG-20170205-WA0046.jpg') 
+  p 2017-04-22_IMG-20170205-WA0047.jpg
+  img.materialboxed(width=300,src='img/fotos/2017-04-22_IMG-20170205-WA0047.jpg') 
+  script.
+    document.addEventListener('DOMContentLoaded', function() {
+      var elems = document.querySelectorAll('.materialboxed');
+      var options = {
+      };
+      var instances = M.Materialbox.init(elems, options);
+    });

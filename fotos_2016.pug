@@ -1,0 +1,14 @@
+extends componentes/layout.pug
+block main
+  h1 Recordações de 2016
+  p 2016-03-12_FOTO_DE_VIDEO_02.jpg
+  img.materialboxed(width=300,src='img/fotos/2016-03-12_FOTO_DE_VIDEO_02.jpg') 
+  p 2016-03-12_FOTO_DE_VIDEO.jpg
+  img.materialboxed(width=300,src='img/fotos/2016-03-12_FOTO_DE_VIDEO.jpg') 
+  script.
+    document.addEventListener('DOMContentLoaded', function() {
+      var elems = document.querySelectorAll('.materialboxed');
+      var options = {
+      };
+      var instances = M.Materialbox.init(elems, options);
+    });
