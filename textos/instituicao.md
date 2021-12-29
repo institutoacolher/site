@@ -1,6 +1,6 @@
 # Instituto Acolher - ITA
 
-O Instituto Acolher - ITA é a realização do sonho e do esforço de um grupo de
+O **Instituto Acolher - ITA** é a realização do sonho e do esforço de um grupo de
 psicólogos, psicanalistas e religiosos, que há 21 anos dedicam-se a assistência
 psicológica e espiritual a religiosos, sacerdotes e leigos engajados na Igreja.
 
