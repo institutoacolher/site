@@ -7,3 +7,4 @@ intersubjetividad dentro y fuera del espacio terapéutico. El objetivo es que la
 inversión en la comprensión de los aspectos internos, interpersonales
 y trans-subjetivos promueva la mejora de los vínculos comunitarios.
 
+FIXME: Incluir tradução

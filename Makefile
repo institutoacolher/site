@@ -26,6 +26,9 @@ watch_css:
 diff_es:
 	for i in *.pug; do diff $$i es/$$i || vi $$i es/$$i; done
 
+diff_es_md:
+	for i in textos/*.md; do diff $$i es/$$i || vi $$i es/$$i; done
+
 editar_servicos:
 	vim $(SERVICOS)
 

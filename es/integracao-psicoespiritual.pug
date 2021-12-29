@@ -1,0 +1,7 @@
+extends componentes/layout.pug
+
+block main
+  +bannerServico("integracao-psicoespiritual-01.jpg")
+  include:markdown-it(html) textos/integracao-psicoespiritual.md
+  +botaoVoltarServicos
+
