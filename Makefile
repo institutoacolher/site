@@ -14,7 +14,7 @@ psicoterapia-grupal.pug \
 psicoterapia-individual.pug \
 supervisao-e-grupos-de-estudo-para-psicologos.pug
 
-all: update deps css js html favicon
+all: update deps fixme css js html favicon
 
 watch_pug:
 	pug --watch *.pug --out docs/ --pretty
@@ -28,6 +28,13 @@ diff_es:
 
 diff_es_md:
 	for i in textos/*.md; do diff $$i es/$$i || vi $$i es/$$i; done
+
+fixme:
+	echo "extends componentes/layout.pug" > fixme.pug
+	echo "block main" >> fixme.pug
+	echo "  pre" >> fixme.pug
+	find . -type f -name "*.pug" -exec grep -HC 5 FIXME {} \; | sed "s/^/  |/" >> fixme.pug
+	find . -type f -name "*.md"  -exec grep -HC 5 FIXME {} \; | sed "s/^/  |/" >> fixme.pug
 
 editar_servicos:
 	vim $(SERVICOS)

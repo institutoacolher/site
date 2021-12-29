@@ -19,6 +19,8 @@ if slug
           .card
             .card-content
               span.orange-text.card-title.membro-titulo= membro.titulo
+              if membro.CRP
+                p.grey-text.membro-crp= "CRP: " + membro.CRP
               .text-flow.membro-descricao= membro.descricao
         .col.s12
           .card
