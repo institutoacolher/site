@@ -1,7 +1,9 @@
 include vars
 include membros
+
 ul.collection
-  each membro in membros
+  //- Em ordem alfabética
+  each membro in membros.sort(function(a, b){ return (a.slug > b.slug) ? 1 : -1; })
     if ! membro.ativo
       - var avatar = membro.avatar
       unless membro.avatar
