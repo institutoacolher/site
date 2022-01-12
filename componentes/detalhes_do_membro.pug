@@ -21,17 +21,26 @@ if slug
               span.orange-text.card-title.membro-titulo= membro.titulo
               if membro.CRP
                 p.grey-text.membro-crp= "CRP: " + membro.CRP
-              .text-flow.membro-descricao= membro.descricao
-        .col.s12
-          .card
-            .card-content
-              span.card-title.
-                Áreas de atuação
-              ul.membro-areas-de-atuacao
-                each area in membro.areas
-                  li
-                    i.fa.fa-check
-                    span= area
+              if membro.ativo
+                .text-flow.membro-descricao= membro.descricao
+              else
+                .text-flow.membro-descricao
+                  | Desempenhou atividades no 
+                  strong Intituto Acolher
+                  | como 
+                  strong= membro.descricao
+                  | .
+        if membro.ativo
+          .col.s12
+            .card
+              .card-content
+                span.card-title.
+                  Áreas de atuação
+                ul.membro-areas-de-atuacao
+                  each area in membro.areas
+                    li
+                      i.fa.fa-check
+                      span= area
       .divider
       br
       .center-align
