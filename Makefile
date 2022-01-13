@@ -33,7 +33,7 @@ fixme:
 	echo "extends componentes/layout.pug" > fixme.pug
 	echo "block main" >> fixme.pug
 	echo "  pre" >> fixme.pug
-	find . -type f -name "*.pug" -exec grep -HC 5 FIXME {} \; | sed "s/^/    |/" >> fixme.pug
+	find . -type f -name "*.pug" -exec grep -HC 5 FIXME {} \; | sed "s/^/    |/" | grep -v "fixme.pug" >> fixme.pug
 	find . -type f -name "*.md"  -exec grep -HC 5 FIXME {} \; | sed "s/^/    |/" >> fixme.pug
 
 editar_servicos:
