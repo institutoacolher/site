@@ -50,6 +50,7 @@ favicon:
 	convert 16.png 32.png 48.png docs/favicon.ico
 	inkscape -w 1080 -h 1080 -o img/ita-logo_1080x1080.png img/ita-logo-min_1024x1024.svg
 	convert img/ita-logo_1080x1080.png -background white -flatten -alpha off docs/img/ita-logo_1080x1080.png
+	optipng docs/img/ita-logo_1080x1080.png
 	cp docs/img/ita-logo_1080x1080.png img/
 
 deps:
