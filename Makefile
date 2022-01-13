@@ -47,8 +47,10 @@ favicon:
 	inkscape -w 16 -h 16 -o 16.png img/ita-logo-min_1024x1024.svg
 	inkscape -w 32 -h 32 -o 32.png img/ita-logo-min_1024x1024.svg
 	inkscape -w 48 -h 48 -o 48.png img/ita-logo-min_1024x1024.svg
-	inkscape -w 1080 -h 1080 -o img/ita-logo_1080x1080.png img/ita-logo-min_1024x1024.svg
 	convert 16.png 32.png 48.png docs/favicon.ico
+	inkscape -w 1080 -h 1080 -o img/ita-logo_1080x1080.png img/ita-logo-min_1024x1024.svg
+	convert img/ita-logo_1080x1080.png -background white -flatten -alpha off docs/img/ita-logo_1080x1080.png
+	cp docs/img/ita-logo_1080x1080.png img/
 
 deps:
 	npm install
