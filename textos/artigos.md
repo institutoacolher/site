@@ -2,8 +2,8 @@
 
 ## Estudos
 
-Definir
+FIXME Definir
 
-## Reflexoões
+## Reflexões
 
-Definir
+FIXME Definir

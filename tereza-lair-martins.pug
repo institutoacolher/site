@@ -3,3 +3,4 @@ extends componentes/layout.pug
 block main
   - var slug = "tereza-lair-martins"
   include componentes/detalhes_do_membro
+  include:markdown-it(html) textos/tereza-lair-martins.md
