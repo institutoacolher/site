@@ -73,7 +73,7 @@ fa5:
 	cp node_modules/@fortawesome/fontawesome-free/svgs/brands/instagram.svg  img/instagram.svg
 	cp node_modules/@fortawesome/fontawesome-free/svgs/brands/youtube.svg    img/youtube.svg
 
-check_membros:
+check_members:
 	grep slug componentes/membros.pug \
 		| sed "s/\",//" \
 		| sed "s/.*\"//" \
@@ -83,7 +83,14 @@ check_membros:
 		echo "block main" >> $$slug.pug; \
 		echo "  - var slug = \"$$slug\"" >> $$slug.pug; \
 		echo "  include componentes/detalhes_do_membro" >> $$slug.pug; \
+		echo "  include:markdown-it(html) textos/$$slug.md" >> $$slug.pug; \
 		fi; done
+
+copy_members_es:
+	grep slug componentes/membros.pug \
+		| sed "s/\",//" \
+		| sed "s/.*\"//" \
+		| while read -r slug; do cp $$slug.pug es/$$slug.pug; done
 
 js:
 	cp node_modules/wowjs/dist/wow.min.js       docs/js/

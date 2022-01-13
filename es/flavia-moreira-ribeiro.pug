@@ -1,6 +1,12 @@
 extends componentes/layout.pug
+block head
+  - var slug = "flavia-moreira-ribeiro"
+  - ogImage = "https://institutoacolher.github.io/site/img/" + slug + ".jpg"
+  - ogImageWidth = "600"
+  - ogImageHeight = "600"
+  - title = "Flávia Moreira Ribeiro"
 
 block main
-  - var slug = "flavia-moreira-ribeiro"
   include componentes/detalhes_do_membro
+  include:markdown-it(html) textos/flavia-moreira-ribeiro.md
 
