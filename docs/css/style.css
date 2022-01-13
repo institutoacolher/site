@@ -177,4 +177,18 @@ li.atividade {
   height: 12px;
 }
 
+blockquote {
+  position: relative;
+}
+
+blockquote:before {
+  position: absolute;
+  font-family: "FontAwesome";
+  top: -60px;
+  left: 12px;
+  content: "\f10d";
+  font-size: 150px;
+  color: rgba(0, 0, 0, 0.1);
+}
+
 /*# sourceMappingURL=style.css.map */

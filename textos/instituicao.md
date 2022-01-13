@@ -29,5 +29,5 @@ Instituto.
 
 O Instituto Acolher – ITA é autônomo, mas guarda relações com a Igreja Católica
 e seus organismos, (dentro do que estabelecem) obedecendo os códigos de ética
-que presidem as atividades do psicólogo e do religioso no seio da sociedade. 
+que presidem as atividades do psicólogo e do religioso no seio da sociedade.
 
