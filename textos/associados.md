@@ -1,4 +1,4 @@
-# Associados
+# Seja nosso Associado!
 
 ## Colaboradores do Instituto Acolher
 
@@ -17,8 +17,9 @@ Como recebemos muitos pedidos de ajuda de diferentes regiões do Brasil, a nossa
 base de dados dos Associados vai servir como referência para eventuais
 indicações de serviços profissionais.
 
-## Seja nosso Associado!!!
+<p class="center-align">
+<a class="btn btn-large waves-effect"  target="_blank" href="https://api.whatsapp.com/send?phone=5511945227267&text=Ol%C3%A1%2C%20quero%20me%20associar">
+Quero me associar!
+</a>
+</p>
 
-Para mais informações, entre em contato com Instituto Acolher pelos nossos canais de comunicação.
-
-[Conheça nossos serviços](servicos.html)

@@ -28,7 +28,7 @@ if slug
                   | Ex-membro do ITA que desempenhou atividades como 
                   strong= membro.descricao
                   | .
-        if membro.ativo
+        if membro.ativo && membro.areas.length > 0
           .col.s12
             .card
               .card-content

@@ -7,7 +7,7 @@ do
   {
     echo "extends componentes/layout.pug"
     echo "block main"
-    echo "  h1 Recordações de $ano"
+    echo "  h1 $ano"
     #echo "  .carousel"
   } > "$filename"
 
@@ -24,7 +24,7 @@ do
   #echo "    .row" >> "$filename"
   for jpg in *.jpg
   do
-    echo "  p $jpg" >> "$filename"
+    # echo "  p $jpg" >> "$filename"
     echo "  img.materialboxed(width=300,src='img/fotos/$jpg') " >> "$filename"
     # echo "    a.carousel-item(href='#$jpg!')" >> "$filename"
     # echo "      img(src='img/fotos/$jpg')" >> "$filename"
