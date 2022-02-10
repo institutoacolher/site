@@ -35,9 +35,12 @@ O Instituto Acolher – ITA é autônomo, mas guarda relações com a Igreja Cat
 e seus organismos, (dentro do que estabelecem) obedecendo os códigos de ética
 que presidem as atividades do psicólogo e do religioso no seio da sociedade.
 
-### Apresentação do Instituto Acolher ITA no seu 15. Aniversário
+### JUBILEU DE DIAMANTE (ITA)
+
+Memória do momento celebrativo do Pe. Edênio Valle, SVD, pelos seus 60 anos de
+vida sacerdotal. Esta celebração aconteceu no Instituto Acolher (ITA), fundado
+por ele mesmo. Participaram psicólogas/os e familiares.
 
 <div class="videoWrapper">
-<iframe width="100%" src="https://www.youtube.com/embed/HRFuiiE5Sgw" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="100%" src="https://www.youtube.com/embed/pZlWEg6Ccgg" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </div>
-
