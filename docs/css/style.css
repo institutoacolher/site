@@ -227,4 +227,10 @@ blockquote:before {
   height: 100%;
 }
 
+.fixed-action-btn-main {
+  margin-top: 6px;
+  width: 40px;
+  height: 40px;
+}
+
 /*# sourceMappingURL=style.css.map */

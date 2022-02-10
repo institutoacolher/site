@@ -124,14 +124,26 @@
       <div class="footer-copyright">
         <div class="container">© 2021 Instituto Acolher<a class="grey-text text-lighten-4 right" href="https://institutoacolher.org.br">Topo</a></div>
       </div>
+      <div class="fixed-action-btn"><a class="btn-floating btn-large white"><img class="fixed-action-btn-main" src="img/ita-logo-min_1024x1024.svg"></a>
+        <ul>
+          <li><a class="btn-floating teal" title="Instituição" href="index.html"><i class="fa-menu-icon fa fa-lg fa-university"></i></a></li>
+          <li><a class="btn-floating teal" title="Serviços" href="servicos.html"><i class="fa-menu-icon fa fa-lg fa-diamond"></i></a></li>
+          <li><a class="btn-floating teal" title="Membros" href="membros.html"><i class="fa-menu-icon fa fa-lg fa-users"></i></a></li>
+          <li><a class="btn-floating teal" target="_blank" href="https://api.whatsapp.com/send?phone=5511945227267&amp;text=Olá,+gostaria+de+saber+mais+informações+sobre+os+serviços+do+ITA"><i class="fa fa-menu-icon xfa-lg fa-whatsapp"></i></a></li>
+        </ul>
+      </div>
     </footer>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
     <script src="js/wow.min.js"></script>
     <script>
       document.addEventListener('DOMContentLoaded', function() {
       var options = {};
-      var elems = document.querySelectorAll('.sidenav');
-      var instances = M.Sidenav.init(elems, options);
+      var sideNavElems = document.querySelectorAll('.sidenav');
+      var sideNavInstances = M.Sidenav.init(sideNavElems, options);
+      
+      var fixedActionBtnElems = document.querySelectorAll('.fixed-action-btn');
+      var fixedActionBtnInstaces = M.FloatingActionButton.init(fixedActionBtnElems, options);
+      
       new WOW().init();
       });
     </script>

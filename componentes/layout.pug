@@ -49,8 +49,12 @@ html(lang=lang)
       script.
         document.addEventListener('DOMContentLoaded', function() {
         var options = {};
-        var elems = document.querySelectorAll('.sidenav');
-        var instances = M.Sidenav.init(elems, options);
+        var sideNavElems = document.querySelectorAll('.sidenav');
+        var sideNavInstances = M.Sidenav.init(sideNavElems, options);
+
+        var fixedActionBtnElems = document.querySelectorAll('.fixed-action-btn');
+        var fixedActionBtnInstaces = M.FloatingActionButton.init(fixedActionBtnElems, options);
+
         new WOW().init();
         });
 
