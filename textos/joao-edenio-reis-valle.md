@@ -14,12 +14,6 @@ Pe. Edênio dos Reis Valle – pós em Ciências da Religião e ex-vice-reitor C
 
 ## Vídeos
 
-#### TVPUC
-
-<div class="videoWrapper">
-<iframe width="100%" src="https://www.youtube.com/embed/jw3q5DVwGbA" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-</div>
-
 ####  PADRE EDÊNIO VALLE, SVD - JUBILEU DE DIAMANTE (ITA)
 
 Memória do momento celebrativo do Pe. Edênio Valle, SVD, pelos seus 60 anos de
@@ -29,3 +23,10 @@ por ele mesmo. Participaram psicólogas/os e familiares.
 <div class="videoWrapper">
 <iframe width="100%" src="https://www.youtube.com/embed/pZlWEg6Ccgg" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </div>
+
+#### TVPUC
+
+<div class="videoWrapper">
+<iframe width="100%" src="https://www.youtube.com/embed/jw3q5DVwGbA" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>
+

@@ -1,4 +1,25 @@
-# Fotos
+# Vídeos e fotos
+
+### II CONGRESSO DE PSICOLOGIA E ESPIRITUALIDADE
+
+Reportagem sobre o II Congresso de Psicologia e Espiritualidade realizado no
+mês de junho de 2019 no Centro Teresiano na cidade de São Roque, São Paulo.
+O verbita padre Edênio Valle apresenta uma breve síntese do que foi o encontro
+e o conteúdo das conferências.
+
+ <div class="videoWrapper">
+ <iframe width="100%" src="https://www.youtube.com/embed/m3saF8XkcHI" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+ </div>
+
+### ITA - 15 anos
+
+Hino do ITA e flashes da celebração de seus 15 anos.
+
+<div class="videoWrapper">
+<iframe width="100%" src="https://www.youtube.com/embed/m1L1gNeqgbs" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>
+
+## Fotos
 
 * [2021](fotos_2021.html)
 * [2020](fotos_2020.html)
