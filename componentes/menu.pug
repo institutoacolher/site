@@ -26,9 +26,8 @@ if lang == "es"
 
 nav.cyan.darken-3.grad-nav(role="navigation")
   .container.nav-wrapper
-    .brand-logo
-      a(href="#")
-        img.brand-logo(src=imgPath+"ita-logo-mono-2.svg",alt="Logo do ITA")
+    a.brand-logo(href="https://institutoacolher.github.io/site/")
+      img.responsive-img.img-brand-logo(src=imgPath+"ita-logo-mono-2.svg",alt="Logo do ITA")
 
     //- Menus para desktop
     ul.right.hide-on-med-and-down
@@ -47,7 +46,7 @@ nav.cyan.darken-3.grad-nav(role="navigation")
     //- Menus para celular e tablet
     ul#nav-mobile.sidenav
       li.mobile-profile
-        img.responsive-img(src=imgPath+"ita-logo_1024x1024.svg")
+        img.responsive-img(src=imgPath+"ita-logo_1024x1024.svg",alt="Logo do ITA")
       each menu in menus
         li
           a(href=menu.url)
