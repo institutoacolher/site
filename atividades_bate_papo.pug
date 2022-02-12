@@ -1,0 +1,73 @@
+extends componentes/layout.pug
+
+block main
+  -
+    var atividades = [
+      {
+        "mes": "Fevereiro",
+        "eventos": [
+          {
+            "dia": "25 – Sexta",
+            "online": false,
+            "convidados": [ "Pe. Luís Correa", "Wellington" ]
+          }
+        ]
+      },
+      {
+        "mes": "Março",
+        "eventos": [ { "dia": "25 – Sexta" } ]
+      },
+      {
+        "mes": "Abril",
+        "eventos": [ { "dia": "29 – Sexta" } ]
+      },
+      {
+        "mes": "Maio",
+        "eventos": [ { "dia": "27 – Sexta" } ]
+      },
+      {
+        "mes": "Junho",
+        "eventos": [ { "dia": "24 – Sexta" } ]
+      },
+      {
+        "mes": "Julho",
+        "eventos": [ { "dia": "29 – Sexta" } ]
+      },
+      {
+        "mes": "Agosto",
+        "eventos": [ { "dia": "26 – Sexta" } ]
+      },
+      {
+        "mes": "Setembro",
+        "eventos": [ { "dia": "30 – Sexta" } ]
+      },
+      {
+        "mes": "Outubro",
+        "eventos": [ { "dia": "28 – Sexta" } ]
+      },
+      {
+        "mes": "Novembro",
+        "eventos": [ { "dia": "25 – Sexta" } ]
+      }
+    ];
+
+
+  h1 Bate papo
+  for atividade in atividades
+    h2=atividade.mes
+    for evento in atividade.eventos
+      p
+        strong= evento.descricao || "Bate papo"
+        br
+        i.grey-text= evento.dia + " das " + (evento.horario || "20h00 as 21h30")
+        if evento.convidados
+          p
+            strong Convidados
+            ul
+              for convidado in evento.convidados
+                li= convidado
+        if evento.online
+          br
+          strong.red-text Evento Online
+
+

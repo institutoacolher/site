@@ -1,0 +1,81 @@
+extends componentes/layout.pug
+
+block main
+  -
+    var atividades = [
+      {
+        "mes": "Fevereiro",
+        "eventos": [
+          {
+            "dia": "04 – Sexta",
+            "online": true,
+            "descricao": "Avaliação/Planejamento"
+          },
+          {
+            "dia": "05 – Sábado",
+            "online": true,
+            "descricao": "Avaliação/Planejamento"
+          }
+        ]
+      },
+      {
+        "mes": "Março",
+        "eventos": [
+          {
+            "dia": "05 – Sábado",
+            "descricao": "Assembléia eletiva"
+          }
+        ]
+      },
+      {
+        "mes": "Abril",
+        "eventos": [ { "dia": "01 – Sexta", "horario": "13h30 – 15h" } ]
+      },
+      {
+        "mes": "Maio",
+        "eventos": [ { "dia": "06 – Sexta", "horario": "13h30 – 15h" } ]
+      },
+      {
+        "mes": "Junho",
+        "eventos": [ { "dia": "03 – Sexta", "horario": "13h30 – 15h" } ]
+      },
+      {
+        "mes": "Julho",
+        "eventos": [ { "dia": "01 – Sexta", "horario": "13h30 – 15h" } ]
+      },
+      {
+        "mes": "Agosto",
+        "eventos": [ { "dia": "05 – Sexta", "horario": "13h30 – 15h" } ]
+      },
+      {
+        "mes": "Setembro",
+        "eventos": [ { "dia": "02 – Sexta", "horario": "13h30 – 15h" } ]
+      },
+      {
+        "mes": "Outubro",
+        "eventos": [ { "dia": "07 – Sexta", "horario": "13h30 – 15h" } ]
+      },
+      {
+        "mes": "Novembro",
+        "eventos": [ { "dia": "04 – Sexta", "horario": "13h30 – 15h" } ]
+      },
+      {
+        "mes": "Dezembro",
+        "eventos": [ { "dia": "02 – Sexta", "horario": "13h30 – 15h" } ]
+      }
+    ];
+
+
+  h1 Reunião dos associados
+  for atividade in atividades
+    h2=atividade.mes
+    for evento in atividade.eventos
+      p
+        strong= evento.descricao || "Reunião dos associados"
+        br
+        i.grey-text= evento.dia + " das " + (evento.horario || "9h00 as 12h00")
+        if evento.online
+          br
+          strong.red-text Evento Online
+
+

@@ -1,0 +1,48 @@
+extends componentes/layout.pug
+
+block main
+  -
+    var atividades = [
+      {
+        "mes": "Abril",
+        "eventos": [{"dia": "03 – Sexta"},{"dia": "24 – Sexta"}]
+      },
+      {
+        "mes": "Maio",
+        "eventos": [{"dia": "09 – Sexta"},{"dia": "29 – Sexta"}]
+      },
+      {
+        "mes": "Junho",
+        "eventos": [{"dia": "12 – Sexta"},{"dia": "26 – Sexta"}]
+      },
+      {
+        "mes": "Julho",
+        "eventos": [{"dia": "07 – Sexta"},{"dia": "28 – Sexta"}]
+      },
+      {
+        "mes": "Setembro",
+        "eventos": [{"dia": "09 – Sexta"},{"dia": "23 – Sexta"}]
+      },
+      {
+        "mes": "Outubro",
+        "eventos": [{"dia": "13 – Sexta"},{"dia": "27 – Sexta"}]
+      },
+      {
+        "mes": "Novembro",
+        "eventos": [{"dia": "07 – Sexta"},{"dia": "28 – Sexta"}]
+      }
+    ];
+
+  h1 Estudo de caso
+  for atividade in atividades
+    h2=atividade.mes
+    for evento in atividade.eventos
+      p
+        strong= evento.descricao || "Estudo de caso"
+        br
+        i.grey-text= evento.dia + " das " + (evento.horario || "15h00 as 16h30")
+        if evento.online
+          br
+          strong.red-text Evento Online
+
+
