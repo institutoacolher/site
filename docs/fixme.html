@@ -73,6 +73,15 @@
 ./2022-09-09_grupo_de_estudo.pug-      "assessor_slugs": [],
 ./2022-09-09_grupo_de_estudo.pug-      "modulos": [
 ./2022-09-09_grupo_de_estudo.pug-      ]
+./atividades_grupo_de_estudos.pug-        i.grey-text= evento.dia + " (" + evento.sem + ") das " + (evento.horario || "14h00 as 16h00")
+./atividades_grupo_de_estudos.pug-        if evento.online
+./atividades_grupo_de_estudos.pug-          br
+./atividades_grupo_de_estudos.pug-          strong.red-text Evento Online
+./atividades_grupo_de_estudos.pug-      a.btn(target="_blank",href="https://www.google.com/calendar/render?action=TEMPLATE&text="+(evento.descricao || "Grupo de estudos")+"&details=Descri%C3%A7%C3%A3o&location=Sede+do+ITA&dates=2022"+atividade.mm+evento.dia+"T1400Z%2F2022"+atividade.mm+evento.dia+"T160000Z") Adicionar ao Google Agenda
+./atividades_grupo_de_estudos.pug:      p.red-text FIXME: O botão acima é um exemplo de uso para testarmos se faz sentido usar. Os dados são só para exemplo
+./atividades_grupo_de_estudos.pug-      //- https://decomaan.github.io/google-calendar-link-generator/
+./atividades_grupo_de_estudos.pug-
+./atividades_grupo_de_estudos.pug-
 ./2022-11-11_grupo_de_estudo.pug-    var atividade = {
 ./2022-11-11_grupo_de_estudo.pug-      "ano": "2022",
 ./2022-11-11_grupo_de_estudo.pug-      "tipo": "grupo-de-estudo",

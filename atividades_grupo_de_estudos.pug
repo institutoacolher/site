@@ -4,46 +4,57 @@ block main
   -
     var atividades = [
       {
+        "mm": "02",
         "mes": "Fevereiro",
-        "eventos": [ { "dia": "11 – Sexta" } ]
+        "eventos": [ { "dia": "11", "sem": "Sexta" } ]
       },
       {
+        "mm": "03",
         "mes": "Março",
-        "eventos": [ { "dia": "11 – Sexta" } ]
+        "eventos": [ { "dia": "11", "sem": "Sexta" } ]
       },
       {
+        "mm": "04",
         "mes": "Abril",
-        "eventos": [ { "dia": "08 – Sexta" } ]
+        "eventos": [ { "dia": "08", "sem": "Sexta" } ]
       },
       {
+        "mm": "05",
         "mes": "Maio",
-        "eventos": [ { "dia": "13 – Sexta" } ]
+        "eventos": [ { "dia": "13", "sem": "Sexta" } ]
       },
       {
+        "mm": "06",
         "mes": "Junho",
-        "eventos": [ { "dia": "10 – Sexta" } ]
+        "eventos": [ { "dia": "10", "sem": "Sexta" } ]
       },
       {
+        "mm": "08",
         "mes": "Agosto",
-        "eventos": [ { "dia": "12 – Sexta" } ]
+        "eventos": [ { "dia": "12", "sem": "Sexta" } ]
       },
       {
+        "mm": "09",
         "mes": "Setembro",
-        "eventos": [ { "dia": "09 – Sexta" } ]
+        "eventos": [ { "dia": "09", "sem": "Sexta" } ]
       },
       {
+        "mm": "10",
         "mes": "Outubro",
-        "eventos": [ { "dia": "14 – Sexta" } ]
+        "eventos": [ { "dia": "14", "sem": "Sexta" } ]
       },
       {
+        "mm": "11",
         "mes": "Novembro",
-        "eventos": [ { "dia": "11 – Sexta" } ]
+        "eventos": [ { "dia": "11", "sem": "Sexta" } ]
       },
       {
+        "mm": "12",
         "mes": "Dezembro",
-        "eventos": [ { "dia": "09 – Sexta" } ]
+        "eventos": [ { "dia": "09", "sem": "Sexta" } ]
       }
     ];
+
 
   h1 Grupo de Estudos
   for atividade in atividades
@@ -52,9 +63,12 @@ block main
       p
         strong= evento.descricao || "Grupo de estudos"
         br
-        i.grey-text= evento.dia + " das " + (evento.horario || "14h00 as 16h00")
+        i.grey-text= evento.dia + " (" + evento.sem + ") das " + (evento.horario || "14h00 as 16h00")
         if evento.online
           br
           strong.red-text Evento Online
+      a.btn(target="_blank",href="https://www.google.com/calendar/render?action=TEMPLATE&text="+(evento.descricao || "Grupo de estudos")+"&details=Descri%C3%A7%C3%A3o&location=Sede+do+ITA&dates=2022"+atividade.mm+evento.dia+"T1400Z%2F2022"+atividade.mm+evento.dia+"T160000Z") Adicionar ao Google Agenda
+      p.red-text FIXME: O botão acima é um exemplo de uso para testarmos se faz sentido usar. Os dados são só para exemplo
+      //- https://decomaan.github.io/google-calendar-link-generator/
 
 
