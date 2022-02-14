@@ -14,11 +14,11 @@ each ano in [ 2022, 2021, 2020, 2019 ]
               else
                 //- Imagens padrão
                 - var img = "xxx.jpg"
-                if atividade.tipo == "batepapo"
+                if atividade.tipo == "bate-papo"
                   if atividade.online
-                    - img = "batepapo-online.jpg"
+                    - img = "bate-papo-online.jpg"
                   else
-                    - img = "batepapo.jpg"
+                    - img = "bate-papo.jpg"
 
                 if atividade.tipo == "curso"
                   if atividade.online
@@ -43,11 +43,11 @@ each ano in [ 2022, 2021, 2020, 2019 ]
                   p.red.white-text.center-align= "Curso ONLINE através da plataforma " + atividade.plataforma
                 else
                   p.grey.lighten-2.grey-text.center-align Curso presencial
-              if atividade.tipo == "batepapo"
+              if atividade.tipo == "bate-papo"
                 if atividade.online
-                  p.red.white-text.center-align= "Batepapo ONLINE através da plataforma " + atividade.plataforma
+                  p.red.white-text.center-align= "Bate-papo ONLINE através da plataforma " + atividade.plataforma
                 else
-                  p.grey.lighten-2.grey-text.center-align Batepapo presencial
+                  p.grey.lighten-2.grey-text.center-align Bate-papo presencial
 
               p.grey-text.atividade-objetivo
                 b Objetivo: 
