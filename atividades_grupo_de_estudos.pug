@@ -2,7 +2,7 @@ extends componentes/layout.pug
 
 block main
   -
-    var diasDaSemana = [ "Segunda-feira", "Terça-feira", "Quarta-feira", "Quinta-feira", "Sexta-feira", "Sábado" ]
+    var diasDaSemana = [ "Domingo", "Segunda-feira", "Terça-feira", "Quarta-feira", "Quinta-feira", "Sexta-feira", "Sábado" ]
     var nomesMeses = [ "Janeiro", "Fevereiro", "Março", "Abril", "Maio", "Junho", "Julho", "Agosto", "Setembro", "Outubro", "Novembro", "Dezembro" ]
     var atividades = [
       { "dia": "2022-02-11" },
@@ -28,6 +28,7 @@ block main
 
     //- Separa por meses
     - var d = new Date(atividade.dia)
+    - d.setUTCHours(3) //- compensar fuso horário
     - var diaDaSemana = diasDaSemana[d.getDay()]
     - var hh1 = ("0" + (atividade.horaInicio || horaInicioPadrao)).slice(-2)
     - var mm1 = ("0" + (atividade.minInicio || minInicioPadrao)).slice(-2)

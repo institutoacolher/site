@@ -2,7 +2,7 @@ extends componentes/layout.pug
 block main
   include componentes/membros
   -
-    var diasDaSemana = [ "Segunda-feira", "Terça-feira", "Quarta-feira", "Quinta-feira", "Sexta-feira", "Sábado" ]
+    var diasDaSemana = [ "Domingo", "Segunda-feira", "Terça-feira", "Quarta-feira", "Quinta-feira", "Sexta-feira", "Sábado" ]
     var nomesMeses = [ "Janeiro", "Fevereiro", "Março", "Abril", "Maio", "Junho", "Julho", "Agosto", "Setembro", "Outubro", "Novembro", "Dezembro" ]
     var cursos = [
       {
@@ -46,9 +46,14 @@ block main
         "assessor_slugs": ["lourdes-degrandis"]
       },
       {
-        "dia": "2022-11-11",
+        "dia": "2022-11-19",
         "titulo": "Narcisismo",
         "assessor_slugs": ["wojciech-mittelstaedt-adalberto"]
+      },
+      {
+        "dia": "2022-11-26",
+        "titulo": "O despertar da meia-idade",
+        "assessor_slugs": ["flavia-moreira-ribeiro"]
       },
       {
         "dia": "2022-12-10",
@@ -68,6 +73,7 @@ block main
 
     //- Separa por meses
     - var d = new Date(curso.dia)
+    - d.setUTCHours(3) //- compensar fuso horário
     - var diaDaSemana = diasDaSemana[d.getDay()]
     - var hh1 = ("0" + (curso.horaInicio || horaInicioPadrao)).slice(-2)
     - var mm1 = ("0" + (curso.minInicio || minInicioPadrao)).slice(-2)
@@ -96,7 +102,8 @@ block main
               i.grey-text.fa.fa-graduation-cap
               a(href=membro.slug+".html",title="Membro do ITA")= membro.nome
               if membro.CRP
-                span.grey-text.membro-crp
+                br
+                small.grey-text.membro-crp
                   |  CRP: 
                   = membro.CRP
       if curso.online
