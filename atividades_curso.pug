@@ -1,6 +1,117 @@
 extends componentes/layout.pug
-
 block main
-  h1 Cursos
+  include componentes/membros
+  -
+    var diasDaSemana = [ "Segunda-feira", "Terça-feira", "Quarta-feira", "Quinta-feira", "Sexta-feira", "Sábado" ]
+    var nomesMeses = [ "Janeiro", "Fevereiro", "Março", "Abril", "Maio", "Junho", "Julho", "Agosto", "Setembro", "Outubro", "Novembro", "Dezembro" ]
+    var cursos = [
+      {
+        "dia": "2022-03-19",
+        "titulo": "Relacionamentos",
+        "assessor_slugs": ["wojciech-mittelstaedt-adalberto"]
+      },
+      {
+        "dia": "2022-04-16",
+        "titulo": "Suicídio",
+        "assessor_slugs": ["eduardo-augusto-galindo-de-lima"]
+      },
+      {
+        "dia": "2022-05-14",
+        "titulo": "Ansiedade",
+        "assessor_slugs": ["enio-brito-pinto"]
+      },
+      {
+        "dia": "2022-06-10",
+        "titulo": "Afetividade/sexualidade",
+        "assessor_slugs": ["wellington-heleno-da-silva"]
+      },
+      {
+        "dia": "2022-07-16",
+        "titulo": "Tipos Psicológicos",
+        "assessor_slugs": ["flavia-moreira-ribeiro"]
+      },
+      {
+        "dia": "2022-08-20",
+        "titulo": "Sentido da Vida",
+        "assessor_slugs": ["maria-de-fatima-rolim-rosa"]
+      },
+      {
+        "dia": "2022-09-17",
+        "titulo": "VR e Feminino",
+        "assessor_slugs": ["maria-silva-mourao"]
+      },
+      {
+        "dia": "2022-10-15",
+        "titulo": "O corpo em que habito",
+        "assessor_slugs": ["lourdes-degrandis"]
+      },
+      {
+        "dia": "2022-11-11",
+        "titulo": "Narcisismo",
+        "assessor_slugs": ["wojciech-mittelstaedt-adalberto"]
+      },
+      {
+        "dia": "2022-12-10",
+        "titulo": "Burnout",
+        "assessor_slugs": ["wellington-heleno-da-silva"]
+      }
+    ];
+    var nomeDoMes = ""
+    var horaInicioPadrao = "09"
+    var minInicioPadrao = "00"
+    var horaFimPadrao = "12"
+    var minFimPadrao = "00"
+    var descricaoPadrao = "Insira a descrição do curso aqui"
 
-  p FIXME adaptar cursos-e-assessorias.html
+  h1 Cursos
+  for curso in cursos
+
+    //- Separa por meses
+    - var d = new Date(curso.dia)
+    - var diaDaSemana = diasDaSemana[d.getDay()]
+    - var hh1 = ("0" + (curso.horaInicio || horaInicioPadrao)).slice(-2)
+    - var mm1 = ("0" + (curso.minInicio || minInicioPadrao)).slice(-2)
+    - var hh2 = ("0" + (curso.horaFim || horaFimPadrao)).slice(-2)
+    - var mm2 = ("0" + (curso.minFim || minFimPadrao)).slice(-2)
+    - var YYYYMMDD = d.getUTCFullYear() + ("0" + (d.getMonth()+1)).slice(-2) + ("0" + d.getDate()).slice(-2)
+    - var o = "https://www.google.com/calendar/render?action=TEMPLATE"
+    - o = o + "&text=" + curso.titulo
+    - o = o + "&details=" + ( curso.descricao || descricaoPadrao )
+    - o = o + "&location=Sede do ITA"
+    - o = o + "&dates=" + YYYYMMDD + "T" + hh1 + mm1 + "00/" + YYYYMMDD + "T" + hh2 + mm2 + "00"
+    - var googleUrl = o
+
+    if nomesMeses[d.getMonth()] != nomeDoMes
+      - nomeDoMes = nomesMeses[d.getMonth()]
+      h2= nomeDoMes
+
+    p
+      strong= curso.titulo
+    p= curso.descricao || descricaoPadrao
+      br
+      i.grey-text= d.toLocaleString("pt-BR").substring(0,5)  + " (" + diaDaSemana + ") das " + hh1 + "h" + mm1 + " às " + hh2 + "h" + mm2
+      each membro in membros
+        each assessor_slug in curso.assessor_slugs
+          if membro.slug == assessor_slug
+            p.modulo-assessor
+              i.grey-text.fa.fa-graduation-cap
+              a(href=membro.slug+".html",title="Membro do ITA")= membro.nome
+              if membro.CRP
+                span.grey-text.membro-crp
+                  |  CRP: 
+                  = membro.CRP
+      if curso.online
+        br
+        strong.red-text curso Online
+    a.dropdown-trigger.btn(href="#",data-target="dropdown"+curso.dia) Incluir na minha agenda
+    ul.dropdown-content(id="dropdown"+curso.dia)
+      li
+        a(href=googleUrl,target="_blank") Google
+      //- li
+      //-   a(href=outlookUrl,target="_blank") Outlook
+  script.
+    document.addEventListener('DOMContentLoaded', function() {
+    var options = {};
+    var elems = document.querySelectorAll('.dropdown-trigger');
+    var instances = M.Dropdown.init(elems, options);
+    });
