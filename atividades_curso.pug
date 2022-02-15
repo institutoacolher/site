@@ -85,8 +85,7 @@ block main
       - nomeDoMes = nomesMeses[d.getMonth()]
       h2= nomeDoMes
 
-    p
-      strong= curso.titulo
+    h3= curso.titulo
     p= curso.descricao || descricaoPadrao
       br
       i.grey-text= d.toLocaleString("pt-BR").substring(0,5)  + " (" + diaDaSemana + ") das " + hh1 + "h" + mm1 + " às " + hh2 + "h" + mm2
