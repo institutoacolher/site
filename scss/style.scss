@@ -33,6 +33,10 @@ $logo-color: #006064;
   .container { width: 98% }
 }
 
+@media (max-width: 1280px) {
+  .container { width: 95% }
+}
+
 // Deixar o rodapé mais distante caso a página tenha pouco conteúdo
 main {
   min-height: 70vh;
