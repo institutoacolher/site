@@ -109,7 +109,7 @@ preview:
 	git gui &
 
 update:
-	rm -rf     docs/
+	echo rm -rf     docs/
 	mkdir -p   js css img
 	mkdir -p   docs/
 	cp -r js   docs/
