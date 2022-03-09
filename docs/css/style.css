@@ -1,3 +1,4 @@
+@charset "UTF-8";
 :root {
   --cor-do-texto: #323232;
   --cor-do-logo: $logo-color;
@@ -207,7 +208,7 @@ blockquote:before {
   font-family: "FontAwesome";
   top: -60px;
   left: 12px;
-  content: "\f10d";
+  content: "";
   font-size: 150px;
   color: rgba(0, 0, 0, 0.1);
 }

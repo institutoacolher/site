@@ -44,6 +44,9 @@ html:
 	pug es/*.pug --out docs/es --pretty
 
 favicon:
+	cp favicon.ico docs/
+
+favicon.real:
 	inkscape -w 16 -h 16 -o 16.png img/ita-logo-min_1024x1024.svg
 	inkscape -w 32 -h 32 -o 32.png img/ita-logo-min_1024x1024.svg
 	inkscape -w 48 -h 48 -o 48.png img/ita-logo-min_1024x1024.svg
