@@ -57,7 +57,8 @@ favicon.real:
 	cp docs/img/ita-logo_1080x1080.png img/
 
 publish:
-	git add docs
+	cp CNAME docs/
+	git add docs/
 	git commit -m "Atualização automática" && git push || echo "Sem atualização"
 
 deps:
