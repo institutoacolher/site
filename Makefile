@@ -14,7 +14,7 @@ psicoterapia-grupal.pug \
 psicoterapia-individual.pug \
 supervisao-e-grupos-de-estudo-para-psicologos.pug
 
-all: update deps fixme css js html favicon
+all: update deps fixme css js html favicon publish
 
 watch_pug:
 	pug --watch *.pug --out docs/ --pretty
@@ -55,6 +55,10 @@ favicon.real:
 	convert img/ita-logo_1080x1080.png -background white -flatten -alpha off docs/img/ita-logo_1080x1080.png
 	optipng docs/img/ita-logo_1080x1080.png
 	cp docs/img/ita-logo_1080x1080.png img/
+
+publish:
+	git add docs
+	git commit -m "Atualização automática" && git push || echo "Sem atualização"
 
 deps:
 	npm install
