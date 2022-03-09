@@ -31,14 +31,14 @@ de sua atuação, almejando criar no Brasil um espaço qualificado para
 o aprofundamento das questões psicológicas pertinentes ao público-alvo do
 Instituto.
 
-O Instituto Acolher – ITA é autônomo, mas guarda relações com a Igreja Católica
+O **Instituto Acolher – ITA** é autônomo, mas guarda relações com a Igreja Católica
 e seus organismos, (dentro do que estabelecem) obedecendo os códigos de ética
 que presidem as atividades do psicólogo e do religioso no seio da sociedade.
 
 ### JUBILEU DE DIAMANTE (ITA)
 
 Memória do momento celebrativo do Pe. Edênio Valle, SVD, pelos seus 60 anos de
-vida sacerdotal. Esta celebração aconteceu no Instituto Acolher (ITA), fundado
+vida sacerdotal. Esta celebração aconteceu no **Instituto Acolher – ITA**, fundado
 por ele mesmo. Participaram psicólogas/os e familiares.
 
 <div class="videoWrapper">
