@@ -49,6 +49,11 @@
     width: 98%;
   }
 }
+@media (max-width: 1280px) {
+  .container {
+    width: 95%;
+  }
+}
 main {
   min-height: 70vh;
   padding-bottom: 32px;
