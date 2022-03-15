@@ -8,7 +8,9 @@ block main
       {
         "dia": "2022-03-19",
         "titulo": "Relacionamentos",
-        "assessor_slugs": ["wojciech-mittelstaedt-adalberto"]
+        "assessor_slugs": ["wojciech-mittelstaedt-adalberto"],
+        "descricao": "bla bla bla",
+        "cartaz": "img/curso-2022-03-19.jpg"
       },
       {
         "dia": "2022-04-16",
@@ -97,6 +99,7 @@ block main
       h2= nomeDoMes
 
     h3= curso.titulo
+    img(src=curso.cartaz)
     p= curso.descricao || descricaoPadrao
       br
       i.grey-text= d.toLocaleString("pt-BR").substring(0,5)  + " (" + diaDaSemana + ") das " + hh1 + "h" + mm1 + " às " + hh2 + "h" + mm2
