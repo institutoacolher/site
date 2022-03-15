@@ -1,6 +1,6 @@
 # Artigos
 
-## Estudos
+Os membros do Instituto publicam regularmente artigos científicoss.....
 
 FIXME Definir
 
