@@ -1,5 +1,11 @@
 # Vídeos e fotos
 
+### Pe. EDÊNIO VALLE COMEMORA 60 ANOS DE SACERDÓCIO
+
+<div class="videoWrapper">
+ <iframe width="100%" src="https://www.youtube.com/embed/QG-oEmVYmiM" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+ </div>
+
 ### II CONGRESSO DE PSICOLOGIA E ESPIRITUALIDADE
 
 Reportagem sobre o II Congresso de Psicologia e Espiritualidade realizado no
@@ -8,26 +14,21 @@ O verbita padre Edênio Valle apresenta uma breve síntese do que foi o encontro
 e o conteúdo das conferências.
 
  <div class="videoWrapper">
- <iframe width="100%" src="https://www.youtube.com/embed/m3saF8XkcHI" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+ <iframe width="100%" src="https://www.youtube.com/embed/pASdz1_VVqk" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
  </div>
-
-<div class="videoWrapper">
- <iframe width="100%" src="https://www.youtube.com/embed/pZlWEg6Ccgg" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
- </div>
- 
 
 ### Apresentação do Instituto Acolher ITA no seu 15° Aniversário
 
 <div class="videoWrapper">
-<iframe width="100%" src="https://www.youtube.com/embed/HRFuiiE5Sgw" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="100%" src="https://www.youtube.com/embed/QQNGf3zgvrw" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </div>
 
-Hino do ITA e flashes da celebração de seus 15 anos.
+
+### Hino do ITA e flashes da celebração de seus 15 anos.
 
 <div class="videoWrapper">
-<iframe width="100%" src="https://www.youtube.com/embed/m1L1gNeqgbs" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="100%" src="https://www.youtube.com/embed/GqflD5HZ7U4" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </div>
-
 
 
 ## Fotos
