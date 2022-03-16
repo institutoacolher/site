@@ -1,4 +1,3 @@
-@charset "UTF-8";
 :root {
   --cor-do-texto: #323232;
   --cor-do-logo: $logo-color;
@@ -47,6 +46,11 @@
 @media (max-width: 500px) {
   .container {
     width: 98%;
+  }
+}
+@media (max-width: 1280px) {
+  .container {
+    width: 95%;
   }
 }
 main {
@@ -208,7 +212,7 @@ blockquote:before {
   font-family: "FontAwesome";
   top: -60px;
   left: 12px;
-  content: "";
+  content: "\f10d";
   font-size: 150px;
   color: rgba(0, 0, 0, 0.1);
 }
