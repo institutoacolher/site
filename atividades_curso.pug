@@ -12,7 +12,8 @@ block main
         "assessor_slugs": ["eduardo-augusto-galindo-de-lima"],
         "descricao": "Suicídio no Sacerdócio: Um olhar de Esperança. Assessor: Eduardo Augusto Galindo de Lima (psicólogo clínico) Nesse curso iremos trabalhar o fenômeno do suicídio que no Brasil que a cada 45 minutos ceifou a vida de uma pessoa no ano passado. E a cada morte ocorreram outras 20 tentativas. O suicídio não é um ato voluntário e livre. É uma consequência do desamparo, do isolamento e dos transtornos mentais. O sofrimento existencial é uma realidade não partilhada de sacerdotes e consagrados que sentem o esgotamento mental no seu ministério. Diante dessa situação dolorosa devemos auxiliar na promoção das ações para valorização da vida e do bem estar na área humano-afetiva.",
         "cartaz": "img/curso-2022-04-23.png",
-        "Para se inscrever" [clique aqui] (https://forms.gle/sDkib3KSRq7NiFLk6)
+        "link_inscricao": "https://forms.gle/sDkib3KSRq7NiFLk6",
+        "online": false
       },
     {
         "dia": "2022-03-19",
@@ -24,7 +25,8 @@ block main
       {
         "dia": "2022-05-14",
         "titulo": "Ansiedade",
-        "assessor_slugs": ["enio-brito-pinto"]
+        "assessor_slugs": ["enio-brito-pinto"],
+        "online": true
       },
       {
         "dia": "2022-06-10",
@@ -78,6 +80,7 @@ block main
     var horaFimPadrao = "12"
     var minFimPadrao = "00"
     var descricaoPadrao = "Insira a descrição do curso aqui"
+    var localPadrao = "Sede do Instituto Acolher - ITA"
 
   h1 Cursos
   for curso in cursos
@@ -100,33 +103,53 @@ block main
 
     if nomesMeses[d.getMonth()] != nomeDoMes
       - nomeDoMes = nomesMeses[d.getMonth()]
-      h2= nomeDoMes
+      h2.mt6= nomeDoMes
 
-    h3= curso.titulo
-    img(src=curso.cartaz)
-    p= curso.descricao || descricaoPadrao
-      br
+    p.tc
+      img(src=curso.cartaz)
+    h3.mt4= curso.titulo
+
+    //- p.fw3.teal-text Acessor
+    each membro in membros
+      each assessor_slug in curso.assessor_slugs
+        if membro.slug == assessor_slug
+          p.modulo-assessor
+            i.grey-text.fa.fa-graduation-cap
+            a(href=membro.slug+".html",title="Membro do ITA")= membro.nome
+            if membro.CRP
+              br
+              small.grey-text.membro-crp
+                |  CRP: 
+                = membro.CRP
+
+    p.fw3.teal-text Descrição do curso
+    p.flow-text!= curso.descricao || descricaoPadrao
+
+    p.fw3.teal-text Data e horário
+    p
       i.grey-text= d.toLocaleString("pt-BR").substring(0,5)  + " (" + diaDaSemana + ") das " + hh1 + "h" + mm1 + " às " + hh2 + "h" + mm2
-      each membro in membros
-        each assessor_slug in curso.assessor_slugs
-          if membro.slug == assessor_slug
-            p.modulo-assessor
-              i.grey-text.fa.fa-graduation-cap
-              a(href=membro.slug+".html",title="Membro do ITA")= membro.nome
-              if membro.CRP
-                br
-                small.grey-text.membro-crp
-                  |  CRP: 
-                  = membro.CRP
-      if curso.online
-        br
-        strong.red-text curso Online
-    a.dropdown-trigger.btn(href="#",data-target="dropdown"+curso.dia) Incluir na minha agenda
-    ul.dropdown-content(id="dropdown"+curso.dia)
-      li
-        a(href=googleUrl,target="_blank") Google
-      //- li
-      //-   a(href=outlookUrl,target="_blank") Outlook
+
+    p.fw3.teal-text Local
+    if curso.online
+      p
+        strong.red-text Curso Online
+    else
+      p
+        strong= curso.local || localPadrao
+
+    p.fw3.teal-text Inscrição
+    .row
+      if curso.link_inscricao
+        .col.s12.m6
+          a.btn.teal.darken-2.w100(href=curso.link_inscricao,target="_blank") Realizar inscrição
+
+      .col.s12.m6
+        a.dropdown-trigger.btn.w100(href="#",data-target="dropdown"+curso.dia) Incluir na minha agenda
+        ul.dropdown-content(id="dropdown"+curso.dia)
+          li
+            a(href=googleUrl,target="_blank") Google
+          //- li
+          //-   a(href=outlookUrl,target="_blank") Outlook
   script.
     document.addEventListener('DOMContentLoaded', function() {
     var options = {};
