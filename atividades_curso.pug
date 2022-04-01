@@ -141,10 +141,10 @@ block main
     .row
       if curso.link_inscricao
         .col.s12.m6
-          a.btn.teal.darken-2.w100(href=curso.link_inscricao,target="_blank") Realizar inscrição
+          a.btn.teal.darken-2.w-100(href=curso.link_inscricao,target="_blank") Realizar inscrição
 
       .col.s12.m6
-        a.dropdown-trigger.btn.w100(href="#",data-target="dropdown"+curso.dia) Incluir na minha agenda
+        a.dropdown-trigger.btn.w-100(href="#",data-target="dropdown"+curso.dia) Incluir na minha agenda
         ul.dropdown-content(id="dropdown"+curso.dia)
           li
             a(href=googleUrl,target="_blank") Google
