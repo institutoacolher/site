@@ -1,78 +1,128 @@
 extends componentes/layout.pug
-
 block main
+  include componentes/membros
   -
-    var atividades = [
+    var eventos = [
       {
+        "dia": "2022-02-25",
         "mes": "Fevereiro",
-        "eventos": [
-          {
-           "titulo": "Teologia e os LGBT+",
-           "convidados": [ "Pe. Luís Correa", "Wellington" ],
-           "assessor_slugs": ["wellington-heleno-da-silva"],
-           "cartaz": "img/bp-2022-02-25.png",
-           "descricao": "Longe de ser uma questão meramente abstrata, o tema da teologia e os LGBT+ se lança a uma realidade que diz respeito à vida concreta de muitas pessoas que nem sempre são acolhidas pela comunidade cristã. ",
-           "dia": "25 – Sexta",
-           "online": true,
-           
-          }
-        ]
+        "titulo": "Teologia e os LGBT+",
+        "convidados": [
+          { "nome": "Pe. Luís Correa", "CRP": "12345-67" },
+          { "nome": "Wellington" }
+        ],
+        "assessor_slugs": ["wellington-heleno-da-silva"],
+        "cartaz": "img/bp-2022-02-25.png",
+        "descricao": "Longe de ser uma questão meramente abstrata, o tema da teologia e os LGBT+ se lança a uma realidade que diz respeito à vida concreta de muitas pessoas que nem sempre são acolhidas pela comunidade cristã. ",
+        "online": true,
       },
       {
-        "mes": "Março",
-        "eventos": [ { "dia": "25 – Sexta" } ]
+        "dia": "2022-03-25",
       },
       {
-        "mes": "Abril",
-        "eventos": [ { "dia": "29 – Sexta" } ]
+        "dia": "2022-04-29",
       },
       {
-        "mes": "Maio",
-        "eventos": [ { "dia": "27 – Sexta" } ]
+        "dia": "2022-05-27",
       },
       {
-        "mes": "Junho",
-        "eventos": [ { "dia": "24 – Sexta" } ]
+        "dia": "2022-06-24",
       },
       {
-        "mes": "Julho",
-        "eventos": [ { "dia": "29 – Sexta" } ]
+        "dia": "2022-07-29",
       },
       {
-        "mes": "Agosto",
-        "eventos": [ { "dia": "26 – Sexta" } ]
+        "dia": "2022-08-26",
       },
       {
-        "mes": "Setembro",
-        "eventos": [ { "dia": "30 – Sexta" } ]
+        "dia": "2022-09-30",
       },
       {
-        "mes": "Outubro",
-        "eventos": [ { "dia": "28 – Sexta" } ]
+        "dia": "2022-10-28",
       },
       {
-        "mes": "Novembro",
-        "eventos": [ { "dia": "25 – Sexta" } ]
+        "dia": "2022-11-25",
       }
     ];
-
+    var descricaoPadrao = "Insira a descrição do evento aqui"
+    var diasDaSemana = [ "Domingo", "Segunda-feira", "Terça-feira", "Quarta-feira", "Quinta-feira", "Sexta-feira", "Sábado" ]
+    var nomesMeses = [ "Janeiro", "Fevereiro", "Março", "Abril", "Maio", "Junho", "Julho", "Agosto", "Setembro", "Outubro", "Novembro", "Dezembro" ]
+    var nomeDoMes = ""
+    var horaInicioPadrao = "09"
+    var minInicioPadrao = "00"
+    var horaFimPadrao = "12"
+    var minFimPadrao = "00"
+    var descricaoPadrao = "Insira a descrição do curso aqui"
+    var localPadrao = "Sede do Instituto Acolher - ITA"
 
   h1 Bate papo
-  for atividade in atividades
-    h2=atividade.mes
-    for evento in atividade.eventos
-      p
-        strong= evento.descricao || "Bate papo"
-        br
-        i.grey-text= evento.dia + " das " + (evento.horario || "20h00 as 21h30")
-        if evento.convidados
-          p
-            strong Convidados
-            ul
-              for convidado in evento.convidados
-                li= convidado
-        if evento.online
-          br
-          strong.red-text Evento Online
+  for evento in eventos
+    //- Separa por meses
+    - var d = new Date(evento.dia)
+    - d.setUTCHours(3) //- compensar fuso horário
+    - var diaDaSemana = diasDaSemana[d.getDay()]
+    - var hh1 = ("0" + (evento.horaInicio || horaInicioPadrao)).slice(-2)
+    - var mm1 = ("0" + (evento.minInicio || minInicioPadrao)).slice(-2)
+    - var hh2 = ("0" + (evento.horaFim || horaFimPadrao)).slice(-2)
+    - var mm2 = ("0" + (evento.minFim || minFimPadrao)).slice(-2)
+    - var YYYYMMDD = d.getUTCFullYear() + ("0" + (d.getMonth()+1)).slice(-2) + ("0" + d.getDate()).slice(-2)
+    - var o = "https://www.google.com/calendar/render?action=TEMPLATE"
+    - o = o + "&text=" + evento.titulo
+    - o = o + "&details=" + ( evento.descricao || descricaoPadrao )
+    - o = o + "&location=Sede do ITA"
+    - o = o + "&dates=" + YYYYMMDD + "T" + hh1 + mm1 + "00/" + YYYYMMDD + "T" + hh2 + mm2 + "00"
+    - var googleUrl = o
+
+    if nomesMeses[d.getMonth()] != nomeDoMes
+      - nomeDoMes = nomesMeses[d.getMonth()]
+      h2.mt6= nomeDoMes
+    
+    p.tc
+      img(src=evento.cartaz || "https://via.placeholder.com/1200")
+    h3.mt4= evento.titulo
+
+    p.mb0.fw3.teal-text Descrição do evento
+    p.mt0.flow-text!= evento.descricao || descricaoPadrao
+
+    p.mb0.fw3.teal-text Data e horário
+    p.mt0
+      strong= d.toLocaleString("pt-BR").substring(0,5)  + " (" + diaDaSemana + ") das " + hh1 + "h" + mm1 + " às " + hh2 + "h" + mm2
+
+    if evento.convidados
+      if evento.convidados.length == 1
+        p.mb0.fw3.teal-text Convidado
+      else
+        p.mb0.fw3.teal-text Convidados
+      p.mt0
+      each convidado in evento.convidados
+        p.modulo-assessor
+          i.grey-text.fa.fa-user-circle-o
+          strong= convidado.nome
+          if convidado.CRP
+            br
+            small.grey-text.membro-crp
+              |  CRP: 
+              = convidado.CRP
+
+    if evento.assessor_slugs
+      if evento.assessor_slugs.length == 1
+        p.mb0.fw3.teal-text Assessor
+      else
+        p.mb0.fw3.teal-text Assessores
+      p.mt0
+      each membro in membros
+        each assessor_slug in evento.assessor_slugs
+          if membro.slug == assessor_slug
+            p.modulo-assessor
+              i.grey-text.fa.fa-graduation-cap
+              a(href=membro.slug+".html",title="Membro do ITA")= membro.nome
+              if membro.CRP
+                br
+                small.grey-text.membro-crp
+                  |  CRP: 
+                  = membro.CRP
+    if evento.online
+      br
+      strong.red-text Evento Online
 
 
