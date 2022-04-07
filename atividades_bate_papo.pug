@@ -73,9 +73,10 @@ block main
     var localPadrao = "Sede do Instituto Acolher - ITA"
 
   h1 Bate papo
-  for evento in eventos
+  for evento in eventos.sort(function(a, b){ return (a.dia > b.dia) ? 1 : -1; })
     //- Separa por meses
     - var d = new Date(evento.dia)
+    - var hoje = new Date()
     - d.setUTCHours(3) //- compensar fuso horário
     - var diaDaSemana = diasDaSemana[d.getDay()]
     - var hh1 = ("0" + (evento.horaInicio || horaInicioPadrao)).slice(-2)
@@ -89,6 +90,9 @@ block main
     - o = o + "&location=Sede do ITA"
     - o = o + "&dates=" + YYYYMMDD + "T" + hh1 + mm1 + "00/" + YYYYMMDD + "T" + hh2 + mm2 + "00"
     - var googleUrl = o
+
+    if d < hoje
+      - continue
 
     if nomesMeses[d.getMonth()] != nomeDoMes
       - nomeDoMes = nomesMeses[d.getMonth()]
@@ -145,4 +149,35 @@ block main
           br
           strong.red-text Evento Online
 
+  h1 Histórico
+  for evento in eventos.sort(function(a, b){ return (a.dia < b.dia) ? 1 : -1; })
+    - var d = new Date(evento.dia)
+    - var hoje = new Date()
+    - d.setUTCHours(3) //- compensar fuso horário
+    - var diaDaSemana = diasDaSemana[d.getDay()]
+    - var hh1 = ("0" + (evento.horaInicio || horaInicioPadrao)).slice(-2)
+    - var mm1 = ("0" + (evento.minInicio || minInicioPadrao)).slice(-2)
+    - var hh2 = ("0" + (evento.horaFim || horaFimPadrao)).slice(-2)
+    - var mm2 = ("0" + (evento.minFim || minFimPadrao)).slice(-2)
+    - var YYYYMMDD = d.getUTCFullYear() + ("0" + (d.getMonth()+1)).slice(-2) + ("0" + d.getDate()).slice(-2)
 
+    if d > hoje
+      - continue
+
+    if nomesMeses[d.getMonth()] != nomeDoMes
+      - nomeDoMes = nomesMeses[d.getMonth()]
+      h2.mt6= nomeDoMes + " de " + d.getUTCFullYear()
+
+    .row
+      .col.s12.l4
+        p.tc
+          img(src=evento.cartaz || "https://via.placeholder.com/1200")
+      .col.s12.l8
+        h3.mt4= evento.titulo
+
+        p.mb0.fw3.teal-text Descrição do evento
+        p.mt0.flow-text!= evento.descricao || descricaoPadrao
+
+        p.mb0.fw3.teal-text Data
+        p.mt0
+          strong= d.toLocaleString("pt-BR").substring(0,5)  + " (" + diaDaSemana + ")"
