@@ -209,3 +209,40 @@ block main
         p.mb0.fw3.teal-text Data
         p.mt0
           strong= d.toLocaleString("pt-BR").substring(0,5)  + " (" + diaDaSemana + ")"
+
+        if evento.convidados
+          if evento.convidados.length == 1
+            p.mb0.fw3.teal-text Convidado
+          else
+            p.mb0.fw3.teal-text Convidados
+          p.mt0
+          each convidado in evento.convidados
+            p.modulo-assessor
+              i.grey-text.fa.fa-user-circle-o
+              strong= convidado.nome
+              if convidado.CRP
+                br
+                small.grey-text.membro-crp
+                  |  CRP: 
+                  = convidado.CRP
+
+        if evento.assessor_slugs
+          if evento.assessor_slugs.length == 1
+            p.mb0.fw3.teal-text Assessor
+          else
+            p.mb0.fw3.teal-text Assessores
+          p.mt0
+          each membro in membros
+            each assessor_slug in evento.assessor_slugs
+              if membro.slug == assessor_slug
+                p.modulo-assessor
+                  i.grey-text.fa.fa-graduation-cap
+                  a(href=membro.slug+".html",title="Membro do ITA")= membro.nome
+                  if membro.CRP
+                    br
+                    small.grey-text.membro-crp
+                      |  CRP: 
+                      = membro.CRP
+        if evento.online
+          br
+          strong.red-text Evento Online
