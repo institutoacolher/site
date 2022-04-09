@@ -96,7 +96,8 @@ block main
   for evento in eventos.sort(function(a, b){ return (a.dia > b.dia) ? 1 : -1; })
     //- Separa por meses
     - var d = new Date(evento.dia)
-    - var hoje = new Date()
+    - var ontem = new Date()
+    - ontem.setDate(ontem.getDate()-1)
     - d.setUTCHours(3) //- compensar fuso horário
     - var diaDaSemana = diasDaSemana[d.getDay()]
     - var hh1 = ("0" + (evento.horaInicio || horaInicioPadrao)).slice(-2)
@@ -114,13 +115,13 @@ block main
     unless evento.ativo
       - continue
 
-    if d < hoje
+    if d < ontem
       - continue
 
     if nomesMeses[d.getMonth()] != nomeDoMes
       - nomeDoMes = nomesMeses[d.getMonth()]
       h2.mt6= nomeDoMes
-    
+
     .row
       .col.s12.l4
         p.tc
@@ -175,7 +176,8 @@ block main
   h1 Histórico
   for evento in eventos.sort(function(a, b){ return (a.dia < b.dia) ? 1 : -1; })
     - var d = new Date(evento.dia)
-    - var hoje = new Date()
+    - var ontem = new Date()
+    - ontem.setDate(ontem.getDate()-1)
     - d.setUTCHours(3) //- compensar fuso horário
     - var diaDaSemana = diasDaSemana[d.getDay()]
     - var hh1 = ("0" + (evento.horaInicio || horaInicioPadrao)).slice(-2)
@@ -187,7 +189,7 @@ block main
     unless evento.ativo
       - continue
 
-    if d > hoje
+    if d > ontem
       - continue
 
     if nomesMeses[d.getMonth()] != nomeDoMes
