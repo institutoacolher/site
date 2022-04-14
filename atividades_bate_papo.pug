@@ -25,6 +25,7 @@ block main
   -
     var eventos = [
       {
+        "youtube": "ba1Knhga0KQ",
         "ativo": true,
         "dia": "2022-02-25",
         "titulo": "Teologia e os LGBT+",
@@ -127,8 +128,6 @@ block main
         p.tc
           img(src=evento.cartaz || "https://via.placeholder.com/1200")
       .col.s12.l8
-        h3.mt4= evento.titulo
-
         p.mb0.fw3.teal-text Descrição do evento
         p.mt0.flow-text!= evento.descricao || descricaoPadrao
 
@@ -195,6 +194,13 @@ block main
     if nomesMeses[d.getMonth()] != nomeDoMes
       - nomeDoMes = nomesMeses[d.getMonth()]
       h2.mt6= nomeDoMes + " de " + d.getUTCFullYear()
+
+    //- Se campo youtube estiver definido será adicionado um vídeo
+    //- Usar somente o id
+    if evento.youtube
+      .videoWrapper
+        iframe(width="100%",src="https://www.youtube.com/embed/"+evento.youtube, 
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture",allowfullscreen)
 
     .row
       .col.s12.l4
