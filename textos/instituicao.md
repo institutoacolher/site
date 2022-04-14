@@ -42,5 +42,5 @@ vida sacerdotal. Esta celebração aconteceu no **Instituto Acolher – ITA**, f
 por ele mesmo. Participaram psicólogas/os e familiares.
 
 <div class="videoWrapper">
-<iframe width="100%" src="https://youtu.be/QG-oEmVYmiM" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="100%" src="https://www.youtube.com/watch?v=QG-oEmVYmiM" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </div>
