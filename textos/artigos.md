@@ -28,6 +28,6 @@ As etapas, os processos ou estágios da vida nada mais são do que a necessidade
 
 A responsabilidade, o amor e a justiça pertencem aos seres que, mesmo feridos pelos espinhos da vida, conseguem compartilhar o melhor de si. A linguagem humana se torna plena quando se revela na essência de sua hospitalidade, assim como o afeto aquece e enobrece o coração humano.
 
-![](https://github.com/institutoacolher/site/blob/master/img/elizete-2022-05-20.png) 
+![](https://github.com/institutoacolher/site/blob/master/img/elizete-2022-05-20.png)
 ###### (1) Elizete Santos, fsp - Membro da Pia Sociedade Filhas de São Paulo (Irmãs Paulinas); Licenciada em Filosofia; Psicóloga Clínica – CRPSP-06/177899; Especialista em Adolescência e Juventude; Associada ao Corpo Freudiano Escola de Psicanálise de João Pessoa/PB.
 
