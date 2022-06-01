@@ -40,8 +40,8 @@ editar_servicos:
 	vim $(SERVICOS)
 
 html:
-	pug *.pug    --out docs/   --pretty
-	pug es/*.pug --out docs/es --pretty
+	pug *.pug    --out docs/   --pretty > pug.log  || echo "FALHA"
+	pug es/*.pug --out docs/es --pretty >> pug.log || echo "FALHA"
 
 favicon:
 	cp favicon.ico docs/
