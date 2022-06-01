@@ -59,6 +59,7 @@ favicon.real:
 publish:
 	cp CNAME docs/
 	git add docs/
+	git add pug.log
 	git commit -m "Atualização automática" && git push || echo "Sem atualização"
 
 deps:
