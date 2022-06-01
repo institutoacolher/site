@@ -1,62 +1,206 @@
+/usr/lib/node_modules/pug-cli/node_modules/pug-lexer/index.js:60
+    throw err;
+    ^
 
-  rendered /data/home/geraldo/git/Intmain/site-institutoacolher.org.br/docs/2021-06-12_curso_masculino_e_feminino.html
-  rendered /data/home/geraldo/git/Intmain/site-institutoacolher.org.br/docs/2021-10-19_grupo_de_discussao.html
-  rendered /data/home/geraldo/git/Intmain/site-institutoacolher.org.br/docs/2022-00-00_modelo.html
-  rendered /data/home/geraldo/git/Intmain/site-institutoacolher.org.br/docs/2022-02-11_grupo_de_estudo.html
-  rendered /data/home/geraldo/git/Intmain/site-institutoacolher.org.br/docs/2022-03-11_grupo_de_estudo.html
-  rendered /data/home/geraldo/git/Intmain/site-institutoacolher.org.br/docs/2022-04-08_grupo_de_estudo.html
-  rendered /data/home/geraldo/git/Intmain/site-institutoacolher.org.br/docs/2022-05-13_grupo_de_estudo.html
-  rendered /data/home/geraldo/git/Intmain/site-institutoacolher.org.br/docs/2022-06-13_grupo_de_estudo.html
-  rendered /data/home/geraldo/git/Intmain/site-institutoacolher.org.br/docs/2022-08-12_grupo_de_estudo.html
-  rendered /data/home/geraldo/git/Intmain/site-institutoacolher.org.br/docs/2022-09-09_grupo_de_estudo.html
-  rendered /data/home/geraldo/git/Intmain/site-institutoacolher.org.br/docs/2022-10-14_grupo_de_estudo.html
-  rendered /data/home/geraldo/git/Intmain/site-institutoacolher.org.br/docs/2022-11-11_grupo_de_estudo.html
-  rendered /data/home/geraldo/git/Intmain/site-institutoacolher.org.br/docs/2022-12-19_grupo_de_estudo.html
-  rendered /data/home/geraldo/git/Intmain/site-institutoacolher.org.br/docs/acolhida.html
-  rendered /data/home/geraldo/git/Intmain/site-institutoacolher.org.br/docs/artigos.html
-  rendered /data/home/geraldo/git/Intmain/site-institutoacolher.org.br/docs/assessoria-especializada.html
-  rendered /data/home/geraldo/git/Intmain/site-institutoacolher.org.br/docs/associados.html
-  rendered /data/home/geraldo/git/Intmain/site-institutoacolher.org.br/docs/atividades.html
-  rendered /data/home/geraldo/git/Intmain/site-institutoacolher.org.br/docs/atividades_bate_papo.html
+Error: atividades_curso.pug:7:3
+    5|   -
+    6|     var cursos = [
+  > 7|   {
+---------^
+    8|         "dia": "2022-06-25",
+    9|         "titulo": "Tipos Psicológicos",
+    10|         "assessor_slugs": ["flavia-moreira-ribeiro"],
 
-  rendered /data/home/geraldo/git/Intmain/site-institutoacolher.org.br/docs/es/acolhida.html
-  rendered /data/home/geraldo/git/Intmain/site-institutoacolher.org.br/docs/es/artigos.html
-  rendered /data/home/geraldo/git/Intmain/site-institutoacolher.org.br/docs/es/assessoria-especializada.html
-  rendered /data/home/geraldo/git/Intmain/site-institutoacolher.org.br/docs/es/associados.html
-  rendered /data/home/geraldo/git/Intmain/site-institutoacolher.org.br/docs/es/atividades.html
-  rendered /data/home/geraldo/git/Intmain/site-institutoacolher.org.br/docs/es/avaliacao-de-vocacionados.html
-  rendered /data/home/geraldo/git/Intmain/site-institutoacolher.org.br/docs/es/cursos-e-assessorias.html
-  rendered /data/home/geraldo/git/Intmain/site-institutoacolher.org.br/docs/es/eduardo-augusto-galindo-de-lima.html
-  rendered /data/home/geraldo/git/Intmain/site-institutoacolher.org.br/docs/es/eliana-massih.html
-  rendered /data/home/geraldo/git/Intmain/site-institutoacolher.org.br/docs/es/enio-brito-pinto.html
-  rendered /data/home/geraldo/git/Intmain/site-institutoacolher.org.br/docs/es/flavia-moreira-ribeiro.html
-  rendered /data/home/geraldo/git/Intmain/site-institutoacolher.org.br/docs/es/fotos.html
-  rendered /data/home/geraldo/git/Intmain/site-institutoacolher.org.br/docs/es/francisco-glenio-de-almeida.html
-  rendered /data/home/geraldo/git/Intmain/site-institutoacolher.org.br/docs/es/grupo-vivencial-para-formadores.html
-  rendered /data/home/geraldo/git/Intmain/site-institutoacolher.org.br/docs/es/index.html
-  rendered /data/home/geraldo/git/Intmain/site-institutoacolher.org.br/docs/es/instituicao.html
-  rendered /data/home/geraldo/git/Intmain/site-institutoacolher.org.br/docs/es/integracao-psicoespiritual.html
-  rendered /data/home/geraldo/git/Intmain/site-institutoacolher.org.br/docs/es/joao-edenio-reis-valle.html
-  rendered /data/home/geraldo/git/Intmain/site-institutoacolher.org.br/docs/es/lillian-maria-penteado-de-arruda-zamith.html
-  rendered /data/home/geraldo/git/Intmain/site-institutoacolher.org.br/docs/es/localizacao.html
-  rendered /data/home/geraldo/git/Intmain/site-institutoacolher.org.br/docs/es/lourdes-degrandis.html
-  rendered /data/home/geraldo/git/Intmain/site-institutoacolher.org.br/docs/es/maria-da-conceicao-coelho-e-silva.html
-  rendered /data/home/geraldo/git/Intmain/site-institutoacolher.org.br/docs/es/maria-da-conceicao-machado-silva-rosa.html
-  rendered /data/home/geraldo/git/Intmain/site-institutoacolher.org.br/docs/es/maria-de-fatima-naves.html
-  rendered /data/home/geraldo/git/Intmain/site-institutoacolher.org.br/docs/es/maria-de-fatima-rolim-rosa.html
-  rendered /data/home/geraldo/git/Intmain/site-institutoacolher.org.br/docs/es/maria-ondina-da-silva-peruzzo.html
-  rendered /data/home/geraldo/git/Intmain/site-institutoacolher.org.br/docs/es/maria-silva-mourao.html
-  rendered /data/home/geraldo/git/Intmain/site-institutoacolher.org.br/docs/es/maruzania-soares-dias.html
-  rendered /data/home/geraldo/git/Intmain/site-institutoacolher.org.br/docs/es/membros.html
-  rendered /data/home/geraldo/git/Intmain/site-institutoacolher.org.br/docs/es/paulo-sergio-frederico.html
-  rendered /data/home/geraldo/git/Intmain/site-institutoacolher.org.br/docs/es/psicodiagnostico.html
-  rendered /data/home/geraldo/git/Intmain/site-institutoacolher.org.br/docs/es/psicoterapia-grupal.html
-  rendered /data/home/geraldo/git/Intmain/site-institutoacolher.org.br/docs/es/psicoterapia-individual.html
-  rendered /data/home/geraldo/git/Intmain/site-institutoacolher.org.br/docs/es/rosa-eliza-da-silva.html
-  rendered /data/home/geraldo/git/Intmain/site-institutoacolher.org.br/docs/es/servicos.html
-  rendered /data/home/geraldo/git/Intmain/site-institutoacolher.org.br/docs/es/supervisao-e-grupos-de-estudo-para-psicologos.html
-  rendered /data/home/geraldo/git/Intmain/site-institutoacolher.org.br/docs/es/supervisao.html
-  rendered /data/home/geraldo/git/Intmain/site-institutoacolher.org.br/docs/es/suzana-carvalho.html
-  rendered /data/home/geraldo/git/Intmain/site-institutoacolher.org.br/docs/es/tereza-lair-martins.html
-  rendered /data/home/geraldo/git/Intmain/site-institutoacolher.org.br/docs/es/wellington-heleno-da-silva.html
-  rendered /data/home/geraldo/git/Intmain/site-institutoacolher.org.br/docs/es/wojciech-mittelstaedt-adalberto.html
+unexpected text "{
+   "
+    at makeError (/usr/lib/node_modules/pug-cli/node_modules/pug-error/index.js:32:13)
+    at Lexer.error (/usr/lib/node_modules/pug-cli/node_modules/pug-lexer/index.js:59:15)
+    at Lexer.fail (/usr/lib/node_modules/pug-cli/node_modules/pug-lexer/index.js:1445:10)
+    at Lexer.advance (/usr/lib/node_modules/pug-cli/node_modules/pug-lexer/index.js:1505:15)
+    at Lexer.callLexerFunction (/usr/lib/node_modules/pug-cli/node_modules/pug-lexer/index.js:1460:23)
+    at Lexer.getTokens (/usr/lib/node_modules/pug-cli/node_modules/pug-lexer/index.js:1516:12)
+    at lex (/usr/lib/node_modules/pug-cli/node_modules/pug-lexer/index.js:12:42)
+    at Object.lex (/usr/lib/node_modules/pug-cli/node_modules/pug/lib/index.js:100:27)
+    at Function.loadString [as string] (/usr/lib/node_modules/pug-cli/node_modules/pug-load/index.js:44:24)
+    at compileBody (/usr/lib/node_modules/pug-cli/node_modules/pug/lib/index.js:86:18) {
+  code: 'PUG:UNEXPECTED_TEXT',
+  msg: 'unexpected text "{\n   "',
+  line: 7,
+  column: 3,
+  filename: 'atividades_curso.pug',
+  src: 'extends componentes/layout.pug\n' +
+    'block main\n' +
+    '  include componentes/membros\n' +
+    '  //- Vou criar um erro para testar o log\n' +
+    '  -\n' +
+    '    var cursos = [\n' +
+    '  {\n' +
+    '        "dia": "2022-06-25",\n' +
+    '        "titulo": "Tipos Psicológicos",\n' +
+    '        "assessor_slugs": ["flavia-moreira-ribeiro"],\n' +
+    '        "descricao": "Carl Gustav Jung, em sua Teoria da Personalidade, construiu tipologias ligadas ao ser humano e ao mundo, definidas a partir de estilos cognitivos e de comportamento individual. Seu modelo tipológico é baseado na visão de arquétipos ligada a psicologia analítica. E, de modo geral, ele classificou em quatro tipos principais que são: pensamento ou sentimento, sensação ou intuição. Sendo que, estes são divididos em classes de saber racional (ou julgamento) ou irracional (ou perceptivas). A compreensão da tipologia, além de favorecer o autoconhecimento e melhorar o relacionamento interpessoal, ajuda a compreender situações de organização de grupos, detecção e solução de conflitos, treinamento e remanejamento de grupos, criação de programas de ensino, orientação de pais e professores, orientação vocacional, aconselhamento familiar e comunitário.",\n' +
+    '        "cartaz": "img/curso-2022-06-25.png",\n' +
+    '        "link_inscricao": "https://forms.gle/mw4ZE4dVnXigVpdNA",\n' +
+    '        "online": true\n' +
+    '      },\n' +
+    '      {\n' +
+    '        "dia": "2022-05-18",\n' +
+    '        "titulo": "Psicólogos do ITA na Diocese de Piracicaba-SP",\n' +
+    '        "assessor_slugs": ["maria-de-fatima-rolim-rosa"],\n' +
+    '        "assessor_slugs": ["wellington-heleno-da-silva"],\n' +
+    '        "descricao": "O Instituto Acolher-ITA realizou em maio de 2022 um encontro formativo com os padres da Diocese de Piracicaba. O tema proposto, “Um olhar para si: superando angústias e fragilidades”, procurar abordar de forma realista as dificuldades no dia-a-dia dos sacerdotes e apontar caminhos para a compreensão, aceitação e superação desses desafios. Lá estão os psicólogos e membros do Instituto Acolher Fátima Rolim Rosa e Wellington Heleno da Silva. É o início de um trabalho que conta com o estímulo do bispo Dom Devair Araújo da Fonseca e das psicólogas que atuam na diocese. Eles perceberam a necessidade de dar uma atenção maior à formação dos padres e pediram o apoio do ITA nesse trabalho.",\n' +
+    '        "cartaz": "img/piracicaba-2022-05-18.png",\n' +
+    '        "online": false\n' +
+    '      },\n' +
+    '      {\n' +
+    '        "dia": "2022-05-14",\n' +
+    '        "titulo": "Ansiedade: Defesa ou Defeito?",\n' +
+    '        "assessor_slugs": ["enio-brito-pinto"],\n' +
+    '        "descricao": "Como diferenciar a ansiedade normal, existencial, da ansiedade patológica? Dialogar com nossas ansiedades é caminho de cuidado e coragem para bem viver.",\n' +
+    '        "cartaz": "img/curso-2022-05-14.png",\n' +
+    '        "link_inscricao": "https://forms.gle/cwqdggks8UxKYePBA",\n' +
+    '        "online": true\n' +
+    '      },\n' +
+    '      {\n' +
+    '        "dia": "2022-04-23",\n' +
+    '        "titulo": "Suicídio no Sacerdócio: Um olhar de Esperança",\n' +
+    '        "assessor_slugs": ["eduardo-augusto-galindo-de-lima"],\n' +
+    '        "descricao": "Nesse curso iremos trabalhar o fenômeno do suicídio que no Brasil que a cada 45 minutos ceifou a vida de uma pessoa no ano passado. E a cada morte ocorreram outras 20 tentativas. O suicídio não é um ato voluntário e livre. É uma consequência do desamparo, do isolamento e dos transtornos mentais. O sofrimento existencial é uma realidade não partilhada de sacerdotes e consagrados que sentem o esgotamento mental no seu ministério. Diante dessa situação dolorosa devemos auxiliar na promoção das ações para valorização da vida e do bem estar na área humano-afetiva.",\n' +
+    '        "cartaz": "img/curso-2022-04-23.png",\n' +
+    '        "link_inscricao": "https://forms.gle/sDkib3KSRq7NiFLk6"\n' +
+    '      },\n' +
+    '      {\n' +
+    '        "dia": "2022-03-19",\n' +
+    '        "titulo": "Relacionamentos na Vida Consagrada e Sacerdotal",\n' +
+    '        "assessor_slugs": ["wojciech-mittelstaedt-adalberto"],\n' +
+    '        "descricao": "Relacionamentos na Vida Consagrada e Sacerdotal<br>Assessor: pe. Adalberto Wojciech Mittelstaedt, svd <br>(psicólogo e psicopedagogo, mestre em Teologia, doutor em Ciências da Religião) <br>Maioria dos psicólogos afirma que o bem estar de uma pessoa depende intrinsecamente do sentimento de amor que ela experienciou na sua vida desde a infância. Relacionamentos nos quais nos sentimos amados são portanto necessários para a nossa felicidade e, ainda mais, para podermos expressar nosso amor diante dos outros. <br>Para uma pessoa consagrada ou um sacerdote essa experiência é indispensável para sua realização, ou seja para felicidade na sua missão. E contrário...<br>O sacerdote, que alguns dias atrás chocou Brasil por se suicidar dentro da igreja, apontou na sua carta de despedida que se sentiu excluído, desprezado e desprotegido por outros sacerdotes. Não sabemos muito sobre a sua enfermidade, mas as queixas apontam reclamações os relacionamentos com os que deveriam ser mais próximos. ",\n' +
+    '        "cartaz": "img/curso-2022-03-19a.jpg"\n' +
+    '      },\n' +
+    '      {\n' +
+    '        "dia": "2022-07-16",\n' +
+    '        "titulo": "Afetividade/sexualidade",\n' +
+    '        "assessor_slugs": ["wellington-heleno-da-silva"]\n' +
+    '      },\n' +
+    '      {\n' +
+    '        "dia": "2022-08-20",\n' +
+    '        "titulo": "Sentido da Vida",\n' +
+    '        "assessor_slugs": ["maria-de-fatima-rolim-rosa"]\n' +
+    '      },\n' +
+    '      {\n' +
+    '        "dia": "2022-09-17",\n' +
+    '        "titulo": "VR e Feminino",\n' +
+    '        "assessor_slugs": ["maria-silva-mourao"]\n' +
+    '      },\n' +
+    '      {\n' +
+    '        "dia": "2022-10-15",\n' +
+    '        "titulo": "O corpo em que habito",\n' +
+    '        "assessor_slugs": ["lourdes-degrandis"]\n' +
+    '      },\n' +
+    '      {\n' +
+    '        "dia": "2022-11-19",\n' +
+    '        "titulo": "Narcisismo",\n' +
+    '        "assessor_slugs": ["wojciech-mittelstaedt-adalberto"]\n' +
+    '      },\n' +
+    '      {\n' +
+    '        "dia": "2022-11-26",\n' +
+    '        "titulo": "O despertar da meia-idade",\n' +
+    '        "assessor_slugs": ["flavia-moreira-ribeiro"]\n' +
+    '      },\n' +
+    '      {\n' +
+    '        "dia": "2022-12-03",\n' +
+    '        "titulo": "O despertar da meia-idade",\n' +
+    '        "assessor_slugs": ["flavia-moreira-ribeiro"]\n' +
+    '      },\n' +
+    '      {\n' +
+    '        "dia": "2022-12-10",\n' +
+    '        "titulo": "Burnout",\n' +
+    '        "assessor_slugs": ["wellington-heleno-da-silva"]\n' +
+    '      }\n' +
+    '    ];\n' +
+    '    var diasDaSemana = [ "Domingo", "Segunda-feira", "Terça-feira", "Quarta-feira", "Quinta-feira", "Sexta-feira", "Sábado" ]\n' +
+    '    var nomesMeses = [ "Janeiro", "Fevereiro", "Março", "Abril", "Maio", "Junho", "Julho", "Agosto", "Setembro", "Outubro", "Novembro", "Dezembro" ]\n' +
+    '    var nomeDoMes = ""\n' +
+    '    var horaInicioPadrao = "09"\n' +
+    '    var minInicioPadrao = "00"\n' +
+    '    var horaFimPadrao = "12"\n' +
+    '    var minFimPadrao = "00"\n' +
+    '    var descricaoPadrao = "Insira a descrição do curso aqui"\n' +
+    '    var localPadrao = "Sede do Instituto Acolher - ITA"\n' +
+    '\n' +
+    '  h1 Cursos\n' +
+    '  for curso in cursos\n' +
+    '\n' +
+    '    //- Separa por meses\n' +
+    '    - var d = new Date(curso.dia)\n' +
+    '    - d.setUTCHours(3) //- compensar fuso horário\n' +
+    '    - var diaDaSemana = diasDaSemana[d.getDay()]\n' +
+    '    - var hh1 = ("0" + (curso.horaInicio || horaInicioPadrao)).slice(-2)\n' +
+    '    - var mm1 = ("0" + (curso.minInicio || minInicioPadrao)).slice(-2)\n' +
+    '    - var hh2 = ("0" + (curso.horaFim || horaFimPadrao)).slice(-2)\n' +
+    '    - var mm2 = ("0" + (curso.minFim || minFimPadrao)).slice(-2)\n' +
+    '    - var YYYYMMDD = d.getUTCFullYear() + ("0" + (d.getMonth()+1)).slice(-2) + ("0" + d.getDate()).slice(-2)\n' +
+    '    - var o = "https://www.google.com/calendar/render?action=TEMPLATE"\n' +
+    '    - o = o + "&text=" + curso.titulo\n' +
+    '    - o = o + "&details=" + ( curso.descricao || descricaoPadrao )\n' +
+    '    - o = o + "&location=Sede do ITA"\n' +
+    '    - o = o + "&dates=" + YYYYMMDD + "T" + hh1 + mm1 + "00/" + YYYYMMDD + "T" + hh2 + mm2 + "00"\n' +
+    '    - var googleUrl = o\n' +
+    '\n' +
+    '    if nomesMeses[d.getMonth()] != nomeDoMes\n' +
+    '      - nomeDoMes = nomesMeses[d.getMonth()]\n' +
+    '      h2.mt6= nomeDoMes\n' +
+    '\n' +
+    '    p.tc\n' +
+    '      img(src=curso.cartaz)\n' +
+    '    h3.mt4= curso.titulo\n' +
+    '\n' +
+    '    //- p.fw3.teal-text Acessor\n' +
+    '    each membro in membros\n' +
+    '      each assessor_slug in curso.assessor_slugs\n' +
+    '        if membro.slug == assessor_slug\n' +
+    '          p.modulo-assessor\n' +
+    '            i.grey-text.fa.fa-graduation-cap\n' +
+    '            a(href=membro.slug+".html",title="Membro do ITA")= membro.nome\n' +
+    '            if membro.CRP\n' +
+    '              br\n' +
+    '              small.grey-text.membro-crp\n' +
+    '                |  CRP: \n' +
+    '                = membro.CRP\n' +
+    '\n' +
+    '    p.mb0.fw3.teal-text Descrição do curso\n' +
+    '    p.mt0.flow-text!= curso.descricao || descricaoPadrao\n' +
+    '\n' +
+    '    p.mb0.fw3.teal-text Data e horário\n' +
+    '    p.mt0\n' +
+    '      strong= d.toLocaleString("pt-BR").substring(0,5)  + " (" + diaDaSemana + ") das " + hh1 + "h" + mm1 + " às " + hh2 + "h" + mm2\n' +
+    '\n' +
+    '    p.mb0.fw3.teal-text Local\n' +
+    '    p.mt0\n' +
+    '      if curso.online\n' +
+    '        strong.red-text Curso Online\n' +
+    '      else\n' +
+    '        strong= curso.local || localPadrao\n' +
+    '\n' +
+    '    p.fw3.teal-text Inscrição\n' +
+    '    .row\n' +
+    '      if curso.link_inscricao\n' +
+    '        .col.s12.m6\n' +
+    '          a.btn.teal.darken-2.w-100(href=curso.link_inscricao,target="_blank") Realizar inscrição\n' +
+    '\n' +
+    '      .col.s12.m6\n' +
+    '        a.dropdown-trigger.btn.w-100(href="#",data-target="dropdown"+curso.dia) Incluir na minha agenda\n' +
+    '        ul.dropdown-content(id="dropdown"+curso.dia)\n' +
+    '          li\n' +
+    '            a(href=googleUrl,target="_blank") Google\n' +
+    '          //- li\n' +
+    '          //-   a(href=outlookUrl,target="_blank") Outlook\n' +
+    '  script.\n' +
+    "    document.addEventListener('DOMContentLoaded', function() {\n" +
+    '    var options = {};\n' +
+    "    var elems = document.querySelectorAll('.dropdown-trigger');\n" +
+    '    var instances = M.Dropdown.init(elems, options);\n' +
+    '    });\n',
+  toJSON: [Function (anonymous)]
+}
+
+Node.js v17.9.0
