@@ -1,4 +1,4 @@
-# Integração Psicoespiritual
+# Integração Espiritual
 
 Os aspectos espirituais são essenciais e imprescindíveis no processo
 terapêutico das pessoas pessoas (religiosas, padres e leigas) que buscam
