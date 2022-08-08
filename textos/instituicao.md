@@ -4,23 +4,23 @@
 <iframe width="100%" src="https://www.youtube.com/embed/zFviQ2CHl18" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </div>
 
-O **Instituto Acolher - ITA** é a realização do sonho e do esforço de um grupo
-de psicólogos, psicanalistas e religiosos, que há 21 anos dedicam-se
-a assistência psicológica e espiritual a religiosos, sacerdotes e leigos
-engajados na Igreja.
+O **Instituto Acolher - ITA** é a realização do sonho e do esforço de um grupo 
+multiprofissional (psicólogos, psicanalistas e religiosos), que há 21 anos 
+dedica-se a assistência psicológica e a integração espiritual de religiosos, 
+sacerdotes e leigos.
 
 Uma prática que começou no ano 2000 e foi se enriquecendo por meio de
 intercâmbios com instituições internacionais semelhantes.
 
 Hoje temos uma série de programas voltados para o acompanhamento psicológico
-e psicoespiritual do clero e da vida consagrada no Brasil. No nosso trabalho
+e integração espiritual das pessoas que buscam atendimento.No nosso trabalho
 contamos com o auxílio de psiquiatras e médicos.
 
-Com zelo e seriedade, buscamos constantemente aprimorar os seus serviços.
+Com zelo e seriedade, buscamos constantemente aprimorar os serviços.
 A atualização continuada dos profissionais do nosso corpo clínico é um dos
 parâmetros de excelência do Instituto.
 
-O objetivo principal do ITA abrange, além da psicoterapia e aconselhamento,
+O objetivo principal do ITA abrange, além da psicoterapia e da integração espiritual ,
 outras atividades, tais como prestação de assessorias e formação. Além disto,
 nos propomos a organizar e supervisionar atividades destinadas à formação de
 seus próprios membros e de outros profissionais interessados em seu
