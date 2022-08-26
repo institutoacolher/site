@@ -1,27 +1,62 @@
-/usr/lib/node_modules/pug-cli/node_modules/pug-runtime/index.js:253
-  throw err;
-  ^
 
-TypeError: atividades_curso.pug:135
-    133|     //- p.fw3.teal-text Acessor
-    134|     each membro in membros
-  > 135|       each assessor_slug in curso.assessor_slugs
-    136|         if membro.slug == assessor_slug
-    137|           p.modulo-assessor
-    138|             i.grey-text.fa.fa-graduation-cap
+  rendered /opt/site-institutoacolher.org.br/docs/2021-06-12_curso_masculino_e_feminino.html
+  rendered /opt/site-institutoacolher.org.br/docs/2021-10-19_grupo_de_discussao.html
+  rendered /opt/site-institutoacolher.org.br/docs/2022-00-00_modelo.html
+  rendered /opt/site-institutoacolher.org.br/docs/2022-02-11_grupo_de_estudo.html
+  rendered /opt/site-institutoacolher.org.br/docs/2022-03-11_grupo_de_estudo.html
+  rendered /opt/site-institutoacolher.org.br/docs/2022-04-08_grupo_de_estudo.html
+  rendered /opt/site-institutoacolher.org.br/docs/2022-05-13_grupo_de_estudo.html
+  rendered /opt/site-institutoacolher.org.br/docs/2022-06-13_grupo_de_estudo.html
+  rendered /opt/site-institutoacolher.org.br/docs/2022-08-12_grupo_de_estudo.html
+  rendered /opt/site-institutoacolher.org.br/docs/2022-09-09_grupo_de_estudo.html
+  rendered /opt/site-institutoacolher.org.br/docs/2022-10-14_grupo_de_estudo.html
+  rendered /opt/site-institutoacolher.org.br/docs/2022-11-11_grupo_de_estudo.html
+  rendered /opt/site-institutoacolher.org.br/docs/2022-12-19_grupo_de_estudo.html
+  rendered /opt/site-institutoacolher.org.br/docs/acolhida.html
+  rendered /opt/site-institutoacolher.org.br/docs/artigos.html
+  rendered /opt/site-institutoacolher.org.br/docs/assessoria-especializada.html
+  rendered /opt/site-institutoacolher.org.br/docs/associados.html
+  rendered /opt/site-institutoacolher.org.br/docs/atividades.html
+  rendered /opt/site-institutoacolher.org.br/docs/atividades_bate_papo.html
 
-Cannot read properties of undefined (reading 'length')
-    at eval (eval at wrap (/usr/lib/node_modules/pug-cli/node_modules/pug-runtime/wrap.js:6:10), <anonymous>:877:32)
-    at eval (eval at wrap (/usr/lib/node_modules/pug-cli/node_modules/pug-runtime/wrap.js:6:10), <anonymous>:934:4)
-    at eval (eval at wrap (/usr/lib/node_modules/pug-cli/node_modules/pug-runtime/wrap.js:6:10), <anonymous>:1007:4)
-    at eval (eval at wrap (/usr/lib/node_modules/pug-cli/node_modules/pug-runtime/wrap.js:6:10), <anonymous>:1339:4)
-    at template (eval at wrap (/usr/lib/node_modules/pug-cli/node_modules/pug-runtime/wrap.js:6:10), <anonymous>:1695:111)
-    at renderFile (/usr/lib/node_modules/pug-cli/index.js:285:40)
-    at /usr/lib/node_modules/pug-cli/index.js:149:5
-    at Array.forEach (<anonymous>)
-    at Object.<anonymous> (/usr/lib/node_modules/pug-cli/index.js:148:9)
-    at Module._compile (node:internal/modules/cjs/loader:1099:14) {
-  path: 'atividades_curso.pug'
-}
-
-Node.js v17.9.0
+  rendered /opt/site-institutoacolher.org.br/docs/es/acolhida.html
+  rendered /opt/site-institutoacolher.org.br/docs/es/artigos.html
+  rendered /opt/site-institutoacolher.org.br/docs/es/assessoria-especializada.html
+  rendered /opt/site-institutoacolher.org.br/docs/es/associados.html
+  rendered /opt/site-institutoacolher.org.br/docs/es/atividades.html
+  rendered /opt/site-institutoacolher.org.br/docs/es/avaliacao-de-vocacionados.html
+  rendered /opt/site-institutoacolher.org.br/docs/es/cursos-e-assessorias.html
+  rendered /opt/site-institutoacolher.org.br/docs/es/eduardo-augusto-galindo-de-lima.html
+  rendered /opt/site-institutoacolher.org.br/docs/es/eliana-massih.html
+  rendered /opt/site-institutoacolher.org.br/docs/es/enio-brito-pinto.html
+  rendered /opt/site-institutoacolher.org.br/docs/es/flavia-moreira-ribeiro.html
+  rendered /opt/site-institutoacolher.org.br/docs/es/fotos.html
+  rendered /opt/site-institutoacolher.org.br/docs/es/francisco-glenio-de-almeida.html
+  rendered /opt/site-institutoacolher.org.br/docs/es/grupo-vivencial-para-formadores.html
+  rendered /opt/site-institutoacolher.org.br/docs/es/index.html
+  rendered /opt/site-institutoacolher.org.br/docs/es/instituicao.html
+  rendered /opt/site-institutoacolher.org.br/docs/es/integracao-psicoespiritual.html
+  rendered /opt/site-institutoacolher.org.br/docs/es/joao-edenio-reis-valle.html
+  rendered /opt/site-institutoacolher.org.br/docs/es/lillian-maria-penteado-de-arruda-zamith.html
+  rendered /opt/site-institutoacolher.org.br/docs/es/localizacao.html
+  rendered /opt/site-institutoacolher.org.br/docs/es/lourdes-degrandis.html
+  rendered /opt/site-institutoacolher.org.br/docs/es/maria-da-conceicao-coelho-e-silva.html
+  rendered /opt/site-institutoacolher.org.br/docs/es/maria-da-conceicao-machado-silva-rosa.html
+  rendered /opt/site-institutoacolher.org.br/docs/es/maria-de-fatima-naves.html
+  rendered /opt/site-institutoacolher.org.br/docs/es/maria-de-fatima-rolim-rosa.html
+  rendered /opt/site-institutoacolher.org.br/docs/es/maria-ondina-da-silva-peruzzo.html
+  rendered /opt/site-institutoacolher.org.br/docs/es/maria-silva-mourao.html
+  rendered /opt/site-institutoacolher.org.br/docs/es/maruzania-soares-dias.html
+  rendered /opt/site-institutoacolher.org.br/docs/es/membros.html
+  rendered /opt/site-institutoacolher.org.br/docs/es/paulo-sergio-frederico.html
+  rendered /opt/site-institutoacolher.org.br/docs/es/psicodiagnostico.html
+  rendered /opt/site-institutoacolher.org.br/docs/es/psicoterapia-grupal.html
+  rendered /opt/site-institutoacolher.org.br/docs/es/psicoterapia-individual.html
+  rendered /opt/site-institutoacolher.org.br/docs/es/rosa-eliza-da-silva.html
+  rendered /opt/site-institutoacolher.org.br/docs/es/servicos.html
+  rendered /opt/site-institutoacolher.org.br/docs/es/supervisao-e-grupos-de-estudo-para-psicologos.html
+  rendered /opt/site-institutoacolher.org.br/docs/es/supervisao.html
+  rendered /opt/site-institutoacolher.org.br/docs/es/suzana-carvalho.html
+  rendered /opt/site-institutoacolher.org.br/docs/es/tereza-lair-martins.html
+  rendered /opt/site-institutoacolher.org.br/docs/es/wellington-heleno-da-silva.html
+  rendered /opt/site-institutoacolher.org.br/docs/es/wojciech-mittelstaedt-adalberto.html
