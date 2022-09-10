@@ -16,7 +16,18 @@ supervisao-e-grupos-de-estudo-para-psicologos.pug
 
 DATA=$(patsubst %.toml,json/%.json,$(wildcard *.toml))
 
-all: componentes/membros.pug update deps fixme css js html favicon publish
+all: \
+	slugs.txt \
+	componentes/membros.pug \
+	componentes/dados_atividades_bate_papo.pug \
+	update \
+	deps \
+	fixme \
+	css \
+	js \
+	html \
+	favicon \
+	publish
 
 watch_pug:
 	pug --watch *.pug --out docs/ --pretty
@@ -39,6 +50,13 @@ json/%.json: %.toml
 componentes/membros.pug: json/membros.json
 	echo -n "//- ARQUIVO GERADO, NÃO EDITAR\n-\n  var membros = " > $@
 	jq ".membros" < json/membros.json | sed "s/^/  /" >> $@
+
+componentes/dados_atividades_bate_papo.pug: atividades_bate_papo.toml
+	echo -n "//- ARQUIVO GERADO, NÃO EDITAR\n-\n  var eventos = " > $@
+	jq ".eventos" < json/atividades_bate_papo.json | sed "s/^/  /" >> $@
+
+slugs.txt: membros.toml
+	sed -n "s/slug = \"\(.*\)\"/\1/p" $^ > $@
 
 fixme:
 	echo "extends componentes/layout.pug" > fixme.pug
