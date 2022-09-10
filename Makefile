@@ -14,7 +14,9 @@ psicoterapia-grupal.pug \
 psicoterapia-individual.pug \
 supervisao-e-grupos-de-estudo-para-psicologos.pug
 
-all: update deps fixme css js html favicon publish
+DATA=$(patsubst %.toml,json/%.json,$(wildcard *.toml))
+
+all: componentes/membros.pug update deps fixme css js html favicon publish
 
 watch_pug:
 	pug --watch *.pug --out docs/ --pretty
@@ -29,6 +31,15 @@ diff_es:
 diff_es_md:
 	for i in textos/*.md; do diff $$i es/$$i || vi $$i es/$$i; done
 
+# Converte arquivos toml em json
+json/%.json: %.toml
+	./yj -tj < $^ | jq . > $@
+
+# Atualiza o arquivo componentes/membros.pug a partir do membros.toml
+componentes/membros.pug: json/membros.json
+	echo -n "//- ARQUIVO GERADO, NÃO EDITAR\n-\n  var membros = " > $@
+	jq ".membros" < json/membros.json | sed "s/^/  /" >> $@
+
 fixme:
 	echo "extends componentes/layout.pug" > fixme.pug
 	echo "block main" >> fixme.pug
@@ -40,7 +51,7 @@ editar_servicos:
 	vim $(SERVICOS)
 
 html:
-	pug *.pug    --out docs/   --pretty 2> pug.log  || echo "FALHA"
+	pug *.pug    --out docs/   --pretty 2>  pug.log || echo "FALHA"
 	pug es/*.pug --out docs/es --pretty 2>> pug.log || echo "FALHA"
 
 favicon:
