@@ -71,6 +71,7 @@ publish:
 	cp CNAME docs/
 	git add docs/
 	git add pug.log
+	git add fixme.pug
 	git commit -m "Atualização automática" && git push || echo "Sem atualização"
 
 deps:
