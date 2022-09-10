@@ -2748,7 +2748,7 @@ video.responsive-video {
   font-size: 24px;
 }
 .breadcrumb:before {
-  content: "\e5cc";
+  content: "";
   color: rgba(255, 255, 255, 0.7);
   vertical-align: top;
   display: inline-block;
