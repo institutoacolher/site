@@ -1,0 +1,29 @@
+extends componentes/layout.pug
+
+mixin botaoInscricao
+  p.center
+    a.btn.btn-large(href="https://forms.gle/ahHqzP1cdDy71Lcq9",target="_blank") Inscrição 
+
+block main
+  h1 SUICÍDIO: Acolher para prevenir
+  +botaoInscricao
+  .row
+    .col.s12.l6
+      img.responsive-img(src="img/simposio_capa.png",alt="Capa")
+    .col.s12.l6
+      img.responsive-img(src="img/simposio_convidados_1.png",alt="Convidados 1")
+    .col.s12.l6
+      img.responsive-img(src="img/simposio_convidados_2.png",alt="Convidados 2")
+    .col.s12.l6
+      img.responsive-img(src="img/simposio_participacao_especial.png",alt="Participação especial")
+    .col.s12.l6
+      img.responsive-img(src="img/simposio_publico_alvo.png",alt="Público alvo")
+    .col.s12.l6
+      img.responsive-img(src="img/simposio_data.png",alt="Data")
+    .col.s12.l6
+      img.responsive-img(src="img/simposio_investimento.png",alt="Investimento")
+    .col.s12.l6
+      img.responsive-img(src="img/simposio_ita.png",alt="ITA")
+  +botaoInscricao
+  include:markdown-it(html) textos/simposio-suicidio.md
+  +botaoInscricao

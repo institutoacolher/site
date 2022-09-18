@@ -1,6 +1,3 @@
-# Nota 1: A pasta final com os arquivos HTML foi alterada para docs para
-# atender os requisitos do github pages.
-
 .PHONY: all deps update css js preview check docs html watch_pug watch_css
 
 SERVICOS= \
