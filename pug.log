@@ -1,0 +1,19 @@
+/usr/lib/node_modules/pug-cli/node_modules/acorn/dist/acorn.js:2490
+  throw err
+  ^
+
+SyntaxError: Unterminated string constant (705:11)
+    at Parser.pp$4.raise (/usr/lib/node_modules/pug-cli/node_modules/acorn/dist/acorn.js:2488:13)
+    at Parser.pp$7.readString (/usr/lib/node_modules/pug-cli/node_modules/acorn/dist/acorn.js:3195:33)
+    at Parser.pp$7.getTokenFromCode (/usr/lib/node_modules/pug-cli/node_modules/acorn/dist/acorn.js:2980:17)
+    at Parser.pp$7.readToken (/usr/lib/node_modules/pug-cli/node_modules/acorn/dist/acorn.js:2733:15)
+    at Parser.pp$7.nextToken (/usr/lib/node_modules/pug-cli/node_modules/acorn/dist/acorn.js:2724:13)
+    at Parser.pp$7.next (/usr/lib/node_modules/pug-cli/node_modules/acorn/dist/acorn.js:2684:8)
+    at Parser.pp.eat (/usr/lib/node_modules/pug-cli/node_modules/acorn/dist/acorn.js:555:10)
+    at Parser.pp$3.parsePropertyValue (/usr/lib/node_modules/pug-cli/node_modules/acorn/dist/acorn.js:2208:12)
+    at Parser.pp$3.parseObj (/usr/lib/node_modules/pug-cli/node_modules/acorn/dist/acorn.js:2197:12)
+    at Parser.pp$3.parseExprAtom (/usr/lib/node_modules/pug-cli/node_modules/acorn/dist/acorn.js:1994:17) {
+  pos: 33536,
+  loc: Position { line: 705, column: 11 },
+  raisedAt: 33548
+}
