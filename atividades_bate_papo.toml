@@ -1,5 +1,22 @@
 
 [[eventos]]
+youtube = "sl9djoCHV-0"
+ativo = true
+dia = "2022-09-30"
+titulo = "Depressão Atípica"
+assessor_slugs = ["eduardo-augusto-galindo-de-lima"]
+cartaz = "img/bp-2022-09-30.png"
+descricao = """
+A depressão pode se "disfarçar" num sorriso. 
+Na "depressão sorridente" a pessoa encobre 
+inconscientemente seus sintomas para que os 
+outros não percebam a dor e o sofrimento 
+que ela enfrenta. Trata-se de uma 
+"depressão atípica" muito difícil de se diagnosticar."""
+online = true
+
+
+[[eventos]]
 youtube = "GOq6LKnLWkw"
 ativo = true
 dia = "2022-06-24"
