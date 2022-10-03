@@ -89,8 +89,9 @@ dia = "2022-07-22"
 [[eventos]]
 dia = "2022-08-26"
 
-[[eventos]]
-dia = "2022-09-30"
+# Evento duplicado
+# [[eventos]]
+# dia = "2022-09-30"
 
 [[eventos]]
 dia = "2022-10-28"
