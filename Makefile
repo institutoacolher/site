@@ -14,6 +14,7 @@ supervisao-e-grupos-de-estudo-para-psicologos.pug
 DATA=$(patsubst %.toml,json/%.json,$(wildcard *.toml))
 
 all: \
+	$(DATA) \
 	slugs.txt \
 	componentes/membros.pug \
 	componentes/dados_atividades_bate_papo.pug \
