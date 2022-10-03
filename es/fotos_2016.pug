@@ -1,0 +1,12 @@
+extends componentes/layout.pug
+block main
+  h1 2016
+  img.materialboxed(width=300,src='img/fotos/2016-03-12_FOTO_DE_VIDEO_02.jpg') 
+  img.materialboxed(width=300,src='img/fotos/2016-03-12_FOTO_DE_VIDEO.jpg') 
+  script.
+    document.addEventListener('DOMContentLoaded', function() {
+      var elems = document.querySelectorAll('.materialboxed');
+      var options = {
+      };
+      var instances = M.Materialbox.init(elems, options);
+    });

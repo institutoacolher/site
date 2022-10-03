@@ -1,0 +1,11 @@
+extends componentes/layout.pug
+block main
+  h1 2005
+  img.materialboxed(width=300,src='img/fotos/2005-01-08_DSC00715.jpg') 
+  script.
+    document.addEventListener('DOMContentLoaded', function() {
+      var elems = document.querySelectorAll('.materialboxed');
+      var options = {
+      };
+      var instances = M.Materialbox.init(elems, options);
+    });

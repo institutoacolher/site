@@ -1,0 +1,64 @@
+extends componentes/layout.pug
+
+block main
+  -
+    var atividades = [
+      {
+        "mes": "Março",
+        "eventos": [
+          { "dia": "08 – Terça", "descricao": "Religiosas(os)" },
+          { "dia": "15 – Terça", "descricao": "Religiosas(os)" },
+          { "dia": "22 – Terça", "descricao": "Religiosas(os)" }
+        ]
+      },
+      {
+        "mes": "Abril",
+        "eventos": [
+          { "dia": "05 – Terça", "descricao": "Leigos" },
+          { "dia": "19 – Terça", "descricao": "Leigos" },
+          { "dia": "26 – Terça", "descricao": "Leigos" }
+        ]
+      },
+      {
+        "mes": "Maio",
+        "eventos": [
+          { "dia": "10 – Terça", "descricao": "Padres/Religiosas(os)" },
+          { "dia": "17 – Terça", "descricao": "Padres/Religiosas(os)" },
+          { "dia": "24 – Terça", "descricao": "Padres/Religiosas(os)" }
+        ]
+      },
+      {
+        "mes": "Junho",
+        "eventos": [
+          { "dia": "07 – Terça", "descricao": "Religiosas(os)" },
+          { "dia": "14 – Terça", "descricao": "Religiosas(os)" },
+          { "dia": "21 – Terça", "descricao": "Religiosas(os)" }
+        ]
+      }
+    ];
+
+
+  h1 Grupo Psc Discussão
+
+  h2 Equipes
+  ol(type="a")
+    li Ondina e Lourdes
+    li Wellington e Lillian
+    li Adalberto e Fátima
+    li Rosa e Eduardo
+    li Maria e Flávia 
+
+  for atividade in atividades
+    h2=atividade.mes
+    for evento in atividade.eventos
+      p
+        strong= evento.descricao || "Grupo Psc Discussão"
+        br
+        i.grey-text= evento.dia + " das " + (evento.horario || "20h00 as 21h30")
+        if evento.online
+          br
+          strong.red-text Evento Online
+        br
+        small.grey-text Equipes a, b, c, d, e, na sequência, começando da equipe que não coordenou encontro anterior.
+
+

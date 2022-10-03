@@ -1,0 +1,38 @@
+extends componentes/layout.pug
+block main
+  -
+    var atividade = {
+      "ano": "2021",
+      "tipo": "grupo-de-discussao",
+      "visivel": true,
+      "online": false,
+      "titulo": "Grupo Psicanalítico de Discussão",
+      "objetivo": "É um espaço de compartilhamento horizontal de ideia, saberes para a construção coletiva de conhecimento, inspirado nos grupos operativos de Pichon-Riviére e realizado após um disparador comum, que pode ser um texto, um filme, música ou apresentação de um evento. De maneira democrática, tais grupos estimulam a circulação do saber de cada participante, despertam associações e constroem novo conhecimento a partir do estímulo compartilhado.",
+      "dataiso": "2021-10-19",
+      "inscritos": 8,
+      "assessor_slugs": [],
+      "modulos": [
+        {
+          "data": "19/10/2021",
+          "assessor_slugs": [],
+          "convidados": [
+            "Equipe de psicólogos do ITA"
+          ]
+        },
+        {
+          "data": "26/10/2021",
+          "assessor_slugs": [],
+          "convidados": [
+            "Equipe de psicólogos do ITA"
+          ]
+        },
+        {
+          "data": "09/11/2021",
+          "assessor_slugs": [],
+          "convidados": [
+            "Equipe de psicólogos do ITA"
+          ]
+        }
+      ]
+    }
+  include componentes/detalhes_da_atividade

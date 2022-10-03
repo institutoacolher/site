@@ -1,0 +1,15 @@
+extends componentes/layout.pug
+block main
+  h1 2020
+  img.materialboxed(width=300,src='img/fotos/2020-02-08_20200208_094052c.jpg') 
+  img.materialboxed(width=300,src='img/fotos/2020-02-08_20200208_094052.jpg') 
+  img.materialboxed(width=300,src='img/fotos/2020-02-09_20200209_144552.jpg') 
+  img.materialboxed(width=300,src='img/fotos/2020-02-09_20200209_144555a.jpg') 
+  img.materialboxed(width=300,src='img/fotos/2020-02-09_20200209_144555.jpg') 
+  script.
+    document.addEventListener('DOMContentLoaded', function() {
+      var elems = document.querySelectorAll('.materialboxed');
+      var options = {
+      };
+      var instances = M.Materialbox.init(elems, options);
+    });

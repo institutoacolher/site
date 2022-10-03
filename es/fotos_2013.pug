@@ -1,0 +1,24 @@
+extends componentes/layout.pug
+block main
+  h1 2013
+  img.materialboxed(width=300,src='img/fotos/2013-02-01_DSC00523a.jpg') 
+  img.materialboxed(width=300,src='img/fotos/2013-02-01_DSC00523.jpg') 
+  img.materialboxed(width=300,src='img/fotos/2013-02-01_Grupo_do_ITA_1.jpg') 
+  img.materialboxed(width=300,src='img/fotos/2013-02-01_Grupo_do_ITA.jpg') 
+  img.materialboxed(width=300,src='img/fotos/2013-09-17_Aniversario_Pe_Edenio_1.jpg') 
+  img.materialboxed(width=300,src='img/fotos/2013-09-17_Aniversario_Pe_Edenio_2.jpg') 
+  img.materialboxed(width=300,src='img/fotos/2013-09-17_Aniversario_Pe_Edenio_3.jpg') 
+  img.materialboxed(width=300,src='img/fotos/2013-09-17_Aniversario_Pe_Edenio_4.jpg') 
+  img.materialboxed(width=300,src='img/fotos/2013-09-17_Aniversario_Pe_Edenio_5.jpg') 
+  img.materialboxed(width=300,src='img/fotos/2013-09-17_Aniversario_Pe_Edenio_6.jpg') 
+  img.materialboxed(width=300,src='img/fotos/2013-09-17_Aniversario_Pe_Edenio_7.jpg') 
+  img.materialboxed(width=300,src='img/fotos/2013-09-17_DSC_0122.jpg') 
+  img.materialboxed(width=300,src='img/fotos/2013-09-17_DSC_0123.jpg') 
+  img.materialboxed(width=300,src='img/fotos/2013-09-17_DSC_0125.jpg') 
+  script.
+    document.addEventListener('DOMContentLoaded', function() {
+      var elems = document.querySelectorAll('.materialboxed');
+      var options = {
+      };
+      var instances = M.Materialbox.init(elems, options);
+    });

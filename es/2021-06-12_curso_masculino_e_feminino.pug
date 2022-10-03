@@ -1,0 +1,47 @@
+extends componentes/layout.pug
+block main
+  -
+    var atividade = {
+      "ano": "2021",
+      "tipo": "curso",
+      "visivel": true,
+      "online": true,
+      "plataforma": "Google Meet",
+      "titulo": "Feminino & Masculino",
+      "subtitulo": "Uma construção sociocultural?",
+      "objetivo": "Aqui vai um parágrafo com a descrição do curso",
+      "dataiso": "2021-06-12",
+      "inscritos": 26,
+      "modulos": [
+        {
+          "data": "12/06/2021",
+          "horario": "19:00",
+          "duracao": "2h",
+          "titulo": "Feminino & Masculino: uma construção sociocultural?",
+          "assessor_slugs": [ "lillian-maria-penteado-de-arruda-zamith", "maria-ondina-da-silva-peruzzo" ],
+          "convidados": [ "Prof. Dra. Alessandra Benedito" ]
+        },
+        {
+          "data": "19/06/2021",
+          "horario": "19:00",
+          "duracao": "2h",
+          "titulo": "O Feminino e o Masculino para além das representações sociais",
+          "assessor_slugs": [ "maria-de-fatima-rolim-rosa", "maruzania-soares-dias" ],
+        },
+        {
+          "data": "26/06/2021",
+          "horario": "19:00",
+          "duracao": "2h",
+          "titulo": "Feminino e o Masculino que habita em nós",
+          "assessor_slugs": [ "rosa-eliza-da-silva", "lourdes-degrandis" ],
+        },
+        {
+          "data": "03/07/2021",
+          "horario": "19:00",
+          "duracao": "2h",
+          "titulo": "Vida consagrada na vivência da Força, ousadia e sensibilidade de ser mulher",
+          "assessor_slugs": [ "maria-silva-mourao", "flavia-moreira-ribeiro" ],
+        },
+      ]
+    }
+  include componentes/detalhes_da_atividade

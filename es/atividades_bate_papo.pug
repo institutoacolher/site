@@ -1,0 +1,175 @@
+extends componentes/layout.pug
+block main
+  include componentes/membros
+  include componentes/dados_atividades_bate_papo
+  -
+    var descricaoPadrao = "Insira a descrição do evento aqui"
+    var diasDaSemana = [ "Domingo", "Segunda-feira", "Terça-feira", "Quarta-feira", "Quinta-feira", "Sexta-feira", "Sábado" ]
+    var nomesMeses = [ "Janeiro", "Fevereiro", "Março", "Abril", "Maio", "Junho", "Julho", "Agosto", "Setembro", "Outubro", "Novembro", "Dezembro" ]
+    var nomeDoMes = ""
+    var horaInicioPadrao = "09"
+    var minInicioPadrao = "00"
+    var horaFimPadrao = "12"
+    var minFimPadrao = "00"
+    var descricaoPadrao = "Insira a descrição do curso aqui"
+    var localPadrao = "Sede do Instituto Acolher - ITA"
+
+  h1 Bate papo
+  for evento in eventos.sort(function(a, b){ return (a.dia > b.dia) ? 1 : -1; })
+    //- Separa por meses
+    - var d = new Date(evento.dia)
+    - var ontem = new Date()
+    - ontem.setDate(ontem.getDate()-1)
+    - d.setUTCHours(3) //- compensar fuso horário
+    - var diaDaSemana = diasDaSemana[d.getDay()]
+    - var hh1 = ("0" + (evento.horaInicio || horaInicioPadrao)).slice(-2)
+    - var mm1 = ("0" + (evento.minInicio || minInicioPadrao)).slice(-2)
+    - var hh2 = ("0" + (evento.horaFim || horaFimPadrao)).slice(-2)
+    - var mm2 = ("0" + (evento.minFim || minFimPadrao)).slice(-2)
+    - var YYYYMMDD = d.getUTCFullYear() + ("0" + (d.getMonth()+1)).slice(-2) + ("0" + d.getDate()).slice(-2)
+    - var o = "https://www.google.com/calendar/render?action=TEMPLATE"
+    - o = o + "&text=" + evento.titulo
+    - o = o + "&details=" + ( evento.descricao || descricaoPadrao )
+    - o = o + "&location=Sede do ITA"
+    - o = o + "&dates=" + YYYYMMDD + "T" + hh1 + mm1 + "00/" + YYYYMMDD + "T" + hh2 + mm2 + "00"
+    - var googleUrl = o
+
+    unless evento.ativo
+      - continue
+
+    if d < ontem
+      - continue
+
+    if nomesMeses[d.getMonth()] != nomeDoMes
+      - nomeDoMes = nomesMeses[d.getMonth()]
+      h2.mt6= nomeDoMes
+
+    .row
+      .col.s12.l4
+        p.tc
+          img(src=evento.cartaz || "https://via.placeholder.com/1200")
+      .col.s12.l8
+        p.mb0.fw3.teal-text Descrição do evento
+        p.mt0.flow-text!= evento.descricao || descricaoPadrao
+
+        p.mb0.fw3.teal-text Data e horário
+        p.mt0
+          strong= d.toLocaleString("pt-BR").substring(0,5)  + " (" + diaDaSemana + ") das " + hh1 + "h" + mm1 + " às " + hh2 + "h" + mm2
+
+        if evento.convidados
+          if evento.convidados.length == 1
+            p.mb0.fw3.teal-text Convidado
+          else
+            p.mb0.fw3.teal-text Convidados
+          p.mt0
+          each convidado in evento.convidados
+            p.modulo-assessor
+              i.grey-text.fa.fa-user-circle-o
+              strong= convidado.nome
+              if convidado.CRP
+                br
+                small.grey-text.membro-crp
+                  |  CRP: 
+                  = convidado.CRP
+
+        if evento.assessor_slugs
+          if evento.assessor_slugs.length == 1
+            p.mb0.fw3.teal-text Assessor
+          else
+            p.mb0.fw3.teal-text Assessores
+          p.mt0
+          each membro in membros
+            each assessor_slug in evento.assessor_slugs
+              if membro.slug == assessor_slug
+                p.modulo-assessor
+                  i.grey-text.fa.fa-graduation-cap
+                  a(href=membro.slug+".html",title="Membro do ITA")= membro.nome
+                  if membro.CRP
+                    br
+                    small.grey-text.membro-crp
+                      |  CRP: 
+                      = membro.CRP
+        if evento.online
+          br
+          strong.red-text Evento Online
+
+  h1 Histórico
+  for evento in eventos.sort(function(a, b){ return (a.dia < b.dia) ? 1 : -1; })
+    - var d = new Date(evento.dia)
+    - var ontem = new Date()
+    - ontem.setDate(ontem.getDate()-1)
+    - d.setUTCHours(3) //- compensar fuso horário
+    - var diaDaSemana = diasDaSemana[d.getDay()]
+    - var hh1 = ("0" + (evento.horaInicio || horaInicioPadrao)).slice(-2)
+    - var mm1 = ("0" + (evento.minInicio || minInicioPadrao)).slice(-2)
+    - var hh2 = ("0" + (evento.horaFim || horaFimPadrao)).slice(-2)
+    - var mm2 = ("0" + (evento.minFim || minFimPadrao)).slice(-2)
+    - var YYYYMMDD = d.getUTCFullYear() + ("0" + (d.getMonth()+1)).slice(-2) + ("0" + d.getDate()).slice(-2)
+
+    unless evento.ativo
+      - continue
+
+    if d > ontem
+      - continue
+
+    if nomesMeses[d.getMonth()] != nomeDoMes
+      - nomeDoMes = nomesMeses[d.getMonth()]
+      h2.mt6= nomeDoMes + " de " + d.getUTCFullYear()
+
+    //- Se campo youtube estiver definido será adicionado um vídeo
+    //- Usar somente o id
+    if evento.youtube
+      .videoWrapper
+        iframe(width="100%",src="https://www.youtube.com/embed/"+evento.youtube, 
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture",allowfullscreen)
+
+    .row
+      .col.s12.l4
+        p.tc
+          img(src=evento.cartaz || "https://via.placeholder.com/1200")
+      .col.s12.l8
+        h3.mt4= evento.titulo
+
+        p.mb0.fw3.teal-text Descrição do evento
+        p.mt0.flow-text!= evento.descricao || descricaoPadrao
+
+        p.mb0.fw3.teal-text Data
+        p.mt0
+          strong= d.toLocaleString("pt-BR").substring(0,5)  + " (" + diaDaSemana + ")"
+
+        if evento.convidados
+          if evento.convidados.length == 1
+            p.mb0.fw3.teal-text Convidado
+          else
+            p.mb0.fw3.teal-text Convidados
+          p.mt0
+          each convidado in evento.convidados
+            p.modulo-assessor
+              i.grey-text.fa.fa-user-circle-o
+              strong= convidado.nome
+              if convidado.CRP
+                br
+                small.grey-text.membro-crp
+                  |  CRP: 
+                  = convidado.CRP
+
+        if evento.assessor_slugs
+          if evento.assessor_slugs.length == 1
+            p.mb0.fw3.teal-text Assessor
+          else
+            p.mb0.fw3.teal-text Assessores
+          p.mt0
+          each membro in membros
+            each assessor_slug in evento.assessor_slugs
+              if membro.slug == assessor_slug
+                p.modulo-assessor
+                  i.grey-text.fa.fa-graduation-cap
+                  a(href=membro.slug+".html",title="Membro do ITA")= membro.nome
+                  if membro.CRP
+                    br
+                    small.grey-text.membro-crp
+                      |  CRP: 
+                      = membro.CRP
+        if evento.online
+          br
+          strong.red-text Evento Online

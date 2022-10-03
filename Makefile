@@ -15,6 +15,7 @@ DATA=$(patsubst %.toml,json/%.json,$(wildcard *.toml))
 
 all: \
 	$(DATA) \
+	copia_arquivos_para_espanhol \
 	slugs.txt \
 	componentes/membros.pug \
 	componentes/dados_atividades_bate_papo.pug \
@@ -26,6 +27,9 @@ all: \
 	html \
 	favicon \
 	publish
+
+copia_arquivos_para_espanhol:
+	cp -v --no-clobber *.pug es/
 
 watch_pug:
 	pug --watch *.pug --out docs/ --pretty

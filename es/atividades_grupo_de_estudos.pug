@@ -1,0 +1,76 @@
+extends componentes/layout.pug
+
+block main
+  -
+    var diasDaSemana = [ "Domingo", "Segunda-feira", "Terça-feira", "Quarta-feira", "Quinta-feira", "Sexta-feira", "Sábado" ]
+    var nomesMeses = [ "Janeiro", "Fevereiro", "Março", "Abril", "Maio", "Junho", "Julho", "Agosto", "Setembro", "Outubro", "Novembro", "Dezembro" ]
+    var atividades = [
+      { "dia": "2022-02-11" },
+      { "dia": "2022-03-11" },
+      { "dia": "2022-04-08" },
+      { "dia": "2022-05-13" },
+      { "dia": "2022-06-10" },
+      { "dia": "2022-08-12" },
+      { "dia": "2022-09-09" },
+      { "dia": "2022-10-14" },
+      { "dia": "2022-11-11" },
+      { "dia": "2022-12-09" }
+    ];
+    var nomeDoMes = ""
+    var horaInicioPadrao = "14"
+    var minInicioPadrao = "00"
+    var horaFimPadrao = "16"
+    var minFimPadrao = "00"
+    var descricaoPadrao = "Grupo de estudos"
+
+  h1 Grupo de Estudos
+  for atividade in atividades
+
+    //- Separa por meses
+    - var d = new Date(atividade.dia)
+    - d.setUTCHours(3) //- compensar fuso horário
+    - var diaDaSemana = diasDaSemana[d.getDay()]
+    - var hh1 = ("0" + (atividade.horaInicio || horaInicioPadrao)).slice(-2)
+    - var mm1 = ("0" + (atividade.minInicio || minInicioPadrao)).slice(-2)
+    - var hh2 = ("0" + (atividade.horaFim || horaFimPadrao)).slice(-2)
+    - var mm2 = ("0" + (atividade.minFim || minFimPadrao)).slice(-2)
+    - var YYYYMMDD = d.getUTCFullYear() + ("0" + (d.getMonth()+1)).slice(-2) + ("0" + d.getDate()).slice(-2)
+    - var o = "https://www.google.com/calendar/render?action=TEMPLATE"
+    - o = o + "&text=Grupo de estudos"
+    - o = o + "&details=" + ( atividade.descricao || descricaoPadrao )
+    - o = o + "&location=Sede do ITA"
+    - o = o + "&dates=" + YYYYMMDD + "T" + hh1 + mm1 + "00/" + YYYYMMDD + "T" + hh2 + mm2 + "00"
+    - var googleUrl = o
+
+    if nomesMeses[d.getMonth()] != nomeDoMes
+      - nomeDoMes = nomesMeses[d.getMonth()]
+      h2= nomeDoMes
+
+    p
+      strong= atividade.descricao || descricaoPadrao
+      br
+      i.grey-text= d.toLocaleString("pt-BR").substring(0,5)  + " (" + diaDaSemana + ") das " + hh1 + "h" + mm1 + " às " + hh2 + "h" + mm2
+      if atividade.online
+        br
+        strong.red-text atividade Online
+    a.dropdown-trigger.btn(href="#",data-target="dropdown"+atividade.dia) Incluir na minha agenda
+    ul.dropdown-content(id="dropdown"+atividade.dia)
+      li
+        a(href=googleUrl,target="_blank") Google
+      //- li
+      //-   a(href=outlookUrl,target="_blank") Outlook
+  script.
+    document.addEventListener('DOMContentLoaded', function() {
+    var options = {};
+    var elems = document.querySelectorAll('.dropdown-trigger');
+    var instances = M.Dropdown.init(elems, options);
+    });
+
+//- GrCalendar
+//- https://decomaan.github.io/google-calendar-link-generator/
+//- https://github.com/InteractionDesignFoundation/add-event-to-calendar-docs/blob/main/services/google.md
+//- https://github.com/geraldolsribeiro/add-event-to-calendar-docs
+//- https://www.litmus.com/blog/how-to-create-an-add-to-calendar-link-for-your-emails
+//- https://github.com/jekuer/add-to-calendar-button DROPDOWN COM OPÇÕES
+
+

@@ -1,0 +1,17 @@
+extends componentes/layout.pug
+block main
+  h1 2009
+  img.materialboxed(width=300,src='img/fotos/2009-08-23_DSC04923.jpg') 
+  img.materialboxed(width=300,src='img/fotos/2009-08-23_DSC04924.jpg') 
+  img.materialboxed(width=300,src='img/fotos/2009-08-23_DSC04925.jpg') 
+  img.materialboxed(width=300,src='img/fotos/2009-08-23_DSC04927.jpg') 
+  img.materialboxed(width=300,src='img/fotos/2009-10-31_DSC04971.jpg') 
+  img.materialboxed(width=300,src='img/fotos/2009-10-31_DSC04976.jpg') 
+  img.materialboxed(width=300,src='img/fotos/2009-11-09_DSC04985.jpg') 
+  script.
+    document.addEventListener('DOMContentLoaded', function() {
+      var elems = document.querySelectorAll('.materialboxed');
+      var options = {
+      };
+      var instances = M.Materialbox.init(elems, options);
+    });
