@@ -1,6 +1,18 @@
 {
   "eventos": [
     {
+      "youtube": "6wDK9MB1VhU",
+      "ativo": true,
+      "dia": "2022-11-25",
+      "titulo": "Cuidado com as emoções nas festas de fim de ano",
+      "assessor_slugs": [
+        "eduardo-augusto-galindo-de-lima"
+      ],
+      "cartaz": "img/bp-2022-11-25.png",
+      "descricao": "Daqui alguns dias estaremos vivendo às emoções e \nsentimentos que envolvem o fim de um ano e o início \nde outro. Para falar sobre isso que contamos com a \nsua experiência e olhar profissional para viver \nbem este tempo tão significativo e esperado.\n",
+      "online": true
+    },
+    {
       "youtube": "tpVdtIxEPrg",
       "ativo": true,
       "dia": "2022-10-28",
