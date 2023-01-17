@@ -25,6 +25,7 @@
 # Eduardo Augusto Galindo de Lima
 # Francisco Glenio de Almeida
 # Wellington Heleno da Silva
+# Anamelia Alvarenga Nascimento
 
 [[membros]]
 ativo = true
@@ -379,14 +380,13 @@ slug = "anamelia-alvarenga-nascimento"
 nome = "Anamelia Alvarenga Nascimento"
 titulo = "Psicóloga"
 CRP = "06/89645"
-descricao = """
-Sólidos conhecimentos sobre ECA / SUAS / SUS / Reforma Psiquiátrica/ Luta Antimanicomial/ Lei Maria da Penha/Triagem Psicossocial/ Visita Domiciliar/ Reunião Socioeducativa com pacientes e familiares/ Atendimento psicossocial individual e/ou em grupo;
-Coordenação de grupos, palestras, grupos operativos e grupos psicoterapêuticos;
-Experiência com articulação intersetorial, sociassistencial e da atenção psicossocial;
-Experiência como docente presencial e EAD, participação com poster/comunicação oral/rodas de conversa em Congressos, Simpósios e Seminários sobre Saúde Mental, Saúde Pública, Psicanálise e Direitos Humanos;
-"""
+descricao = """Sólidos conhecimentos sobre ECA, SUAS, SUS, Reforma Psiquiátrica, 
+Luta Antimanicomial, Lei Maria da Penha, Triagem Psicossocial"""
 areas = [
-  "Atendimento clínico"
+  "Coordenação de grupos",
+  "Palestras",
+  "Grupos operativos e grupos psicoterapêuticos",
+  "Assessorias de grupos e palestras"
 ]
 
 [[membros]]
