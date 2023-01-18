@@ -1,0 +1,5 @@
+extends componentes/layout.pug
+block main
+  - var slug = "elizete-moura-dos-santos"
+  include componentes/detalhes_do_membro
+  include:markdown-it(html) textos/elizete-moura-dos-santos.md

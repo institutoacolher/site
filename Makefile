@@ -129,6 +129,13 @@ check_members:
 		echo "  include componentes/detalhes_do_membro" >> $$slug.pug; \
 		echo "  include:markdown-it(html) textos/$$slug.md" >> $$slug.pug; \
 		fi; done
+	grep slug componentes/membros.pug \
+		| sed "s/\",//" \
+		| sed "s/.*\"//" \
+		| while read -r slug; do if [ ! -f textos/$$slug.md ]; then \
+			touch textos/$$slug.md; \
+			touch es/textos/$$slug.md; \
+		fi; done
 
 copy_members_es:
 	grep slug componentes/membros.pug \
