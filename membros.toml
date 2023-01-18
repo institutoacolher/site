@@ -483,7 +483,7 @@ nome = "José Moacyr Cardenassi"
 titulo = "Integrador Espiritual"
 CRP = "x"
 descricao = """
-Fadre franciscano da Província dos Frades Menores Capuchinhos do Estado de São Paulo"""
+Padre da Província dos Frades Menores Capuchinhos do Estado de São Paulo"""
 areas = [
   "Teologia",
   "Liturgia",
