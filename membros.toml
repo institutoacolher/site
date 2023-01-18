@@ -467,7 +467,7 @@ nome = "Marilda Santos de Souza"
 titulo = "Psicopedagogo / Psicólogo Clínico"
 CRP = "x"
 descricao = """
-xxxxxx"""
+"""
 areas = [
   "x",
   "y"
@@ -475,18 +475,19 @@ areas = [
 
 [[membros]]
 ativo = true
-grupo = "x"
+grupo = "psicoespiritual"
 avatar = "jose-moacyr-cardenassi.jpg"
 masculino = true
 slug = "jose-moacyr-cardenassi"
 nome = "José Moacyr Cardenassi"
-titulo = "Psicopedagogo / Psicólogo Clínico"
+titulo = "Integrador Espiritual"
 CRP = "x"
 descricao = """
-xxxxxx"""
+Fadre franciscano da Província dos Frades Menores Capuchinhos do Estado de São Paulo"""
 areas = [
-  "x",
-  "y"
+  "Teologia",
+  "Liturgia",
+  "Orientação Espiritual"
 ]
 
 [[membros]]
