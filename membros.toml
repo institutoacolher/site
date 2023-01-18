@@ -17,6 +17,7 @@
 # Enio Brito Pinto
 # Flávia Moreira da Silva
 # Ir. Elizete Moura dos Santos
+# Jyothi Joseph Satyanapalli
 # Lillian M. P. de Arruda Zamith
 # Lourdes Degrandis
 # Maria de Fátima Rolim Rosa
@@ -440,18 +441,29 @@ areas = [
 
 [[membros]]
 ativo = true
-grupo = "x"
+grupo = "outras"
 avatar = "jyothi-joseph-satyanapalli.jpg"
-masculino = true
+masculino = false
 slug = "jyothi-joseph-satyanapalli"
 nome = "Jyothi Joseph Satyanapalli"
-titulo = "Psicopedagogo / Psicólogo Clínico"
-CRP = "x"
+titulo = "Massoterapêuta"
 descricao = """
-xxxxxx"""
+Missionária indiana do PIME, tem 
+contato com a massagem desde criança, 
+quando aplicava as técnicas em seus 
+pais e avós"""
 areas = [
-  "x",
-  "y"
+  "Massoterapia", 
+  "Drenagem linfática",
+  "Quick massagem",
+  "Bambu terapia",
+  "Pedras quentes",
+  "Modelação",
+  "Redução",
+  "Limpeza facial", 
+  "Terapia Eletromagnético",
+  "Reflexologia",
+  "Floral de Bach"
 ]
 
 [[membros]]
