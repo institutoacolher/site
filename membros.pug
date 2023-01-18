@@ -16,7 +16,8 @@ block main
   include componentes/lista_de_membros
 
   h2 Outras Atividades
-  include componentes/lista_de_membros_inativos
+  - var grupo = "outras"
+  include componentes/lista_de_membros
 
   h2 Administrativo
   - var grupo = "administrativo"
