@@ -90,6 +90,9 @@ favicon.real:
 
 publish:
 	cp CNAME docs/
+	touch membros.toml
+	git add Makefile
+	git add *.toml
 	git add docs/
 	git add pug.log
 	git add fixme.pug

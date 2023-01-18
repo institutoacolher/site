@@ -31,30 +31,6 @@
       "areas": []
     },
     {
-      "ativo": false,
-      "grupo": "psicoterapêutico",
-      "avatar": "eliana-massih.jpg",
-      "masculino": false,
-      "slug": "eliana-massih",
-      "nome": "Eliana Massih",
-      "titulo": "Psicóloga",
-      "CRP": "2188/06",
-      "descricao": "Especialista em Psicologia Clínica, Mestre em Psicologia Clínica e Doutora em\nCiências da Religião",
-      "areas": []
-    },
-    {
-      "ativo": false,
-      "grupo": "x",
-      "avatar": "suzana-carvalho.jpg",
-      "masculino": false,
-      "slug": "suzana-carvalho",
-      "nome": "Suzana Carvalho",
-      "titulo": "",
-      "CRP": "",
-      "descricao": "",
-      "areas": []
-    },
-    {
       "ativo": true,
       "grupo": "administrativo",
       "avatar": "paulo-sergio-frederico.jpg",
@@ -352,17 +328,25 @@
     },
     {
       "ativo": true,
-      "grupo": "x",
+      "grupo": "outras",
       "avatar": "jyothi-joseph-satyanapalli.jpg",
-      "masculino": true,
+      "masculino": false,
       "slug": "jyothi-joseph-satyanapalli",
       "nome": "Jyothi Joseph Satyanapalli",
-      "titulo": "Psicopedagogo / Psicólogo Clínico",
-      "CRP": "x",
-      "descricao": "xxxxxx",
+      "titulo": "Massoterapêuta",
+      "descricao": "Missionária indiana do PIME, tem \ncontato com a massagem desde criança, \nquando aplicava as técnicas em seus \npais e avós",
       "areas": [
-        "x",
-        "y"
+        "Massoterapia",
+        "Drenagem linfática",
+        "Quick massagem",
+        "Bambu terapia",
+        "Pedras quentes",
+        "Modelação",
+        "Redução",
+        "Limpeza facial",
+        "Terapia Eletromagnético",
+        "Reflexologia",
+        "Floral de Bach"
       ]
     },
     {
@@ -389,7 +373,7 @@
       "nome": "Marilda Santos de Souza",
       "titulo": "Psicopedagogo / Psicólogo Clínico",
       "CRP": "x",
-      "descricao": "xxxxxx",
+      "descricao": "",
       "areas": [
         "x",
         "y"
@@ -397,18 +381,14 @@
     },
     {
       "ativo": true,
-      "grupo": "x",
+      "grupo": "psicoespiritual",
       "avatar": "jose-moacyr-cardenassi.jpg",
       "masculino": true,
       "slug": "jose-moacyr-cardenassi",
       "nome": "José Moacyr Cardenassi",
-      "titulo": "Psicopedagogo / Psicólogo Clínico",
-      "CRP": "x",
-      "descricao": "xxxxxx",
-      "areas": [
-        "x",
-        "y"
-      ]
+      "titulo": "Integrador Espiritual",
+      "descricao": "Padre da Província dos Frades Menores Capuchinhos do Estado de São Paulo",
+      "areas": []
     },
     {
       "ativo": true,
