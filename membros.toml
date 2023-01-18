@@ -473,9 +473,9 @@ areas = [
 [[membros]]
 ativo = true
 grupo = "x"
-avatar = "Marilda Santos de Souza.jpg"
+avatar = "marilda-santos-de-souza.jpg"
 masculino = true
-slug = "Marilda Santos de Souza"
+slug = "marilda-santos-de-souza"
 nome = "Marilda Santos de Souza"
 titulo = "Psicopedagogo / Psicólogo Clínico"
 CRP = "x"
@@ -489,9 +489,9 @@ areas = [
 [[membros]]
 ativo = true
 grupo = "x"
-avatar = "José Moacyr Cardenassi.jpg"
+avatar = "jose-moacyr-cardenassi.jpg"
 masculino = true
-slug = "José Moacyr Cardenassi"
+slug = "jose-moacyr-cardenassi"
 nome = "José Moacyr Cardenassi"
 titulo = "Psicopedagogo / Psicólogo Clínico"
 CRP = "x"
@@ -505,9 +505,9 @@ areas = [
 [[membros]]
 ativo = true
 grupo = "x"
-avatar = "Sérgio Lucas Câmara.jpg"
+avatar = "sergio-lucas-camara.jpg"
 masculino = true
-slug = "Sérgio Lucas Câmara"
+slug = "sergio-lucas-camara"
 nome = "Sérgio Lucas Câmara"
 titulo = "Psicopedagogo / Psicólogo Clínico"
 CRP = "x"
@@ -517,3 +517,4 @@ areas = [
   "x",
   "y"
 ]
+
