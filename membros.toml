@@ -67,32 +67,6 @@ Pessoa/PB."""
 areas = []
 
 [[membros]]
-ativo = false
-grupo = "psicoterapêutico"
-avatar = "eliana-massih.jpg"
-masculino = false
-slug = "eliana-massih"
-nome = "Eliana Massih"
-titulo = "Psicóloga"
-CRP = "2188/06"
-descricao = """
-Especialista em Psicologia Clínica, Mestre em Psicologia Clínica e Doutora em
-Ciências da Religião"""
-areas = []
-
-[[membros]]
-ativo = false
-grupo = "psicoterapêutico"
-avatar = "suzana-carvalho.jpg"
-masculino = false
-slug = "suzana-carvalho"
-nome = "Suzana Carvalho"
-titulo = ""
-CRP = ""
-descricao = ""
-areas = []
-
-[[membros]]
 ativo = true
 grupo = "administrativo"
 avatar = "paulo-sergio-frederico.jpg"
