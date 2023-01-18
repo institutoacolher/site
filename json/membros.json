@@ -349,6 +349,81 @@
         "Renovação religiosa",
         "Tratamento dos vícios"
       ]
+    },
+    {
+      "ativo": true,
+      "grupo": "x",
+      "avatar": "jyothi-joseph-satyanapalli.jpg",
+      "masculino": true,
+      "slug": "jyothi-joseph-satyanapalli",
+      "nome": "Jyothi Joseph Satyanapalli",
+      "titulo": "Psicopedagogo / Psicólogo Clínico",
+      "CRP": "x",
+      "descricao": "xxxxxx",
+      "areas": [
+        "x",
+        "y"
+      ]
+    },
+    {
+      "ativo": true,
+      "grupo": "x",
+      "avatar": "leonel-gomes-da-silva.jpg",
+      "masculino": true,
+      "slug": "leonel-gomes-da-silva",
+      "nome": "Leonel Gomes da Silva",
+      "titulo": "Psicopedagogo / Psicólogo Clínico",
+      "CRP": "x",
+      "descricao": "xxxxxx",
+      "areas": [
+        "x",
+        "y"
+      ]
+    },
+    {
+      "ativo": true,
+      "grupo": "x",
+      "avatar": "marilda-santos-de-souza.jpg",
+      "masculino": true,
+      "slug": "marilda-santos-de-souza",
+      "nome": "Marilda Santos de Souza",
+      "titulo": "Psicopedagogo / Psicólogo Clínico",
+      "CRP": "x",
+      "descricao": "xxxxxx",
+      "areas": [
+        "x",
+        "y"
+      ]
+    },
+    {
+      "ativo": true,
+      "grupo": "x",
+      "avatar": "jose-moacyr-cardenassi.jpg",
+      "masculino": true,
+      "slug": "jose-moacyr-cardenassi",
+      "nome": "José Moacyr Cardenassi",
+      "titulo": "Psicopedagogo / Psicólogo Clínico",
+      "CRP": "x",
+      "descricao": "xxxxxx",
+      "areas": [
+        "x",
+        "y"
+      ]
+    },
+    {
+      "ativo": true,
+      "grupo": "x",
+      "avatar": "sergio-lucas-camara.jpg",
+      "masculino": true,
+      "slug": "sergio-lucas-camara",
+      "nome": "Sérgio Lucas Câmara",
+      "titulo": "Psicopedagogo / Psicólogo Clínico",
+      "CRP": "x",
+      "descricao": "xxxxxx",
+      "areas": [
+        "x",
+        "y"
+      ]
     }
   ]
 }

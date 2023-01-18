@@ -438,3 +438,82 @@ areas = [
   "Tratamento dos vícios"
 ]
 
+[[membros]]
+ativo = true
+grupo = "x"
+avatar = "jyothi-joseph-satyanapalli.jpg"
+masculino = true
+slug = "jyothi-joseph-satyanapalli"
+nome = "Jyothi Joseph Satyanapalli"
+titulo = "Psicopedagogo / Psicólogo Clínico"
+CRP = "x"
+descricao = """
+xxxxxx"""
+areas = [
+  "x",
+  "y"
+]
+
+[[membros]]
+ativo = true
+grupo = "x"
+avatar = "leonel-gomes-da-silva.jpg"
+masculino = true
+slug = "leonel-gomes-da-silva"
+nome = "Leonel Gomes da Silva"
+titulo = "Psicopedagogo / Psicólogo Clínico"
+CRP = "x"
+descricao = """
+xxxxxx"""
+areas = [
+  "x",
+  "y"
+]
+
+[[membros]]
+ativo = true
+grupo = "x"
+avatar = "Marilda Santos de Souza.jpg"
+masculino = true
+slug = "Marilda Santos de Souza"
+nome = "Marilda Santos de Souza"
+titulo = "Psicopedagogo / Psicólogo Clínico"
+CRP = "x"
+descricao = """
+xxxxxx"""
+areas = [
+  "x",
+  "y"
+]
+
+[[membros]]
+ativo = true
+grupo = "x"
+avatar = "José Moacyr Cardenassi.jpg"
+masculino = true
+slug = "José Moacyr Cardenassi"
+nome = "José Moacyr Cardenassi"
+titulo = "Psicopedagogo / Psicólogo Clínico"
+CRP = "x"
+descricao = """
+xxxxxx"""
+areas = [
+  "x",
+  "y"
+]
+
+[[membros]]
+ativo = true
+grupo = "x"
+avatar = "Sérgio Lucas Câmara.jpg"
+masculino = true
+slug = "Sérgio Lucas Câmara"
+nome = "Sérgio Lucas Câmara"
+titulo = "Psicopedagogo / Psicólogo Clínico"
+CRP = "x"
+descricao = """
+xxxxxx"""
+areas = [
+  "x",
+  "y"
+]

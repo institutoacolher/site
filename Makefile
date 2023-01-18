@@ -19,6 +19,7 @@ all: \
 	slugs.txt \
 	componentes/membros.pug \
 	componentes/dados_atividades_bate_papo.pug \
+	check_members \
 	update \
 	deps \
 	fixme \
