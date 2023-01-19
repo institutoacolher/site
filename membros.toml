@@ -166,6 +166,7 @@ masculino = true
 slug = "joao-edenio-reis-valle"
 nome = "João Edênio Reis Valle"
 titulo = "Doutor em Psicologia"
+titulo = "Presidente honorário do ITA"
 descricao = """
 Graduação em Psicologia pelo Instituto de Psicologia da pontifícia Universidade
 Salesiana (Roma); doutorado no Instituto de Psicologia da Universidade
@@ -474,7 +475,7 @@ areas = [
 
 [[membros]]
 ativo = true
-grupo = "psicoespiritual"
+grupo = "outras"
 avatar = "jose-moacyr-cardenassi.jpg"
 masculino = true
 slug = "jose-moacyr-cardenassi"
@@ -488,17 +489,18 @@ areas = []
 
 [[membros]]
 ativo = true
-grupo = "x"
+grupo = "psicoterapêutico"
 avatar = "sergio-lucas-camara.jpg"
 masculino = true
 slug = "sergio-lucas-camara"
 nome = "Sérgio Lucas Câmara"
 titulo = "Psicopedagogo / Psicólogo Clínico"
-CRP = "x"
+CRP = "06/107924"
 descricao = """
-xxxxxx"""
+Padre e pároco da Arquidiocese de São Paulo, Doutor em Psicologia Clínica pela PUC de São Paulo, 
+Mestrado em Psicologia Clínica pela PUC de São Paulo, Mestre em Teologia Pastoral pela UNIFAI de São Paulo."""
 areas = [
-  "x",
-  "y"
+  "Psicoterapia com enlutados",
+  "Psicologia Clínica"
 ]
 
