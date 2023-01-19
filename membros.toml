@@ -64,7 +64,13 @@ descricao = """
 Licenciada em Filosofia; Psicóloga Clínica; Especialista em Adolescência
 e Juventude; Associada ao Corpo Freudiano Escola de Psicanálise de João
 Pessoa/PB."""
-areas = []
+areas = [
+  "Psicologia Clínica",
+  "Psicoterapia Individual",
+  "Formações",
+  "Palestras",
+  "Coordenação/Interação Grupal"
+]
 
 [[membros]]
 ativo = true
@@ -228,7 +234,7 @@ notas = [
 
 [[membros]]
 ativo = true
-grupo = "psicanalítico"
+grupo = "x"
 avatar = "maria-de-fatima-naves.jpg"
 masculino = false
 slug = "maria-de-fatima-naves"
