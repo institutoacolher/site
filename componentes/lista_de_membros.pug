@@ -17,7 +17,10 @@ ul.collection
             img.circle(src=imgPath+avatar,alt=membro.nome)
           p.membro-nome
             a(href=membro.slug + ".html")= membro.nome
-          for titulo in membro.titulo
-            p.orange-text.membro-titulo= titulo
+          if Array.isArray(membro.titulo)
+            for titulo in membro.titulo
+              p.orange-text.membro-titulo= titulo
+          else
+            p.orange-text.membro-titulo= membro.titulo
           if membro.CRP
             p.grey-text.membro-crp= "CRP: " + membro.CRP
