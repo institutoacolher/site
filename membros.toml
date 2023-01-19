@@ -64,13 +64,7 @@ descricao = """
 Licenciada em Filosofia; Psicóloga Clínica; Especialista em Adolescência
 e Juventude; Associada ao Corpo Freudiano Escola de Psicanálise de João
 Pessoa/PB."""
-areas = [
-  "Psicologia Clínica",
-  "Psicoterapia Individual",
-  "Formações",
-  "Palestras",
-  "Coordenação e Interação Grupal"
-]
+areas = []
 
 [[membros]]
 ativo = true
