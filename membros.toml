@@ -486,10 +486,10 @@ grupo = "outras"
 avatar = "jose-moacyr-cardenassi.jpg"
 masculino = true
 slug = "jose-moacyr-cardenassi"
-nome = "José Moacyr Cardenassi"
+nome = "José Moacyr Cadenassi"
 titulo = "Integrador Espiritual"
 descricao = """
-Padre da Província dos Frades Menores Capuchinhos do Estado de São Paulo"""
+Frade e presbítero da Ordem dos Frades Menores Capuchinhos do Estado de São Paulo"""
 areas = []
 
 
