@@ -165,7 +165,7 @@ avatar = "joao-edenio-reis-valle.jpg"
 masculino = true
 slug = "joao-edenio-reis-valle"
 nome = "João Edênio Reis Valle"
-titulo = "Doutor em Psicologia"
+# titulo = "Doutor em Psicologia"
 titulo = "Presidente honorário do ITA"
 descricao = """
 Graduação em Psicologia pelo Instituto de Psicologia da pontifícia Universidade
