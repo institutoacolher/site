@@ -27,7 +27,8 @@ if slug
             .card-content
               if Array.isArray(titulo)
                 for tn in titulo
-                  span.orange-text.card-title.membro-titulo= "#{tn} "
+                  span.orange-text.card-title.membro-titulo= tn
+                  span  
               else
                 span.orange-text.card-title.membro-titulo= titulo
               if membro.CRP
