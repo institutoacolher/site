@@ -96,9 +96,10 @@ publish:
 	git add docs/
 	git add pug.log
 	git add fixme.pug
-	git add json
 	git add componentes/
 	git commit -m "Atualização automática" && git push || echo "Sem atualização"
+	rm -rf json
+	mkdir json
 
 deps:
 	npm install
