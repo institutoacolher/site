@@ -252,7 +252,7 @@ titulo = "Psicóloga Clínica"
 CRP = "06/40520-0"
 descricao = """
 Especialização em Análise Transacional, Psicodrama e Psicanálise das
-Configurações Vinculares"""
+Configurações Vinculares."""
 areas = [
   "Psicoterapia individual",
   "Psicoterapia de grupo",
@@ -272,7 +272,7 @@ CRP = "06/34959-7"
 descricao = """
 Especialização e aperfeiçoamento em Gestalt-Terapia, Psicologia Junguiana
 e Corporal, Psicologia Winnicotiana e Psicanálise das Configurações
-Vinculares"""
+Vinculares."""
 areas = [
   "Psicoterapia Individual",
   "Psicoterapia de grupal",
@@ -295,7 +295,7 @@ CRP = "06/23032"
 descricao = """
 Especialização em coordenação de grupos e grupoterapia, membro efetivo do
 NESME. Especialização em Rorscharch e outras técnicas projetivas; membro
-efetivo da Sociedade Brasileira de Rorschach"""
+efetivo da Sociedade Brasileira de Rorschach."""
 areas = [
   "Psicoterapia individual",
   "Psicoterapia de grupo",
@@ -317,7 +317,7 @@ descricao = """
 Mestre em Psicologia Clínica pela PUC-SP; especialista em espiritualidade pela
 Gregoriana – Roma; artigos publicados na área da Vida Religiosa Consagrada. Foi
 membro da Equipe de Reflexão dos psicólogos da CRB Nacional por quatorze
-anos"""
+anos."""
 areas = [
   "Psicoterapia individual",
   "Psicoterapia de grupo",
@@ -336,7 +336,7 @@ CRP = "06/53301-7"
 descricao = """
 Mestre em Ciências da Religião PUC-SP; graduada em Psicologia pela PUC-SP;
 membro da IF-EPFCL – Fórum SP (Internacional dos Fóruns – Escola de Psicanálise
-dos Fóruns do Campo Lacaniano – Fórum São Paulo)"""
+dos Fóruns do Campo Lacaniano – Fórum São Paulo)."""
 areas = [
   "Atendimento clínico",
   "Assessorias a grupos e instituições",
@@ -355,7 +355,7 @@ CRP = "06/15430"
 descricao = """
 Psicanalista com formação no Sedes Sapientiae. Mestre em Ciências da Religião
 pela PUC-SP. Membro da Associação Brasileira de Rorschach (ASBRO). Membro da
-Associação Brasilei-ra de Orientação Profissional (ABOP)"""
+Associação Brasilei-ra de Orientação Profissional (ABOP)."""
 areas = [
   "Psicodiagnóstico",
   "Psicoterapia psicanalítica individual",
@@ -372,8 +372,16 @@ slug = "anamelia-alvarenga-nascimento"
 nome = "Anamelia Alvarenga Nascimento"
 titulo = "Psicóloga"
 CRP = "06/89645"
-descricao = """Sólidos conhecimentos sobre ECA, SUAS, SUS, Reforma Psiquiátrica, 
-Luta Antimanicomial, Lei Maria da Penha, Triagem Psicossocial"""
+descricao = """Pós-Graduada com especialização em Saúde Mental e 
+Reforma Psiquiátrica pelo Instituto Sedes Sapientiae.
+Sólidos conhecimentos sobre ECA, SUAS, SUS, Reforma Psiquiátrica, 
+Luta Antimanicomial, Lei Maria da Penha, Triagem Psicossocial. 
+Coordenação de grupos, palestras, grupos operativos e grupos psicoterapêuticos.
+Experiência com articulação intersetorial, sociassistencial e da atenção psicossocial.
+Experiência como docente presencial e EAD, participação com poster/comunicação oral/
+rodas de conversa em Congressos, Simpósios e Seminários sobre Saúde Mental, 
+Saúde Pública, Psicanálise e Direitos Humanos.
+"""
 areas = [
   "Coordenação de grupos",
   "Palestras",
@@ -395,7 +403,7 @@ Especialização em Psicoterapia Psicanalítica – CEPSI/UNIP; MBA em Gestão d
 Pessoas e Liderança – BSP (Business School of São Paulo); Graduado em Teologia,
 Instituto Pio XI; Curso de Filosofia no Instituto Filosófico do Mosteiro de São
 Bento; Curso de Psicologia de Grupo e Aconselhamento de Adolescentes e Jovens.
-Membro efetivo do Instituto Acolher – ITA"""
+Membro efetivo do Instituto Acolher – ITA."""
 areas = [
   "Psicoterapia individual",
   "Psicoterapia de grupo (adolescentes, adultos e casais)",
@@ -417,7 +425,7 @@ Padre da Congregação do Verbo Divino; Doutor em Ciências da Religião (PUC/SP
 com enfoque em Psicologia da Religião; Mestre em Teologia pela Universidade
 KUL, na Polônia; graduado em Psicologia (Universidade São Marcos – SP);
 especializado em Psicopedagogia; aperfeiçoamento em tratamento da Dependência
-Química pela UNIFESP; Membro do Instituto Acolher – ITA"""
+Química pela UNIFESP; Membro do Instituto Acolher – ITA."""
 areas = [
   "Psicologia clínica",
   "Assessorias",
@@ -465,8 +473,9 @@ nome = "Leonel Gomes da Silva"
 titulo = "Graduando em Psicologia"
 CRP = "x"
 descricao = """
-Mestre em Psicologia do Desenvolvimento da Criança e do Adolescente pela Universidade de Santiago de Compostela, USC, Espanha,
-e Mestre em Neuropsicologia pela Faculdade Ruy Barbosa, FRB, Brasil."""
+Master em Psicologia do Desenvolvimento da criança e do Adolescente pela Universidade de Santiago de Compostela 
+Especializacao em Neuropsicologia pela Faculdade Rui Barbosa, Salvador, BA. Graduação em Filosofia pela FAJE,
+Graduação em Teologia pela FaJe. Graduando em Psicologia pela Mackenzie."""
 areas = [
   "Orientação Educacional",
   "Pastoral",
@@ -503,7 +512,7 @@ slug = "jose-moacyr-cardenassi"
 nome = "José Moacyr Cadenassi"
 titulo = "Integrador Espiritual"
 descricao = """
-Frade e presbítero da Ordem dos Frades Menores Capuchinhos do Estado de São Paulo"""
+Frade e presbítero da Ordem dos Frades Menores Capuchinhos do Estado de São Paulo."""
 areas = []
 
 
