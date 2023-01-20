@@ -16,7 +16,7 @@
 # Edênio Valle Pe. (vice-presidente honorário)
 # Adalberto Wojciech Mittelstaedt
 # Enio Brito Pinto
-# Flávia Moreira da Silva
+# Flávia Moreira Ribeiro
 # Ir. Elizete Moura dos Santos
 # Jyothi Joseph Satyanapalli
 # Lillian M. P. de Arruda Zamith
@@ -89,7 +89,7 @@ grupo = "psicoterapêutico"
 avatar = "flavia-moreira-ribeiro.jpg"
 masculino = false
 slug = "flavia-moreira-ribeiro"
-nome = "Flávia Moreira da Silva"
+nome = "Flávia Moreira Ribeiro"
 titulo = "Psicóloga Clínica"
 CRP = "06/108.831"
 descricao = """
