@@ -464,6 +464,11 @@ areas = [
   "Pastoral",
   "Projetos Sociais"
 ]
+areas_es = [
+ "Orientación educativa",
+ "Pastoral",
+ "Proyectos sociales"
+]
 
 [[membros]]
 ativo = true
