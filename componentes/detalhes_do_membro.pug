@@ -6,6 +6,13 @@ if slug
   each membro in membros
     if membro.slug == slug
       - var avatar = membro.avatar
+      - var titulo  = membro.titulo
+      - var descricao = membro.descricao
+      - var areas = membro.areas
+      if lang == "es"
+        - titulo  = membro.titulo_es || membro.titulo
+        - descricao = membro.descricao_es || membro.descricao
+        - areas = membro.areas_es || membro.areas
       unless membro.avatar
         if membro.masculino
           - avatar = "membro-masculino.jpg"
@@ -18,24 +25,30 @@ if slug
         .col.s12
           .card
             .card-content
-              span.orange-text.card-title.membro-titulo= membro.titulo
+              if Array.isArray(titulo)
+                for tn in titulo
+                  span.orange-text.card-title.membro-titulo= "#{tn} "
+              else
+                span.orange-text.card-title.membro-titulo= titulo
               if membro.CRP
                 p.grey-text.membro-crp= "CRP: " + membro.CRP
               if membro.ativo
-                .text-flow.membro-descricao= membro.descricao
+                .text-flow.membro-descricao= descricao
               else
                 .text-flow.membro-descricao
                   | Ex-membro do ITA que desempenhou atividades como 
-                  strong= membro.descricao
+                  strong= descricao
                   | .
         if membro.ativo && membro.areas.length > 0
           .col.s12
             .card
               .card-content
-                span.card-title.
-                  Áreas de atuação
+                if lang == "es"
+                  span.card-title Áreas de actuación
+                else
+                  span.card-title Áreas de atuação
                 ul.membro-areas-de-atuacao
-                  each area in membro.areas
+                  each area in areas
                     li
                       i.fa.fa-check
                       span= area
