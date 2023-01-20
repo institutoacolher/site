@@ -181,6 +181,14 @@ da PUC-SP e deu início a atividades de assessoria e direção nas principais
 organizações da Igreja católica no Brasil e na América Latina. É autor de
 muitos livros e artigos na área de Psicologia, Educação, Vida Religiosa
 e Pastoral."""
+descricao_es = """
+Licenciada en Psicología por el Instituto de Psicología de la Universidad Pontificia
+Salesiana (Roma); doctorado en el Instituto de Psicología de la Universidad
+Salesiana de Roma y Bélgica. De vuelta en Brasil, trabajó en varios sectores.
+en la PUC-SP e inició actividades de asesoría y gestión en las principales
+organizaciones de la Iglesia Católica en Brasil y América Latina. es el autor de
+muchos libros y artículos en el campo de la Psicología, Educación, Vida Religiosa
+y pastoral."""
 areas = []
 
 [[membros]]
