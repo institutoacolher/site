@@ -19,6 +19,8 @@ all: \
 	slugs.txt \
 	componentes/membros.pug \
 	componentes/dados_atividades_bate_papo.pug \
+	componentes/dados_cursos_2022.pug \
+	componentes/dados_cursos_2023.pug \
 	check_members \
 	update \
 	deps \
@@ -54,9 +56,17 @@ componentes/membros.pug: json/membros.json
 	echo -n "//- ARQUIVO GERADO, NÃO EDITAR\n-\n  var membros = " > $@
 	jq ".membros" < json/membros.json | sed "s/^/  /" >> $@
 
-componentes/dados_atividades_bate_papo.pug: atividades_bate_papo.toml
+componentes/dados_atividades_bate_papo.pug: json/atividades_bate_papo.json
 	echo -n "//- ARQUIVO GERADO, NÃO EDITAR\n-\n  var eventos = " > $@
 	jq ".eventos" < json/atividades_bate_papo.json | sed "s/^/  /" >> $@
+
+componentes/dados_cursos_2022.pug: json/dados_cursos_2022.json
+	echo -n "//- ARQUIVO GERADO, NÃO EDITAR\n-\n  var cursos = " > $@
+	jq ".cursos" < json/dados_cursos_2022.json | sed "s/^/  /" >> $@
+
+componentes/dados_cursos_2023.pug: json/dados_cursos_2023.json
+	echo -n "//- ARQUIVO GERADO, NÃO EDITAR\n-\n  var cursos = " > $@
+	jq ".cursos" < json/dados_cursos_2023.json | sed "s/^/  /" >> $@
 
 slugs.txt: membros.toml
 	sed -n "s/slug = \"\(.*\)\"/\1/p" $^ > $@

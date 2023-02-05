@@ -1,0 +1,101 @@
+-
+  var diasDaSemana = [ "Domingo", "Segunda-feira", "Terça-feira", "Quarta-feira", "Quinta-feira", "Sexta-feira", "Sábado" ]
+  var nomesMeses = [ "Janeiro", "Fevereiro", "Março", "Abril", "Maio", "Junho", "Julho", "Agosto", "Setembro", "Outubro", "Novembro", "Dezembro" ]
+  var nomeDoMes = ""
+  var horaInicioPadrao = "09"
+  var minInicioPadrao = "00"
+  var horaFimPadrao = "12"
+  var minFimPadrao = "00"
+  var descricaoPadrao = "Insira a descrição do curso aqui"
+  var localPadrao = "Sede do Instituto Acolher - ITA"
+
+//- Índice
+ul
+  for curso in cursos.sort(function(a, b){ return (a.dataiso > b.dataiso) ? 1 : -1; })
+    - var d = new Date(curso.dataiso)
+    - d.setUTCHours(3) //- compensar fuso horário
+    if nomesMeses[d.getMonth()] != nomeDoMes
+      - nomeDoMes = nomesMeses[d.getMonth()]
+      li
+        a(href="#"+nomeDoMes)= nomeDoMes
+
+- nomeDoMes = ""
+for curso in cursos.sort(function(a, b){ return (a.dataiso > b.dataiso) ? 1 : -1; })
+
+  //- Separa por meses
+  - var today = (new Date()).toISOString().substring(0,10)
+  - var d = new Date(curso.dataiso)
+  - d.setUTCHours(3) //- compensar fuso horário
+  - var diaDaSemana = diasDaSemana[d.getDay()]
+  - var hh1 = ("0" + (curso.horaInicio || horaInicioPadrao)).slice(-2)
+  - var mm1 = ("0" + (curso.minInicio || minInicioPadrao)).slice(-2)
+  - var hh2 = ("0" + (curso.horaFim || horaFimPadrao)).slice(-2)
+  - var mm2 = ("0" + (curso.minFim || minFimPadrao)).slice(-2)
+  - var YYYYMMDD = d.getUTCFullYear() + ("0" + (d.getMonth()+1)).slice(-2) + ("0" + d.getDate()).slice(-2)
+  - var o = "https://www.google.com/calendar/render?action=TEMPLATE"
+  - o = o + "&text=" + curso.titulo
+  - o = o + "&details=" + ( curso.descricao || descricaoPadrao )
+  - o = o + "&location=Sede do ITA"
+  - o = o + "&dates=" + YYYYMMDD + "T" + hh1 + mm1 + "00/" + YYYYMMDD + "T" + hh2 + mm2 + "00"
+  - var googleUrl = o
+
+  if nomesMeses[d.getMonth()] != nomeDoMes
+    - nomeDoMes = nomesMeses[d.getMonth()]
+    h2.mt6(id=nomeDoMes)= nomeDoMes
+
+  p.tc
+    img(src=curso.cartaz)
+  h3.mt4= curso.titulo
+
+  //- p.fw3.teal-text Acessor
+  unless curso.assessor_slugs
+    p "assessor_slugs não definido"
+  else
+    each membro in membros
+      each assessor_slug in curso.assessor_slugs
+        if membro.slug == assessor_slug
+          p.modulo-assessor
+            i.grey-text.fa.fa-graduation-cap
+            a(href=membro.slug+".html",title="Membro do ITA")= membro.nome
+            if membro.CRP
+              br
+              small.grey-text.membro-crp
+                |  CRP: 
+                = membro.CRP
+
+  p.mb0.fw3.teal-text Descrição do curso
+  p.mt0.flow-text!= curso.descricao || descricaoPadrao
+
+  p.mb0.fw3.teal-text Data e horário
+  p.mt0
+    strong= d.toLocaleString("pt-BR").substring(0,5)  + " (" + diaDaSemana + ") das " + hh1 + "h" + mm1 + " às " + hh2 + "h" + mm2
+
+  p.mb0.fw3.teal-text Local
+  p.mt0
+    if curso.online
+      strong.red-text Curso Online
+    else
+      strong= curso.local || localPadrao
+
+  //- Só exibe botão de inscrição para cursos futuros
+  if curso.dataiso > today
+    p.fw3.teal-text Inscrição
+    .row
+      if curso.link_inscricao
+        .col.s12.m6
+          a.btn.teal.darken-2.w-100(href=curso.link_inscricao,target="_blank") Realizar inscrição
+
+      .col.s12.m6
+        a.dropdown-trigger.btn.w-100(href="#",data-target="dropdown"+curso.dataiso) Incluir na minha agenda
+        ul.dropdown-content(id="dropdown"+curso.dataiso)
+          li
+            a(href=googleUrl,target="_blank") Google
+          //- li
+          //-   a(href=outlookUrl,target="_blank") Outlook
+script.
+  document.addEventListener('DOMContentLoaded', function() {
+  var options = {};
+  var elems = document.querySelectorAll('.dropdown-trigger');
+  var instances = M.Dropdown.init(elems, options);
+  });
+
