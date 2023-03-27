@@ -5,7 +5,7 @@
 </div>
 
 O **Instituto Acolher - ITA** é a realização do sonho e do esforço de um grupo 
-multiprofissional (psicólogos, psicanalistas e religiosos), que há 21 anos 
+multiprofissional (psicólogos, psicanalistas e religiosos), que há 22 anos 
 dedica-se a assistência psicológica e a integração espiritual de religiosos, 
 sacerdotes e leigos.
 
