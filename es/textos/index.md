@@ -2,7 +2,7 @@
 
 ## Módulo I
 
-<a href="https://forms.gle/Cu6dTQVPtpokooW97">
+<a target="_blank" href="https://forms.gle/Cu6dTQVPtpokooW97">
 
 ![Módulo I](/img/adalberto.png)
 
@@ -10,7 +10,7 @@
 
 ## Módulo II
 
-<a href="https://forms.gle/Cu6dTQVPtpokooW97">
+<a target="_blank" href="https://forms.gle/Cu6dTQVPtpokooW97">
 
 ![Módulo II](/img/anamelia.png)
 
@@ -18,7 +18,7 @@
 
 ## Módulo III
 
-<a href="https://forms.gle/Cu6dTQVPtpokooW97">
+<a target="_blank" href="https://forms.gle/Cu6dTQVPtpokooW97">
 
 ![Módulo III](/img/wellington.png)
 
