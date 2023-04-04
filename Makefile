@@ -104,6 +104,7 @@ publish:
 	git add Makefile
 	git add *.toml
 	git add docs/
+	git add es/
 	git add pug.log
 	git add fixme.pug
 	git add componentes/
