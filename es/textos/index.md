@@ -18,7 +18,7 @@
 
 ## Módulo III
 
-<a href="[/curso-ABC.html](https://forms.gle/Cu6dTQVPtpokooW97)">
+<a href="https://forms.gle/Cu6dTQVPtpokooW97">
 
 ![Módulo III](/img/wellington.png)
 
