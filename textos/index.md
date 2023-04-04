@@ -1,25 +1,25 @@
-# Cursos
+# Curso: Três olhares sobre a saúde mental dos religiosos
 
-## Curso Três olhares sobre a saúde mental dos religiosos
+## Módulo I
 
-<a href="/curso-ABC.html">
+<a href="https://forms.gle/Cu6dTQVPtpokooW97">
 
-![Módulo I](img/adalberto.png/600x300)
-
-</a>
-
-## Curso Três olhares sobre a saúde mental dos religiosos
-
-<a href="/curso-ABC.html">
-
-![Módulo II](img/anamelia.png/600x300)
+![Módulo I](/img/adalberto.png)
 
 </a>
 
-## Curso Três olhares sobre a saúde mental dos religiosos
+## Módulo II
 
-<a href="/curso-ABC.html">
+<a href="https://forms.gle/Cu6dTQVPtpokooW97">
 
-![Módulo III](img/wellington.png/600x300)
+![Módulo II](/img/anamelia.png)
+
+</a>
+
+## Módulo III
+
+<a href="https://forms.gle/Cu6dTQVPtpokooW97">
+
+![Módulo III](/img/wellington.png)
 
 </a>
