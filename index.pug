@@ -1,5 +1,14 @@
 extends componentes/layout.pug
 
 block main
-  include:markdown-it(html) textos/instituicao.md
+  - var usar_duas_colunas = false
+  if usar_duas_colunas
+    .row
+      .col.s12.m6
+        include:markdown-it(html) textos/index.md
+      .col.s12.m6
+        include:markdown-it(html) textos/instituicao.md
+  else
+    include:markdown-it(html) textos/instituicao.md
+
 
