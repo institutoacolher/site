@@ -1,4 +1,18 @@
 [[cursos]]
+assessor_slugs = ["frei-josé-moacyr-cadenassi"]
+dataiso = "2023-13-05"
+titulo = "Lectio Divina: Leitura Orante da Palavra de Deus"
+descricao = """Neste momento de “rezar a palavra”, que é o objetivo da “Lectio Divina”, 
+o(a) orante experimenta a força vivificadora da Palavra de Deus, mediante os 4 passos: 
+1) Leitura; 2) Meditação; 3) Oração; e 4) Contemplação. É um exercício de transposição, 
+pela leitura, para o conteúdo da perícope bíblica escolhida para a vivência, resultando 
+no aprendizado, louvor e compromisso de vida de quem, peregrino(a), 
+corresponde à obra da graça divina na história."""
+cartaz = "img/curso-2023-05-13.png"
+link_inscricao = "https://forms.gle/vsNYMZ6Q2L3NtQJN8"
+online = false
+
+[[cursos]]
 assessor_slugs = ["wojciech-mittelstaedt-adalberto"]
 dataiso = "2023-11-19"
 titulo = "Posturas Narcisistas: vocações do sacrifício e vocações do espetáculo"
