@@ -13,7 +13,7 @@ SyntaxError: Unexpected token (888:4)
     at Parser.pp$3.parseExprOps (/usr/lib/node_modules/pug-cli/node_modules/acorn/dist/acorn.js:1791:19)
     at Parser.pp$3.parseMaybeConditional (/usr/lib/node_modules/pug-cli/node_modules/acorn/dist/acorn.js:1774:19)
     at Parser.pp$3.parseMaybeAssign (/usr/lib/node_modules/pug-cli/node_modules/acorn/dist/acorn.js:1750:19) {
-  pos: 46254,
+  pos: 46253,
   loc: Position { line: 888, column: 4 },
-  raisedAt: 46262
+  raisedAt: 46261
 }
