@@ -3,7 +3,7 @@ extends componentes/layout.pug
 block main
   h1 Membros do ITA
 
-  h2 Integração Espiritual
+  h2 Presidente honorário e fundador do ITA
   - var grupo = "psicoespiritual"
   include componentes/lista_de_membros
 
@@ -15,7 +15,11 @@ block main
   - var grupo = "psicanalítico"
   include componentes/lista_de_membros
 
-  h2 Outras Atividades
+  h2 Integração espiritual
+  - var grupo = "psicoespiritual"
+  include componentes/lista_de_membros
+
+  h2 Terapia do corpo
   - var grupo = "outras"
   include componentes/lista_de_membros
 
