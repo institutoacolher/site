@@ -1,12 +1,6 @@
 # Curso: Três olhares sobre a saúde mental dos religiosos
 
-## Módulo I
-
-<a target="_blank" href="https://forms.gle/Cu6dTQVPtpokooW97">
-
-![Módulo I](/img/adalberto.png)
-
-</a>
+## Próximos módulos:
 
 ## Módulo II
 
@@ -21,5 +15,13 @@
 <a target="_blank" href="https://forms.gle/Cu6dTQVPtpokooW97">
 
 ![Módulo III](/img/wellington.png)
+
+</a>
+
+## Módulo I (já realizado)
+
+<a target="_blank" href="https://forms.gle/Cu6dTQVPtpokooW97">
+
+![Módulo I](/img/adalberto.png)
 
 </a>
