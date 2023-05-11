@@ -18,7 +18,7 @@
 
 </a>
 
-## Módulo I (já realizado)
+## Módulo I (já realizado - temos a vídeo-aula)
 
 <a target="_blank" href="https://forms.gle/Cu6dTQVPtpokooW97">
 
