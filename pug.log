@@ -2,7 +2,7 @@
   throw err
   ^
 
-SyntaxError: Unexpected token (897:4)
+SyntaxError: Unexpected token (918:4)
     at Parser.pp$4.raise (/usr/lib/node_modules/pug-cli/node_modules/acorn/dist/acorn.js:2488:13)
     at Parser.pp.unexpected (/usr/lib/node_modules/pug-cli/node_modules/acorn/dist/acorn.js:623:8)
     at Parser.pp.expect (/usr/lib/node_modules/pug-cli/node_modules/acorn/dist/acorn.js:617:26)
@@ -13,7 +13,7 @@ SyntaxError: Unexpected token (897:4)
     at Parser.pp$3.parseExprOps (/usr/lib/node_modules/pug-cli/node_modules/acorn/dist/acorn.js:1791:19)
     at Parser.pp$3.parseMaybeConditional (/usr/lib/node_modules/pug-cli/node_modules/acorn/dist/acorn.js:1774:19)
     at Parser.pp$3.parseMaybeAssign (/usr/lib/node_modules/pug-cli/node_modules/acorn/dist/acorn.js:1750:19) {
-  pos: 46980,
-  loc: Position { line: 897, column: 4 },
-  raisedAt: 46988
+  pos: 47710,
+  loc: Position { line: 918, column: 4 },
+  raisedAt: 47718
 }
