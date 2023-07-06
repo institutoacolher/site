@@ -1,31 +1,9 @@
-# Curso: Três olhares sobre a saúde mental dos religiosos
+# Cursos online em agosto de 2023:
 
-## Próximo módulo:
+<a target="_blank" href="https://forms.gle/ay6W8LV8i5PRNuKx7"> 
 
-## Módulo III
-
-<a target="_blank" href="https://forms.gle/Cu6dTQVPtpokooW97">
-
-![Módulo III](/img/wellington.png)
+![Inscrição no curso um](/img/curso-2023-08-05.png)
 
 </a>
 
-## Módulo I 
-### (já realizado - temos a vídeo-aula)
-
-<a target="_blank" href="https://forms.gle/Cu6dTQVPtpokooW97">
-
-![Módulo I](/img/adalberto.png)
-
-</a>
-
-## Módulo II
-
-### (já realizado - temos a vídeo-aula)
-
-<a target="_blank" href="https://forms.gle/Cu6dTQVPtpokooW97">
-
-![Módulo II](/img/anamelia.png)
-
-</a>
 
