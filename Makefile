@@ -49,6 +49,7 @@ diff_es_md:
 
 # Converte arquivos toml em json
 json/%.json: %.toml
+	mkdir -p json
 	./yj -tj < $^ | jq . > $@
 
 # Atualiza o arquivo componentes/membros.pug a partir do membros.toml
