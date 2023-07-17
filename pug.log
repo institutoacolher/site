@@ -13,9 +13,9 @@ SyntaxError: Unexpected token (918:4)
     at pp$3.parseExprOps (/usr/lib/node_modules/pug-cli/node_modules/acorn/dist/acorn.js:1791:19)
     at pp$3.parseMaybeConditional (/usr/lib/node_modules/pug-cli/node_modules/acorn/dist/acorn.js:1774:19)
     at pp$3.parseMaybeAssign (/usr/lib/node_modules/pug-cli/node_modules/acorn/dist/acorn.js:1750:19) {
-  pos: 47710,
+  pos: 47709,
   loc: Position { line: 918, column: 4 },
-  raisedAt: 47718
+  raisedAt: 47717
 }
 
 Node.js v19.9.0
