@@ -1,0 +1,5 @@
+extends componentes/layout.pug
+block main
+  - var slug = "jose-moacyr-cadenassi"
+  include componentes/detalhes_do_membro
+  include:markdown-it(html) textos/jose-moacyr-cadenassi.md
