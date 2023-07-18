@@ -10,6 +10,6 @@
 
 <a target="_blank" href="https://forms.gle/x2CNZBfgGVQmAwK17"> 
 
-![Inscrição no curso um](/img/curso-2023-07-07-c.png)
+![Inscrição no curso dois](/img/curso-2023-07-07-c.png)
 
 </a>
