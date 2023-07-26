@@ -52,8 +52,10 @@ online = false
 assessor_slugs = ["wojciech-mittelstaedt-adalberto"]
 dataiso = "2023-04-25"
 titulo = "O impacto das mídias sociais e da Internet na VRC e sacerdotal"
-descricao = """Como o uso das mídias sociais afetam as rotinas da vida religiosa consagrada e sacerdotal"""
+descricao = """Como o uso das mídias sociais afetam as rotinas da vida religiosa consagrada e sacerdotal."""
 cartaz = "img/curso-2023-04-25.png"
 link_inscricao = "https://forms.gle/GNKtbYyCjFppXx8B9"
 online = true
+
+
 
