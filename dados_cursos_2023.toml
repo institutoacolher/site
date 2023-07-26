@@ -39,7 +39,7 @@ assessor_slugs = ["frei-josé-moacyr-cadenassi"]
 dataiso = "2023-05-13"
 titulo = "Lectio Divina: Leitura Orante da Palavra de Deus"
 descricao = """Neste momento de 'rezar a palavra', que é o objetivo da 'Lectio Divina', 
-o(a) orante experimenta a força vivificadora da Palavra de Deus, mediante os 4 passos: 
+o(a) orante experimenta a força vivificadora da Palavra de Deus, mediante os quatro passos: 
 1) Leitura; 2) Meditação; 3) Oração; e 4) Contemplação. É um exercício de transposição, 
 pela leitura, para o conteúdo da perícope bíblica escolhida para a vivência, resultando 
 no aprendizado, louvor e compromisso de vida de quem, peregrino(a), 
@@ -52,8 +52,10 @@ online = false
 assessor_slugs = ["wojciech-mittelstaedt-adalberto"]
 dataiso = "2023-04-25"
 titulo = "O impacto das mídias sociais e da Internet na VRC e sacerdotal"
-descricao = """Como o uso das mídias sociais afetam as rotinas da vida religiosa consagrada e sacerdotal"""
+descricao = """Como o uso das mídias sociais afetam as rotinas e avanços da vida religiosa consagrada e sacerdotal."""
 cartaz = "img/curso-2023-04-25.png"
 link_inscricao = "https://forms.gle/GNKtbYyCjFppXx8B9"
 online = true
+
+
 
