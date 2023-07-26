@@ -35,15 +35,6 @@ link_inscricao = "https://forms.gle/GNKtbYyCjFppXx8B9"
 online = true
 
 [[cursos]]
-assessor_slugs = ["wojciech-mittelstaedt-adalberto"]
-dataiso = "2023-04-29"
-titulo = "O impacto das mídias sociais e da internet na VRC e Sacerdotal"
-descricao = """O curso apresentará dados recentes sobre o uso da internet e das mídias sociais no Brasil e os impactos deles no ambiente interno da Igreja."""
-cartaz = "img/curso-2023-04-29.png"
-link_inscricao = "https://forms.gle/GNKtbYyCjFppXx8B9"
-online = true
-
-[[cursos]]
 assessor_slugs = ["frei-josé-moacyr-cadenassi"]
 dataiso = "2023-05-13"
 titulo = "Lectio Divina: Leitura Orante da Palavra de Deus"
