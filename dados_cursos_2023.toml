@@ -8,6 +8,16 @@ link_inscricao = "https://forms.gle/ay6W8LV8i5PRNuKx7"
 online = true
 
 [[cursos]]
+assessor_slugs = ["anamelia-alvarenga-nascimento"]
+dataiso = "2023-09-16"
+titulo = "Aspectos psicossociais e patológicos na tentativa de suicídio"
+descricao = """Nesta série do Instituto Acolher-ITA sobre os desafios na vida consgrada e sacedotal vamos abordar vários
+aspectos relacionados aos dramas e fragilidades que levam uma pessoa a atentar contra a própria vida."""
+cartaz = "img/curso-2023-09-16.png"
+link_inscricao = "https://forms.gle/32635BWufx1KzwDz5"
+online = true
+
+[[cursos]]
 assessor_slugs = ["vagner-sanagiotto"]
 dataiso = "2023-08-07"
 titulo = "É possível medir uma vocação? - O psicodiagnóstico na perspectiva do crescimento humano e vocacional"
