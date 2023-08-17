@@ -1,6 +1,6 @@
 <a target="_blank" href="https://forms.gle/VQm5imqDMwcPsBGp9"> 
 
-![Inscrição no curso um](/img/curso-2023-09-27-b.png)
+![Para se inscrever, clique no cartaz!](/img/curso-2023-09-27.png)
 
 </a>
 
