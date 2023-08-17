@@ -1,16 +1,7 @@
-![Inscrição no curso um](/img/curso-2023-07-07-a.png)
+<a target="_blank" href="https://forms.gle/VQm5imqDMwcPsBGp9"> 
+
+![Para registrarse, haga clic en el póster!](/img/curso-2023-09-27.png)
 
 </a>
 
-<a target="_blank" href="https://forms.gle/ay6W8LV8i5PRNuKx7"> 
-
-![Inscrição no curso um](/img/curso-2023-07-07-b.png)
-
-</a>
-
-<a target="_blank" href="https://forms.gle/x2CNZBfgGVQmAwK17"> 
-
-![Inscrição no curso um](/img/curso-2023-07-07-c.png)
-
-</a>
 
