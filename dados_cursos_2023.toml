@@ -8,6 +8,16 @@ link_inscricao = "https://forms.gle/ay6W8LV8i5PRNuKx7"
 online = true
 
 [[cursos]]
+assessor_slugs = ["sergio-lucas-camara"]
+dataiso = "2023-09-27"
+titulo = "Reflexões sobre a morte e o luto: compreensão e acolhimento"
+descricao = """Atendendo a pedidos ofereceremos novamente o curso online “Reflexões sobre a morte e o luto para a prática clínica e pastoral”, com o psicólogo e membro do Instituto Acolher-ITA, Pe. Sérgio Lucas Câmara. Desta vez, o curso será à noite, em uma quarta-feira. Aproveite essa oportunidade de conhecer aspectos históricos, práticos e teóricos sobre a morte e o luto."""
+cartaz = "img/curso-2023-09-27-b.png"
+link_inscricao = "https://forms.gle/VQm5imqDMwcPsBGp9"
+video = [Mais informações no vídeo abaixo:](https://youtu.be/9sOXlQvLsMY)
+online = true
+
+[[cursos]]
 assessor_slugs = ["anamelia-alvarenga-nascimento"]
 dataiso = "2023-09-16"
 titulo = "Aspectos psicossociais e patológicos na tentativa de suicídio"
