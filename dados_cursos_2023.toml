@@ -13,8 +13,8 @@ dataiso = "2023-09-27"
 titulo = "Reflexões sobre a morte e o luto: compreensão e acolhimento"
 descricao = """Atendendo a pedidos ofereceremos novamente vez o curso online Reflexões sobre a morte e o luto, 
 com o psicólogo e membro do Instituto Acolher-ITA, Pe. Sérgio Lucas Câmara. Desta vez, o curso será à noite, em 
-uma quarta-feira. Tem mais informações neste vídeo: <https://youtu.be/9sOXlQvLsMY> Aproveite essa oportunidade 
-de conhecer aspectos históricos, práticos e teóricos sobre a morte e o luto."""
+uma quarta-feira. Aproveite essa oportunidade de conhecer aspectos históricos, práticos e teóricos sobre a morte e o luto."""
+[Tem mais informações neste vídeo](https://youtu.be/9sOXlQvLsMY)
 cartaz = "img/curso-2023-09-27.png"
 link_inscricao = "https://forms.gle/VQm5imqDMwcPsBGp9"
 online = true
