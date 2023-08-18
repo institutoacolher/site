@@ -1,25 +1,25 @@
-/usr/lib/node_modules/pug-cli/node_modules/pug-filters/lib/handle-filters.js:47
-          throw error(ex.code, ex.message, filter);
-          ^
+/usr/lib/node_modules/pug-cli/node_modules/pug-linker/index.js:7
+  throw require('pug-error').apply(null, arguments);
+  ^
 
-Error: es/componentes/footer.pug:5:18
+Error: fixme.pug:164:1
 
-unknown filter ":markdown-it"
+Only named blocks and mixins can appear at the top level of an extending template
     at makeError (/usr/lib/node_modules/pug-cli/node_modules/pug-error/index.js:32:13)
-    at filterWithFallback (/usr/lib/node_modules/pug-cli/node_modules/pug-filters/lib/handle-filters.js:47:17)
-    at filterFileWithFallback (/usr/lib/node_modules/pug-cli/node_modules/pug-filters/lib/handle-filters.js:58:16)
-    at walk.includeDependencies (/usr/lib/node_modules/pug-cli/node_modules/pug-filters/lib/handle-filters.js:27:18)
-    at walkAST (/usr/lib/node_modules/pug-cli/node_modules/pug-walk/index.js:23:18)
-    at /usr/lib/node_modules/pug-cli/node_modules/pug-walk/index.js:104:20
-    at Array.reduce (<anonymous>)
-    at walkAndMergeNodes (/usr/lib/node_modules/pug-cli/node_modules/pug-walk/index.js:103:18)
-    at walkAST (/usr/lib/node_modules/pug-cli/node_modules/pug-walk/index.js:37:19)
-    at walkAST (/usr/lib/node_modules/pug-cli/node_modules/pug-walk/index.js:48:21) {
-  code: 'PUG:UNKNOWN_FILTER',
-  msg: 'unknown filter ":markdown-it"',
-  line: 5,
-  column: 18,
-  filename: 'es/componentes/footer.pug',
+    at error (/usr/lib/node_modules/pug-cli/node_modules/pug-linker/index.js:7:30)
+    at addNode (/usr/lib/node_modules/pug-cli/node_modules/pug-linker/index.js:34:9)
+    at Array.forEach (<anonymous>)
+    at link (/usr/lib/node_modules/pug-cli/node_modules/pug-linker/index.js:26:15)
+    at compileBody (/usr/lib/node_modules/pug-cli/node_modules/pug/lib/index.js:170:9)
+    at Object.exports.compile (/usr/lib/node_modules/pug-cli/node_modules/pug/lib/index.js:242:16)
+    at handleTemplateCache (/usr/lib/node_modules/pug-cli/node_modules/pug/lib/index.js:215:25)
+    at Object.exports.compileFile (/usr/lib/node_modules/pug-cli/node_modules/pug/lib/index.js:356:10)
+    at renderFile (/usr/lib/node_modules/pug-cli/index.js:256:18) {
+  code: 'PUG:UNEXPECTED_NODES_IN_EXTENDING_ROOT',
+  msg: 'Only named blocks and mixins can appear at the top level of an extending template',
+  line: 164,
+  column: 1,
+  filename: 'fixme.pug',
   src: undefined,
   toJSON: [Function (anonymous)]
 }
