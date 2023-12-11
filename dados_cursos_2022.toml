@@ -193,3 +193,12 @@ dataiso = "2022-12-10"
 titulo = "Burnout"
 assessor_slugs = ["wellington-heleno-da-silva"]
 cartaz = "img/assina_email.png"
+
+[[cursos]]
+dataiso = "2022-12-11"
+titulo = "Burnout"
+assessor_slugs = ["wellington-heleno-da-silva"]
+cartaz = "img/img/2023-01.png"
+
+
+
