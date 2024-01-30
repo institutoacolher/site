@@ -2144,9 +2144,12 @@
  *    IE on Windows Phone and in iOS.
  */
 html {
-  line-height: 1.15; /* 1 */
-  -ms-text-size-adjust: 100%; /* 2 */
-  -webkit-text-size-adjust: 100%; /* 2 */
+  line-height: 1.15;
+  /* 1 */
+  -ms-text-size-adjust: 100%;
+  /* 2 */
+  -webkit-text-size-adjust: 100%;
+  /* 2 */
 }
 
 /* Sections
@@ -2187,7 +2190,8 @@ h1 {
  */
 figcaption,
 figure,
-main { /* 1 */
+main {
+  /* 1 */
   display: block;
 }
 
@@ -2203,9 +2207,12 @@ figure {
  * 2. Show the overflow in Edge and IE.
  */
 hr {
-  box-sizing: content-box; /* 1 */
-  height: 0; /* 1 */
-  overflow: visible; /* 2 */
+  box-sizing: content-box;
+  /* 1 */
+  height: 0;
+  /* 1 */
+  overflow: visible;
+  /* 2 */
 }
 
 /**
@@ -2213,8 +2220,10 @@ hr {
  * 2. Correct the odd `em` font sizing in all browsers.
  */
 pre {
-  font-family: monospace, monospace; /* 1 */
-  font-size: 1em; /* 2 */
+  font-family: monospace, monospace;
+  /* 1 */
+  font-size: 1em;
+  /* 2 */
 }
 
 /* Text-level semantics
@@ -2224,8 +2233,10 @@ pre {
  * 2. Remove gaps in links underline in iOS 8+ and Safari 8+.
  */
 a {
-  background-color: transparent; /* 1 */
-  -webkit-text-decoration-skip: objects; /* 2 */
+  background-color: transparent;
+  /* 1 */
+  -webkit-text-decoration-skip: objects;
+  /* 2 */
 }
 
 /**
@@ -2233,9 +2244,12 @@ a {
  * 2. Add the correct text decoration in Chrome, Edge, IE, Opera, and Safari.
  */
 abbr[title] {
-  border-bottom: none; /* 1 */
-  text-decoration: underline; /* 2 */
-  text-decoration: underline dotted; /* 2 */
+  border-bottom: none;
+  /* 1 */
+  text-decoration: underline;
+  /* 2 */
+  text-decoration: underline dotted;
+  /* 2 */
 }
 
 /**
@@ -2261,8 +2275,10 @@ strong {
 code,
 kbd,
 samp {
-  font-family: monospace, monospace; /* 1 */
-  font-size: 1em; /* 2 */
+  font-family: monospace, monospace;
+  /* 1 */
+  font-size: 1em;
+  /* 2 */
 }
 
 /**
@@ -2350,10 +2366,14 @@ input,
 optgroup,
 select,
 textarea {
-  font-family: sans-serif; /* 1 */
-  font-size: 100%; /* 1 */
-  line-height: 1.15; /* 1 */
-  margin: 0; /* 2 */
+  font-family: sans-serif;
+  /* 1 */
+  font-size: 100%;
+  /* 1 */
+  line-height: 1.15;
+  /* 1 */
+  margin: 0;
+  /* 2 */
 }
 
 /**
@@ -2361,7 +2381,8 @@ textarea {
  * 1. Show the overflow in Edge.
  */
 button,
-input { /* 1 */
+input {
+  /* 1 */
   overflow: visible;
 }
 
@@ -2370,7 +2391,8 @@ input { /* 1 */
  * 1. Remove the inheritance of text transform in Firefox.
  */
 button,
-select { /* 1 */
+select {
+  /* 1 */
   text-transform: none;
 }
 
@@ -2383,7 +2405,8 @@ button,
 html [type=button],
 [type=reset],
 [type=submit] {
-  -webkit-appearance: button; /* 2 */
+  -webkit-appearance: button;
+  /* 2 */
 }
 
 /**
@@ -2421,12 +2444,18 @@ fieldset {
  *    `fieldset` elements in all browsers.
  */
 legend {
-  box-sizing: border-box; /* 1 */
-  color: inherit; /* 2 */
-  display: table; /* 1 */
-  max-width: 100%; /* 1 */
-  padding: 0; /* 3 */
-  white-space: normal; /* 1 */
+  box-sizing: border-box;
+  /* 1 */
+  color: inherit;
+  /* 2 */
+  display: table;
+  /* 1 */
+  max-width: 100%;
+  /* 1 */
+  padding: 0;
+  /* 3 */
+  white-space: normal;
+  /* 1 */
 }
 
 /**
@@ -2434,8 +2463,10 @@ legend {
  * 2. Add the correct vertical alignment in Chrome, Firefox, and Opera.
  */
 progress {
-  display: inline-block; /* 1 */
-  vertical-align: baseline; /* 2 */
+  display: inline-block;
+  /* 1 */
+  vertical-align: baseline;
+  /* 2 */
 }
 
 /**
@@ -2451,8 +2482,10 @@ textarea {
  */
 [type=checkbox],
 [type=radio] {
-  box-sizing: border-box; /* 1 */
-  padding: 0; /* 2 */
+  box-sizing: border-box;
+  /* 1 */
+  padding: 0;
+  /* 2 */
 }
 
 /**
@@ -2468,8 +2501,10 @@ textarea {
  * 2. Correct the outline style in Safari.
  */
 [type=search] {
-  -webkit-appearance: textfield; /* 1 */
-  outline-offset: -2px; /* 2 */
+  -webkit-appearance: textfield;
+  /* 1 */
+  outline-offset: -2px;
+  /* 2 */
 }
 
 /**
@@ -2485,8 +2520,10 @@ textarea {
  * 2. Change font properties to `inherit` in Safari.
  */
 ::-webkit-file-upload-button {
-  -webkit-appearance: button; /* 1 */
-  font: inherit; /* 2 */
+  -webkit-appearance: button;
+  /* 1 */
+  font: inherit;
+  /* 2 */
 }
 
 /* Interactive
@@ -2690,7 +2727,7 @@ video.responsive-video {
     width: 100%;
   }
   .pagination li.prev,
-  .pagination li.next {
+.pagination li.next {
     width: 10%;
   }
   .pagination li.pages {
@@ -2711,7 +2748,7 @@ video.responsive-video {
   font-size: 24px;
 }
 .breadcrumb:before {
-  content: "\e5cc";
+  content: "";
   color: rgba(255, 255, 255, 0.7);
   vertical-align: top;
   display: inline-block;
@@ -2924,7 +2961,7 @@ td, th {
     content: " ";
   }
   table.responsive-table th,
-  table.responsive-table td {
+table.responsive-table td {
     margin: 0;
     vertical-align: top;
   }
@@ -4204,10 +4241,12 @@ nav .input-field label.active i {
   nav.nav-extended .nav-wrapper {
     min-height: 64px;
   }
+
   nav, nav .nav-wrapper i, nav a.sidenav-trigger, nav a.sidenav-trigger i {
     height: 64px;
     line-height: 64px;
   }
+
   .navbar-fixed {
     height: 64px;
   }
@@ -4813,9 +4852,9 @@ small {
 }
 
 .btn,
-.btn-small,
-.btn-large,
 .btn-floating,
+.btn-large,
+.btn-small,
 .btn-flat {
   font-size: 14px;
   outline: 0;
@@ -5776,49 +5815,27 @@ textarea.materialize-textarea:focus.invalid {
 
 .select-wrapper.valid .helper-text[data-success], .select-wrapper.invalid ~ .helper-text[data-error], input:not([type]).valid ~ .helper-text[data-success], input:not([type]):focus.valid ~ .helper-text[data-success], input:not([type]).invalid ~ .helper-text[data-error], input:not([type]):focus.invalid ~ .helper-text[data-error],
 input[type=text]:not(.browser-default).valid ~ .helper-text[data-success],
-input[type=text]:not(.browser-default):focus.valid ~ .helper-text[data-success],
 input[type=text]:not(.browser-default).invalid ~ .helper-text[data-error],
-input[type=text]:not(.browser-default):focus.invalid ~ .helper-text[data-error],
 input[type=password]:not(.browser-default).valid ~ .helper-text[data-success],
-input[type=password]:not(.browser-default):focus.valid ~ .helper-text[data-success],
 input[type=password]:not(.browser-default).invalid ~ .helper-text[data-error],
-input[type=password]:not(.browser-default):focus.invalid ~ .helper-text[data-error],
 input[type=email]:not(.browser-default).valid ~ .helper-text[data-success],
-input[type=email]:not(.browser-default):focus.valid ~ .helper-text[data-success],
 input[type=email]:not(.browser-default).invalid ~ .helper-text[data-error],
-input[type=email]:not(.browser-default):focus.invalid ~ .helper-text[data-error],
 input[type=url]:not(.browser-default).valid ~ .helper-text[data-success],
-input[type=url]:not(.browser-default):focus.valid ~ .helper-text[data-success],
 input[type=url]:not(.browser-default).invalid ~ .helper-text[data-error],
-input[type=url]:not(.browser-default):focus.invalid ~ .helper-text[data-error],
 input[type=time]:not(.browser-default).valid ~ .helper-text[data-success],
-input[type=time]:not(.browser-default):focus.valid ~ .helper-text[data-success],
 input[type=time]:not(.browser-default).invalid ~ .helper-text[data-error],
-input[type=time]:not(.browser-default):focus.invalid ~ .helper-text[data-error],
 input[type=date]:not(.browser-default).valid ~ .helper-text[data-success],
-input[type=date]:not(.browser-default):focus.valid ~ .helper-text[data-success],
 input[type=date]:not(.browser-default).invalid ~ .helper-text[data-error],
-input[type=date]:not(.browser-default):focus.invalid ~ .helper-text[data-error],
 input[type=datetime]:not(.browser-default).valid ~ .helper-text[data-success],
-input[type=datetime]:not(.browser-default):focus.valid ~ .helper-text[data-success],
 input[type=datetime]:not(.browser-default).invalid ~ .helper-text[data-error],
-input[type=datetime]:not(.browser-default):focus.invalid ~ .helper-text[data-error],
 input[type=datetime-local]:not(.browser-default).valid ~ .helper-text[data-success],
-input[type=datetime-local]:not(.browser-default):focus.valid ~ .helper-text[data-success],
 input[type=datetime-local]:not(.browser-default).invalid ~ .helper-text[data-error],
-input[type=datetime-local]:not(.browser-default):focus.invalid ~ .helper-text[data-error],
 input[type=tel]:not(.browser-default).valid ~ .helper-text[data-success],
-input[type=tel]:not(.browser-default):focus.valid ~ .helper-text[data-success],
 input[type=tel]:not(.browser-default).invalid ~ .helper-text[data-error],
-input[type=tel]:not(.browser-default):focus.invalid ~ .helper-text[data-error],
 input[type=number]:not(.browser-default).valid ~ .helper-text[data-success],
-input[type=number]:not(.browser-default):focus.valid ~ .helper-text[data-success],
 input[type=number]:not(.browser-default).invalid ~ .helper-text[data-error],
-input[type=number]:not(.browser-default):focus.invalid ~ .helper-text[data-error],
 input[type=search]:not(.browser-default).valid ~ .helper-text[data-success],
-input[type=search]:not(.browser-default):focus.valid ~ .helper-text[data-success],
 input[type=search]:not(.browser-default).invalid ~ .helper-text[data-error],
-input[type=search]:not(.browser-default):focus.invalid ~ .helper-text[data-error],
 textarea.materialize-textarea.valid ~ .helper-text[data-success],
 textarea.materialize-textarea:focus.valid ~ .helper-text[data-success],
 textarea.materialize-textarea.invalid ~ .helper-text[data-error],
@@ -6042,8 +6059,10 @@ textarea {
 }
 textarea.materialize-textarea {
   line-height: normal;
-  overflow-y: hidden; /* prevents scroll bar flash */
-  padding: 0.8rem 0 0.8rem 0; /* prevents text jump on Enter keypress */
+  overflow-y: hidden;
+  /* prevents scroll bar flash */
+  padding: 0.8rem 0 0.8rem 0;
+  /* prevents text jump on Enter keypress */
   resize: none;
   min-height: 3rem;
   box-sizing: border-box;
@@ -6053,8 +6072,10 @@ textarea.materialize-textarea {
   visibility: hidden;
   white-space: pre-wrap;
   word-wrap: break-word;
-  overflow-wrap: break-word; /* future version of deprecated 'word-wrap' */
-  padding-top: 1.2rem; /* prevents text jump on Enter keypress */
+  overflow-wrap: break-word;
+  /* future version of deprecated 'word-wrap' */
+  padding-top: 1.2rem;
+  /* prevents text jump on Enter keypress */
   position: absolute;
   top: 0;
   z-index: -1;
@@ -7102,54 +7123,70 @@ input[type=range]::-ms-thumb {
 @-webkit-keyframes fill-unfill-rotate {
   12.5% {
     -webkit-transform: rotate(135deg);
-  } /* 0.5 * ARCSIZE */
+  }
+  /* 0.5 * ARCSIZE */
   25% {
     -webkit-transform: rotate(270deg);
-  } /* 1   * ARCSIZE */
+  }
+  /* 1   * ARCSIZE */
   37.5% {
     -webkit-transform: rotate(405deg);
-  } /* 1.5 * ARCSIZE */
+  }
+  /* 1.5 * ARCSIZE */
   50% {
     -webkit-transform: rotate(540deg);
-  } /* 2   * ARCSIZE */
+  }
+  /* 2   * ARCSIZE */
   62.5% {
     -webkit-transform: rotate(675deg);
-  } /* 2.5 * ARCSIZE */
+  }
+  /* 2.5 * ARCSIZE */
   75% {
     -webkit-transform: rotate(810deg);
-  } /* 3   * ARCSIZE */
+  }
+  /* 3   * ARCSIZE */
   87.5% {
     -webkit-transform: rotate(945deg);
-  } /* 3.5 * ARCSIZE */
+  }
+  /* 3.5 * ARCSIZE */
   to {
     -webkit-transform: rotate(1080deg);
-  } /* 4   * ARCSIZE */
+  }
+  /* 4   * ARCSIZE */
 }
 @keyframes fill-unfill-rotate {
   12.5% {
     transform: rotate(135deg);
-  } /* 0.5 * ARCSIZE */
+  }
+  /* 0.5 * ARCSIZE */
   25% {
     transform: rotate(270deg);
-  } /* 1   * ARCSIZE */
+  }
+  /* 1   * ARCSIZE */
   37.5% {
     transform: rotate(405deg);
-  } /* 1.5 * ARCSIZE */
+  }
+  /* 1.5 * ARCSIZE */
   50% {
     transform: rotate(540deg);
-  } /* 2   * ARCSIZE */
+  }
+  /* 2   * ARCSIZE */
   62.5% {
     transform: rotate(675deg);
-  } /* 2.5 * ARCSIZE */
+  }
+  /* 2.5 * ARCSIZE */
   75% {
     transform: rotate(810deg);
-  } /* 3   * ARCSIZE */
+  }
+  /* 3   * ARCSIZE */
   87.5% {
     transform: rotate(945deg);
-  } /* 3.5 * ARCSIZE */
+  }
+  /* 3.5 * ARCSIZE */
   to {
     transform: rotate(1080deg);
-  } /* 4   * ARCSIZE */
+  }
+  /* 4   * ARCSIZE */
 }
 @-webkit-keyframes blue-fade-in-out {
   from {
@@ -7323,7 +7360,8 @@ input[type=range]::-ms-thumb {
 .circle-clipper .circle {
   width: 200%;
   height: 100%;
-  border-width: 3px; /* STROKEWIDTH */
+  border-width: 3px;
+  /* STROKEWIDTH */
   border-style: solid;
   border-color: inherit;
   border-bottom-color: transparent !important;
@@ -7850,17 +7888,21 @@ input[type=range]::-ms-thumb {
   .datepicker-modal {
     max-width: 625px;
   }
+
   .datepicker-container.modal-content {
     flex-direction: row;
   }
+
   .datepicker-date-display {
     flex: 0 1 270px;
   }
+
   .datepicker-controls,
-  .datepicker-table,
-  .datepicker-footer {
+.datepicker-table,
+.datepicker-footer {
     width: 320px;
   }
+
   .datepicker-day-button {
     line-height: 44px;
   }
@@ -7878,7 +7920,7 @@ input[type=range]::-ms-thumb {
 }
 
 .text-primary {
-  color: rgb(255, 255, 255);
+  color: white;
 }
 
 /* Clock Digital Display */
@@ -8032,12 +8074,15 @@ input[type=range]::-ms-thumb {
   .timepicker-modal {
     max-width: 600px;
   }
+
   .timepicker-container.modal-content {
     flex-direction: row;
   }
+
   .timepicker-text-container {
     top: 32%;
   }
+
   .timepicker-display-am-pm {
     position: relative;
     right: auto;
