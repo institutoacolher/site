@@ -4,6 +4,7 @@ include vars
   var contatos = [
     {
       "nome": "Sao Paulo",
+      "mapa": "localizacao_sp.html",
       "logradouro": "Rua Prof. José Cucé, 125, 04055-070",
       "bairro": "Saúde - São Paulo/SP",
       "fone": "(11) 4371-0935",
@@ -16,6 +17,7 @@ include vars
     },
     {
       "nome": "Belo Horizonte",
+      "mapa": "localizacao_bh.html",
       "logradouro": "Rua Prof. José Cucé, 125, 04055-070",
       "bairro": "Saúde - São Paulo/SP",
       "fone": "(11) 4371-0935",
@@ -28,6 +30,7 @@ include vars
     },
     {
       "nome": "Curitiba",
+      "mapa": "localizacao_curitiba.html",
       "logradouro": "Rua Prof. José Cucé, 125, 04055-070",
       "bairro": "Saúde - São Paulo/SP",
       "fone": "(11) 4371-0935",
@@ -47,7 +50,7 @@ for contato in contatos
   ul.contato
     li
       i.fa.fa-street-view
-      a.white-text(href="localizacao.html")= verNoMapa
+      a.white-text(href=contato.map)= verNoMapa
     li
       i.fa.fa-map
       span.logradouro= contato.logradouro
