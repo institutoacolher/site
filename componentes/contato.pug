@@ -1,41 +1,73 @@
 include vars
+
 -
-  var logradouro       = "Rua Prof. José Cucé, 125, 04055-070"
-  var bairro           = "Saúde - São Paulo/SP"
-  var fone             = "(11) 4371-0935"
-  var whatsapp         = "(11) 9 4522-7267"
-  var whatsappNumber   = "5511945227267"
-  var whatsappMensagem = "Olá,+gostaria+de+saber+mais+informações+sobre+os+serviços+do+ITA"
-  var email            = "acolher_ita@outlook.com"
-  var horarioAtendimento = "Das 10h às 16h"
-  var diasAtendimento  = "De segunda a sexta-feira"
+  var contatos = [
+    {
+      "nome": "Sao Paulo",
+      "logradouro": "Rua Prof. José Cucé, 125, 04055-070",
+      "bairro": "Saúde - São Paulo/SP",
+      "fone": "(11) 4371-0935",
+      "whatsapp": "(11) 9 4522-7267",
+      "whatsappNumber": "5511945227267",
+      "whatsappMensagem": "Olá,+gostaria+de+saber+mais+informações+sobre+os+serviços+do+ITA",
+      "email": "acolher_ita@outlook.com",
+      "horarioAtendimento": "Das 10h às 16h",
+      "diasAtendimento": "De segunda a sexta-feira"
+    },
+    {
+      "nome": "Belo Horizonte",
+      "logradouro": "Rua Prof. José Cucé, 125, 04055-070",
+      "bairro": "Saúde - São Paulo/SP",
+      "fone": "(11) 4371-0935",
+      "whatsapp": "(11) 9 4522-7267",
+      "whatsappNumber": "5511945227267",
+      "whatsappMensagem": "Olá,+gostaria+de+saber+mais+informações+sobre+os+serviços+do+ITA",
+      "email": "acolher_ita@outlook.com",
+      "horarioAtendimento": "Das 10h às 16h",
+      "diasAtendimento": "De segunda a sexta-feira"
+    },
+    {
+      "nome": "Curitiba",
+      "logradouro": "Rua Prof. José Cucé, 125, 04055-070",
+      "bairro": "Saúde - São Paulo/SP",
+      "fone": "(11) 4371-0935",
+      "whatsapp": "(11) 9 4522-7267",
+      "whatsappNumber": "5511945227267",
+      "whatsappMensagem": "Olá,+gostaria+de+saber+mais+informações+sobre+os+serviços+do+ITA",
+      "email": "acolher_ita@outlook.com",
+      "horarioAtendimento": "Das 10h às 16h",
+      "diasAtendimento": "De segunda a sexta-feira"
+    }
+  ]
 
 h3= contato
 
-ul.contato
-  li
-    i.fa.fa-street-view
-    a.white-text(href="localizacao.html")= verNoMapa
-  li
-    i.fa.fa-map
-    span.logradouro= logradouro
-    br
-    span.bairro= bairro
-  li
-    i.fa.fa-phone
-    a.white-text(href="tel:"+fone)= fone
-  li
-    i.fa.fa-whatsapp
-    span
-      a.white-text(target="_blank",href="https://api.whatsapp.com/send?phone=" + whatsappNumber + "&text=" + whatsappMensagem)= whatsapp
-  li
-    i.fa.fa-at
-    span
-      a.white-text(href="mailto:" + email)= email
-  li
-    i.fa.fa-clock-o
-    span= horarioAtendimento
-  li
-    i.fa.fa-calendar
-    span= diasAtendimento
+for contato in contatos
+  h4= contato.nome
+  ul.contato
+    li
+      i.fa.fa-street-view
+      a.white-text(href="localizacao.html")= verNoMapa
+    li
+      i.fa.fa-map
+      span.logradouro= contato.logradouro
+      br
+      span.bairro= contato.bairro
+    li
+      i.fa.fa-phone
+      a.white-text(href="tel:"+contato.fone)= contato.fone
+    li
+      i.fa.fa-whatsapp
+      span
+        a.white-text(target="_blank",href="https://api.whatsapp.com/send?phone=" + contato.whatsappNumber + "&text=" + contato.whatsappMensagem)= contato.whatsapp
+    li
+      i.fa.fa-at
+      span
+        a.white-text(href="mailto:" + contato.email)= contato.email
+    li
+      i.fa.fa-clock-o
+      span= contato.horarioAtendimento
+    li
+      i.fa.fa-calendar
+      span= contato.diasAtendimento
 
