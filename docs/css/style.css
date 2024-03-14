@@ -7,6 +7,7 @@
   nav .brand-logo {
     font-size: 1.4rem;
   }
+
   .img-brand-logo {
     max-height: 48px !important;
     margin-top: 3px;
@@ -16,6 +17,7 @@
   nav .brand-logo {
     font-size: 1.3rem;
   }
+
   .img-brand-logo {
     max-height: 48px !important;
     margin-top: 3px;
@@ -25,6 +27,7 @@
   nav .brand-logo {
     font-size: 2.1rem;
   }
+
   .img-brand-logo {
     max-height: 48px !important;
     margin-top: 3px;
@@ -34,6 +37,7 @@
   nav .brand-logo {
     font-size: 2.1rem;
   }
+
   .img-brand-logo {
     max-height: 56px !important;
     margin-top: 3px;
@@ -57,7 +61,7 @@ main {
 }
 
 .grad-nav {
-  background: linear-gradient(90deg, #006064 0%, rgb(0, 80, 80) 35%, #006064 100%);
+  background: linear-gradient(90deg, #006064 0%, #005050 35%, #006064 100%);
 }
 
 body {
@@ -96,7 +100,8 @@ p {
 .membro-imagem {
   margin-bottom: 2rem;
   min-width: 100%;
-  -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+  -webkit-filter: grayscale(100%);
+  /* Safari 6.0 - 9.0 */
   filter: grayscale(100%);
 }
 
@@ -215,7 +220,8 @@ blockquote:before {
 
 .videoWrapper {
   position: relative;
-  padding-bottom: 56.25%; /* 16:9 */
+  padding-bottom: 56.25%;
+  /* 16:9 */
   height: 0;
 }
 

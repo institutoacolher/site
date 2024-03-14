@@ -21,6 +21,7 @@ all: \
 	componentes/dados_atividades_bate_papo.pug \
 	componentes/dados_cursos_2022.pug \
 	componentes/dados_cursos_2023.pug \
+	componentes/dados_cursos_2024.pug \
 	check_members \
 	update \
 	deps \
@@ -68,6 +69,10 @@ componentes/dados_cursos_2022.pug: json/dados_cursos_2022.json
 componentes/dados_cursos_2023.pug: json/dados_cursos_2023.json
 	echo -n "//- ARQUIVO GERADO, NÃO EDITAR\n-\n  var cursos = " > $@
 	jq ".cursos" < json/dados_cursos_2023.json | sed "s/^/  /" >> $@
+
+componentes/dados_cursos_2024.pug: json/dados_cursos_2024.json
+	echo -n "//- ARQUIVO GERADO, NÃO EDITAR\n-\n  var cursos = " > $@
+	jq ".cursos" < json/dados_cursos_2024.json | sed "s/^/  /" >> $@
 
 slugs.txt: membros.toml
 	sed -n "s/slug = \"\(.*\)\"/\1/p" $^ > $@
