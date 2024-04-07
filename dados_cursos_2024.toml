@@ -8,7 +8,12 @@ animadores vocacionais, superiores/as."""
 cartaz = "img/curso-2024-04-08.png"
 link_inscricao = "https://forms.gle/cm6GtHAiFjQjPW9u5"
 online = true
+# Para o caso de horário e local personalizados utilize as seguintes variaveis:
+# Detalhes no arquivo componentes/lista_de_cursos.pug
+# Como a data para exibicao e criacao do link de agenda sao diferentes eh
+# necessario manter hora e minuto em variaveis independentes
 horaInicio = 19
 minInicio = 30
 horaFim = 21
 minFim = 0
+local = "Sede do Instituto Acolher - ITA"
