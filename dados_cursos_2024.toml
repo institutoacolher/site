@@ -8,3 +8,7 @@ animadores vocacionais, superiores/as."""
 cartaz = "img/curso-2024-04-08.png"
 link_inscricao = "https://forms.gle/cm6GtHAiFjQjPW9u5"
 online = true
+horaInicio = 19
+minInicio = 30
+horaFim = 21
+horaFim = 0
