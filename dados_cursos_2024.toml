@@ -11,4 +11,4 @@ online = true
 horaInicio = 19
 minInicio = 30
 horaFim = 21
-horaFim = 0
+minFim = 0
