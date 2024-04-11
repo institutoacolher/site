@@ -1,4 +1,26 @@
 [[cursos]]
+assessor_slugs = ["lourdes-degrandis"]
+dataiso = "2024-05-18"
+titulo = "Ecos da Vida - Experiências da vida que ecoam em seu cotidiano"
+descricao = """O curso é destinado a todas as pessoas, sem restrições. O objetivo é proporcionar momentos de diálogo 
+com você e o grupo sobre os ecos que as emoções e sentimentos tem no cotidiano da vida. 
+Será uma oportunidade de experiênciar em você o que a vida lhe oferece e usufruir disso 
+para sua saúde física, mental, emocional e espiritual!
+"""
+cartaz = "img/curso-2024-05-18.png"
+link_inscricao = "https://forms.gle/657otZKb2hUVURgeA"
+online = true
+# Para o caso de horário e local personalizados utilize as seguintes variaveis:
+# Detalhes no arquivo componentes/lista_de_cursos.pug
+# Como a data para exibicao e criacao do link de agenda sao diferentes eh
+# necessario manter hora e minuto em variaveis independentes
+horaInicio = 19
+minInicio = 30
+horaFim = 21
+minFim = 0
+local = "Sede do Instituto Acolher - ITA"
+
+[[cursos]]
 assessor_slugs = ["vagner-sanagiotto"]
 dataiso = "2024-04-08"
 titulo = "O psicodiagnóstico da experiência religiosa problemática no contexto clínico"
