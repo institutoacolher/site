@@ -1,4 +1,4 @@
-# Nosso próximo curso está com inscrições abertas! 
+# Próximos cursos:
 
 [Para se inscrever, clique aqui!!!](https://forms.gle/657otZKb2hUVURgeA)
 
