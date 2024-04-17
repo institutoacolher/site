@@ -77,6 +77,9 @@ componentes/dados_cursos_2024.pug: json/dados_cursos_2024.json
 docs/cursos_2024.html: cursos_2024.pug componentes/dados_cursos_2024.pug
 	pug $< --out docs/ --pretty 2>  pug.log || echo "FALHA"
 
+docs/index.html: index.pug textos/index_1.md textos/index_2.md textos/index_3.md textos/index_4.md
+	pug $< --out docs/ --pretty 2>  pug.log || echo "FALHA"
+
 componentes/dados_contatos.pug: json/dados_contatos.json
 	echo -n "//- ARQUIVO GERADO, NÃO EDITAR\n-\n  var contatos = " > $@
 	jq ".contatos" < json/dados_contatos.json | sed "s/^/  /" >> $@

@@ -1,3 +1,22 @@
+/usr/local/lib/node_modules/pug-cli/node_modules/acorn/dist/acorn.js:2490
+  throw err
+  ^
+
+SyntaxError: Unexpected token (803:0)
+    at Parser.pp$4.raise (/usr/local/lib/node_modules/pug-cli/node_modules/acorn/dist/acorn.js:2488:13)
+    at Parser.pp.unexpected (/usr/local/lib/node_modules/pug-cli/node_modules/acorn/dist/acorn.js:623:8)
+    at Parser.pp$3.parseExprAtom (/usr/local/lib/node_modules/pug-cli/node_modules/acorn/dist/acorn.js:2011:10)
+    at Parser.pp$3.parseExprSubscripts (/usr/local/lib/node_modules/pug-cli/node_modules/acorn/dist/acorn.js:1872:19)
+    at Parser.pp$3.parseMaybeUnary (/usr/local/lib/node_modules/pug-cli/node_modules/acorn/dist/acorn.js:1849:17)
+    at Parser.pp$3.parseExprOps (/usr/local/lib/node_modules/pug-cli/node_modules/acorn/dist/acorn.js:1791:19)
+    at Parser.pp$3.parseMaybeConditional (/usr/local/lib/node_modules/pug-cli/node_modules/acorn/dist/acorn.js:1774:19)
+    at Parser.pp$3.parseMaybeAssign (/usr/local/lib/node_modules/pug-cli/node_modules/acorn/dist/acorn.js:1750:19)
+    at Parser.pp$1.parseVar (/usr/local/lib/node_modules/pug-cli/node_modules/acorn/dist/acorn.js:1087:26)
+    at Parser.pp$1.parseVarStatement (/usr/local/lib/node_modules/pug-cli/node_modules/acorn/dist/acorn.js:972:8) {
+  pos: 38216,
+  loc: Position { line: 803, column: 0 },
+  raisedAt: 38217
+}
 /usr/local/lib/node_modules/pug-cli/node_modules/pug-load/index.js:27
           throw ex;
           ^

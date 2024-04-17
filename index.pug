@@ -1,14 +1,24 @@
 extends componentes/layout.pug
 
 block main
-  - var usar_duas_colunas = true
-  if usar_duas_colunas
-    .row
-      .col.s12.m6
-        include:markdown-it(html) textos/index.md
-      .col.s12.m6
-        include:markdown-it(html) textos/instituicao.md
-  else
-    include:markdown-it(html) textos/instituicao.md
+  .row
+    .col.s12.m6
+      include:markdown-it(html) textos/index_1.md
+    .col.s12.m6
+      include:markdown-it(html) textos/index_2.md
+    .col.s12.m6
+      include:markdown-it(html) textos/index_3.md
+    .col.s12.m6
+      include:markdown-it(html) textos/index_4.md
+  //- Versao antiga, remover ou comentar
+  //- - var usar_duas_colunas = true
+  //- if usar_duas_colunas
+  //-   .row
+  //-     .col.s12.m6
+  //-       include:markdown-it(html) textos/index.md
+  //-     .col.s12.m6
+  //-       include:markdown-it(html) textos/instituicao.md
+  //- else
+  //-   include:markdown-it(html) textos/instituicao.md
 
 
