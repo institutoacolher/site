@@ -1,2 +1,2 @@
 1
-![](https://institutoacolher.org.br/img/2024-01-30.png)
+![](https://institutoacolher.org.br/img/capa-2024-05-18.png)
