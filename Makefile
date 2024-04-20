@@ -57,7 +57,6 @@ json/%.json: %.toml
 componentes/membros.pug: json/membros.json
 	echo -n "//- ARQUIVO GERADO, NÃO EDITAR\n-\n  var membros = " > $@
 	jq ".membros" < json/membros.json | sed "s/^/  /" >> $@
-	cp $@ es/$@
 
 componentes/dados_atividades_bate_papo.pug: json/atividades_bate_papo.json
 	echo -n "//- ARQUIVO GERADO, NÃO EDITAR\n-\n  var eventos = " > $@
@@ -66,17 +65,14 @@ componentes/dados_atividades_bate_papo.pug: json/atividades_bate_papo.json
 componentes/dados_cursos_2022.pug: json/dados_cursos_2022.json
 	echo -n "//- ARQUIVO GERADO, NÃO EDITAR\n-\n  var cursos = " > $@
 	jq ".cursos" < json/dados_cursos_2022.json | sed "s/^/  /" >> $@
-	cp $@ es/$@
 
 componentes/dados_cursos_2023.pug: json/dados_cursos_2023.json
 	echo -n "//- ARQUIVO GERADO, NÃO EDITAR\n-\n  var cursos = " > $@
 	jq ".cursos" < json/dados_cursos_2023.json | sed "s/^/  /" >> $@
-	cp $@ es/$@
 
 componentes/dados_cursos_2024.pug: json/dados_cursos_2024.json
 	echo -n "//- ARQUIVO GERADO, NÃO EDITAR\n-\n  var cursos = " > $@
 	jq ".cursos" < json/dados_cursos_2024.json | sed "s/^/  /" >> $@
-	cp $@ es/$@
 
 docs/cursos_2024.html: cursos_2024.pug componentes/dados_cursos_2024.pug
 	pug $< --out docs/ --pretty 2>  pug.log || echo "FALHA"
@@ -87,7 +83,6 @@ docs/index.html: index.pug textos/index_1.md textos/index_2.md textos/index_3.md
 componentes/dados_contatos.pug: json/dados_contatos.json
 	echo -n "//- ARQUIVO GERADO, NÃO EDITAR\n-\n  var contatos = " > $@
 	jq ".contatos" < json/dados_contatos.json | sed "s/^/  /" >> $@
-	cp $@ es/$@
 
 slugs.txt: membros.toml
 	sed -n "s/slug = \"\(.*\)\"/\1/p" $^ > $@
