@@ -1,4 +1,31 @@
 [[cursos]]
+assessor_slugs = ["wellington-heleno-da-silva"]
+dataiso = "2024-07-16"
+titulo = "O Curador Ferido: Autoperdão e a Capacidade para Manter a Esperança"
+descricao = """Neste curso, exploraremos a experiência do 'curador ferido', 
+aqueles indivíduos que dedicam suas vidas a cuidar e curar os outros, mas que 
+eventualmente se encontram em um estado de desilusão. Abordaremos os sinais e 
+sintomas de esgotamento emocional e desgaste compassivo, destacando como esses 
+fatores podem minar a capacidade de manter a esperança e examinaremos os impactos 
+negativos da falta de esperança, que podem levar à depressão e à desilusão com a 
+própria vida pessoal e vocacional. Abordaremos também a influência e relação do EU 
+versus a Comunidade na construção de um espaço interno psicológico propício para 
+cultivar a capacidade humana de sonhar, fantasiar, imaginar, brincar e, por fim, 
+manter a esperança viva, mesmo em face de desafios e adversidades."""
+cartaz = "img/curso-2024-07-16.png"
+link_inscricao = "https://forms.gle/uD9aahi5rT8nFbTA6"
+online = true
+# Para o caso de horário e local personalizados utilize as seguintes variaveis:
+# Detalhes no arquivo componentes/lista_de_cursos.pug
+# Como a data para exibicao e criacao do link de agenda sao diferentes eh
+# necessario manter hora e minuto em variaveis independentes
+horaInicio = 19
+minInicio = 30
+horaFim = 21
+minFim = 0
+local = "Sede do Instituto Acolher - ITA"
+
+[[cursos]]
 assessor_slugs = ["ivan-rodrigues-e-silva-filho"]
 dataiso = "2024-06-15"
 titulo = "A Psicologia como instrumento adequado para formação humana na vida sacerdotal, religiosa e laical."
