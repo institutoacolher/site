@@ -1,4 +1,29 @@
 [[cursos]]
+assessor_slugs = ["ivan-rodrigues-e-silva-filho"]
+dataiso = "2024-06-15"
+titulo = "A Psicologia como instrumento adequado para formação humana na vida sacerdotal, religiosa e laical."
+descricao = """O curso objetiva promover conhecimento sobre a importância do uso adequado, e assertivo, dos 
+serviços psicológicos e da atuação do profissional da psicologia para a formação humana. A ideia é fornecer 
+dados sobre o manuseio devido das ferramentas da psicoterapia e da avaliação psicológica, a partir das 
+orientações da Igreja Católica, dos princípios éticos e científicos da psicologia e das reflexões de autores 
+que lidam com o tema. Este trabalho tem como base teórica o conteúdo do meu livro lançado pelas Edições Loyola 
+em 2023, 'A Psicologia na Vida Religiosa e Sacerdotal – por uma formação humana de qualidade', assim como obras 
+de Jung, Viktor Frankl, Antoine Vergote, Stephen Finn. Edênio Valle, Anderson Frezzato, Ênio Brito, 
+Mário Aletti e outros."""
+cartaz = "img/curso-2024-06-15.png"
+link_inscricao = "https://forms.gle/FropG3m54b3o627ZA"
+online = true
+# Para o caso de horário e local personalizados utilize as seguintes variaveis:
+# Detalhes no arquivo componentes/lista_de_cursos.pug
+# Como a data para exibicao e criacao do link de agenda sao diferentes eh
+# necessario manter hora e minuto em variaveis independentes
+horaInicio = 9
+minInicio = 0
+horaFim = 16
+minFim = 0
+local = "Sede do Instituto Acolher - ITA"
+
+[[cursos]]
 assessor_slugs = ["lourdes-degrandis"]
 dataiso = "2024-05-18"
 titulo = "Ecos da Vida - Experiências da vida que ecoam em seu cotidiano"
