@@ -23,3 +23,28 @@ unknown filter ":markdown-it"
   src: undefined,
   toJSON: [Function (anonymous)]
 }
+/usr/lib/node_modules/pug-cli/node_modules/pug-filters/lib/handle-filters.js:47
+          throw error(ex.code, ex.message, filter);
+          ^
+
+Error: es/componentes/footer.pug:5:18
+
+unknown filter ":markdown-it"
+    at makeError (/usr/lib/node_modules/pug-cli/node_modules/pug-error/index.js:32:13)
+    at filterWithFallback (/usr/lib/node_modules/pug-cli/node_modules/pug-filters/lib/handle-filters.js:47:17)
+    at filterFileWithFallback (/usr/lib/node_modules/pug-cli/node_modules/pug-filters/lib/handle-filters.js:58:16)
+    at walk.includeDependencies (/usr/lib/node_modules/pug-cli/node_modules/pug-filters/lib/handle-filters.js:27:18)
+    at walkAST (/usr/lib/node_modules/pug-cli/node_modules/pug-walk/index.js:23:18)
+    at /usr/lib/node_modules/pug-cli/node_modules/pug-walk/index.js:104:20
+    at Array.reduce (<anonymous>)
+    at walkAndMergeNodes (/usr/lib/node_modules/pug-cli/node_modules/pug-walk/index.js:103:18)
+    at walkAST (/usr/lib/node_modules/pug-cli/node_modules/pug-walk/index.js:37:19)
+    at walkAST (/usr/lib/node_modules/pug-cli/node_modules/pug-walk/index.js:48:21) {
+  code: 'PUG:UNKNOWN_FILTER',
+  msg: 'unknown filter ":markdown-it"',
+  line: 5,
+  column: 18,
+  filename: 'es/componentes/footer.pug',
+  src: undefined,
+  toJSON: [Function (anonymous)]
+}
