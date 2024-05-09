@@ -27,7 +27,7 @@ local = "Sede do Instituto Acolher - ITA"
 
 [[cursos]]
 assessor_slugs = ["ivan-rodrigues-e-silva-filho"]
-dataiso = "2024-06-15"
+dataiso = "2024-06-22"
 titulo = "A Psicologia como instrumento adequado para formação humana na vida sacerdotal, religiosa e laical."
 descricao = """O curso objetiva promover conhecimento sobre a importância do uso adequado, e assertivo, dos 
 serviços psicológicos e da atuação do profissional da psicologia para a formação humana. A ideia é fornecer 
@@ -37,7 +37,7 @@ que lidam com o tema. Este trabalho tem como base teórica o conteúdo do meu li
 em 2023, 'A Psicologia na Vida Religiosa e Sacerdotal – por uma formação humana de qualidade', assim como obras 
 de Jung, Viktor Frankl, Antoine Vergote, Stephen Finn. Edênio Valle, Anderson Frezzato, Ênio Brito, 
 Mário Aletti e outros."""
-cartaz = "img/curso-2024-06-15.png"
+cartaz = "img/curso-2024-06-22.png"
 link_inscricao = "https://forms.gle/FropG3m54b3o627ZA"
 online = true
 # Para o caso de horário e local personalizados utilize as seguintes variaveis:
