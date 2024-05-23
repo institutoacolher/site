@@ -186,6 +186,7 @@ assessor_slugs = ["flavia-moreira-ribeiro"]
 dataiso = "2022-12-03"
 titulo = "O despertar da meia-idade"
 assessor_slugs = ["flavia-moreira-ribeiro"]
+cartaz = "img/cursos-email.png"
 
 
 [[cursos]]
@@ -198,7 +199,7 @@ cartaz = "img/assina_email.png"
 dataiso = "2022-12-11"
 titulo = "Burnout"
 assessor_slugs = ["wellington-heleno-da-silva"]
-cartaz = "img/2023-01.png"
+cartaz = "img/cursos-assina.png"
 
 
 
