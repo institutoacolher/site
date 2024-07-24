@@ -10,7 +10,7 @@ alimento, receita, caminho, procura, paz, etc.
 •	Existe uma espiritualidade universal, saudável?
 •	O que seria uma espiritualidade imatura ou doentia? 
 Vamos conversar sobre isso procurando juntos as respostas."""
-cartaz = "img/curso-2024-08-24.png"
+cartaz = "img/curso-2024-08-24a.png"
 link_inscricao = "https://forms.gle/M3A1SDDwi2KGmRFR7"
 online = true
 # Para o caso de horário e local personalizados utilize as seguintes variaveis:
