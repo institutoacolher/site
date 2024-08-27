@@ -1,5 +1,6 @@
 <div class="z-depth-3" style="width: fit-content; margin: 0 auto">
+Para se inscrever, clique na imagem abaixo!
 
-[![A Espiritualidade que (nos) sustenta](/img/capa-2024-08-245.png)](https://forms.gle/M3A1SDDwi2KGmRFR7)
+  [![Persevança Vocacional](/img/curso-2024-10-07.png)](https://forms.gle/sdcGPmLU7uy2H8Aw5)
 
 </div>
