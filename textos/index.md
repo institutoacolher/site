@@ -1,6 +1,6 @@
-//- # Próximos cursos online:
-//- (Pela plataforma Google Meet)
+<div class="z-depth-3" style="width: fit-content; margin: 0 auto">
+Para se inscrever, clique na imagem abaixo!
 
-//- [Para se inscrever, clique aqui!!!](https://forms.gle/657otZKb2hUVURgeA)
+  [![Persevança Vocacional](/img/curso-2024-18-07.png)](https://forms.gle/sdcGPmLU7uy2H8Aw5)
 
-//- ![](/img/capa-2024-05-18.png)
+</div>
