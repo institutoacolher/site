@@ -193,7 +193,7 @@ cartaz = "img/cursos-email.png"
 dataiso = "2022-12-10"
 titulo = "Burnout_2"
 assessor_slugs = ["wellington-heleno-da-silva"]
-cartaz = "img/Natal-2024.png"
+cartaz = 
 
 [[cursos]]
 dataiso = "2022-12-11"
