@@ -42,6 +42,9 @@ watch_pug:
 watch_css:
 	sass --watch scss/style.scss docs/css/style.css
 
+pug_one_by_one:
+	for i in *.pug; do echo $$i; pug $$i --out docs/ --pretty ; done
+
 diff_es:
 	for i in *.pug; do diff $$i es/$$i || vi $$i es/$$i; done
 
