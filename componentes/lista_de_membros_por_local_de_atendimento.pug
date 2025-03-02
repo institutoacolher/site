@@ -1,0 +1,31 @@
+include vars
+include membros
+
+ul.collection
+  //- Em ordem alfabética
+  each membro in membros.sort(function(a, b){ return (a.slug > b.slug) ? 1 : -1; })
+    if membro.ativo
+      if membro.locais_de_atendimento && Array.isArray(membro.locais_de_atendimento) 
+        if membro.locais_de_atendimento.includes(local_de_atendimento)
+          - var avatar = membro.avatar
+          - var titulo  = membro.titulo
+          if lang == "es"
+            - titulo  = membro.titulo_es || membro.titulo
+
+          unless membro.avatar
+            if membro.masculino
+              - avatar = "membro-masculino.jpg"
+            else
+              - avatar = "membro-feminino.jpg"
+          li.collection-item.avatar
+            a(href=membro.slug + ".html")
+              img.circle(src=imgPath+avatar,alt=membro.nome)
+            p.membro-nome
+              a(href=membro.slug + ".html")= membro.nome
+            if Array.isArray(titulo)
+              for tn in titulo
+                p.orange-text.membro-titulo= tn
+            else
+              p.orange-text.membro-titulo= titulo
+            if membro.CRP
+              p.grey-text.membro-crp= "CRP: " + membro.CRP
