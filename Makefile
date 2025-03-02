@@ -22,6 +22,7 @@ all: \
 	componentes/dados_cursos_2022.pug \
 	componentes/dados_cursos_2023.pug \
 	componentes/dados_cursos_2024.pug \
+	componentes/dados_cursos_2025.pug \
 	check_members \
 	update \
 	deps \
@@ -76,6 +77,10 @@ componentes/dados_cursos_2023.pug: json/dados_cursos_2023.json
 componentes/dados_cursos_2024.pug: json/dados_cursos_2024.json
 	echo -n "//- ARQUIVO GERADO, NÃO EDITAR\n-\n  var cursos = " > $@
 	jq ".cursos" < json/dados_cursos_2024.json | sed "s/^/  /" >> $@
+
+componentes/dados_cursos_2025.pug: json/dados_cursos_2025.json
+	echo -n "//- ARQUIVO GERADO, NÃO EDITAR\n-\n  var cursos = " > $@
+	jq ".cursos" < json/dados_cursos_2025.json | sed "s/^/  /" >> $@
 
 docs/cursos_2024.html: cursos_2024.pug componentes/dados_cursos_2024.pug
 	pug $< --out docs/ --pretty 2>  pug.log || echo "FALHA"

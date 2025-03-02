@@ -1,0 +1,20 @@
+[[cursos]]
+assessor_slugs = ["vagner-sanagiotto"]
+dataiso = "2025-10-07"
+titulo = "Perseverança Vocacional: Decidir por um Projeto de Vida"
+descricao = """Vamos nos aprofundar nesse tema estudando as fragilidades e
+sustentações da jornada vocacional em seus momentos de crise e de perseverança
+sob a luz da formação humana."""
+cartaz = "img/curso-2024-10-07.png"
+link_inscricao = "https://forms.gle/sdcGPmLU7uy2H8Aw5"
+online = true
+# Para o caso de horário e local personalizados utilize as seguintes variaveis:
+# Detalhes no arquivo componentes/lista_de_cursos.pug
+# Como a data para exibicao e criacao do link de agenda sao diferentes eh
+# necessario manter hora e minuto em variaveis independentes
+horaInicio = 19
+minInicio = 30
+horaFim = 21
+minFim = 0
+local = "Sede do Instituto Acolher - ITA"
+
