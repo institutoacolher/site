@@ -3023,7 +3023,7 @@ td, th {
 }
 .collection .collection-item.active {
   background-color: #26a69a;
-  color: rgb(234.25, 250.25, 248.75);
+  color: #eafaf9;
 }
 .collection .collection-item.active .secondary-content {
   color: #fff;
@@ -4563,7 +4563,7 @@ small {
   text-transform: uppercase;
 }
 .card .card-action a:not(.btn):not(.btn-small):not(.btn-large):not(.btn-large):not(.btn-floating):hover {
-  color: rgb(255, 215.8586387435, 166);
+  color: #ffd8a6;
 }
 .card .card-reveal {
   padding: 24px;
@@ -4696,7 +4696,7 @@ small {
   transition: color 0.28s ease, background-color 0.28s ease;
 }
 .tabs .tab a:focus, .tabs .tab a:focus.active {
-  background-color: rgba(0, 201.0804195804, 219.5, 0.2);
+  background-color: rgba(0, 201, 220, 0.2);
   outline: none;
 }
 .tabs .tab a:hover, .tabs .tab a.active {
@@ -4711,7 +4711,7 @@ small {
   position: absolute;
   bottom: 0;
   height: 2px;
-  background-color: rgb(0, 201.0804195804, 219.5);
+  background-color: #00c9dc;
   will-change: left, right;
 }
 
@@ -4831,7 +4831,7 @@ small {
 
 .btn:focus, .btn-small:focus, .btn-large:focus,
 .btn-floating:focus {
-  background-color: rgb(28.5, 124.5, 115.5);
+  background-color: #1d7d74;
 }
 
 .btn, .btn-small, .btn-large {
@@ -4844,7 +4844,7 @@ small {
   cursor: pointer;
 }
 .btn:hover, .btn-small:hover, .btn-large:hover {
-  background-color: rgb(42.75, 186.75, 173.25);
+  background-color: #2bbbad;
 }
 
 .btn-floating {
@@ -5041,7 +5041,7 @@ button.btn-floating {
 }
 .btn-flat.disabled, .btn-flat.btn-flat[disabled] {
   background-color: transparent !important;
-  color: rgb(178.5, 178.5, 178.5) !important;
+  color: #b3b3b3 !important;
   cursor: default;
 }
 
@@ -5124,7 +5124,7 @@ button.btn-floating {
 }
 
 body.keyboard-focused .dropdown-content li:focus {
-  background-color: rgb(217.6, 217.6, 217.6);
+  background-color: #dadada;
 }
 
 .input-field.col .dropdown-content [type=checkbox] + label {
@@ -5536,12 +5536,12 @@ body.keyboard-focused .dropdown-content li:focus {
 }
 
 select:focus {
-  outline: 1px solid rgb(201.05, 242.65, 238.75);
+  outline: 1px solid #c9f3ef;
 }
 
 button:focus {
   outline: none;
-  background-color: rgb(41.8, 182.6, 169.4);
+  background-color: #2ab7a9;
 }
 
 label {
@@ -6371,7 +6371,7 @@ textarea.materialize-textarea {
   height: 0;
 }
 .switch label input[type=checkbox]:checked + .lever {
-  background-color: rgb(132.0625, 199.4375, 193.12109375);
+  background-color: #84c7c1;
 }
 .switch label input[type=checkbox]:checked + .lever:before, .switch label input[type=checkbox]:checked + .lever:after {
   left: 18px;
@@ -6839,7 +6839,7 @@ input[type=range]::-ms-thumb {
   color: #343434;
 }
 .sidenav li > a.btn:hover, .sidenav li > a.btn-small:hover, .sidenav li > a.btn-large:hover {
-  background-color: rgb(42.75, 186.75, 173.25);
+  background-color: #2bbbad;
 }
 .sidenav li > a.btn-floating:hover {
   background-color: #26a69a;
@@ -7821,7 +7821,7 @@ input[type=range]::-ms-thumb {
   color: inherit;
 }
 .datepicker-day-button:focus {
-  background-color: rgba(43.1, 160.9, 149.85625, 0.25);
+  background-color: rgba(43, 161, 150, 0.25);
 }
 
 /* Footer */
