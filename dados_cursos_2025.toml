@@ -13,7 +13,7 @@ online = true
 # Detalhes no arquivo componentes/lista_de_cursos.pug
 # Como a data para exibicao e criacao do link de agenda sao diferentes eh
 # necessario manter hora e minuto em variaveis independentes
-horaInicio = 09
+horaInicio = 9
 minInicio = 0
 horaFim = 12
 minFim = 0
