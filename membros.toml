@@ -110,29 +110,6 @@ areas = [
 [[membros]]
 ativo = true
 locais_de_atendimento = [ "sp_1" ]
-grupo = "psicoterapêutico"
-avatar = "enio-brito-pinto.jpg"
-masculino = true
-slug = "enio-brito-pinto"
-nome = "Ênio Brito Pinto"
-titulo = "Psicólogo"
-CRP = "06/14675-7"
-descricao = """
-Gestalt-terapeuta, psicopedagogo, escritor, professor, mestre e doutor em
-Ciências da Religião e pós-doutor em Psicologia Clínica pela PUC/SP. Autor,
-dentre outros, do livro “Os Padres em Terapia: Esclarecendo singularidades”
-(Editora Ideias e Letras, 2012)."""
-areas = [
-  "Psicoterapia individual",
-  "Psicoterapia de grupo",
-  "Sexualidade", 
-  "Coordenação de grupos de reflexão",
-  "Cordenação de oficinas de convívio e de criatividade"
-]
-
-[[membros]]
-ativo = true
-locais_de_atendimento = [ "sp_1" ]
 avatar = "lillian-maria-penteado-de-arruda-zamith.jpg"
 grupo = "psicoterapêutico"
 masculino = false
@@ -316,28 +293,6 @@ areas = [
 ativo = true
 locais_de_atendimento = [ "sp_1" ]
 grupo = "psicoterapêutico"
-avatar = "rosa-eliza-da-silva.jpg"
-masculino = false
-slug = "rosa-eliza-da-silva"
-nome = "Rosa Eliza da Silva"
-titulo = "Especialista em Psicologia clínica"
-CRP = "06/15430"
-descricao = """
-Psicanalista com formação no Sedes Sapientiae. Mestre em Ciências da Religião
-pela PUC-SP. Membro da Associação Brasileira de Rorschach (ASBRO). Membro da
-Associação Brasilei-ra de Orientação Profissional (ABOP)."""
-areas = [
-  "Psicodiagnóstico",
-  "Psicoterapia psicanalítica individual",
-  "Orientação Vocacional/Profissional",
-  "Orientação de Carreira"
-]
-
-
-[[membros]]
-ativo = true
-locais_de_atendimento = [ "sp_1" ]
-grupo = "psicoterapêutico"
 avatar = "wellington-heleno-da-silva.jpg"
 masculino = true
 slug = "wellington-heleno-da-silva"
@@ -417,13 +372,13 @@ areas = [
 [[membros]]
 ativo = true
 locais_de_atendimento = [ "sp_1" ]
-grupo = "outras"
+grupo = "psicoterapêutico"
 avatar = "leonel-gomes-da-silva.jpg"
 masculino = true
 slug = "leonel-gomes-da-silva"
 nome = "Leonel Gomes da Silva"
-titulo = "Integrador Espiritual"
-CRP = "x"
+titulo = "Psicólogo"
+CRP = "06/220757"
 descricao = """
 Master em Psicologia do Desenvolvimento da criança e do Adolescente pela Universidade de Santiago de Compostela 
 Especializacao em Neuropsicologia pela Faculdade Rui Barbosa, Salvador, BA. Graduação em Filosofia pela FAJE,
