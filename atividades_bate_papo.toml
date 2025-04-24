@@ -1,4 +1,17 @@
 [[eventos]]
+youtube = "https://youtu.be/itBmCc_rJHs"
+ativo = true
+dia = "2025-03-28"
+titulo = "Animação Vocacional e Novas Tecnologias"
+#assessor_slugs = ["eduardo-augusto-galindo-de-lima"]
+#cartaz = "img/bp-2025-03-28.png"
+descricao = """Tivemos como assessores o psicólogo e membro do ITA 
+Carlos Bruno Mendonça e Evandro Albuquerque de Andrade, 
+fundador do ADAPT, Educação Corporativa e Palestras Inspiracionais.
+"""
+online = true
+
+[[eventos]]
 youtube = "-rPvOjPoxd0"
 ativo = true
 dia = "2025-02-28"
