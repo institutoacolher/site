@@ -8,7 +8,7 @@ valores e procedimentos do instituto.
 
 Um dos requisitos básicos é que seja um profissional da área da psicologia, saúde mental e/ou 
 espiritualidade que tenha conhecimento ou experiência de vida consagrada religiosa e
-plesbiteral, o nosso público preferencial. No que se refere aos atendimentos psicoterapêuticos 
+presbiteral, o nosso público preferencial. No que se refere aos atendimentos psicoterapêuticos 
 propriamente ditos e aos demais serviços da Psicologia, o ITA segue as orientações éticas dos 
 conselhos federal e regional de Psicologia. 
 Mas esse contato mais íntimo com as rotinas da vida religiosa facilita o acolhimento aos padres, 
