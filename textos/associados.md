@@ -4,7 +4,7 @@ As pessoas interessadas em tornarem-se membros associados do Instituto Acolher-I
 são estimuladas a participar de um processo de avaliação dividido em várias etapas.
 O objetivo desses procedimentos é estabelecer um conhecimento mais profundo entre a pessoa
 e o ITA, pois é importante que haja afinidade de propósitos e clareza quanto à missão, 
-valores e procedimentos do instituto.
+aos valores e aos procedimentos do instituto.
 
 Um dos requisitos básicos é que seja um profissional da área da psicologia, saúde mental e/ou 
 espiritualidade que tenha conhecimento ou experiência de vida consagrada religiosa e
