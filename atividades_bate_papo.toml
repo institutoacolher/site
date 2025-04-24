@@ -1,4 +1,19 @@
 [[eventos]]
+youtube = "aDJgo9VjbX0"
+ativo = true
+dia = "2025-01-31"
+titulo = "Psicologia e Vida Religiosa"
+#assessor_slugs = ["eduardo-augusto-galindo-de-lima"]
+#cartaz = "img/bp-2025-03-28.png"
+descricao = """Um bate-papo sobre a Psicologia como ferramenta para 
+uma vida religiosa com mais qualidade com os psicólogos Ivan Rodrigues 
+e Silva Filho (CRP 11/0668), Vagner Sanagiotto (CRP 08/23984) e 
+Wellington Heleno da Silva (CRP 06/102921).
+"""
+online = true
+
+
+[[eventos]]
 youtube = "itBmCc_rJHs"
 ativo = true
 dia = "2025-03-28"
