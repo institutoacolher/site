@@ -59,6 +59,30 @@ areas = [
 ]
 [[membros]]
 ativo = true
+locais_de_atendimento = [ "pe" ]
+grupo = "psicoterapêutico"
+avatar = "ivan-rodrigues-e-silva-filho.jpg"
+masculino = true
+slug = "ivan-rodigues-e-silva-filho"
+nome = "Ivan Rodrigues e Silva Filho"
+titulo = "Psicólogo Clínico"
+CRP = "11/0668"
+descricao = """Ivan Rodrigues é mestre e doutorando em Psicologia Clínica 
+e da Saúde e especialista em Avaliação Psicológica. É também professor da 
+Faculdade Jesuíta (FAJE) no curso de Especialização em Espiritualidade 
+Cristã e Orientação Espiritual. 35 anos de experiência na clínica psicoterápica 
+na abordagem existencial fenomenológica, assim como no serviço de Avaliação Psicológica.
+Trabalha com assessoria e palestras.
+Autor do livro “A Psicologia na vida religiosa e sacerdotal - por uma formação humana de qualidade” pela Ed Loyola.
+"""
+areas = [
+  "Psicoterapia individual",
+  "Psicologia Clínica",
+  "Avaliação Psicológica",
+  "Assessorias e Palestras"
+]
+[[membros]]
+ativo = true
 locais_de_atendimento = ["bh_1" ]
 grupo = "psicoterapêutico"
 avatar = "maria-jose-borela.png"
