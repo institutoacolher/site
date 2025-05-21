@@ -13,6 +13,25 @@ Wellington Heleno da Silva (CRP 06/102921).
 online = true
 
 [[eventos]]
+youtube = "OqyRgcVu_zA"
+ativo = true
+dia = "2025-04-25"
+titulo = "Direito Canônico e Abusos: Legislação Atual"
+#assessor_slugs = ["eduardo-augusto-galindo-de-lima"]
+#cartaz = "img/bp-2025-03-28.png"
+descricao = """Conversamos sobre o tema com o Pe. 
+Paulo Profilo, SDB, Licenciado em Filosofia, bacharel em Teologia, 
+especialista em educação para a sexualidade, mestre em Direito Canônico 
+pela Pontifícia Universidade Gregoriana e doutorando em Direito Canônico 
+na Faculdade São Paulo Apóstolo de Direito Canônico. Professor de Direito 
+Canônico no Centro UNISAL e na Faculdade de Direito Canônico São Paulo Apóstolo. 
+Participação do presidente do Instituto Acolher-ITA e psicólogo Wellington Heleno 
+da Silva (CRP 06/102921).
+"""
+online = true
+
+
+[[eventos]]
 youtube = "f4kMWR7MAc0"
 ativo = true
 dia = "2025-05-07"
