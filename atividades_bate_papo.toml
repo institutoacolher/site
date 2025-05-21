@@ -12,6 +12,19 @@ Wellington Heleno da Silva (CRP 06/102921).
 """
 online = true
 
+[[eventos]]
+youtube = "aDJgo9VjbX0"
+ativo = true
+dia = "2025-05-07"
+titulo = "A Igreja Pós Francisco: desejos, expectativas, realidade"
+assessor_slugs = ["wojciech-mittelstaedt-adalberto"]
+cartaz = "img/bp-2025-05-07.jpg"
+descricao = """No dia do início do conclave fizemos uma reflexão sobre o legado de 
+Francisco e as expectativas em relação à escolha do novo Papa. O assessor foi o 
+padre verbita, psicólogo e membro do Instituto Acolher-ITA Wojciech Mittelstaedt (Adalberto), 
+CRP 06/99753
+"""
+online = true
 
 [[eventos]]
 youtube = "itBmCc_rJHs"
