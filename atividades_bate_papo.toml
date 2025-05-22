@@ -13,6 +13,19 @@ Wellington Heleno da Silva (CRP 06/102921).
 online = true
 
 [[eventos]]
+youtube = "vI5o5Iwb2sw"
+ativo = true
+dia = "2024-01-26"
+titulo = "A Dimensão Humana na Formação Plesbiteral e Religiosa"
+#assessor_slugs = ["eduardo-augusto-galindo-de-lima"]
+#cartaz = "img/bp-2025-03-28.png"
+descricao = """Um bate-papo sobre o livro "a dimensão humana na formação presbiteral e religiosa"
+"""
+online = true
+
+
+
+[[eventos]]
 youtube = "OqyRgcVu_zA"
 ativo = true
 dia = "2025-04-25"
