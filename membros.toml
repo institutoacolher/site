@@ -57,6 +57,26 @@ areas = [
   "Psicologia Institucional",
   "Psicopatologia e saúde pública"
 ]
+
+[[membros]]
+ativo = true
+locais_de_atendimento = [ "sp_1" ]
+grupo = "neuropsicoterapêutico"
+avatar = "ana-paula-de-oliveira-chaddad.png"
+masculino = false
+slug = "ana-paula-de-oliveira-chaddad"
+nome = "Ana Paula de Oliveira Chaddad"
+titulo = "Neuropsicóloga"
+CRP = "06/166592"
+descricao = """
+Possui Especialização em avaliação neuropsicológica e neuropsicodiagnóstico"""
+areas = [
+  "Saúde mental",
+  "Psicoterapia individual",
+  "Avaliação neuropsicológica",
+  "Neuropsicodiagnóstico"
+]
+
 [[membros]]
 ativo = true
 locais_de_atendimento = [ "pe" ]
