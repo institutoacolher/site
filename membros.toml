@@ -61,7 +61,7 @@ areas = [
 [[membros]]
 ativo = true
 locais_de_atendimento = [ "sp_1" ]
-grupo = "neuropsicoterapêutico"
+grupo = "neuropsicológico"
 avatar = "ana-paula-de-oliveira-chaddad.png"
 masculino = false
 slug = "ana-paula-de-oliveira-chaddad"
