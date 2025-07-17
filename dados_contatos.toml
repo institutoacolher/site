@@ -43,7 +43,7 @@ bairro = "Passo Fundo/RS"
 [[contatos]]
 nome = "Rio de Janeiro"
 # mapa = "localizacao_bh.html"
-logradouro = "Praça Serzedelo Corrêa, 15 - Condomínio do Edifício Tibagi, sala703"
+logradouro = "Praça Serzedelo Corrêa, 15 - Condomínio do Edifício Tibagi, sala 703"
 bairro = "Copacabana - Rio de Janeiro/RJ"
 
 [[contatos]]
