@@ -13,6 +13,18 @@ Wellington Heleno da Silva (CRP 06/102921).
 online = true
 
 [[eventos]]
+youtube = "PlSuPgAWKIg"
+ativo = true
+dia = "2025-06-27"
+titulo = "Testes Psicológicos"
+#assessor_slugs = ["ana-paula-de-oliveira-chaddad"]
+#cartaz = "img/bp-2025-03-28.png"
+descricao = """Um bate-papo sobre os testes usados na Psicologia para 
+uma vida religiosa com mais qualidade.
+"""
+online = true
+
+[[eventos]]
 youtube = "vI5o5Iwb2sw"
 ativo = true
 dia = "2024-01-26"
