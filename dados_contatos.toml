@@ -1,9 +1,8 @@
 [[contatos]]
-nome = "Sao Paulo"
+nome = "Sede - Sao Paulo"
 mapa = "localizacao_sp.html"
 logradouro = "Rua Prof. José Cucé, 125, 04055-070"
 bairro = "Saúde - São Paulo/SP"
-fone = "(11) 4371-0935"
 whatsapp = "(11) 9 4522-7267"
 whatsappNumber = "5511945227267"
 whatsappMensagem = "Olá,+gostaria+de+saber+mais+informações+sobre+os+serviços+do+ITA"
@@ -13,27 +12,44 @@ diasAtendimento = "De segunda a sexta-feira"
 
 [[contatos]]
 nome = "Belo Horizonte"
-mapa = "localizacao_bh.html"
+# mapa = "localizacao_bh.html"
 logradouro = "Rua Salinas, 2101"
 bairro = "Santa Tereza - Belo Horizonte/MG"
-fone = ""
-whatsapp = "(11) 9 5959-6061"
-whatsappNumber = "5511945227267"
-whatsappMensagem = "Olá,+gostaria+de+saber+mais+informações+sobre+os+serviços+do+ITA"
-email = "acolher_ita@outlook.com"
-horarioAtendimento = "Das 9h às 16h"
-diasAtendimento = "De segunda a sexta-feira"
 
 [[contatos]]
 nome = "Curitiba"
-mapa = "localizacao_bh.html"
+# mapa = "localizacao_bh.html"
 logradouro = "Rua Senador Xavier da Silva, 488, 3.° andar, sala 301"
-bairro = "Centro Cívio - Curitiba/PR"
-fone = "(41) 99577-4144"
-whatsapp = "(11) 9 4522-7267"
-whatsappNumber = "5511945227267"
-whatsappMensagem = "Olá,+gostaria+de+saber+mais+informações+sobre+os+serviços+do+ITA"
-email = "acolher_ita@outlook.com"
-horarioAtendimento = "Das 9h às 17h"
-diasAtendimento = "De segunda a sexta-feira"
+bairro = "Centro Cívico - Curitiba/PR"
+
+[[contatos]]
+nome = "Fortaleza"
+# mapa = "localizacao_bh.html"
+logradouro = "Av. Dom Luiz, 1233 - Harmony Medical Center, salas 911/912"
+bairro = "Bairro Meireles - Fortaleza/CE"
+
+[[contatos]]
+nome = "Osasco"
+# mapa = "localizacao_bh.html"
+logradouro = "Avenida Hilário Pereira de Sousa, 406 - Torre 1 - Sala 2206"
+bairro = "Centro - próximo da estação Osasco - Osasco/SP"
+
+[[contatos]]
+nome = "Passo Fundo"
+# mapa = "localizacao_bh.html"
+logradouro = "Clinical Center, Rua Uruguai, 1969"
+bairro = "Passo Fundo/RS"
+
+[[contatos]]
+nome = "Rio de Janeiro"
+# mapa = "localizacao_bh.html"
+logradouro = "Praça Serzedelo Corrêa, 15 - Condomínio do Edifício Tibagi, sala703"
+bairro = "Copacabana - Rio de Janeiro/RJ"
+
+[[contatos]]
+nome = "Sao Jose dos Campos"
+# mapa = "localizacao_bh.html"
+logradouro = "Rua Euclides Miragaia, 394 - Edifício Vip Center, sala 602 – 6.° andar"
+bairro = "Centro - São José dos Campos/SP"
+
 
