@@ -19,8 +19,8 @@ dia = "2025-06-27"
 titulo = "Testes Psicológicos"
 #assessor_slugs = ["ana-paula-de-oliveira-chaddad"]
 #cartaz = "img/bp-2025-03-28.png"
-descricao = """Um bate-papo sobre os testes usados na Psicologia para 
-uma vida religiosa com mais qualidade.
+descricao = """Um bate-papo com a neuropsicóloga Ana Paula de Oliveira Chaddad (CRP 06/166592)
+sobre os testes usados na Psicologia para uma vida religiosa com mais qualidade.
 """
 online = true
 
