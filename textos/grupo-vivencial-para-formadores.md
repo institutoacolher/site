@@ -1,15 +1,6 @@
-# Grupo de reflexão para formadores
+# Grupos de Estudos para Formadores e Psicólogos
 
-Auxiliamos os formadores com objetivo de refletir as tensões e angústias
-oriundas do ofício.
+Os Grupos de Estudos para Formadores e Psicólogos têm como referência teórica os grupos operativos, desenvolvidos por Enrique Pichon-Rivière. Seu objetivo é articular a formação continuada com a circulação de saberes em uma perspectiva horizontal, na qual todos ensinam e aprendem.
 
-São encontros semanais e/ou quinzenais que reúnem até 10 formadores/as
-interessados em discutir em primeira pessoa a experiência que vivem como
-formadores/as. A tônica dos encontros não é a discussão psico-pedagógica dos
-problemas dos formandos/as e sim os efeitos e ressonância do exercício da
-função de formador/a sobre a pessoa do mesmo/a. São usadas técnicas para
-a explicitação das vivências e, eventualmente, textos para aprofundamento
-teórico. No entanto, as técnicas usadas para a explicitação das vivências
-oferecem elementos também para a atuação prática do formador/a em situações
-e casos concretos. A duração do grupo é semestral.
+Destinados a formadores e psicólogos que atuam em seminários e casas de formação religiosa, esses grupos são coordenados por duplas de psicólogos da equipe do ITA.
 
