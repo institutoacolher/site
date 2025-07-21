@@ -1,20 +1,29 @@
 extends componentes/layout.pug
 
 block main
-  h1 Atividades
-  ul.collection
-    li.collection-item
-      a(href="atividades_reuniao_dos_associados.html") Reunião dos associados
-    li.collection-item
-      a(href="atividades_estudo_de_caso.html") Estudo de caso
-    li.collection-item
-      a(href="atividades_grupo_de_estudos.html") Grupo de estudos
-    li.collection-item
-      a(href="cursos_2024.html") Cursos 2024
-    //- li.collection-item
-    //-   a(href="atividades_curso.html") Cursos
-    li.collection-item
-      a(href="atividades_grupo_psc_discussao.html") Grupo Psc. Discussão
-    li.collection-item
-      a(href="atividades_bate_papo.html") Bate papo
+  include:markdown-it(html) textos/atividades.md
 
+  include:markdown-it(html) textos/atividades-2025.md
+
+  hr
+
+  include:markdown-it(html) textos/atividades-2024.md
+
+//- block main
+//-   h1 Atividades
+//-   ul.collection
+//-     li.collection-item
+//-       a(href="atividades_reuniao_dos_associados.html") Reunião dos associados
+//-     li.collection-item
+//-       a(href="atividades_estudo_de_caso.html") Estudo de caso
+//-     li.collection-item
+//-       a(href="atividades_grupo_de_estudos.html") Grupo de estudos
+//-     li.collection-item
+//-       a(href="cursos_2024.html") Cursos 2024
+//-     //- li.collection-item
+//-     //-   a(href="atividades_curso.html") Cursos
+//-     li.collection-item
+//-       a(href="atividades_grupo_psc_discussao.html") Grupo Psc. Discussão
+//-     li.collection-item
+//-       a(href="atividades_bate_papo.html") Bate papo
+//-
