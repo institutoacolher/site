@@ -20,12 +20,16 @@ Temas tratados:
 3. A dimensão espiritual: do contexto clínico ao contexto formativo
 Plataforma Google Meet, Dias 8 e 9/04, das 19h30 às 21h.
 
+![](/img/atv-2024-04-08.png)
+
 ## MAIO de 2024
 
 CURSO ONLINE **“ECOS DA VIDA”**, com as assessoras Maria de Fátima Rolim Rosa e Lourdes Degrandis. 
 O curso tem o objetivo de proporcionar momentos de diálogo com você e o grupo sobre os ecos que as emoções e sentimentos tem no cotidiano da vida. 
 Será uma oportunidade de experiênciar em você o que a vida lhe oferece e usufruir disso para sua saúde física, mental, emocional e espiritual!
-Plataforma Google Meet, Dias 8 e 9/04, das 19h30 às 21h. 
+Plataforma Google Meet, Dias 8 e 9/04, das 19h30 às 21h.
+
+![](/img/atv-2024-05-08.png)
 
 ## JUNHO de 2024
 
