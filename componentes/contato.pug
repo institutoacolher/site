@@ -6,29 +6,36 @@ h3= contato
 for contato in contatos
   h4= contato.nome
   ul.contato
-    li
-      i.fa.fa-street-view
-      a.white-text(href=contato.mapa)= verNoMapa
-    li
-      i.fa.fa-map
-      span.logradouro= contato.logradouro
-      br
-      span.bairro= contato.bairro
-    li
-      i.fa.fa-phone
-      a.white-text(href="tel:"+contato.fone)= contato.fone
-    li
-      i.fa.fa-whatsapp
-      span
-        a.white-text(target="_blank",href="https://api.whatsapp.com/send?phone=" + contato.whatsappNumber + "&text=" + contato.whatsappMensagem)= contato.whatsapp
-    li
-      i.fa.fa-at
-      span
-        a.white-text(href="mailto:" + contato.email)= contato.email
-    li
-      i.fa.fa-clock-o
-      span= contato.horarioAtendimento
-    li
-      i.fa.fa-calendar
-      span= contato.diasAtendimento
+    if contato.mapa
+      li
+        i.fa.fa-street-view
+        a.white-text(href=contato.mapa)= verNoMapa
+    if contato.logradouro
+      li
+        i.fa.fa-map
+        span.logradouro= contato.logradouro
+        br
+        span.bairro= contato.bairro
+    if contato.fone
+      li
+        i.fa.fa-phone
+        a.white-text(href="tel:"+contato.fone)= contato.fone
+    if contato.whatsapp
+      li
+        i.fa.fa-whatsapp
+        span
+          a.white-text(target="_blank",href="https://api.whatsapp.com/send?phone=" + contato.whatsappNumber + "&text=" + contato.whatsappMensagem)= contato.whatsapp
+    if contato.email
+      li
+        i.fa.fa-at
+        span
+          a.white-text(href="mailto:" + contato.email)= contato.email
+    if contato.horarioAtendimento
+      li
+        i.fa.fa-clock-o
+        span= contato.horarioAtendimento
+    if contato.diasAtendimento
+      li
+        i.fa.fa-calendar
+        span= contato.diasAtendimento
 

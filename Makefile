@@ -18,6 +18,7 @@ all: \
 	copia_arquivos_para_espanhol \
 	slugs.txt \
 	componentes/membros.pug \
+	componentes/dados_contatos.pug \
 	componentes/dados_atividades_bate_papo.pug \
 	componentes/dados_cursos_2022.pug \
 	componentes/dados_cursos_2023.pug \
