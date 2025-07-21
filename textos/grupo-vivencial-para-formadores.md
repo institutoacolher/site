@@ -4,3 +4,4 @@ Os Grupos de Estudos para Formadores e Psicólogos têm como referência teóric
 
 Destinados a formadores e psicólogos que atuam em seminários e casas de formação religiosa, esses grupos são coordenados por duplas de psicólogos da equipe do ITA.
 
+[Para se inscrever, clique aqui!](https://forms.gle/TtEcQth8Y8if2Mgu6)
