@@ -18,7 +18,7 @@ Temas tratados:
 1. A constatação de um fato: a religião e a espiritualidade no contexto clínico
 2. Quando a experiência religiosa se torna um problema clínico
 3. A dimensão espiritual: do contexto clínico ao contexto formativo
-Plataforma Google Meet, Dias 8 e 9/04, das 19h30 às 21h.
+Plataforma Google Meet, Dias 8 e 9 de abril, das 19h30 às 21h.
 
 ![](/img/atv-2024-04-08.png)
 
