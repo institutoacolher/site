@@ -39,7 +39,7 @@
 [[membros]]
 ativo = true
 locais_de_atendimento = [ "sp_1", "bh_1" ]
-grupo = "psicoterapêutico"
+# grupo = "psicoterapêutico"
 avatar = "maria-da-conceicao-machado-silva-rosa.jpg"
 masculino = false
 slug = "maria-da-conceicao-machado-silva-rosa"
@@ -61,7 +61,7 @@ areas = [
 [[membros]]
 ativo = true
 locais_de_atendimento = [ "sp_1" ]
-grupo = "neuropsicológico"
+# grupo = "neuropsicológico"
 avatar = "ana-paula-de-oliveira-chaddad.png"
 masculino = false
 slug = "ana-paula-de-oliveira-chaddad"
@@ -80,7 +80,7 @@ areas = [
 [[membros]]
 ativo = true
 locais_de_atendimento = [ "pe" ]
-grupo = "psicoterapêutico"
+# grupo = "psicoterapêutico"
 avatar = "ivan-rodrigues-e-silva-filho.jpg"
 masculino = true
 slug = "ivan-rodigues-e-silva-filho"
@@ -104,7 +104,7 @@ areas = [
 [[membros]]
 ativo = true
 locais_de_atendimento = ["bh_1" ]
-grupo = "psicoterapêutico"
+# grupo = "psicoterapêutico"
 avatar = "maria-jose-borela.png"
 masculino = false
 slug = "maria-jose-borela"
@@ -123,11 +123,11 @@ areas = [
 [[membros]]
 ativo = true
 locais_de_atendimento = [ "sp_2" ]
-grupo = "psicoterapêutico"
+# grupo = "psicoterapêutico"
 avatar = "elizete-moura-dos-santos.jpg"
 masculino = false
 slug = "elizete-moura-dos-santos"
-nome = "Ir. Elizete Moura dos Santos"
+nome = "Elizete Moura dos Santos"
 titulo = "Psicóloga"
 CRP = "06/177899"
 descricao = """
@@ -157,7 +157,7 @@ areas = ["Organização dos eventos"]
 [[membros]]
 ativo = true
 locais_de_atendimento = [ "sp_1" ]
-grupo = "psicoterapêutico"
+# grupo = "psicoterapêutico"
 avatar = "eduardo-augusto-galindo-de-lima.jpg"
 masculino = true
 slug = "eduardo-augusto-galindo-de-lima"
@@ -176,7 +176,7 @@ areas = [
 ativo = true
 locais_de_atendimento = [ "sp_1" ]
 avatar = "lillian-maria-penteado-de-arruda-zamith.jpg"
-grupo = "psicoterapêutico"
+# grupo = "psicoterapêutico"
 masculino = false
 slug = "lillian-maria-penteado-de-arruda-zamith"
 nome = "Lilian Maria Penteado de Arruda Zamith"
@@ -198,7 +198,7 @@ areas = [
 [[membros]]
 ativo = true
 locais_de_atendimento = [ "sp_1" ]
-grupo = "psicanalítico"
+# grupo = "psicanalítico"
 avatar = "francisco-glenio-de-almeida.jpg"
 masculino = true
 slug = "francisco-glenio-de-almeida"
@@ -219,7 +219,7 @@ areas = [
 [[membros]]
 ativo = true
 locais_de_atendimento = [ "sp_1" ]
-grupo = "psicoterapêutico"
+# grupo = "psicoterapêutico"
 avatar = "lourdes-degrandis.jpg"
 masculino = false
 slug = "lourdes-degrandis"
@@ -250,7 +250,7 @@ notas = [
 [[membros]]
 ativo = true
 locais_de_atendimento = [ "sp_1" ]
-grupo = "x"
+# grupo = "x"
 avatar = "maria-de-fatima-naves.jpg"
 masculino = false
 slug = "maria-de-fatima-naves"
@@ -270,7 +270,7 @@ areas = [
 [[membros]]
 ativo = true
 locais_de_atendimento = [ "sp_1" ]
-grupo = "psicoterapêutico"
+# grupo = "psicoterapêutico"
 avatar = "maria-de-fatima-rolim-rosa.jpg"
 masculino = false
 slug = "maria-de-fatima-rolim-rosa"
@@ -294,7 +294,7 @@ areas = [
 [[membros]]
 ativo = true
 locais_de_atendimento = [ "sp_1" ]
-grupo = "psicoterapêutico"
+# grupo = "psicoterapêutico"
 avatar = "maria-ondina-da-silva-peruzzo.jpg"
 masculino = false
 slug = "maria-ondina-da-silva-peruzzo"
@@ -316,7 +316,7 @@ areas = [
 [[membros]]
 ativo = true
 locais_de_atendimento = [ "sp_1" ]
-grupo = "psicoterapêutico"
+# grupo = "psicoterapêutico"
 avatar = "maria-silva-mourao.jpg"
 masculino = false
 slug = "maria-silva-mourao"
@@ -337,7 +337,7 @@ areas = [
 [[membros]]
 ativo = true
 locais_de_atendimento = [ "sp_1" ]
-grupo = "psicoterapêutico"
+# grupo = "psicoterapêutico"
 avatar = "maruzania-soares-dias.jpg"
 masculino = false
 slug = "maruzania-soares-dias"
@@ -357,7 +357,7 @@ areas = [
 [[membros]]
 ativo = true
 locais_de_atendimento = [ "sp_1" ]
-grupo = "psicoterapêutico"
+# grupo = "psicoterapêutico"
 avatar = "wellington-heleno-da-silva.jpg"
 masculino = true
 slug = "wellington-heleno-da-silva"
@@ -380,7 +380,7 @@ areas = [
 [[membros]]
 ativo = true
 locais_de_atendimento = [ "sp_1" ]
-grupo = "psicoterapêutico"
+# grupo = "psicoterapêutico"
 avatar = "wojciech-mittelstaedt-adalberto.jpg"
 masculino = true
 slug = "wojciech-mittelstaedt-adalberto"
@@ -409,7 +409,7 @@ areas = [
 [[membros]]
 ativo = true
 locais_de_atendimento = [ "sp_1" ]
-grupo = "outras"
+# grupo = "outras"
 avatar = "jyothi-joseph-satyanapalli.jpg"
 masculino = false
 slug = "jyothi-joseph-satyanapalli"
@@ -437,7 +437,7 @@ areas = [
 [[membros]]
 ativo = true
 locais_de_atendimento = [ "sp_1" ]
-grupo = "psicoterapêutico"
+# grupo = "psicoterapêutico"
 avatar = "leonel-gomes-da-silva.jpg"
 masculino = true
 slug = "leonel-gomes-da-silva"
@@ -462,26 +462,7 @@ areas_es = [
 [[membros]]
 ativo = true
 locais_de_atendimento = [ "sp_1" ]
-grupo = "outras"
-avatar = "marilda-santos-de-souza.jpg"
-masculino = true
-slug = "marilda-santos-de-souza"
-nome = "Marilda Santos de Souza"
-titulo = "Bacharel em Psicologia"
-CRP = "x"
-descricao = """
-"""
-areas = [
-  "x",
-  "y"
-]
-
-
-
-[[membros]]
-ativo = true
-locais_de_atendimento = [ "sp_1" ]
-grupo = "psicoterapêutico"
+# grupo = "psicoterapêutico"
 avatar = "sergio-lucas-camara.jpg"
 masculino = true
 slug = "sergio-lucas-camara"
@@ -503,7 +484,7 @@ areas = [
 [[membros]]
 ativo = true
 locais_de_atendimento = [ "sp_1" ]
-grupo = "psicoterapêutico"
+# grupo = "psicoterapêutico"
 avatar = "vagner-sanagiotto.jpg"
 masculino = true
 slug = "vagner-sanagiotto"
