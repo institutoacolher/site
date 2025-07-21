@@ -1,85 +1,38 @@
-/usr/lib/node_modules/pug-cli/node_modules/pug-lexer/index.js:60
-    throw err;
-    ^
+/usr/lib/node_modules/pug-cli/node_modules/acorn/dist/acorn.js:2490
+  throw err
+  ^
 
-Error: membros.pug:18:3
-    16|   include componentes/lista_de_membros
-    17| 
-  > 18|   # h2 Integração espiritual
-----------^
-    19|   - var grupo = "psicoespiritual"
-    20|   include componentes/lista_de_membros
-    21| 
-
-" h2" is not a valid ID.
-    at makeError (/usr/lib/node_modules/pug-cli/node_modules/pug-error/index.js:32:13)
-    at Lexer.error (/usr/lib/node_modules/pug-cli/node_modules/pug-lexer/index.js:59:15)
-    at Lexer.id (/usr/lib/node_modules/pug-cli/node_modules/pug-lexer/index.js:428:12)
-    at Lexer.callLexerFunction (/usr/lib/node_modules/pug-cli/node_modules/pug-lexer/index.js:1460:23)
-    at Lexer.advance (/usr/lib/node_modules/pug-cli/node_modules/pug-lexer/index.js:1494:15)
-    at Lexer.callLexerFunction (/usr/lib/node_modules/pug-cli/node_modules/pug-lexer/index.js:1460:23)
-    at Lexer.getTokens (/usr/lib/node_modules/pug-cli/node_modules/pug-lexer/index.js:1516:12)
-    at lex (/usr/lib/node_modules/pug-cli/node_modules/pug-lexer/index.js:12:42)
-    at Object.lex (/usr/lib/node_modules/pug-cli/node_modules/pug/lib/index.js:100:27)
-    at Function.loadString [as string] (/usr/lib/node_modules/pug-cli/node_modules/pug-load/index.js:44:24) {
-  code: 'PUG:INVALID_ID',
-  msg: '" h2" is not a valid ID.',
-  line: 18,
-  column: 3,
-  filename: 'membros.pug',
-  src: 'extends componentes/layout.pug\n' +
-    '\n' +
-    'block main\n' +
-    '  h1 Membros do ITA\n' +
-    '\n' +
-    '  h2 Atendimento psicoterapêutico\n' +
-    '  - var grupo = "psicoterapêutico"\n' +
-    '  include componentes/lista_de_membros\n' +
-    '\n' +
-    '  h2 Atendimento neuropsicológico\n' +
-    '  - var grupo = "neuropsicológico"\n' +
-    '  include componentes/lista_de_membros\n' +
-    '\n' +
-    '  h2 Atendimento psicanalítico\n' +
-    '  - var grupo = "psicanalítico"\n' +
-    '  include componentes/lista_de_membros\n' +
-    '\n' +
-    '  # h2 Integração espiritual\n' +
-    '  - var grupo = "psicoespiritual"\n' +
-    '  include componentes/lista_de_membros\n' +
-    '\n' +
-    '  h2 Terapia do corpo\n' +
-    '  - var grupo = "outras"\n' +
-    '  include componentes/lista_de_membros\n' +
-    '\n' +
-    '  h2 Administrativo\n' +
-    '  - var grupo = "administrativo"\n' +
-    '  include componentes/lista_de_membros\n' +
-    '\n',
-  toJSON: [Function (anonymous)]
+SyntaxError: Unexpected token (802:0)
+    at Parser.pp$4.raise (/usr/lib/node_modules/pug-cli/node_modules/acorn/dist/acorn.js:2488:13)
+    at Parser.pp.unexpected (/usr/lib/node_modules/pug-cli/node_modules/acorn/dist/acorn.js:623:8)
+    at Parser.pp$3.parseExprAtom (/usr/lib/node_modules/pug-cli/node_modules/acorn/dist/acorn.js:2011:10)
+    at Parser.pp$3.parseExprSubscripts (/usr/lib/node_modules/pug-cli/node_modules/acorn/dist/acorn.js:1872:19)
+    at Parser.pp$3.parseMaybeUnary (/usr/lib/node_modules/pug-cli/node_modules/acorn/dist/acorn.js:1849:17)
+    at Parser.pp$3.parseExprOps (/usr/lib/node_modules/pug-cli/node_modules/acorn/dist/acorn.js:1791:19)
+    at Parser.pp$3.parseMaybeConditional (/usr/lib/node_modules/pug-cli/node_modules/acorn/dist/acorn.js:1774:19)
+    at Parser.pp$3.parseMaybeAssign (/usr/lib/node_modules/pug-cli/node_modules/acorn/dist/acorn.js:1750:19)
+    at Parser.pp$1.parseVar (/usr/lib/node_modules/pug-cli/node_modules/acorn/dist/acorn.js:1087:26)
+    at Parser.pp$1.parseVarStatement (/usr/lib/node_modules/pug-cli/node_modules/acorn/dist/acorn.js:972:8) {
+  pos: 36243,
+  loc: Position { line: 802, column: 0 },
+  raisedAt: 36244
 }
-/usr/lib/node_modules/pug-cli/node_modules/pug-filters/lib/handle-filters.js:47
-          throw error(ex.code, ex.message, filter);
-          ^
+/usr/lib/node_modules/pug-cli/node_modules/acorn/dist/acorn.js:2490
+  throw err
+  ^
 
-Error: es/componentes/footer.pug:5:18
-
-unknown filter ":markdown-it"
-    at makeError (/usr/lib/node_modules/pug-cli/node_modules/pug-error/index.js:32:13)
-    at filterWithFallback (/usr/lib/node_modules/pug-cli/node_modules/pug-filters/lib/handle-filters.js:47:17)
-    at filterFileWithFallback (/usr/lib/node_modules/pug-cli/node_modules/pug-filters/lib/handle-filters.js:58:16)
-    at walk.includeDependencies (/usr/lib/node_modules/pug-cli/node_modules/pug-filters/lib/handle-filters.js:27:18)
-    at walkAST (/usr/lib/node_modules/pug-cli/node_modules/pug-walk/index.js:23:18)
-    at /usr/lib/node_modules/pug-cli/node_modules/pug-walk/index.js:104:20
-    at Array.reduce (<anonymous>)
-    at walkAndMergeNodes (/usr/lib/node_modules/pug-cli/node_modules/pug-walk/index.js:103:18)
-    at walkAST (/usr/lib/node_modules/pug-cli/node_modules/pug-walk/index.js:37:19)
-    at walkAST (/usr/lib/node_modules/pug-cli/node_modules/pug-walk/index.js:48:21) {
-  code: 'PUG:UNKNOWN_FILTER',
-  msg: 'unknown filter ":markdown-it"',
-  line: 5,
-  column: 18,
-  filename: 'es/componentes/footer.pug',
-  src: undefined,
-  toJSON: [Function (anonymous)]
+SyntaxError: Unexpected token (802:0)
+    at Parser.pp$4.raise (/usr/lib/node_modules/pug-cli/node_modules/acorn/dist/acorn.js:2488:13)
+    at Parser.pp.unexpected (/usr/lib/node_modules/pug-cli/node_modules/acorn/dist/acorn.js:623:8)
+    at Parser.pp$3.parseExprAtom (/usr/lib/node_modules/pug-cli/node_modules/acorn/dist/acorn.js:2011:10)
+    at Parser.pp$3.parseExprSubscripts (/usr/lib/node_modules/pug-cli/node_modules/acorn/dist/acorn.js:1872:19)
+    at Parser.pp$3.parseMaybeUnary (/usr/lib/node_modules/pug-cli/node_modules/acorn/dist/acorn.js:1849:17)
+    at Parser.pp$3.parseExprOps (/usr/lib/node_modules/pug-cli/node_modules/acorn/dist/acorn.js:1791:19)
+    at Parser.pp$3.parseMaybeConditional (/usr/lib/node_modules/pug-cli/node_modules/acorn/dist/acorn.js:1774:19)
+    at Parser.pp$3.parseMaybeAssign (/usr/lib/node_modules/pug-cli/node_modules/acorn/dist/acorn.js:1750:19)
+    at Parser.pp$1.parseVar (/usr/lib/node_modules/pug-cli/node_modules/acorn/dist/acorn.js:1087:26)
+    at Parser.pp$1.parseVarStatement (/usr/lib/node_modules/pug-cli/node_modules/acorn/dist/acorn.js:972:8) {
+  pos: 37185,
+  loc: Position { line: 802, column: 0 },
+  raisedAt: 37186
 }
