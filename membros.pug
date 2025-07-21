@@ -3,27 +3,29 @@ extends componentes/layout.pug
 block main
   h1 Membros do ITA
 
-  h2 Atendimento psicoterapêutico
-  - var grupo = "psicoterapêutico"
-  include componentes/lista_de_membros
+  //- h2 Atendimento psicoterapêutico
+  //- - var grupo = "psicoterapêutico"
+  //- include componentes/lista_de_membros
+  //-
+  //- h2 Atendimento neuropsicológico
+  //- - var grupo = "neuropsicológico"
+  //- include componentes/lista_de_membros
+  //-
+  //- h2 Atendimento psicanalítico
+  //- - var grupo = "psicanalítico"
+  //- include componentes/lista_de_membros
+  //-
+  //- # h2 Integração espiritual
+  //- - var grupo = "psicoespiritual"
+  //- include componentes/lista_de_membros
+  //-
+  //- h2 Terapia do corpo
+  //- - var grupo = "outras"
+  //- include componentes/lista_de_membros
+  //-
+  //- h2 Administrativo
+  //- - var grupo = "administrativo"
+  //- include componentes/lista_de_membros
 
-  h2 Atendimento neuropsicológico
-  - var grupo = "neuropsicológico"
-  include componentes/lista_de_membros
-
-  h2 Atendimento psicanalítico
-  - var grupo = "psicanalítico"
-  include componentes/lista_de_membros
-
-  # h2 Integração espiritual
-  - var grupo = "psicoespiritual"
-  include componentes/lista_de_membros
-
-  h2 Terapia do corpo
-  - var grupo = "outras"
-  include componentes/lista_de_membros
-
-  h2 Administrativo
-  - var grupo = "administrativo"
-  include componentes/lista_de_membros
-
+  - var adm_titulo = "Administrativo"
+  include componentes/lista_de_membros_e_adm

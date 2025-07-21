@@ -38,6 +38,8 @@ copia_arquivos_para_espanhol:
 
 watch_pug:
 	pug --watch *.pug --out docs/ --pretty
+
+watch_pug_es:
 	pug --watch es/*.pug --out docs/es/ --pretty
 
 watch_css:

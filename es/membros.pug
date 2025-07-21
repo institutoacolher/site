@@ -3,21 +3,24 @@ extends componentes/layout.pug
 block main
   h1 Miembros do ITA
 
-  h2 Atención psicoespiritual
-  - var grupo = "psicoespiritual"
-  include componentes/lista_de_membros
+  //- h2 Atención psicoespiritual
+  //- - var grupo = "psicoespiritual"
+  //- include componentes/lista_de_membros
+  //-
+  //- h2 Atención psicoterapéutica
+  //- - var grupo = "psicoterapêutico"
+  //- include componentes/lista_de_membros
+  //-
+  //- h2 Atención psicoanalítica
+  //- - var grupo = "psicanalítico"
+  //- include componentes/lista_de_membros
+  //-
+  //- h2 Administrativo
+  //- - var grupo = "administrativo"
+  //- include componentes/lista_de_membros
+  //-
+  //- h2 Profesionales que asistieron al ITA
+  //- include componentes/lista_de_membros_inativos
 
-  h2 Atención psicoterapéutica
-  - var grupo = "psicoterapêutico"
-  include componentes/lista_de_membros
-
-  h2 Atención psicoanalítica
-  - var grupo = "psicanalítico"
-  include componentes/lista_de_membros
-
-  h2 Administrativo
-  - var grupo = "administrativo"
-  include componentes/lista_de_membros
-
-  h2 Profesionales que asistieron al ITA
-  include componentes/lista_de_membros_inativos
+  - var adm_titulo = "Profesionales que asistieron al ITA"
+  include componentes/lista_de_membros_e_adm
