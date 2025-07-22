@@ -3,12 +3,14 @@
 BATE-PAPO COM VAGNER SANAGIOTTO E Pe. MARCELO HENRIQUE DE SOUZA, DA DIOCESE DE TAUBATÉ-SP. 
 Tema: **"A dimensão humana na formação presbiteral e religiosa"**. (Livro organizado por Vagner Sanagiotto)
 Plataforma Google Meet, 26/01, às 20h. 
+[Para assistir o vídeo clique aqui!](https://youtu.be/vI5o5Iwb2sw)
 
 ## FEVEREIRO de 2024
 
 BATE-PAPO COM EDUARDO GALINDO. 
 Tema: **"Psicoterapia e Vida Religiosa Consagrada”**
 Plataforma Google Meet, 23/02, às 20h. 
+[Para assistir o vídeo clique aqui!](https://youtu.be/wf9C55-whPs)
 
 ## ABRIL de 2024
 
