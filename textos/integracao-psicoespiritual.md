@@ -1,7 +1,7 @@
 # Integração Espiritual
 
 Os aspectos espirituais são essenciais e imprescindíveis no processo
-terapêutico das pessoas pessoas (religiosas, padres e leigas) que buscam
-resgatar o sentido de suas vidas. Nosso programa ajuda na avaliação da 
-realização vocacional e na revisão do itinerário espiritual.
+terapêutico das pessoas sejam elas leigas/os, religiosas/os consagradas/os ou padres 
+que buscam resgatar o sentido de suas vidas. Nosso programa, realizado por um profissional
+capacitado, ajuda na avaliação da realização vocacional e na revisão do itinerário espiritual.
 
