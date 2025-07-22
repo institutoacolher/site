@@ -39,12 +39,15 @@ CURSO ONLINE **“A Psicologia como instrumento adequado para formação humana 
 O curso objetiva promover conhecimento sobre a importância do uso adequado, e assertivo, dos serviços psicológicos e da atuação do profissional da psicologia para a formação humana. A ideia é fornecer dados sobre o manuseio devido das ferramentas da psicoterapia e da avaliação psicológica, a partir das orientações da Igreja Católica, dos princípios éticos e científicos da psicologia e das reflexões de autoresque lidam com o tema. Este trabalho tem como base teórica o conteúdo do meu livro lançado pelas Edições Loyola em 2023, “A Psicologia na Vida Religiosa e Sacerdotal – por uma formação humana de qualidade”, assim como obras de Jung, Viktor Frankl, Antoine Vergote, Stephen Finn. Edênio Valle, Anderson Frezzato, Ênio Brito, Mário Aletti e outros.
 Plataforma Google Meet, dia 22/06, das 9h às 16h. 
 
+![](/img/atv-2024-06-22.png)
+
 ## JULHO de 2024
 
 CURSO ONLINE **"O Curador Ferido: Autoperdão e a Capacidade para Manter a Esperança"**, Wellington Heleno da Silva. 
 Neste curso, exploraremos a experiência do "curador ferido", aqueles indivíduos que dedicam suas vidas a cuidar e curar os outros, mas eventualmente se encontram em um estado de desilusão. Abordaremos os sinais e sintomas de esgotamento emocional e desgaste compassivo, destacando como esses fatores podem minar a capacidade de manter a esperança e examinaremos os impactos negativos da falta de esperança, que podem levar à depressão e à desilusão com a própria vida pessoal e vocacional. Abordaremos também a influência e relação do “EU” versus a Comunidade na construção de um espaço interno psicológico propício para cultivar a capacidade humana de sonhar, fantasiar, imaginar, brincar e, por fim, manter a esperança viva, mesmo em face de desafios e adversidades.
 Plataforma Google Meet, dias 16 e 23/07, das 19h30 às 21h30. 
-Tivemos 22 inscritos e 19 participantes efetivos. Valor arrecadado: R$ 1.360,00, sendo R$ 544,00 para o assessor, R$ 544,00 para o ITA e R$ 272,00 para o auxiliar.
+
+![](/img/atv-2024-07-16.png)
 
 ## AGOSTO de 2024
 
@@ -55,7 +58,9 @@ Independente da fé e da religião, incluindo a nossa da religião católica, pe
 3.	Existe uma espiritualidade universal, saudável?
 4.	O que seria uma espiritualidade imatura ou doentia? 
 Vamos conversar sobre isso procurando juntos.
-Plataforma Google Meet, dias 24/08, das 9h às 12h. 
+Plataforma Google Meet, dias 24/08, das 9h às 12h.
+
+![](/img/atv-2024-08-24.png)
 
 ## OUTUBRO de 2024
 
@@ -65,7 +70,10 @@ Tópicos abordados:
 2. A perseverança nos momentos de crise: insistir ou desistir?
 3. A perseverança vocacional: uma caminhada eclesial
 4. A formação humana e a perseverança vocacional
-Plataforma Google Meet, dias 7 e 8 de outubro, das 19h30 às 21h. 
+Plataforma Google Meet, dias 7 e 8 de outubro, das 19h30 às 21h.
+
+![](/img/atv-2024-10-07.png)
+
 
 
 
