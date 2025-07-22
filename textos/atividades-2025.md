@@ -39,7 +39,7 @@ Objetivo: pretendemos com este tópico possibilitar um melhor conhecimento do fo
 |![](/img/atv-2025-03-29c.png)|![](/img/atv-2025-03-29d.png)|![](/img/atv-2025-03-29e.png)|
 
 
-BATE-PAPO COM CARLOS BRUNO MENDONÇA E EVANDRO ALBUQUERQUE DE ANDRADE. 
+**BATE-PAPO COM CARLOS BRUNO MENDONÇA E EVANDRO ALBUQUERQUE DE ANDRADE** 
 Tema: "Animação Vocacional e Novas Tecnologias: Desafios e Possibilidades”
 Plataforma Facebook, 28/03, às 20h. Tivemos pico de 60 participantes online e uma ótima interação das pessoas pelo chat.
 [Para assistir o vídeo clique aqui!](https://youtu.be/itBmCc_rJHs)
