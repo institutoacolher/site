@@ -1,28 +1,12 @@
 # Psicodiagnóstico
 
-É uma avaliação mais apurada, indicada conforme necessidades apresentadas ou
-demanda espontânea.
+O Psicodiagnóstico é um processo de avaliação psicológica que 
+tem como objetivo compreender o funcionamento emocional, cognitivo e 
+comportamental de uma pessoa. 
 
-## Para profissionais de psicologia
-
-### Grupos de estudo
-
-Para aperfeiçoar ou atualizar conhecimentos referentes ao acompanhamento
-psicológico na formação seminarística e da psicoterapia dos religiosos.
-
-### Supervisão
-
-Orientação especializada para o aprimoramento do exercício profissional.
-
-## Para instituições religiosas
-
-### Avaliação do perfil dos vocacionados
-
-Realizamos um programa integrado de avaliação psicológica, saúde mental
-e maturidade espiritual para candidatos ao sacerdócio, vida religiosa,
-diaconato permanente e comunidades de vida.
-
-### Grupo de reflexão para formadores
-
-Auxiliamos os formadores com objetivo de refletir as tensões e angustias
-oriundas do oficio.
+Por meio de entrevistas, observações e aplicação de testes psicológicos, 
+o psicólogo busca identificar características da personalidade e de seu 
+funcionamento emocional e comportamental, favorecendo o autoconhecimento, 
+o planejamento de intervenções terapêuticas e a identificação de pontos 
+fortes e fragilidades que podem ser trabalhados em terapia para promover 
+o desenvolvimento pessoal.
