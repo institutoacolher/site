@@ -45,3 +45,4 @@ e o conteúdo das conferências.
 * [2007](fotos_2007.html)
 * [2005](fotos_2005.html)
 * [2004](fotos_2004.html)
+* [2000](fotos_2000.html)
