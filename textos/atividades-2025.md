@@ -10,11 +10,11 @@ Plataforma Facebook, 31/01, às 20h.
 
 ## FEVEREIRO de 2025
 
-BATE-PAPO COM EDUARDO GALINDO. 
-Tema: "Psicoterapia e Vida Religiosa Consagrada”
-Plataforma Facebook, 23/02, às 20h.
+BATE-PAPO COM ANA PAULA CHADDAD E LEONEL GOMES DA SILVA. 
+Tema: "SAÚDE MENTAL E CONTRIBUIÇÕES DA NEUROPSICOLOGIA”
+Plataforma Facebook, 28/02, às 20h.
 
-![](/img/bp-2025-02-23.png)
+![](/img/bp-2025-02-28.png)
 
 [Para assistir o vídeo clique aqui!](https://youtu.be/wf9C55-whPs)
 
@@ -49,6 +49,9 @@ Objetivo: pretendemos com este tópico possibilitar um melhor conhecimento do fo
 **BATE-PAPO COM CARLOS BRUNO MENDONÇA E EVANDRO ALBUQUERQUE DE ANDRADE** 
 Tema: "Animação Vocacional e Novas Tecnologias: Desafios e Possibilidades”
 Plataforma Facebook, 28/03, às 20h. Tivemos pico de 60 participantes online e uma ótima interação das pessoas pelo chat.
+
+![](/img/bp-2025-03-28.png)
+
 [Para assistir o vídeo clique aqui!](https://youtu.be/itBmCc_rJHs)
 
 ## ABRIL de 2025
@@ -63,9 +66,12 @@ Plataforma Facebook, 25/04, às 20h. Tivemos pico de 30 participantes online.
 
 ## MAIO de 2025
 
-BATE-PAPO COM WOJCIECH MITTELSTAEDT E IVAN RODRIGUES DA SILVA E FILHO. 
+BATE-PAPO COM WOJCIECH MITTELSTAEDT (ADALBERTO) E IVAN RODRIGUES. 
 Tema: A Igreja depois do Papa Francisco: realidade, desejos e expectativas
-Plataforma Facebook, 07/05, às 20h. 
+Plataforma Facebook, 07/05, às 20h.
+
+![](/img/bp-2025-05-07.png)
+
 [Para assistir o vídeo clique aqui!]( https://youtu.be/f4kMWR7MAc0)
 
 ## JUNHO de 2025
