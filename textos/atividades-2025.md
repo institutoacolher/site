@@ -56,7 +56,7 @@ Plataforma Facebook, 28/03, às 20h. Tivemos pico de 60 participantes online e u
 
 ## ABRIL de 2025
 
-BATE-PAPO COM O PE. PAULO PROFILO. 
+BATE-PAPO COM O Pe. PAULO PROFILO. 
 Tema: “Direito Canônico e Abusos: Legislação Atual”
 Plataforma Facebook, 25/04, às 20h. Tivemos pico de 30 participantes online.
 
