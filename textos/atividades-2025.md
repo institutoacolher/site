@@ -67,4 +67,9 @@ Plataforma Facebook, 27/06, às 20h.
 [Para assistir o vídeo clique aqui!]( https://youtu.be/PlSuPgAWKIg)
 
 
-## JULHO de 2025
+## AGOSTO de 2025
+BATE-PAPO COM A PSICÓLOGA NILDA MARIA RIBEIRO 
+Tema: Afetividade, sexualidade, agressividade
+Plataforma Youtube, 26/08, às 20h.
+![](/img/bp-2025-08-27.png)
+[Para assistir o vídeo clique aqui!](https://www.youtube.com/live/KRqQNza321M?si=li_UuMi0mP-ADbh4)
