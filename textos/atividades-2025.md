@@ -1,22 +1,41 @@
-## JANEIRO de 2025
+## AGOSTO de 2025
+BATE-PAPO COM A PSICÓLOGA NILDA MARIA RIBEIRO 
+Tema: Afetividade, sexualidade, agressividade
+Plataforma Youtube, 26/08, às 20h.
 
-BATE-PAPO COM VAGNER SANAGIOTTO, WELLINGTON HELENO DA SILVA, IVAN RODRIGUES E SILVA FILHO. 
-Tema: "ATUALIZAÇÃO PARA FORMADORES”
-Plataforma Facebook, 31/01, às 20h.
+![](/img/bp-2025-08-27.png)
 
-![](/img/bp-2025-01-31.png)
+[Para assistir o vídeo clique aqui!](https://www.youtube.com/live/KRqQNza321M?si=li_UuMi0mP-ADbh4)
 
-[Para assistir o vídeo clique aqui!]( https://youtu.be/aDJgo9VjbX0)
+## JUNHO de 2025
 
-## FEVEREIRO de 2025
+BATE-PAPO COM ANA PAULA DE OLIVEIRA CHADDAD. 
+Tema: Testes Psicológicos
+Plataforma Facebook, 27/06, às 20h.
 
-BATE-PAPO COM ANA PAULA CHADDAD E LEONEL GOMES DA SILVA. 
-Tema: "SAÚDE MENTAL E CONTRIBUIÇÕES DA NEUROPSICOLOGIA”
-Plataforma Facebook, 28/02, às 20h.
+![](/img/bp-2025-06-27.png)
 
-![](/img/bp-2025-02-28.png)
+[Para assistir o vídeo clique aqui!]( https://youtu.be/PlSuPgAWKIg)
 
-[Para assistir o vídeo clique aqui!](https://youtu.be/wf9C55-whPs)
+## MAIO de 2025
+
+BATE-PAPO COM WOJCIECH MITTELSTAEDT (ADALBERTO) E IVAN RODRIGUES. 
+Tema: A Igreja depois do Papa Francisco: realidade, desejos e expectativas
+Plataforma Facebook, 07/05, às 20h.
+
+![](/img/bp-2025-05-07.png)
+
+[Para assistir o vídeo clique aqui!]( https://youtu.be/f4kMWR7MAc0)
+
+## ABRIL de 2025
+
+BATE-PAPO COM O Pe. PAULO PROFILO. 
+Tema: “Direito Canônico e Abusos: Legislação Atual”
+Plataforma Facebook, 25/04, às 20h. Tivemos pico de 30 participantes online.
+
+![](/img/bp-2025-04-25.png)
+
+[Para assistir o vídeo clique aqui!]( https://youtu.be/OqyRgcVu_zA)
 
 ## MARÇO de 2025
 
@@ -45,6 +64,7 @@ Objetivo: pretendemos com este tópico possibilitar um melhor conhecimento do fo
 
 |![](/img/atv-2025-03-29c.png)|![](/img/atv-2025-03-29d.png)|![](/img/atv-2025-03-29e.png)|
 
+## MARÇO de 2025
 
 **BATE-PAPO COM CARLOS BRUNO MENDONÇA E EVANDRO ALBUQUERQUE DE ANDRADE** 
 Tema: "Animação Vocacional e Novas Tecnologias: Desafios e Possibilidades”
@@ -54,42 +74,26 @@ Plataforma Facebook, 28/03, às 20h. Tivemos pico de 60 participantes online e u
 
 [Para assistir o vídeo clique aqui!](https://youtu.be/itBmCc_rJHs)
 
-## ABRIL de 2025
 
-BATE-PAPO COM O Pe. PAULO PROFILO. 
-Tema: “Direito Canônico e Abusos: Legislação Atual”
-Plataforma Facebook, 25/04, às 20h. Tivemos pico de 30 participantes online.
+## FEVEREIRO de 2025
 
-![](/img/bp-2025-04-25.png)
+BATE-PAPO COM ANA PAULA CHADDAD E LEONEL GOMES DA SILVA. 
+Tema: "SAÚDE MENTAL E CONTRIBUIÇÕES DA NEUROPSICOLOGIA”
+Plataforma Facebook, 28/02, às 20h.
 
-[Para assistir o vídeo clique aqui!]( https://youtu.be/OqyRgcVu_zA)
+![](/img/bp-2025-02-28.png)
 
-## MAIO de 2025
+[Para assistir o vídeo clique aqui!](https://youtu.be/wf9C55-whPs)
 
-BATE-PAPO COM WOJCIECH MITTELSTAEDT (ADALBERTO) E IVAN RODRIGUES. 
-Tema: A Igreja depois do Papa Francisco: realidade, desejos e expectativas
-Plataforma Facebook, 07/05, às 20h.
+## JANEIRO de 2025
 
-![](/img/bp-2025-05-07.png)
+BATE-PAPO COM VAGNER SANAGIOTTO, WELLINGTON HELENO DA SILVA, IVAN RODRIGUES E SILVA FILHO. 
+Tema: "ATUALIZAÇÃO PARA FORMADORES”
+Plataforma Facebook, 31/01, às 20h.
 
-[Para assistir o vídeo clique aqui!]( https://youtu.be/f4kMWR7MAc0)
+![](/img/bp-2025-01-31.png)
 
-## JUNHO de 2025
-
-BATE-PAPO COM ANA PAULA DE OLIVEIRA CHADDAD. 
-Tema: Testes Psicológicos
-Plataforma Facebook, 27/06, às 20h.
-
-![](/img/bp-2025-06-27.png)
-
-[Para assistir o vídeo clique aqui!]( https://youtu.be/PlSuPgAWKIg)
+[Para assistir o vídeo clique aqui!]( https://youtu.be/aDJgo9VjbX0)
 
 
-## AGOSTO de 2025
-BATE-PAPO COM A PSICÓLOGA NILDA MARIA RIBEIRO 
-Tema: Afetividade, sexualidade, agressividade
-Plataforma Youtube, 26/08, às 20h.
 
-![](/img/bp-2025-08-27.png)
-
-[Para assistir o vídeo clique aqui!](https://www.youtube.com/live/KRqQNza321M?si=li_UuMi0mP-ADbh4)
