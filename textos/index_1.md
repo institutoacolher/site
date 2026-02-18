@@ -1,5 +1,5 @@
 <div class="z-depth-3" style="width: fit-content; margin: 0 auto">
 
-[![Atualização para Formadores](/img/curso-2025-09-18.png)](https://forms.gle/XRbse8MEXyXFYRFa8)
+[![Agenda](/img/cartaz-2026-02-02.png)](https://forms.gle/Euw3u6HowzWm5MWB7)
 
 </div>
