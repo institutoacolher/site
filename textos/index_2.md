@@ -1,5 +1,5 @@
 <div class="z-depth-3" style="width: fit-content; margin: 0 auto">
 
-[![Grupo de Estudos para Formadores](/img/gefo-2025-05-27.png)](https://forms.gle/TtEcQth8Y8if2Mgu6)
+[![Grupo de Discussão](/img/cartaz-2026-03-11.png)](https://forms.gle/xydGKomUAJFLohNU8)
 
 </div>
