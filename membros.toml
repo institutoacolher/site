@@ -403,7 +403,32 @@ areas = [
   "Tratamento dos vícios"
 ]
 
-
+[[membros]]
+ativo = true
+locais_de_atendimento = [ "sjc" ]
+grupo = "psicoterapêutico"
+avatar = "bruna-cristiane-da-rosa-souza.jpg"
+masculino = false
+slug = "bruna-cristiane-da-rosa-souza"
+nome = "Bruna Cristiane da Rosa Souza"
+titulo = "Psicóloga Clínica / Psicoterapeuta"
+CRP = "06/126705"
+descricao = """
+Psicóloga com experiência em atendimentos clínicos e 
+acompanhamento de seminaristas, diáconos, religiosas, 
+sacerdotes e leigos. Atua na promoção da saúde mental 
+e do amadurecimento humano e espiritual, oferecendo um 
+espaço de escuta, acolhimento e transformação pessoal.
+Formação:
+* Especialista em Disfunção Sexual – USP
+* Especialista em Terapia Cognitivo-Comportamental – USP
+* Estudiosa de Logoterapia – SOBRAL"""
+areas = [
+  "Psicoterapia individual",
+  "Psicologia Clínica",
+  "Avaliação Psicológica",
+  "Palestras"
+]
 
 
 [[membros]]
