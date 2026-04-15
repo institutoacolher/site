@@ -5,7 +5,7 @@ Plataforma Youtube, 27/03, às 20h.
 
 ![](/img/bp-2026-03-27.png)
 
-[Para assistir o vídeo clique aqui!](https://www.https://https://youtube.com/live/f0ZbDA4Vra4)
+[Para assistir o vídeo clique aqui!](https://youtube.com/live/f0ZbDA4Vra4)
 
 ## FEVEREIRO de 2026
 BATE-PAPO COM NORI CEPEDA 
@@ -14,7 +14,7 @@ Plataforma Youtube, 27/02, às 20h.
 
 ![](/img/bp-2026-02-27.png)
 
-[Para assistir o vídeo clique aqui!](https://www.https://youtube.com/live/F1uhwwr28wY)
+[Para assistir o vídeo clique aqui!](https://www.youtube.com/live/F1uhwwr28wY)
 
 ## DEZEMBRO de 2025
 BATE-PAPO COM OS PROFISSIONAIS DO ITA 
