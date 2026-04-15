@@ -1,3 +1,22 @@
+## OUTUBRO de 2025
+BATE-PAPO COM O PE. LEOMAR NASCIMENTO 
+Tema: O lançamento do livro "Para Além do Amém: como se proteger das pregações abusivas", 
+Plataforma Youtube, 24/10, às 20h.
+
+![](/img/bp-2025-10-24.jpg)
+
+[Para assistir o vídeo clique aqui!](https://www.youtube.com/live/3pEVNBmtO2I)
+
+
+## SETEMBRO de 2025
+BATE-PAPO COM o O PSICÓLOGO IGOR MELO DE CAMPOS  
+Tema: Setembro Amarelo: é hora de fazer da prevenção ao suicidio uma prioridade
+Plataforma Youtube, 26/09, às 20h.
+
+![](/img/bp-2025-09-26.jpg)
+
+[Para assistir o vídeo clique aqui!](https://youtube.com/live/mM56h0Gd2yo)
+
 ## AGOSTO de 2025
 BATE-PAPO COM A PSICÓLOGA NILDA MARIA RIBEIRO 
 Tema: Afetividade, sexualidade, agressividade
