@@ -1,3 +1,30 @@
+## MARÇO de 2026
+BATE-PAPO COM IVAN RODRIGUES 
+Tema: "Da Caverna para a Luz: um história de autoconhecimento" 
+Plataforma Youtube, 27/03, às 20h.
+
+![](/img/bp-2026-03-27.png)
+
+[Para assistir o vídeo clique aqui!](https://www.https://https://youtube.com/live/f0ZbDA4Vra4)
+
+## FEVEREIRO de 2026
+BATE-PAPO COM NORI CEPEDA 
+Tema: "Psicodrama: história e aplicações" 
+Plataforma Youtube, 27/02, às 20h.
+
+![](/img/bp-2026-02-27.png)
+
+[Para assistir o vídeo clique aqui!](https://www.https://youtube.com/live/F1uhwwr28wY)
+
+## DEZEMBRO de 2025
+BATE-PAPO COM OS PROFISSIONAIS DO ITA 
+Tema: COMEMORAÇÃO DOS 25 ANOS DO INSTITUTO
+Participaram os membros associados Wellington Heleno da Silva, 
+Lilian M. P. de Arruda Zamith, Maria Silva Mourão e Maria da Conceição Machado Silva Rosa  
+Plataforma Youtube, 05/12
+
+[Para assistir o vídeo clique aqui!](https://www.youtube.com/live/L3DI398Jp8g)
+
 ## OUTUBRO de 2025
 BATE-PAPO COM O PE. LEOMAR NASCIMENTO 
 Tema: O lançamento do livro "Para Além do Amém: como se proteger das pregações abusivas", 
