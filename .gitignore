@@ -2,3 +2,8 @@ node_modules
 json/membros.json
 json/atividades_bate_papo.json
 .sass-cache
+json/dados_contatos.json
+json/dados_cursos_2022.json
+json/dados_cursos_2023.json
+json/dados_cursos_2024.json
+json/dados_cursos_2025.json
