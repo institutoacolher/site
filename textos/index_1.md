@@ -1,5 +1,5 @@
 <div class="z-depth-3" style="width: fit-content; margin: 0 auto">
 
-[![Agenda](/img/cartaz-2026-02-02.png)](https://forms.gle/Euw3u6HowzWm5MWB7)
+[![Agenda](/img/cartaz-2026-07-23.jpg)](https://forms.gle/6sHkKtjg1gAQ9n8u6)
 
 </div>
